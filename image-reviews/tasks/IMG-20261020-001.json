@@ -1,0 +1,29 @@
+{
+  "task_id": "IMG-20261020-001",
+  "created_at": "2026-10-20",
+  "status": "待图片",
+  "image_path": "image-reviews/assets/IMG-20261020-001.png",
+  "scene": "待用户填写",
+  "shot": "待用户填写",
+  "purpose": "待用户填写",
+  "questions": [
+    "主体、构图和景别是否符合要求？",
+    "人物、服装、场景和道具是否连续？",
+    "是否存在明显的生成缺陷、遮挡、裁切或文字错误？",
+    "是否需要导演创作判断？"
+  ],
+  "review": {
+    "reviewer": "ChatGPT",
+    "reviewed_at": null,
+    "result": null,
+    "evidence": [],
+    "needs_user_confirmation": []
+  },
+  "history": [
+    {
+      "at": "2026-10-20",
+      "actor": "Codex",
+      "action": "创建真实图片审查任务，等待用户提供图片和拍摄元数据"
+    }
+  ]
+}
