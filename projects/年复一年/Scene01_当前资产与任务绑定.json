@@ -22,5 +22,38 @@
     "COSTUME": "SC01-COST-W-001"
   },
   "keyframe_generation_approved": false,
-  "video_generation_approved": false
+  "video_generation_approved": false,
+  "current_keyframe_marking": {
+    "asset_id": "SC01-KF-001",
+    "display_name": "Scene01任务01—妻子站在右侧白色下柜前、准备开柜",
+    "source": {
+      "kind": "current_conversation_attachment",
+      "filename": "image(20261020-073556).png",
+      "dimensions": "1672x941",
+      "format": "PNG",
+      "sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+      "repository_binary_present": true,
+      "local_path": "D:\\文档\\Downloads\\人物素材\\短片资产\\新资产\\SC01-KF-001.png",
+      "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png"
+    },
+    "marking": "SPACE_TOPOLOGY_LOCKED",
+    "confirmed_scope": [
+      "用户明确确认本图空间位置正确",
+      "客厅沙发、窗平台、中央木桌/地毯、右侧白色下柜、最右壁龛及人物相对位置以本图为当前空间构图基准",
+      "本图人物为站立姿态，柜门关闭，目标旧盒不可见"
+    ],
+    "excluded_scope": [
+      "不自动批准最终画幅、镜位、人物最终受光/调色",
+      "不代表柜内结构、门列/开扇映射、全部表演动作及动态连续性均已通过",
+      "不代表本图PNG二进制已上传到GitHub仓库"
+    ],
+    "supersedes": "上一张空间关系错误的任务01候选；仅作历史记录，不得作为当前空间依据",
+    "next_step": "制作任务02：妻子打开右侧白色下柜、开始整理柜内，目标旧盒仍完全不可见",
+    "recorded_at": "2026-10-20",
+    "source_verified_by_codex": true,
+    "source_verified_hash": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7"
+  },
+  "current_keyframe_binary_available": true,
+  "next_task": "S01-KF-002",
+  "current_keyframe_repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png"
 }

@@ -172,5 +172,18 @@
     "action_composition": "用户批准的导演方案/具体任务；静态资产不自行决定动作"
   },
   "overall_status": "三原图参考职责已明确、实际可读；合场景关键帧与导演审批尚未完成",
-  "generated_media": false
+  "generated_media": false,
+  "existing_keyframe_reference": {
+    "asset_id": "SC01-KF-001",
+    "source_actual_path": "D:\\文档\\Downloads\\人物素材\\短片资产\\新资产\\SC01-KF-001.png",
+    "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2896019,
+    "sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+    "approval_scope": "继承共享SPACE_TOPOLOGY_LOCKED，非整图批准",
+    "source_file_verified": true,
+    "visual_check": "本轮已看图，站立门关/盒不可见；服装大类可辨，未宣称身份/衣着全细节和动态通过",
+    "reused_not_regenerated": true
+  }
 }

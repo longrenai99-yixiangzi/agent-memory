@@ -5,7 +5,7 @@
   "version": "人物身份与正式服装绑定v2",
   "supersedes_task_revision": "../20261020_night-assets_v1/Scene01_后续素材任务_V1.json",
   "scope": "增量登记/改绑/A-B拆解；不重设计第一场",
-  "status": "A素材准备已完成；B方案待审核/图片待生成",
+  "status": "三人物衣着与已有KF源准备均完成；KF001空间部分确认保留；任务02及其余B方案待审核",
   "execution_allowed": false,
   "generated_media": false,
   "task_classification": {
@@ -116,6 +116,37 @@
           "面部为无五官占位，必须由正侧身份图提供真实脸",
           "Format24bppRgb无alpha，背景当前黑色"
         ]
+      }
+    },
+    {
+      "task_id": "S01-A-KF001-SOURCE",
+      "type": "A",
+      "purpose": "取得已存在SC01-KF-001二进制/真实路径，用于继承用户已确认空间，不要求重新生成",
+      "asset_id": "SC01-KF-001",
+      "status": "已完成",
+      "scope": "取回已有成果、核对1672x941及既有SHA256，不重新作空间决定",
+      "source_image_path": "D:\\文档\\Downloads\\人物素材\\短片资产\\新资产\\SC01-KF-001.png",
+      "image_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+      "expected_filename": "image(20261020-073556).png",
+      "expected_sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+      "expected_dimensions": "1672x941",
+      "transparent_background_required": false,
+      "keep_original_unchanged": true,
+      "user_next_action": "已提供真实路径且取得，不需再提供或重新生成",
+      "applies_to_tasks": [
+        "S01-WC03",
+        "S01-KF-002"
+      ],
+      "review": {
+        "status": "已通过",
+        "reviewer": "Codex",
+        "scope": "文件身份/哈希与已确认空间记录一致；非整图导演批准",
+        "evidence": [
+          "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+          "1672x941",
+          "本轮实际看图：站立、门关、盒不可见；开衫/灰绿花裙/浅低跟鞋大类可辨，细节仍需逐项审"
+        ],
+        "reviewed_at": "2026-10-20"
       }
     }
   ],
@@ -294,9 +325,9 @@
       "version": "人物正式服装绑定v2",
       "scene": "Scene01前半段",
       "type": "B",
-      "requirement": "核心1/4；人物到达前区域",
+      "requirement": "条件进入区起点；已有站位候选优先复用，不自动再生",
       "purpose": "妻子自然进入右柜区域",
-      "note": "覆盖A接近；母版与身份现有，不再补无人空景。",
+      "note": "覆盖A接近；母版与身份现有，不再补无人空景。 并行共享记录已有SC01-KF-001站位候选；是否还要独立走近起点由导演判断，不自动重生，不自行删走近意图。",
       "status": "待用户确认",
       "execution_allowed": false,
       "dependencies": [
@@ -435,15 +466,16 @@
       "version": "人物正式服装绑定v2",
       "scene": "Scene01前半段",
       "type": "B",
-      "requirement": "核心2/4；关门整理起点",
-      "purpose": "柜前稳定姿态与开门起点",
-      "note": "覆盖B姿态及C开门前，蹲姿只作待审候选。",
-      "status": "待用户确认",
+      "requirement": "已有候选复用：空间部分已确认，非重生任务",
+      "purpose": "妻子站在右侧白色下柜前，整理后准备打开柜门的关键帧",
+      "note": "用户明确纠正：上一张空间位置错误；当前 SC01-KF-001 的空间拓扑正确。后续任务继承当前图的沙发、窗平台、木桌/地毯、白柜、壁龛和人物相对位置。当前图为站立姿态、柜门关闭、盒不可见。旧低位蹲姿提示不再作为本轮默认。图像二进制尚未写入仓库，本记录只登记当前对话附件及哈希。",
+      "status": "待审查",
       "execution_allowed": false,
       "dependencies": [
         "S01-A-CHR-W-001",
         "S01-A-CHR-W-002",
-        "S01-A-COST-W-001"
+        "S01-A-COST-W-001",
+        "S01-A-KF001-SOURCE"
       ],
       "additional_quality_gates": [
         "关门构图可并行准备/审核，不依赖隐藏图返修完成",
@@ -530,40 +562,49 @@
             "头发仅辅助；低盘发与年龄以身份A/B为准",
             "黑背景无透明通道，不当透明抠图；不要求为服装参考另做透明图"
           ]
+        },
+        {
+          "id": "SC01-KF-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+          "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+          "exists": true,
+          "sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+          "purpose": "原候选复用；用户已确认家具/人物相对拓扑，现图站立门关；不等于整图通过"
         }
       ],
-      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_人物服装绑定_V2/S01-WC03/S01-WC03_v01.png",
-      "output_exists": false,
-      "generation_prompt": "严格按领域绑定：SC01-CHR-W-001锁正面五官、脸型、年龄纹理、银灰发际线和低盘发，SC01-CHR-W-002辅助鼻耳下颌侧脸与盘发。SC01-COST-W-001只锁正式奶油色针织开衫版型、灰绿色花纹连衣裙的裙长/层次/花纹密度、浅色低跟鞋与全身衣着比例。身份图的黑西装白内搭不得带入；去脸服装图不负责脸，必须输出001/002对应的完整自然人脸，不能留空白脸或复制黑背景、交叠手站姿。C图头发仅辅助，低盘发以身份图为准。表情由剧情决定，不复制静态微笑；不得为动作换鞋改裙。\n这是一张供用户审核的创作/修订候选，不代表镜位、姿态、画幅或最终调色已批准。本候选暂用16:9电影静帧；若批准其他比例需另发统一版本，不裁掉关键柜/平台关系。保持ENV-001的同一白木夜景空间、家具位置与暖室内/冷夜窗基准；人物脸和手要自然可读，不能全脸橙染、移灯或加柜内自发光。只输出单张，无多格拼贴、字幕、标签、水印。\n在已核的新白柜前，从中央通道同侧斜看，中景约40—50mm，镜头中心接近实际操作眼高。妻子在开口左前侧采用稳定低位蹲姿候选，双脚有地面支撑，裙摆自然，手准备够真实门把手，眼看把手/家务区域，不盯柜内。人物和门扇将开启的地面互不占用，至少可读脸、手、门和身体支撑。柜门此刻仍关闭：ENV-002仅提供局部位置，不继承其已开门状态，不凭局部图擅自改变母版门列。盒不可见，尚未整理前部物品，没有旧小凳、丈夫或照片。",
+      "output_path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+      "output_exists": true,
+      "generation_prompt": null,
       "acceptance": [
-        "低位姿态可达把手且不被门扇撞，膝脚/裙摆可信",
-        "门关与ENV-001一致；开门方向从核验映射推导",
-        "普通整理表情，无提前识别/怀旧",
-        "核001/002脸、年龄/低盘发，不融合新脸或照搬微笑",
-        "核COST-001开衫、裙长/花纹密度与浅色低跟鞋，无空白脸/黑底/静态站姿污染"
+        "继承SC01-KF-001已确认空间/站立门关状态，不重新默认蹲姿",
+        "取得原图核对既有哈希，检查新001/002身份与COST-001衣着",
+        "只记录未确认的细部姿态/人物光色/正式画幅，不能将部分确认升为整图通过"
       ],
       "failures_and_repairs": [
-        "门已开：只纠正时间状态，别把开门全过程塞进一张图",
-        "蹲姿不适/站位挡门：退回姿态审批，比较辅助凳",
-        "黑西装/错裙纹/错鞋：仅按COST-001修衣着，不用身份图决定服装",
-        "空白脸/漂移：回001主脸与002侧脸，不让服装图塑脸"
+        "找不到原图：标待图片，不生成替代图冒充已确认版本",
+        "参考改绑后人物/服装确有偏差：取得原图后仅定向修对应领域，空间不改"
       ],
       "review": {
-        "reviewer": null,
-        "reviewed_at": null,
-        "result": null,
-        "evidence": [],
+        "reviewer": "ChatGPT视觉复核；用户确认空间拓扑",
+        "reviewed_at": "2026-10-20",
+        "result": "部分通过：空间拓扑锁定；不代表整图及所有导演事项均最终批准",
+        "evidence": [
+          "当前对话附件 image(20261020-073556).png，1672x941，SHA256 1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+          "用户明确反馈：这张是正确的，指空间位置关系",
+          "Codex本轮取得源SC01-KF-001.png，SHA256与共享登记一致，已实际看图"
+        ],
         "needs_user_confirmation": [
-          "D-GEOM",
-          "D-POSE",
-          "D-AR",
-          "D-LIGHT"
-        ]
+          "D-GEOM（局部柜门列与母版的对应）",
+          "D-POSE（细部姿态/手部动作）",
+          "D-AR（正式成片画幅）",
+          "D-LIGHT（人物最终光色）"
+        ],
+        "record_provenance": "原共享审批范围保留；本轮补充真实文件/视觉检查证据，不擅自升级其他审批"
       },
       "audit_note": "A素材前置已满足，不等于B关键帧生成或通过；Codex初检、ChatGPT参与审核、用户最终批准",
       "historical_type": "C",
       "shot": "N01末/N02首，稳定门关姿态",
-      "image_production_status": "待生成",
+      "image_production_status": "已有原图且空间拓扑部分获批，复用后审其余事项；不默认生成",
       "history_source": {
         "task_file": "../20261020_night-assets_v1/Scene01_后续素材任务_V1.json",
         "task_id": "S01-WC03"
@@ -574,11 +615,202 @@
         "formal_costume": "SC01-COST-W-001",
         "confirmed_by_user": true
       },
-      "image_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_人物服装绑定_V2/S01-WC03/S01-WC03_v01.png",
+      "image_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+      "approval": {
+        "reference_roles_approved": true,
+        "space_topology_approved_from_shared_record": true,
+        "accepted_scope": "家具/人物相对位置；现图站立门关",
+        "full_keyframe_approved": false,
+        "keyframe_design_approved": false,
+        "generation_authorized": false
+      },
+      "current_conversation_candidate": {
+        "asset_id": "SC01-KF-001",
+        "filename": "image(20261020-073556).png",
+        "dimensions": "1672x941",
+        "sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+        "accepted_scope": "空间拓扑/人物与家具相对位置",
+        "status": "用户确认空间位置正确",
+        "repository_binary_present": true,
+        "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+        "local_path": "D:\\文档\\Downloads\\人物素材\\短片资产\\新资产\\SC01-KF-001.png"
+      },
+      "prompt_status": "不默认发重生词：已取得已有图，先核未批准人物细节/光色/姿态，需要修才定向编辑空间不变"
+    },
+    {
+      "task_id": "S01-KF-002",
+      "version": "人物正式服装绑定v2",
+      "scene": "Scene01前半段",
+      "type": "B",
+      "requirement": "下一优先：有人开门/隐藏状态关键帧",
+      "purpose": "打开右侧白色下柜并开始整理，盒仍完全不可见",
+      "note": "新开关联任务承接共享记录已确认站位，不重做任务01；SC01-KF-002只是规划输出编号",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC03",
+        "SC01-FIX-001",
+        "S01-A-CHR-W-001",
+        "S01-A-CHR-W-002",
+        "S01-A-COST-W-001"
+      ],
+      "additional_quality_gates": [
+        "PROP-001修正版严格隐藏通过（原v01不得替代）",
+        "ENV-001/002门列映射可解释",
+        "PROP-002/003盒/物件连续性、下层物品落点通过"
+      ],
+      "required_decisions": [
+        "D-GEOM（局部门扇映射）",
+        "D-POSE（开门/弯腰细部）",
+        "D-AR",
+        "D-LIGHT"
+      ],
+      "references": [
+        {
+          "id": "SC01-ENV-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "sha256": "d40b552432f0775abc3913dbb959e8ceeb2b255c191965eba0727f959e7827a5",
+          "exists": true,
+          "purpose": "夜景客厅空间母版",
+          "quality_gate": "可用作本轮夜景空间基准；不等于全镜位/最终调色批准",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-ENV-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "sha256": "e5efc4b04a1deb3b7b8a71da26b8c785170e98550b7635eb46637fea3c462adb",
+          "exists": true,
+          "purpose": "右侧下柜局部空间图",
+          "quality_gate": "局部候选可参考，结构/门列对应待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-CHR-W-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-001_front-identity.png",
+          "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-001_front-identity.png",
+          "sha256": "9d424a0643887c3b767207ae20773e0bdfd3d462566cbbb7f92f7eb3ae6a2738",
+          "exists": true,
+          "purpose": "老年妻子正面身份主参考",
+          "locks": [
+            "正面五官比例、脸型轮廓",
+            "银灰发际线与低位盘发",
+            "老年皮肤纹理/皱纹/年龄感"
+          ],
+          "excluded": [
+            "黑西装与白内搭不是本场服装",
+            "静态微笑不是每镜表演",
+            "背景与肖像光不覆盖场景光"
+          ]
+        },
+        {
+          "id": "SC01-CHR-W-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-002_profile-identity.png",
+          "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-002_profile-identity.png",
+          "sha256": "b5749ceb2aa776fb09269127b4817526aac87f21968fc39c31c8e4c31d00392b",
+          "exists": true,
+          "purpose": "老年妻子侧面身份辅助参考",
+          "locks": [
+            "鼻/下颌/耳位置与侧脸比例",
+            "低盘发侧面、后脑与鬓角"
+          ],
+          "excluded": [
+            "不负责服装",
+            "不能用侧图重新捏造正面脸",
+            "与主正面有冲突时先查角度，不混合另一张脸"
+          ]
+        },
+        {
+          "id": "SC01-COST-W-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-COST-W-001_fullbody-costume.png",
+          "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-COST-W-001_fullbody-costume.png",
+          "sha256": "76bdc178e3574e567dceb75140309059391ba49f0fb2148ae5d822dd9e450bb3",
+          "exists": true,
+          "purpose": "老年妻子正式全身服装与造型主参考",
+          "locks": [
+            "奶油针织开衫版型/扣子/袖长",
+            "灰绿色花纹连衣裙的裙长/层次/花纹密度",
+            "浅色低跟鞋与全身衣着比例"
+          ],
+          "excluded": [
+            "去脸无五官，不能管身份",
+            "交叠手静态站姿不是动作要求",
+            "头发仅辅助；低盘发与年龄以身份A/B为准",
+            "黑背景无透明通道，不当透明抠图；不要求为服装参考另做透明图"
+          ]
+        },
+        {
+          "id": "PR01",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/场景道具补充_20261017/PR01_旧照片盒_外观三视参考.png",
+          "exists": true,
+          "purpose": "旧盒外观与盖身比例，非新柜结构/实物尺寸证明",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-KF-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+          "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+          "exists": true,
+          "sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+          "purpose": "必须继承用户已确认的当前人物/家具拓扑及站立门关前态，不重新默认为蹲姿"
+        }
+      ],
+      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_人物服装绑定_V2/S01-KF-002/SC01-KF-002_v01.png",
+      "output_exists": false,
+      "generation_prompt": "以已确认空间拓扑的SC01-KF-001原图作唯一人物/家具相对位置基准；该原图现已取得且哈希核对一致；本词仍待用户审批，未授权生成。它是已站在右白柜前、柜门关闭的候选，本图只向下一动作推进，不重新设计房间或把她默认换成此前蹲姿。先以同侧可用位置拍中景，景别/高度依获批站立/轻弯腰姿态，不移沙发、窗平台、木桌、白柜或壁龛。人物脸由SC01-CHR-W-001主与002侧辅助锁定，保留年龄纹理、银灰发际线和低盘发；服装唯一按去脸SC01-COST-W-001，奶油针织开衫、灰绿花纹连衣裙的版型/裙长/花纹密度和浅色低跟鞋不变。输出完整自然人脸，不复制身份图西装/白内搭、服装图空白脸/黑底/交叠手站姿。妻子以稳妥支撑姿态打开经核对的下柜门，眼看前部日常收纳物，手刚准备整理，未移前物。门已开，但柜深唯一棕斑合盖旧盒必须被前物完整遮住，不见任何顶部、边角、盖沿或可识别轮廓；上层篮罐碟原位保持。以合格的SC01-PROP-001修正版管内部状态，绝不能复制原v01露盒或上层同型盒。她在普通家务中，尚未发现盒，不收眉找盒、不微笑怀旧，不伸手抓盒。光色/正式画幅仍按获批版本，当前仅以已有夜景资产外观作待审参考，不添加灯或更改最终昼夜；只输出一张完整场景静帧，无文字、拼贴、水印。",
+      "acceptance": [
+        "SC01-KF-001空间拓扑/已站立门关前态被正确继承，不默认重置为蹲姿",
+        "开门但前物未移，目标盒完全不可见；不得用原失败图",
+        "新正侧身份和正式衣着分域正确，动作支撑/手门接触可信",
+        "最终光色/机位/画幅仍需用户审核，静帧不是开门动作通过"
+      ],
+      "failures_and_repairs": [
+        "原图未取得或隐藏态未修好：保持待图片/质量阻塞，不试生成猜画面",
+        "人物/衣着漂移只按各域权威定向修，不改已确认空间"
+      ],
+      "review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "D-GEOM（局部门扇映射）",
+          "D-POSE（开门/弯腰细部）",
+          "D-AR",
+          "D-LIGHT"
+        ]
+      },
+      "audit_note": "A素材前置已满足，不等于B关键帧生成或通过；Codex初检、ChatGPT参与审核、用户最终批准",
+      "historical_type": null,
+      "shot": "N02（叙事定位待审，不锁最终镜号）",
+      "image_production_status": "待生成",
+      "history_source": {
+        "source": "9b58ec6 current_keyframe_marking.next_step",
+        "links": [
+          "S01-WC03",
+          "SC01-FIX-001"
+        ]
+      },
+      "material_preconditions_satisfied": {
+        "front_identity": "SC01-CHR-W-001",
+        "profile_identity": "SC01-CHR-W-002",
+        "formal_costume": "SC01-COST-W-001",
+        "confirmed_by_user": true
+      },
+      "image_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_人物服装绑定_V2/S01-KF-002/SC01-KF-002_v01.png",
       "approval": {
         "reference_roles_approved": true,
         "keyframe_design_approved": false,
         "generation_authorized": false
+      },
+      "planned_asset_id": "SC01-KF-002（计划，尚未生成/入库）",
+      "existing_keyframe_reference": {
+        "asset_id": "SC01-KF-001",
+        "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+        "repository_binary_present": true,
+        "expected_sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+        "role": "必须取得真实原图，继承用户已确认拓扑；不当未知二进制已读"
       }
     },
     {
@@ -586,17 +818,17 @@
       "version": "人物正式服装绑定v2",
       "scene": "Scene01前半段",
       "type": "B",
-      "requirement": "核心3/4；部分显露与发现",
+      "requirement": "后续核心：部分显露与停手发现",
       "purpose": "移前物后的停手发现关键态",
       "note": "覆盖D移物/E发现，仍有余物；不画全清空。",
       "status": "待用户确认",
       "execution_allowed": false,
       "dependencies": [
         "SC01-FIX-001",
-        "S01-WC03",
         "S01-A-CHR-W-001",
         "S01-A-CHR-W-002",
-        "S01-A-COST-W-001"
+        "S01-A-COST-W-001",
+        "S01-KF-002"
       ],
       "additional_quality_gates": [
         "PROP-001修正版严格隐藏通过（原v01不得替代）",
@@ -758,7 +990,7 @@
       "version": "人物正式服装绑定v2",
       "scene": "Scene01前半段",
       "type": "B",
-      "requirement": "条件补图1/2；若核心帧已可读则合并",
+      "requirement": "条件：表情覆盖，不清才补",
       "purpose": "观察盒子、疑惑好奇的反应覆盖",
       "note": "覆盖F观察。可回WC04操作镜位延续，表情不清才新出近景。",
       "status": "待用户确认",
@@ -910,7 +1142,7 @@
       "version": "人物正式服装绑定v2",
       "scene": "Scene01前半段",
       "type": "B",
-      "requirement": "条件补图2/2；只有握法/净距不清才补",
+      "requirement": "条件：握法接触，不清才补",
       "purpose": "下层已清开后的接盒状态",
       "note": "覆盖G准备伸手，不能用部分显露图跳过余物移出。",
       "status": "待用户确认",
@@ -1071,7 +1303,7 @@
       "version": "人物正式服装绑定v2",
       "scene": "Scene01前半段",
       "type": "B",
-      "requirement": "核心4/4；完整取出末态",
+      "requirement": "后续核心：完整取出末态",
       "purpose": "盒从柜内取出并持稳的接口",
       "note": "覆盖H；前半段止于完整取出，不开盖/站起赶路。",
       "status": "待用户确认",
@@ -1250,7 +1482,92 @@
   },
   "parallel_preparation": [
     "WC10/WC03关门构图可并行准备审核，不被隐藏图缺陷卡住全部准备；生成仍需各任务授权",
-    "SC01-FIX-001与门列映射核验可并行准备"
+    "SC01-FIX-001与门列映射核验可并行准备",
+    "已确认空间不重问；WC03不自动重生，优先取回SC01-KF-001原图；新增任务02开柜整理前态"
   ],
-  "video_gate": "参考登记或A准备通过不授权H3生成"
+  "video_gate": "参考登记或A准备通过不授权H3生成",
+  "parallel_shared_update": {
+    "commit": "9b58ec6",
+    "source_file": "../20261020_night-assets_v1/Scene01_后续素材任务_V1.json",
+    "marking": {
+      "asset_id": "SC01-KF-001",
+      "display_name": "Scene01任务01—妻子站在右侧白色下柜前、准备开柜",
+      "source": {
+        "kind": "current_conversation_attachment",
+        "filename": "image(20261020-073556).png",
+        "dimensions": "1672x941",
+        "format": "PNG",
+        "sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+        "repository_binary_present": false
+      },
+      "marking": "SPACE_TOPOLOGY_LOCKED",
+      "confirmed_scope": [
+        "用户明确确认本图空间位置正确",
+        "客厅沙发、窗平台、中央木桌/地毯、右侧白色下柜、最右壁龛及人物相对位置以本图为当前空间构图基准",
+        "本图人物为站立姿态，柜门关闭，目标旧盒不可见"
+      ],
+      "excluded_scope": [
+        "不自动批准最终画幅、镜位、人物最终受光/调色",
+        "不代表柜内结构、门列/开扇映射、全部表演动作及动态连续性均已通过",
+        "不代表本图PNG二进制已上传到GitHub仓库"
+      ],
+      "supersedes": "上一张空间关系错误的任务01候选；仅作历史记录，不得作为当前空间依据",
+      "next_step": "制作任务02：妻子打开右侧白色下柜、开始整理柜内，目标旧盒仍完全不可见",
+      "recorded_at": "2026-10-20"
+    },
+    "local_visual_verification": true,
+    "source_binary_retrieved": true
+  },
+  "current_keyframe_marking": {
+    "asset_id": "SC01-KF-001",
+    "display_name": "Scene01任务01—妻子站在右侧白色下柜前、准备开柜",
+    "source": {
+      "kind": "current_conversation_attachment",
+      "filename": "image(20261020-073556).png",
+      "dimensions": "1672x941",
+      "format": "PNG",
+      "sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+      "repository_binary_present": true,
+      "local_path": "D:\\文档\\Downloads\\人物素材\\短片资产\\新资产\\SC01-KF-001.png",
+      "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png"
+    },
+    "marking": "SPACE_TOPOLOGY_LOCKED",
+    "confirmed_scope": [
+      "用户明确确认本图空间位置正确",
+      "客厅沙发、窗平台、中央木桌/地毯、右侧白色下柜、最右壁龛及人物相对位置以本图为当前空间构图基准",
+      "本图人物为站立姿态，柜门关闭，目标旧盒不可见"
+    ],
+    "excluded_scope": [
+      "不自动批准最终画幅、镜位、人物最终受光/调色",
+      "不代表柜内结构、门列/开扇映射、全部表演动作及动态连续性均已通过",
+      "不代表本图PNG二进制已上传到GitHub仓库"
+    ],
+    "supersedes": "上一张空间关系错误的任务01候选；仅作历史记录，不得作为当前空间依据",
+    "next_step": "制作任务02：妻子打开右侧白色下柜、开始整理柜内，目标旧盒仍完全不可见",
+    "recorded_at": "2026-10-20",
+    "source_verified_by_codex": true,
+    "source_verified_hash": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7"
+  },
+  "minimum_keyframe_update": {
+    "existing_candidate_to_reuse": 1,
+    "existing_asset": "SC01-KF-001",
+    "next_priority": "S01-KF-002",
+    "new_required_character_frames": 3,
+    "required": [
+      "S01-KF-002",
+      "S01-WC04",
+      "S01-WC07"
+    ],
+    "conditional_character_frames": 3,
+    "conditional": [
+      "S01-WC10",
+      "S01-WC05",
+      "S01-WC12"
+    ],
+    "scene_repairs": [
+      "SC01-FIX-001必需",
+      "SC01-FIX-ENV002条件"
+    ],
+    "not_final_shot_count": true
+  }
 }
