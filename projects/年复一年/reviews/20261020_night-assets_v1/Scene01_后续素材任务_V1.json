@@ -269,9 +269,9 @@
       "scene": "Scene01前半段",
       "type": "C",
       "requirement": "核心2/4；关门整理起点",
-      "purpose": "柜前稳定姿态与开门起点",
-      "note": "覆盖B姿态及C开门前，蹲姿只作待审候选。",
-      "status": "待用户确认",
+      "purpose": "妻子站在右侧白色下柜前，整理后准备打开柜门的关键帧",
+      "note": "用户明确纠正：上一张空间位置错误；当前 SC01-KF-001 的空间拓扑正确。后续任务继承当前图的沙发、窗平台、木桌/地毯、白柜、壁龛和人物相对位置。当前图为站立姿态、柜门关闭、盒不可见。旧低位蹲姿提示不再作为本轮默认。图像二进制尚未写入仓库，本记录只登记当前对话附件及哈希。",
+      "status": "空间拓扑已由用户确认；任务01当前候选；其余创作项待审",
       "execution_allowed": false,
       "dependencies": [
         "SC01-FIX-001"
@@ -343,18 +343,30 @@
         "蹲姿不适/站位挡门：退回姿态审批，比较辅助凳"
       ],
       "review": {
-        "reviewer": null,
-        "reviewed_at": null,
-        "result": null,
-        "evidence": [],
+        "reviewer": "ChatGPT视觉复核；用户确认空间拓扑",
+        "reviewed_at": "2026-10-20",
+        "result": "部分通过：空间拓扑锁定；不代表整图及所有导演事项均最终批准",
+        "evidence": [
+          "当前对话附件 image(20261020-073556).png，1672x941，SHA256 1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+          "用户明确反馈：这张是正确的，指空间位置关系"
+        ],
         "needs_user_confirmation": [
-          "D-GEOM",
-          "D-POSE",
-          "D-AR",
-          "D-LIGHT"
+          "D-GEOM（局部柜门列与母版的对应）",
+          "D-POSE（细部姿态/手部动作）",
+          "D-AR（正式成片画幅）",
+          "D-LIGHT（人物最终光色）"
         ]
       },
-      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON"
+      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON",
+      "current_conversation_candidate": {
+        "asset_id": "SC01-KF-001",
+        "filename": "image(20261020-073556).png",
+        "dimensions": "1672x941",
+        "sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+        "accepted_scope": "空间拓扑/人物与家具相对位置",
+        "status": "用户确认空间位置正确",
+        "repository_binary_present": false
+      }
     },
     {
       "task_id": "S01-WC04",
@@ -765,5 +777,31 @@
     "all_five_passed": false,
     "independent_chatgpt_review": "待实际读取与审核"
   },
-  "previous_plan_readonly": "../20261020_front-half_v1/Scene01_新版结构化任务_V1.json"
+  "previous_plan_readonly": "../20261020_front-half_v1/Scene01_新版结构化任务_V1.json",
+  "current_keyframe_marking": {
+    "asset_id": "SC01-KF-001",
+    "display_name": "Scene01任务01—妻子站在右侧白色下柜前、准备开柜",
+    "source": {
+      "kind": "current_conversation_attachment",
+      "filename": "image(20261020-073556).png",
+      "dimensions": "1672x941",
+      "format": "PNG",
+      "sha256": "1a6093da54fd9d583df9435140bce4c3b29dbedb09d4aae6da7a4c2da581bbc7",
+      "repository_binary_present": false
+    },
+    "marking": "SPACE_TOPOLOGY_LOCKED",
+    "confirmed_scope": [
+      "用户明确确认本图空间位置正确",
+      "客厅沙发、窗平台、中央木桌/地毯、右侧白色下柜、最右壁龛及人物相对位置以本图为当前空间构图基准",
+      "本图人物为站立姿态，柜门关闭，目标旧盒不可见"
+    ],
+    "excluded_scope": [
+      "不自动批准最终画幅、镜位、人物最终受光/调色",
+      "不代表柜内结构、门列/开扇映射、全部表演动作及动态连续性均已通过",
+      "不代表本图PNG二进制已上传到GitHub仓库"
+    ],
+    "supersedes": "上一张空间关系错误的任务01候选；仅作历史记录，不得作为当前空间依据",
+    "next_step": "制作任务02：妻子打开右侧白色下柜、开始整理柜内，目标旧盒仍完全不可见",
+    "recorded_at": "2026-10-20"
+  }
 }
