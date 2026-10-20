@@ -1,7 +1,7 @@
 
 # AI 智能体共享记忆总索引
 
-Scene01 当前人物/任务入口：[新版身份、正式服装登记与关键帧任务改绑](projects/年复一年/reviews/20261020_wife-assets_v1/README.md)，并读取[当前绑定JSON](projects/年复一年/Scene01_当前资产与任务绑定.json)。正侧身份与去脸正式衣着三图已确认真实文件并登记；A素材准备完成，B设计待审/图片待生成。[夜景五图](projects/年复一年/reviews/20261020_night-assets_v1/README.md)仍管空间与柜状态，PROP-001露盒问题保留。只清下层、上层不动已确认；最终时间照明/机位/姿态/画幅仍待批。历史稿/原素材不删除，不执行图像或视频生成。
+Scene01 最新关键帧入口：[03A—06五图正式登记](projects/年复一年/reviews/20261021_keyframes_03A-06/README.md)及[结构化登记JSON](projects/年复一年/reviews/20261021_keyframes_03A-06/Scene01_关键帧登记_03A-06_V1.json)。用户指定03A、04A、05A、05B、06为此前已同意并需保留的图片；登记文本已写入GitHub，5张PNG二进制尚待Codex/本地可访问流程按SHA-256核验后上传，不能误报为图片本体已同步。人物/服装入口：[新版身份与正式服装登记](projects/年复一年/reviews/20261020_wife-assets_v1/README.md)；当前绑定：[JSON](projects/年复一年/Scene01_当前资产与任务绑定.json)。[夜景五图](projects/年复一年/reviews/20261020_night-assets_v1/README.md)继续记录空间与柜状态；原图、历史稿不覆盖。登记不等于动态镜头或视频生成获批。
 
 ## 一、记忆库说明
 本仓库用于 ChatGPT、Codex、Claude、Gemini
