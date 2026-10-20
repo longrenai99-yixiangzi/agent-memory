@@ -1,15 +1,91 @@
 {
   "project": "年复一年",
   "scene": "Scene01",
-  "status": "审核稿",
+  "status": "历史空间稿，已被白柜V2取代",
   "generated_media": false,
   "source_root": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包",
-  "support_tasks": [{"task_id":"S01-R01","type":"A","purpose":"确认新白底人物与已有晚年/青年身份映射；复用A14—A19","owner":"用户确认，Codex登记","status":"待用户确认","depends_on":["D02"],"save_path":"references/identity/","acceptance":"角色与年龄阶段明确；原始身份不被派生图覆盖"},{"task_id":"S01-R02","type":"A","purpose":"补充柜格/篮/落点/通路的真实信息，仅缺项","owner":"用户","status":"待用户确认","depends_on":[],"save_path":"references/space-props/","acceptance":"可核遮挡与取出、落点、通路；未知注明未知"},{"task_id":"S01-R03","type":"A","purpose":"确认照片选用与真实/创作边界","owner":"用户与ChatGPT","status":"待用户确认","depends_on":["D03"],"save_path":"references/photo-decisions.md","acceptance":"内容源图、用途、允许编辑范围明确，不补日期"},{"task_id":"S01-R04","type":"A","purpose":"补充未被扫描到的新版本/剪辑工程索引（若有）","owner":"用户","status":"待用户确认","depends_on":[],"save_path":"references/edit-index.md","acceptance":"具体源路径、版本、镜头关联、问题明确；已有源片不重复提供"},{"task_id":"S01-Q01","type":"审查","purpose":"待用源片原速视听、对白/音轨和剪点复核","owner":"用户与ChatGPT；Codex记录技术结果","status":"待审查","depends_on":["待用版本选择"],"acceptance":"动态与声音分项实际审查；解码不当审查通过"},{"task_id":"S01-Q02","type":"导演审核","purpose":"整段动态设计与素材最小集审核","owner":"用户与ChatGPT","status":"待用户确认","depends_on":["D01","D02","D03","D04","D05","D06","D07","D08","D09","D10"],"acceptance":"眼/手/身、相机、信息揭示、声音、起止/衔接及弹性时长明确；创作变更先确认"}],
+  "support_tasks": [
+    {
+      "task_id": "S01-R01",
+      "type": "A",
+      "purpose": "确认新白底人物与已有晚年/青年身份映射；复用A14—A19",
+      "owner": "用户确认，Codex登记",
+      "status": "待用户确认",
+      "depends_on": [
+        "D02"
+      ],
+      "save_path": "references/identity/",
+      "acceptance": "角色与年龄阶段明确；原始身份不被派生图覆盖"
+    },
+    {
+      "task_id": "S01-R02",
+      "type": "A",
+      "purpose": "补充柜格/篮/落点/通路的真实信息，仅缺项",
+      "owner": "用户",
+      "status": "待用户确认",
+      "depends_on": [],
+      "save_path": "references/space-props/",
+      "acceptance": "可核遮挡与取出、落点、通路；未知注明未知"
+    },
+    {
+      "task_id": "S01-R03",
+      "type": "A",
+      "purpose": "确认照片选用与真实/创作边界",
+      "owner": "用户与ChatGPT",
+      "status": "待用户确认",
+      "depends_on": [
+        "D03"
+      ],
+      "save_path": "references/photo-decisions.md",
+      "acceptance": "内容源图、用途、允许编辑范围明确，不补日期"
+    },
+    {
+      "task_id": "S01-R04",
+      "type": "A",
+      "purpose": "补充未被扫描到的新版本/剪辑工程索引（若有）",
+      "owner": "用户",
+      "status": "待用户确认",
+      "depends_on": [],
+      "save_path": "references/edit-index.md",
+      "acceptance": "具体源路径、版本、镜头关联、问题明确；已有源片不重复提供"
+    },
+    {
+      "task_id": "S01-Q01",
+      "type": "审查",
+      "purpose": "待用源片原速视听、对白/音轨和剪点复核",
+      "owner": "用户与ChatGPT；Codex记录技术结果",
+      "status": "待审查",
+      "depends_on": [
+        "待用版本选择"
+      ],
+      "acceptance": "动态与声音分项实际审查；解码不当审查通过"
+    },
+    {
+      "task_id": "S01-Q02",
+      "type": "导演审核",
+      "purpose": "整段动态设计与素材最小集审核",
+      "owner": "用户与ChatGPT",
+      "status": "待用户确认",
+      "depends_on": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10"
+      ],
+      "acceptance": "眼/手/身、相机、信息揭示、声音、起止/衔接及弹性时长明确；创作变更先确认"
+    }
+  ],
   "tasks": [
     {
       "task_id": "S01-G01",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -70,12 +146,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G02",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -134,12 +211,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G03",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -193,12 +271,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G04",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "B",
       "scene": "Scene01",
@@ -247,12 +326,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G05",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -306,12 +386,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G06",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -370,12 +451,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G07",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -434,12 +516,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G08",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -491,12 +574,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G09a",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -550,12 +634,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G09b",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -607,12 +692,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G10",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -671,12 +757,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G11",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -730,12 +817,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G12",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -789,12 +877,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G13a",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -863,12 +952,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G13b",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -937,12 +1027,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G14",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -1008,12 +1099,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G15",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -1072,12 +1164,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G16",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -1131,12 +1224,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G17",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -1200,12 +1294,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G18",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -1269,12 +1364,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G19a",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -1335,12 +1431,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-G19b",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "B",
       "scene": "Scene01",
@@ -1389,12 +1486,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-P01",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "B",
       "scene": "Scene01",
@@ -1441,12 +1539,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-P02",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "B",
       "scene": "Scene01",
@@ -1483,12 +1582,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-P03",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -1542,12 +1642,13 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     },
     {
       "task_id": "S01-P04",
       "created_at": "2026-10-20",
-      "status": "待用户确认",
+      "status": "暂停：旧空间提示词停用，故事需求保留",
       "planning_only": true,
       "type": "C",
       "scene": "Scene01",
@@ -1601,7 +1702,10 @@
           "actor": "Codex",
           "action": "创建审核版素材需求；未发布生成、未上传新素材"
         }
-      ]
+      ],
+      "execution_allowed": false
     }
-  ]
+  ],
+  "execution_allowed": false,
+  "superseded_by": "../20261020_white-cabinet_v2/Scene01_白色下柜_任务规划V2.json"
 }

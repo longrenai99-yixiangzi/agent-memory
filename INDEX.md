@@ -1,7 +1,7 @@
 
 # AI 智能体共享记忆总索引
 
-Scene01 最新审核包（2026-10-20，待审核）：[盘点与任务规划](projects/年复一年/reviews/20261020/README.md)。不替代已确认导演决定，不代表已批准生图或视频生成。
+Scene01 当前空间：用户已确定采用右侧白色下柜，详见[前半段导演方案与最小任务V2](projects/年复一年/reviews/20261020_white-cabinet_v2/README.md)。V2镜头方案仍待审核。此前[盘点V1](projects/年复一年/reviews/20261020/README.md)保留历史，旧电视柜图片提示词已停用；不代表已批准生图或视频生成。
 
 ## 一、记忆库说明
 本仓库用于 ChatGPT、Codex、Claude、Gemini

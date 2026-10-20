@@ -1,0 +1,54 @@
+{
+  "asset_id": "L01-WC-MASTER-v1",
+  "space_version": "S01-WHITE-CABINET-V2",
+  "source": "用户指定路径，2026-10-20本轮实际看图",
+  "user_selected": true,
+  "file_received": true,
+  "source_path": "D:/文档/Downloads/人物素材/短片资产/新资产/ChatGPT 图像 2026年10月20日 11_50_04.png",
+  "repository_path": "projects/年复一年/reviews/20261020_white-cabinet_v2/assets/L01_WC_master_original.png",
+  "width": 1122,
+  "height": 1402,
+  "bytes": 3101240,
+  "sha256": "11462291e18cd68cb15a0adfb8094806a565564350e983d7ff70ef038c3c446d",
+  "observed": [
+    "竖幅日光客厅",
+    "沙发在画左；木桌/浅色地毯在中部",
+    "后方窗与白帘、窗下平台",
+    "画右搁架下方带门白色下柜",
+    "最右壁龛百叶门不是当前藏盒处；功能未核"
+  ],
+  "confirmed": [
+    "新空间母版",
+    "盒在右侧白色下柜深处",
+    "移开前部日常物品后首次发现",
+    "旧电视柜空间逻辑废止"
+  ],
+  "unknown": [
+    "柜门轴/实际开向/内部层板与尺寸",
+    "画外入口与新共看坐点",
+    "剧情时间与成片画幅",
+    "前物形式和落点、整理姿态"
+  ],
+  "review": {
+    "technical": "原文件尺寸/哈希已核；原图可读取",
+    "visual": "Codex本轮实际看见原图；未核验内部、动态开合或全角度空间",
+    "director": "用户已选择母版；前半段镜头/柜内设计仍待用户与ChatGPT审核"
+  },
+  "replaces": [
+    "旧L01空间母版",
+    "旧电视柜柜内状态与提示词",
+    "旧房间A/H/W/B、C1—C6/C07及灯/入口坐标"
+  ],
+  "history": [
+    {
+      "at": "2026-10-20",
+      "actor": "用户",
+      "action": "指定新第一张客厅图及右侧白色下柜藏盒"
+    },
+    {
+      "at": "2026-10-20",
+      "actor": "Codex",
+      "action": "实际看图、登记原图并提交规划；未生成派生图"
+    }
+  ]
+}

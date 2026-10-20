@@ -1,0 +1,347 @@
+{
+  "project": "年复一年",
+  "scene": "Scene01",
+  "space_version": "S01-WHITE-CABINET-V2",
+  "status": "空间选择已确认，前半段导演与最小任务待审核",
+  "execution_allowed": false,
+  "generated_media": false,
+  "task_count": 10,
+  "planning_source": "本轮用户7条更新指令及指定母版",
+  "document": "Scene01_前半段导演方案与最小任务_V2.md",
+  "master": "Scene01_空间母版登记V2.json",
+  "output_base_local": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_白色下柜_V2",
+  "references": {
+    "SPACE_MASTER": "projects/年复一年/reviews/20261020_white-cabinet_v2/assets/L01_WC_master_original.png",
+    "WIFE_ID": {
+      "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A15_WIFE_OLDER_正面.png",
+      "role": "身份，不继承背景/灯光",
+      "binding": "已有身份候选；与新白底人物角色映射仍待确认"
+    },
+    "HUSBAND_ID": {
+      "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A18_HUSBAND_OLDER_正面.png",
+      "role": "身份和眼镜，不继承背景/灯光"
+    },
+    "BOX": {
+      "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/场景道具补充_20261017/PR01_旧照片盒_外观三视参考.png",
+      "role": "仅盒外观/套盖结构，不继承旧柜或虚构尺寸"
+    },
+    "COSTUME_ONLY": {
+      "role": "旧衣着候选仅管衣料/体型，身份/背景/灯位不得混绑",
+      "selection": "待与新身份/导演造型确认"
+    },
+    "PHOTO_CONTENT_ONLY": {
+      "role": "现有PH01/PH02/纸背只管内容源，转场取舍仍待原D03",
+      "source": "上一轮审核包的参考图路径与元数据.json"
+    },
+    "WC02_APPROVED": {
+      "role": "待WC02审核通过后绑定实际路径/哈希；当前无成图"
+    },
+    "WC04_APPROVED": {
+      "role": "待WC04审核通过后绑定实际路径/哈希；当前无成图"
+    }
+  },
+  "tasks": [
+    {
+      "task_id": "S01-WC00",
+      "type": "A",
+      "purpose": "母版登记与原图归档",
+      "status": "已收到",
+      "execution_allowed": false,
+      "dependencies": [],
+      "references": [
+        "SPACE_MASTER"
+      ],
+      "owner": "用户指定/Codex归档",
+      "image_path": "projects/年复一年/reviews/20261020_white-cabinet_v2/assets/L01_WC_master_original.png",
+      "acceptance": [
+        "源文件与仓库副本SHA256一致，母版选择已确认；不等于柜内结构已审"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": []
+      }
+    },
+    {
+      "task_id": "S01-WC01",
+      "type": "导演设计",
+      "purpose": "门、姿态、前物落点及时间/画幅审核",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC00"
+      ],
+      "references": [
+        "SPACE_MASTER"
+      ],
+      "owner": "用户与ChatGPT",
+      "image_path": null,
+      "acceptance": [
+        "已知/提案分开，具体门扇/前物/姿态可操作，不以外观推断内部实测"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "本任务设计审核"
+        ]
+      }
+    },
+    {
+      "task_id": "S01-WC02",
+      "type": "B",
+      "purpose": "开门后前物遮盒的柜内结构状态",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC01"
+      ],
+      "references": [
+        "SPACE_MASTER",
+        "BOX"
+      ],
+      "owner": "AI设计/用户后续准备；Codex登记",
+      "image_path": "Scene01_白色下柜_V2/WC02/WC02_v01.png",
+      "acceptance": [
+        "门开且前物未移，盒所有可识别部位完全不可见；盒尺寸/柜口和手可达"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "本任务设计审核"
+        ]
+      }
+    },
+    {
+      "task_id": "S01-WC03",
+      "type": "C",
+      "purpose": "门关时人物正常整理起点",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC01",
+        "S01-WC02"
+      ],
+      "references": [
+        "SPACE_MASTER",
+        "WIFE_ID",
+        "COSTUME_ONLY"
+      ],
+      "owner": "AI设计/用户后续准备；Codex登记",
+      "image_path": "Scene01_白色下柜_V2/WC03/WC03_v01.png",
+      "acceptance": [
+        "关门状态、身份和可达姿态正确，无提前寻盒或怀旧"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "本任务设计审核"
+        ]
+      }
+    },
+    {
+      "task_id": "S01-WC04",
+      "type": "C",
+      "purpose": "前物移开后的首次显露及停手状态",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC02",
+        "S01-WC03"
+      ],
+      "references": [
+        "SPACE_MASTER",
+        "WIFE_ID",
+        "BOX",
+        "WC02_APPROVED"
+      ],
+      "owner": "AI设计/用户后续准备；Codex登记",
+      "image_path": "Scene01_白色下柜_V2/WC04/WC04_v01.png",
+      "acceptance": [
+        "同柜同门同盒；前物安全落点明确；首次显露而非盒移到门口"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "本任务设计审核"
+        ]
+      }
+    },
+    {
+      "task_id": "S01-WC05",
+      "type": "C_可合并",
+      "purpose": "疑惑好奇表情覆盖",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC04"
+      ],
+      "references": [
+        "WIFE_ID",
+        "WC04_APPROVED"
+      ],
+      "owner": "AI设计/用户后续准备；Codex登记",
+      "image_path": "Scene01_白色下柜_V2/WC05/WC05_v01.png",
+      "acceptance": [
+        "新空间眼线与侧脸相容；若WC04已足够可读则合并，不提前认出旧物"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "本任务设计审核"
+        ]
+      }
+    },
+    {
+      "task_id": "S01-WC06",
+      "type": "B_条件补图",
+      "purpose": "准主观闭盒信息镜头",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC04"
+      ],
+      "references": [
+        "BOX",
+        "WC04_APPROVED"
+      ],
+      "owner": "AI设计/用户后续准备；Codex登记",
+      "image_path": "Scene01_白色下柜_V2/WC06/WC06_v01.png",
+      "acceptance": [
+        "仅在批准视线匹配方案时使用；镜位不穿柜门/层板，不产品展示化"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "本任务设计审核"
+        ]
+      }
+    },
+    {
+      "task_id": "S01-WC07",
+      "type": "C",
+      "purpose": "完整取出合盖盒的持稳接口",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC04"
+      ],
+      "references": [
+        "WIFE_ID",
+        "BOX",
+        "WC04_APPROVED"
+      ],
+      "owner": "AI设计/用户后续准备；Codex登记",
+      "image_path": "Scene01_白色下柜_V2/WC07/WC07_v01.png",
+      "acceptance": [
+        "扶盒身/底缘，盖不作提手；柜内无复制盒，前物和门不跳位"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "本任务设计审核"
+        ]
+      }
+    },
+    {
+      "task_id": "S01-WC08",
+      "type": "导演接口",
+      "purpose": "新柜区到后半段共看位置的空间方案",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC01",
+        "S01-WC07"
+      ],
+      "references": [
+        "SPACE_MASTER"
+      ],
+      "owner": "用户与ChatGPT",
+      "image_path": null,
+      "acceptance": [
+        "去向/门前物收尾/坐点/丈夫来源明确；不继承旧直线与入口"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "本任务设计审核"
+        ]
+      }
+    },
+    {
+      "task_id": "S01-WC09",
+      "type": "空间适配",
+      "purpose": "保留后半段内容并重新绑定新空间",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC08"
+      ],
+      "references": [
+        "SPACE_MASTER",
+        "WIFE_ID",
+        "HUSBAND_ID",
+        "BOX",
+        "PHOTO_CONTENT_ONLY"
+      ],
+      "owner": "AI设计/用户后续准备；Codex登记",
+      "image_path": null,
+      "acceptance": [
+        "保留身份/表演/纸链；原像素仅经实际背景和光照核验后准用"
+      ],
+      "generation_prompt": null,
+      "prompt_release_condition": "本轮只交导演方案/任务；批准后依据实际结构与参考图编制独立完整提示词",
+      "review": {
+        "reviewer": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "本任务设计审核"
+        ]
+      }
+    }
+  ],
+  "retired_plan": "../20261020/Scene01_任务规划_审核稿V1.json",
+  "retired_input_policy": "旧空间提示词全部停用；后半段需求/表演/源内容保留，待WC09重绑",
+  "history": [
+    {
+      "at": "2026-10-20",
+      "actor": "Codex",
+      "action": "根据用户新确定事项重编方案；未生成媒体，未覆盖旧素材"
+    }
+  ]
+}
