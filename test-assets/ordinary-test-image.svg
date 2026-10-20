@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="普通测试图">
+  <rect width="640" height="360" fill="#e8f1f8"/>
+  <rect x="32" y="32" width="576" height="296" rx="16" fill="#ffffff" stroke="#9bb8cc" stroke-width="4"/>
+  <circle cx="188" cy="152" r="56" fill="#f4c27a"/>
+  <path d="M132 152a56 56 0 0 1 112 0" fill="#496a81"/>
+  <rect x="126" y="216" width="124" height="58" rx="29" fill="#6fa3bf"/>
+  <text x="320" y="166" font-family="Arial, sans-serif" font-size="32" fill="#243746">普通测试图</text>
+  <text x="320" y="208" font-family="Arial, sans-serif" font-size="18" fill="#607887">privacy-safe placeholder</text>
+</svg>
