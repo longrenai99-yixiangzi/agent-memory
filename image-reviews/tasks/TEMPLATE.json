@@ -1,0 +1,23 @@
+{
+  "task_id": "IMG-YYYYMMDD-NNN",
+  "created_at": "YYYY-MM-DD",
+  "status": "待提交",
+  "image_path": "test-assets/example.png",
+  "scene": "待填写",
+  "shot": "待填写",
+  "purpose": "待填写",
+  "questions": [
+    "主体、构图和景别是否符合要求？",
+    "人物、服装、场景和道具是否连续？",
+    "是否存在明显的生成缺陷、遮挡、裁切或文字错误？",
+    "是否需要导演创作判断？"
+  ],
+  "review": {
+    "reviewer": "ChatGPT",
+    "reviewed_at": null,
+    "result": null,
+    "evidence": [],
+    "needs_user_confirmation": []
+  },
+  "history": []
+}
