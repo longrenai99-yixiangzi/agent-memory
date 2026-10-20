@@ -1,7 +1,7 @@
 
 # AI 智能体共享记忆总索引
 
-Scene01 当前审核入口：[五张夜景资产登记、状态链、动态导演及最小补充任务](projects/年复一年/reviews/20261020_night-assets_v1/README.md)。五图已取得原件并登记；PROP-001露盒不合格，不能作合格初始帧。用户已确认只清下层目标格，上层篮罐碟保持。镜位/正式画幅/人物细化照明等仍待审，不执行生成。此前[前半段V1](projects/年复一年/reviews/20261020_front-half_v1/README.md)、[白柜V2](projects/年复一年/reviews/20261020_white-cabinet_v2/README.md)及旧盘点保留历史；旧日间候选不用于本轮夜景。
+Scene01 当前人物/任务入口：[新版身份、正式服装登记与关键帧任务改绑](projects/年复一年/reviews/20261020_wife-assets_v1/README.md)，并读取[当前绑定JSON](projects/年复一年/Scene01_当前资产与任务绑定.json)。正侧身份与去脸正式衣着三图已确认真实文件并登记；A素材准备完成，B设计待审/图片待生成。[夜景五图](projects/年复一年/reviews/20261020_night-assets_v1/README.md)仍管空间与柜状态，PROP-001露盒问题保留。只清下层、上层不动已确认；最终时间照明/机位/姿态/画幅仍待批。历史稿/原素材不删除，不执行图像或视频生成。
 
 ## 一、记忆库说明
 本仓库用于 ChatGPT、Codex、Claude、Gemini

@@ -1,0 +1,176 @@
+{
+  "project": "年复一年",
+  "scene": "Scene01",
+  "created_at": "2026-10-20",
+  "source": "用户本轮定义A/B/C资产、确认无括号真实文件并要求继续",
+  "schema_scope": "本轮A/B为身份参考，C为服装资产；图片任务另按用户最新要求分A类素材准备/B类导演设计",
+  "assets": [
+    {
+      "asset_id": "SC01-CHR-W-001",
+      "version": "原图v01",
+      "source_requested_filename": "银发优雅女性专业肖像(2).png",
+      "source_actual_path": "D:\\文档\\Downloads\\人物素材\\短片资产\\新资产\\银发优雅女性专业肖像.png",
+      "source_actual_filename": "银发优雅女性专业肖像.png",
+      "filename_mapping_confirmed_by_user": true,
+      "filename_mapping_evidence": "用户回复：是，就用这三张无后缀文件；随后要求继续",
+      "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-001_front-identity.png",
+      "canonical_name": "SC01-CHR-W-001_front-identity.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 2494531,
+      "sha256": "9d424a0643887c3b767207ae20773e0bdfd3d462566cbbb7f92f7eb3ae6a2738",
+      "pixel_format": "Format24bppRgb",
+      "has_alpha": false,
+      "archive_status": "已入库，规范副本与源原图SHA256一致；源文件未改",
+      "purpose": "老年妻子正面身份主参考",
+      "locks": [
+        "正面五官比例、脸型轮廓",
+        "银灰发际线与低位盘发",
+        "老年皮肤纹理/皱纹/年龄感"
+      ],
+      "excluded_roles": [
+        "黑西装与白内搭不是本场服装",
+        "静态微笑不是每镜表演",
+        "背景与肖像光不覆盖场景光"
+      ],
+      "supersedes_in_scene01": [
+        "A15_WIFE_OLDER_正面（仅Scene01当前主身份职责被新版替代）"
+      ],
+      "scene_asset_role_approved_by_user": true,
+      "in_scene_keyframes_approved": false,
+      "video_generation_approved": false,
+      "visual_review": {
+        "reviewer": "Codex",
+        "reviewed_at": "2026-10-20",
+        "method": "本轮view_image原始尺寸实际查看，读取元数据与SHA256",
+        "status": "已通过",
+        "scope": "仅作为本条指定身份/服装参考的可读性与用途检查；不是人物合成、动作、最终导演或视频验收",
+        "evidence": [
+          "图像可读，五官/年龄纹理/银灰发与对应正侧视角可辨",
+          "黑西装只在身份图出现，不作为本场正式衣着"
+        ],
+        "integration_review": "尚未生成新版场景人物帧，不能承诺融合与运动稳定性"
+      },
+      "review_task": "image-reviews/tasks/SC01-CHR-W-001-v01.json"
+    },
+    {
+      "asset_id": "SC01-CHR-W-002",
+      "version": "原图v01",
+      "source_requested_filename": "优雅银发女性侧颜肖像(2).png",
+      "source_actual_path": "D:\\文档\\Downloads\\人物素材\\短片资产\\新资产\\优雅银发女性侧颜肖像.png",
+      "source_actual_filename": "优雅银发女性侧颜肖像.png",
+      "filename_mapping_confirmed_by_user": true,
+      "filename_mapping_evidence": "用户回复：是，就用这三张无后缀文件；随后要求继续",
+      "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-002_profile-identity.png",
+      "canonical_name": "SC01-CHR-W-002_profile-identity.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 2621364,
+      "sha256": "b5749ceb2aa776fb09269127b4817526aac87f21968fc39c31c8e4c31d00392b",
+      "pixel_format": "Format24bppRgb",
+      "has_alpha": false,
+      "archive_status": "已入库，规范副本与源原图SHA256一致；源文件未改",
+      "purpose": "老年妻子侧面身份辅助参考",
+      "locks": [
+        "鼻/下颌/耳位置与侧脸比例",
+        "低盘发侧面、后脑与鬓角"
+      ],
+      "excluded_roles": [
+        "不负责服装",
+        "不能用侧图重新捏造正面脸",
+        "与主正面有冲突时先查角度，不混合另一张脸"
+      ],
+      "supersedes_in_scene01": [
+        "A16_WIFE_OLDER_侧面朝画右（仅Scene01侧脸职责被新版替代）"
+      ],
+      "scene_asset_role_approved_by_user": true,
+      "in_scene_keyframes_approved": false,
+      "video_generation_approved": false,
+      "visual_review": {
+        "reviewer": "Codex",
+        "reviewed_at": "2026-10-20",
+        "method": "本轮view_image原始尺寸实际查看，读取元数据与SHA256",
+        "status": "已通过",
+        "scope": "仅作为本条指定身份/服装参考的可读性与用途检查；不是人物合成、动作、最终导演或视频验收",
+        "evidence": [
+          "图像可读，五官/年龄纹理/银灰发与对应正侧视角可辨",
+          "黑西装只在身份图出现，不作为本场正式衣着"
+        ],
+        "integration_review": "尚未生成新版场景人物帧，不能承诺融合与运动稳定性"
+      },
+      "review_task": "image-reviews/tasks/SC01-CHR-W-002-v01.json"
+    },
+    {
+      "asset_id": "SC01-COST-W-001",
+      "version": "原图v01",
+      "source_requested_filename": "无面孔的灰发优雅女士肖像(1).png",
+      "source_actual_path": "D:\\文档\\Downloads\\人物素材\\短片资产\\新资产\\无面孔的灰发优雅女士肖像.png",
+      "source_actual_filename": "无面孔的灰发优雅女士肖像.png",
+      "filename_mapping_confirmed_by_user": true,
+      "filename_mapping_evidence": "用户回复：是，就用这三张无后缀文件；随后要求继续",
+      "repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-COST-W-001_fullbody-costume.png",
+      "canonical_name": "SC01-COST-W-001_fullbody-costume.png",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1110539,
+      "sha256": "76bdc178e3574e567dceb75140309059391ba49f0fb2148ae5d822dd9e450bb3",
+      "pixel_format": "Format24bppRgb",
+      "has_alpha": false,
+      "archive_status": "已入库，规范副本与源原图SHA256一致；源文件未改",
+      "purpose": "老年妻子正式全身服装与造型主参考",
+      "locks": [
+        "奶油针织开衫版型/扣子/袖长",
+        "灰绿色花纹连衣裙的裙长/层次/花纹密度",
+        "浅色低跟鞋与全身衣着比例"
+      ],
+      "excluded_roles": [
+        "去脸无五官，不能管身份",
+        "交叠手静态站姿不是动作要求",
+        "头发仅辅助；低盘发与年龄以身份A/B为准",
+        "黑背景无透明通道，不当透明抠图；不要求为服装参考另做透明图"
+      ],
+      "supersedes_in_scene01": [
+        "旧01-02b_v01衣着候选在Scene01的服装职责被新版替代",
+        "旧西装全身候选不再作为Scene01正式服装"
+      ],
+      "scene_asset_role_approved_by_user": true,
+      "in_scene_keyframes_approved": false,
+      "video_generation_approved": false,
+      "visual_review": {
+        "reviewer": "Codex",
+        "reviewed_at": "2026-10-20",
+        "method": "本轮view_image原始尺寸实际查看，读取元数据与SHA256",
+        "status": "已通过",
+        "scope": "仅作为本条指定身份/服装参考的可读性与用途检查；不是人物合成、动作、最终导演或视频验收",
+        "evidence": [
+          "头脚完整，开衫、灰绿花纹长裙和浅色低跟鞋可辨",
+          "面部为无五官占位，必须由正侧身份图提供真实脸",
+          "Format24bppRgb无alpha，背景当前黑色"
+        ],
+        "integration_review": "尚未生成新版场景人物帧，不能承诺融合与运动稳定性"
+      },
+      "review_task": "image-reviews/tasks/SC01-COST-W-001-v01.json"
+    }
+  ],
+  "scene_context": {
+    "master": "SC01-ENV-001（参考职责不等于正式成片夜景/人物照明定稿）",
+    "cabinet_area": "SC01-ENV-002",
+    "hidden": "SC01-PROP-001当前v01不合格，仍需返修",
+    "first_reveal": "SC01-PROP-002",
+    "pre_take": "SC01-PROP-003仅下层目标格清开；上层不动",
+    "box_standard": "PR01旧盒外观标准不变"
+  },
+  "authority_by_domain": {
+    "face_front": "SC01-CHR-W-001",
+    "face_profile_and_hair": "SC01-CHR-W-002辅助001，不覆盖正面",
+    "wardrobe_fullbody": "SC01-COST-W-001",
+    "space": "SC01-ENV-001主/ENV-002局部待映射",
+    "prop_state": "对应已审状态图，PROP-001原件不得当合格隐藏帧",
+    "action_composition": "用户批准的导演方案/具体任务；静态资产不自行决定动作"
+  },
+  "overall_status": "三原图参考职责已明确、实际可读；合场景关键帧与导演审批尚未完成",
+  "generated_media": false
+}

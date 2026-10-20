@@ -1,0 +1,26 @@
+{
+  "project": "年复一年",
+  "scene": "Scene01",
+  "updated_at": "2026-10-20",
+  "current_registry": "projects/年复一年/reviews/20261020_wife-assets_v1/Scene01_人物服装资产登记V1.json",
+  "current_task_revision": "projects/年复一年/reviews/20261020_wife-assets_v1/Scene01_人物关键帧任务_V1.json",
+  "identity_front": "SC01-CHR-W-001",
+  "identity_profile": "SC01-CHR-W-002",
+  "costume_fullbody": "SC01-COST-W-001",
+  "master_asset": "SC01-ENV-001",
+  "scene_state_registry": "projects/年复一年/reviews/20261020_night-assets_v1/Scene01_五图资产登记V1.json",
+  "hidden_state_asset": "SC01-PROP-001",
+  "hidden_state_approved": false,
+  "first_reveal": "SC01-PROP-002",
+  "pre_take": "SC01-PROP-003",
+  "upper_contents": "不动，用户已确认",
+  "box_asset": "PR01",
+  "supersession_scope": "仅Scene01当前身份/服装职责；其他场次不自动废弃",
+  "superseded_input_aliases": {
+    "A15": "SC01-CHR-W-001",
+    "A16": "SC01-CHR-W-002",
+    "COSTUME": "SC01-COST-W-001"
+  },
+  "keyframe_generation_approved": false,
+  "video_generation_approved": false
+}

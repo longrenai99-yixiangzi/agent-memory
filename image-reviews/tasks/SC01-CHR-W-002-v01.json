@@ -1,0 +1,40 @@
+{
+  "task_id": "SC01-CHR-W-002-v01",
+  "created_at": "2026-10-20",
+  "status": "已通过",
+  "image_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-002_profile-identity.png",
+  "scene": "Scene01人物参考",
+  "shot": "N01/N02/N03/N05/N06人物关键帧参考，非剧情首帧",
+  "purpose": "老年妻子侧面身份辅助参考",
+  "questions": [
+    "文件是否可读且对应用户明确指定来源？",
+    "是否只承担指定身份/服装领域？",
+    "不带入背景/非本场衣着/去脸占位或静态表情姿势？"
+  ],
+  "review": {
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-20",
+    "result": "仅作为本条指定身份/服装参考的可读性与用途检查；不是人物合成、动作、最终导演或视频验收",
+    "evidence": [
+      "b5749ceb2aa776fb09269127b4817526aac87f21968fc39c31c8e4c31d00392b",
+      "图像可读，五官/年龄纹理/银灰发与对应正侧视角可辨",
+      "黑西装只在身份图出现，不作为本场正式衣着"
+    ],
+    "needs_user_confirmation": []
+  },
+  "approval_scope": "仅用户已指定的参考用途，不等于场景融合、动作或视频批准",
+  "user_source_mapping_evidence": "用户回复：是，就用这三张无后缀文件；随后要求继续",
+  "in_scene_review_required": true,
+  "history": [
+    {
+      "at": "2026-10-20",
+      "actor": "用户",
+      "action": "指定本场身份与服装，确认无括号文件可用"
+    },
+    {
+      "at": "2026-10-20",
+      "actor": "Codex",
+      "action": "实际看图/元数据/哈希核验，规范归档，参考用途检查通过；未生成合场景图"
+    }
+  ]
+}
