@@ -1,0 +1,225 @@
+{
+  "source_path": "D:\\文档\\Downloads\\首尾帧图生视频（单）.json",
+  "sha256": "8cade22d516aa42b8c59b1a6d05570bc95138679ef8e318786b3ce202bbdd607",
+  "format": "API prompt graph",
+  "node_count": 20,
+  "executed": false,
+  "modified": false,
+  "generations_per_video_verified": false,
+  "nodes": [
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "SaveVideo",
+      "id": "1874",
+      "input_names": [
+        "filename_prefix",
+        "format",
+        "format.codec",
+        "codec",
+        "video"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {
+        "megapixels": 0.4,
+        "aspect_ratio": "16:9 (Widescreen)",
+        "multiple": 32
+      },
+      "type": "ResolutionSelector",
+      "id": "1876",
+      "input_names": [
+        "aspect_ratio",
+        "megapixels",
+        "multiple"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "LoadImage",
+      "id": "1877",
+      "input_names": [
+        "image"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "LoadImage",
+      "id": "1878",
+      "input_names": [
+        "image"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "VAELoader",
+      "id": "1875:1858",
+      "input_names": [
+        "vae_name"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "VAELoader",
+      "id": "1875:1859",
+      "input_names": [
+        "vae_name"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "VAEDecodeAudio",
+      "id": "1875:1860",
+      "input_names": [
+        "samples",
+        "vae"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "VAEDecode",
+      "id": "1875:1861",
+      "input_names": [
+        "samples",
+        "vae"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "SamplerCustomAdvanced",
+      "id": "1875:1862",
+      "input_names": [
+        "noise",
+        "guider",
+        "sampler",
+        "sigmas",
+        "latent_image"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "CLIPLoader",
+      "id": "1875:1863",
+      "input_names": [
+        "clip_name",
+        "type",
+        "device"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {
+        "noise_seed": 393802930099467
+      },
+      "type": "RandomNoise",
+      "id": "1875:1864",
+      "input_names": [
+        "noise_seed"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {
+        "fps": 24,
+        "bit_depth": 8
+      },
+      "type": "CreateVideo",
+      "id": "1875:1865",
+      "input_names": [
+        "fps",
+        "bit_depth",
+        "color_space",
+        "images",
+        "audio"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "MiniMaxH3ImageToVideo",
+      "id": "1875:1866",
+      "input_names": [
+        "prompt",
+        "width",
+        "height",
+        "length",
+        "clip",
+        "vae",
+        "first_frame",
+        "last_frame"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {
+        "expression": "max(5, round(a * 24)) + (5 - (max(5, round(a * 24)) % 17)) % 17"
+      },
+      "type": "ComfyMathExpression",
+      "id": "1875:1867",
+      "input_names": [
+        "expression",
+        "values.a"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {
+        "value": 10
+      },
+      "type": "PrimitiveFloat",
+      "id": "1875:1868",
+      "input_names": [
+        "value"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "UNETLoader",
+      "id": "1875:1869",
+      "input_names": [
+        "unet_name",
+        "weight_dtype"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {},
+      "type": "BasicGuider",
+      "id": "1875:1870",
+      "input_names": [
+        "model",
+        "conditioning"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {
+        "strength_model": 1
+      },
+      "type": "LoraLoaderModelOnly",
+      "id": "1875:1871",
+      "input_names": [
+        "lora_name",
+        "strength_model",
+        "model"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {
+        "scheduler": "simple",
+        "steps": 8,
+        "denoise": 1
+      },
+      "type": "BasicScheduler",
+      "id": "1875:1872",
+      "input_names": [
+        "scheduler",
+        "steps",
+        "denoise",
+        "model"
+      ]
+    },
+    {
+      "selected_nonsecret_parameters": {
+        "sampler_name": "euler"
+      },
+      "type": "KSamplerSelect",
+      "id": "1875:1873",
+      "input_names": [
+        "sampler_name"
+      ]
+    }
+  ]
+}

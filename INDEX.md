@@ -1,7 +1,7 @@
 
 # AI 智能体共享记忆总索引
 
-Scene01 当前空间：用户已确定采用右侧白色下柜，详见[前半段导演方案与最小任务V2](projects/年复一年/reviews/20261020_white-cabinet_v2/README.md)。V2镜头方案仍待审核。此前[盘点V1](projects/年复一年/reviews/20261020/README.md)保留历史，旧电视柜图片提示词已停用；不代表已批准生图或视频生成。
+Scene01 当前审核入口：[新版前半段导演方案/迁移清单/完整生图任务V1](projects/年复一年/reviews/20261020_front-half_v1/README.md)。白色下柜空间已确认，镜头/时间光色/结构等方案待审；不具备关键帧生成完整条件。本轮未生成媒体。此前[白柜V2](projects/年复一年/reviews/20261020_white-cabinet_v2/README.md)与[旧盘点V1](projects/年复一年/reviews/20261020/README.md)保留只读历史，旧电视柜逻辑退出。
 
 ## 一、记忆库说明
 本仓库用于 ChatGPT、Codex、Claude、Gemini
