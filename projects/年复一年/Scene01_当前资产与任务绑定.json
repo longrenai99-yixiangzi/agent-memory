@@ -1,7 +1,7 @@
 {
   "project": "年复一年",
   "scene": "Scene01",
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "current_registry": "projects/年复一年/reviews/20261020_wife-assets_v1/Scene01_人物服装资产登记V1.json",
   "current_task_revision": "projects/年复一年/reviews/20261020_wife-assets_v1/Scene01_人物关键帧任务_V1.json",
   "identity_front": "SC01-CHR-W-001",
@@ -55,5 +55,16 @@
   },
   "current_keyframe_binary_available": true,
   "next_task": "S01-KF-002",
-  "current_keyframe_repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png"
+  "current_keyframe_repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
+  "latest_keyframe_registry": "projects/年复一年/reviews/20261021_keyframes_03A-06/Scene01_关键帧登记_03A-06_V1.json",
+  "latest_keyframe_sequence": [
+    "03A",
+    "04A",
+    "05A",
+    "05B",
+    "06"
+  ],
+  "latest_keyframe_registry_updated_at": "2026-10-21",
+  "latest_keyframe_binary_sync_status": "pending_upload",
+  "latest_keyframe_binary_sync_note": "本轮已登记元数据与SHA-256；5张PNG原始二进制尚未上传GitHub。后续按SHA-256核验后归档，不覆盖原图。"
 }
