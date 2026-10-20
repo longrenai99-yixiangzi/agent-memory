@@ -1,0 +1,769 @@
+{
+  "project": "年复一年",
+  "scene": "Scene01",
+  "created_at": "2026-10-20",
+  "asset_set": "20261020-night-five-v1",
+  "status": "待用户与ChatGPT审核；未生成媒体",
+  "execution_allowed": false,
+  "generated_media": false,
+  "active_master_reference": "SC01-ENV-001",
+  "registry": "Scene01_五图资产登记V1.json",
+  "inherited_asset_ids": [
+    "SC01-ENV-001",
+    "SC01-ENV-002",
+    "SC01-PROP-001",
+    "SC01-PROP-002",
+    "SC01-PROP-003"
+  ],
+  "clear_scope": {
+    "confirmed_by": "用户本轮补充",
+    "target": "下层目标柜格",
+    "upper_contents": "篮子/罐子/碟保留原位",
+    "ask_again": false
+  },
+  "minimum_plan": {
+    "core_character_frames": 4,
+    "optional_character_frames": 2,
+    "mandatory_asset_repair": 1,
+    "conditional_local_space_repair": 1,
+    "max_image_tasks": 8,
+    "existing_scene_images_to_reuse": 5,
+    "not_all_must_generate": true
+  },
+  "quality_blockers": [
+    "SC01-PROP-001露盒且上层同纹样盒状物，原图不合格",
+    "局部柜门列/开口与ENV-001对应待核",
+    "部分显露→下层清开必须由动作或经批准剪辑解释"
+  ],
+  "tasks": [
+    {
+      "task_id": "SC01-FIX-001",
+      "version": "夜景五图后续审核v1",
+      "scene": "Scene01前半段",
+      "type": "B",
+      "requirement": "必需返修；只修原不合格图",
+      "purpose": "PROP-001隐藏状态返修",
+      "note": "原始PROP-001不得作为合格视频首帧，仅可作编辑靶图。",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [],
+      "additional_quality_gates": [
+        "保留原图v01，另存v02；不以删目标盒或压黑替代遮挡",
+        "修改后再进行隐藏状态验收，当前不宣称通过"
+      ],
+      "required_decisions": [
+        "修订方案及执行范围审批（遮挡/唯一盒约束已确认，不重问）"
+      ],
+      "references": [
+        {
+          "id": "SC01-PROP-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-001_box-hidden.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-001_box-hidden.png",
+          "sha256": "7b7370901619143cf9849db6feb737865864fbd2e34cf1c4248bc642c27d1059",
+          "exists": true,
+          "purpose": "柜内初始遮挡状态（用途指定，原图不合格）",
+          "quality_gate": "不合格：需修改",
+          "input_role": "仅作不合格编辑靶图，禁止合格首帧用途"
+        },
+        {
+          "id": "SC01-PROP-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-002_box-first-reveal.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-002_box-first-reveal.png",
+          "sha256": "058072bd63a5fb16eab451ff13b01ab162edbae2cf9f93e48a2de982283c8d41",
+          "exists": true,
+          "purpose": "旧盒初次显露状态",
+          "quality_gate": "首次显露候选；跨图连续性待审",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-PROP-003",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-003_box-fully-revealed.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-003_box-fully-revealed.png",
+          "sha256": "a80e9cc2f7b805f18baf75cff192d89194971b0f6c1ecca7164601fc3cb51a6c",
+          "exists": true,
+          "purpose": "柜内清理完成、盒完全显露",
+          "quality_gate": "符合用户澄清后的下层清开状态定义；抓取空间与跨图连续性待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "PR01",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/场景道具补充_20261017/PR01_旧照片盒_外观三视参考.png",
+          "exists": true,
+          "purpose": "旧盒外观与盖身比例，非新柜结构/实物尺寸证明",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        }
+      ],
+      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_夜景五图后续_V1/SC01-FIX-001/SC01-PROP-001_box-hidden-v02.png",
+      "output_exists": false,
+      "generation_prompt": "这是一张供用户审核的创作/修订候选，不代表镜位、姿态、画幅或最终调色已批准。本候选暂用16:9电影静帧；若批准其他比例需另发统一版本，不裁掉关键柜/平台关系。保持ENV-001的同一白木夜景空间、家具位置与暖室内/冷夜窗基准；人物脸和手要自然可读，不能全脸橙染、移灯或加柜内自发光。只输出单张，无多格拼贴、字幕、标签、水印。\n以SC01-PROP-001原图为编辑靶图，保留其白柜、层板、门扇、取景和照明，只修遮挡状态与重复盒错误。唯一目标棕斑合盖旧盒仍在下层原后方，完整被前方大收纳篮、叠布和小篮遮住，从该机位看不见任何盖沿、顶部、边角、正面或可识别轮廓；不是删掉目标盒，也不是把柜内压成黑洞。以PROP-002/003与PR01为唯一目标盒外观依据，不照搬它们显露的状态。去掉PROP-001上层右后误增的同花纹盒状物，上层原篮、罐、碟和下层各收纳物继续保留，不把柜子清空，不增全新挡板。不要让透孔/提手开口露出目标盒。输出一张同机位、无人物的初始状态修正版，原图不覆盖。",
+      "acceptance": [
+        "门已开而盒所有可识别部位完全不可见；检查提手孔/篮缝及左右角",
+        "上层无第二只同纹样盒，篮罐碟原位保持",
+        "与首次显露图可联合解释盒确在深处，不能只凭看不见就判隐藏真实"
+      ],
+      "failures_and_repairs": [
+        "露角：只调前物遮挡范围/位置，不改盒比例",
+        "用删盒/压黑假遮挡：恢复唯一盒的后方空间关系后再审"
+      ],
+      "review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "遮挡硬约束",
+          "唯一盒约束"
+        ]
+      },
+      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON"
+    },
+    {
+      "task_id": "SC01-FIX-ENV002",
+      "version": "夜景五图后续审核v1",
+      "scene": "Scene01前半段",
+      "type": "B",
+      "requirement": "条件返修；先查空间对应，能解释则取消",
+      "purpose": "局部柜体与母版对齐",
+      "note": "仅在门列/开口映射证实不相容时需要新图，不能默认重做。",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [],
+      "additional_quality_gates": [
+        "先核真实门列映射；能够解释则取消修图",
+        "只在确认局部不相容且获批方案后适配，不改变ENV-001既定布局"
+      ],
+      "required_decisions": [
+        "D-GEOM"
+      ],
+      "references": [
+        {
+          "id": "SC01-ENV-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "sha256": "d40b552432f0775abc3913dbb959e8ceeb2b255c191965eba0727f959e7827a5",
+          "exists": true,
+          "purpose": "夜景客厅空间母版",
+          "quality_gate": "可用作本轮夜景空间基准；不等于全镜位/最终调色批准",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-ENV-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "sha256": "e5efc4b04a1deb3b7b8a71da26b8c785170e98550b7635eb46637fea3c462adb",
+          "exists": true,
+          "purpose": "右侧下柜局部空间图",
+          "quality_gate": "局部候选可参考，结构/门列对应待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        }
+      ],
+      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_夜景五图后续_V1/SC01-FIX-ENV002/SC01-ENV-002_cabinet-area-v02.png",
+      "output_exists": false,
+      "generation_prompt": "这是一张供用户审核的创作/修订候选，不代表镜位、姿态、画幅或最终调色已批准。本候选暂用16:9电影静帧；若批准其他比例需另发统一版本，不裁掉关键柜/平台关系。保持ENV-001的同一白木夜景空间、家具位置与暖室内/冷夜窗基准；人物脸和手要自然可读，不能全脸橙染、移灯或加柜内自发光。只输出单张，无多格拼贴、字幕、标签、水印。\n仅在已确认局部图门列与母版不相容时，编辑SC01-ENV-002：以ENV-001为唯一空间权威，纠正局部图白柜外轮廓、门列和开口位置，使其与同一窗平台、右壁龛、沙发和木桌的相对关系一致。保持局部斜向观察的意图，柜门已经打开，上下层保留日常物，不把它当关门开场。不得扩大柜体、增加一排门、移动平台或改造另一间房去容纳开口；镜头可以改变观察范围，但可见世界结构不变。上层篮罐碟保留，目标下层的合格遮挡状态以后置已审修正版约束，不能从原PROP-001复制露盒错误。本任务不负责重新设计全屋，不在图中画箭头文字。",
+      "acceptance": [
+        "与母版门缝/平台端点/壁龛/外轮廓可对应",
+        "开门与人物预留区相容，不多造柜门或房间",
+        "若原局部图已可对应，记录解释直接复用，不出新图"
+      ],
+      "failures_and_repairs": [
+        "为套局部扩大柜体：回母版，先解决结构映射",
+        "单图好看但像另一房间：停止向下游传播"
+      ],
+      "review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "D-GEOM"
+        ]
+      },
+      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON"
+    },
+    {
+      "task_id": "S01-WC10",
+      "version": "夜景五图后续审核v1",
+      "scene": "Scene01前半段",
+      "type": "C",
+      "requirement": "核心1/4；人物到达前区域",
+      "purpose": "妻子自然进入右柜区域",
+      "note": "覆盖A接近；母版与身份现有，不再补无人空景。",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "SC01-FIX-001"
+      ],
+      "additional_quality_gates": [
+        "PROP-001修正版严格隐藏通过（原v01不得替代）",
+        "ENV-001/002门列映射可解释",
+        "PROP-002/003盒/物件连续性、下层物品落点通过"
+      ],
+      "required_decisions": [
+        "D-GEOM",
+        "D-POSE",
+        "D-AR",
+        "D-LIGHT"
+      ],
+      "references": [
+        {
+          "id": "SC01-ENV-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "sha256": "d40b552432f0775abc3913dbb959e8ceeb2b255c191965eba0727f959e7827a5",
+          "exists": true,
+          "purpose": "夜景客厅空间母版",
+          "quality_gate": "可用作本轮夜景空间基准；不等于全镜位/最终调色批准",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A15",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A15_WIFE_OLDER_正面.png",
+          "exists": true,
+          "purpose": "晚年妻子身份正面与发型，不继承蓝底/白吊带",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A16",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A16_WIFE_OLDER_侧面朝画右.png",
+          "exists": true,
+          "purpose": "同人物侧脸轮廓，不锁旧眼线/机位",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "COSTUME",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/开场交流段_批次01/01-02b_v01.png",
+          "exists": true,
+          "purpose": "只供已讨论奶油针织/灰绿裙服装参考，不继承旧脸、夜窗、棕沙发或姿态",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        }
+      ],
+      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_夜景五图后续_V1/S01-WC10/S01-WC10_v01.png",
+      "output_exists": false,
+      "generation_prompt": "这是一张供用户审核的创作/修订候选，不代表镜位、姿态、画幅或最终调色已批准。本候选暂用16:9电影静帧；若批准其他比例需另发统一版本，不裁掉关键柜/平台关系。保持ENV-001的同一白木夜景空间、家具位置与暖室内/冷夜窗基准；人物脸和手要自然可读，不能全脸橙染、移灯或加柜内自发光。只输出单张，无多格拼贴、字幕、标签、水印。\n同一夜景客厅，从前侧可用通道取中全景，约35—40mm自然视角，镜头中心约1.2m概念高度。妻子为A15/A16同一晚年人物，穿现有奶油针织/灰绿裙候选，正从已知沙发侧向右白色下柜走近，目光在正常家务收纳区而非预先寻找盒子，双手自然空着，步幅克制。画面交代左沙发、木桌及右白柜的关系，脚绕过小桌，别踩上窗下平台。柜门全部关闭，盒及柜内物不可见，无丈夫。不虚构屋外入口/额外门或改变家具，服装旧图只管衣料，不把旧棕木客厅带入。",
+      "acceptance": [
+        "接近路径不穿桌/平台，门关、没露盒",
+        "人物脸/发型/服装按各参考职责，不让旧背景混入",
+        "仅走近的首帧，不同时开门/发现/抱盒"
+      ],
+      "failures_and_repairs": [
+        "缩小人/拉长房间：先改构图提案，不动母版家具",
+        "一开始就寻盒表情：恢复普通家务注意"
+      ],
+      "review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "D-GEOM",
+          "D-POSE",
+          "D-AR",
+          "D-LIGHT"
+        ]
+      },
+      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON"
+    },
+    {
+      "task_id": "S01-WC03",
+      "version": "夜景五图后续审核v1",
+      "scene": "Scene01前半段",
+      "type": "C",
+      "requirement": "核心2/4；关门整理起点",
+      "purpose": "柜前稳定姿态与开门起点",
+      "note": "覆盖B姿态及C开门前，蹲姿只作待审候选。",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "SC01-FIX-001"
+      ],
+      "additional_quality_gates": [
+        "PROP-001修正版严格隐藏通过（原v01不得替代）",
+        "ENV-001/002门列映射可解释",
+        "PROP-002/003盒/物件连续性、下层物品落点通过"
+      ],
+      "required_decisions": [
+        "D-GEOM",
+        "D-POSE",
+        "D-AR",
+        "D-LIGHT"
+      ],
+      "references": [
+        {
+          "id": "SC01-ENV-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "sha256": "d40b552432f0775abc3913dbb959e8ceeb2b255c191965eba0727f959e7827a5",
+          "exists": true,
+          "purpose": "夜景客厅空间母版",
+          "quality_gate": "可用作本轮夜景空间基准；不等于全镜位/最终调色批准",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-ENV-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "sha256": "e5efc4b04a1deb3b7b8a71da26b8c785170e98550b7635eb46637fea3c462adb",
+          "exists": true,
+          "purpose": "右侧下柜局部空间图",
+          "quality_gate": "局部候选可参考，结构/门列对应待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A15",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A15_WIFE_OLDER_正面.png",
+          "exists": true,
+          "purpose": "晚年妻子身份正面与发型，不继承蓝底/白吊带",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A16",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A16_WIFE_OLDER_侧面朝画右.png",
+          "exists": true,
+          "purpose": "同人物侧脸轮廓，不锁旧眼线/机位",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "COSTUME",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/开场交流段_批次01/01-02b_v01.png",
+          "exists": true,
+          "purpose": "只供已讨论奶油针织/灰绿裙服装参考，不继承旧脸、夜窗、棕沙发或姿态",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        }
+      ],
+      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_夜景五图后续_V1/S01-WC03/S01-WC03_v01.png",
+      "output_exists": false,
+      "generation_prompt": "这是一张供用户审核的创作/修订候选，不代表镜位、姿态、画幅或最终调色已批准。本候选暂用16:9电影静帧；若批准其他比例需另发统一版本，不裁掉关键柜/平台关系。保持ENV-001的同一白木夜景空间、家具位置与暖室内/冷夜窗基准；人物脸和手要自然可读，不能全脸橙染、移灯或加柜内自发光。只输出单张，无多格拼贴、字幕、标签、水印。\n在已核的新白柜前，从中央通道同侧斜看，中景约40—50mm，镜头中心接近实际操作眼高。妻子在开口左前侧采用稳定低位蹲姿候选，双脚有地面支撑，裙摆自然，手准备够真实门把手，眼看把手/家务区域，不盯柜内。人物和门扇将开启的地面互不占用，至少可读脸、手、门和身体支撑。柜门此刻仍关闭：ENV-002仅提供局部位置，不继承其已开门状态，不凭局部图擅自改变母版门列。盒不可见，尚未整理前部物品，没有旧小凳、丈夫或照片。",
+      "acceptance": [
+        "低位姿态可达把手且不被门扇撞，膝脚/裙摆可信",
+        "门关与ENV-001一致；开门方向从核验映射推导",
+        "普通整理表情，无提前识别/怀旧"
+      ],
+      "failures_and_repairs": [
+        "门已开：只纠正时间状态，别把开门全过程塞进一张图",
+        "蹲姿不适/站位挡门：退回姿态审批，比较辅助凳"
+      ],
+      "review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "D-GEOM",
+          "D-POSE",
+          "D-AR",
+          "D-LIGHT"
+        ]
+      },
+      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON"
+    },
+    {
+      "task_id": "S01-WC04",
+      "version": "夜景五图后续审核v1",
+      "scene": "Scene01前半段",
+      "type": "C",
+      "requirement": "核心3/4；部分显露与发现",
+      "purpose": "移前物后的停手发现关键态",
+      "note": "覆盖D移物/E发现，仍有余物；不画全清空。",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "SC01-FIX-001",
+        "S01-WC03"
+      ],
+      "additional_quality_gates": [
+        "PROP-001修正版严格隐藏通过（原v01不得替代）",
+        "ENV-001/002门列映射可解释",
+        "PROP-002/003盒/物件连续性、下层物品落点通过"
+      ],
+      "required_decisions": [
+        "D-GEOM",
+        "D-POSE",
+        "D-EDIT",
+        "D-AR",
+        "D-LIGHT"
+      ],
+      "references": [
+        {
+          "id": "SC01-ENV-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "sha256": "d40b552432f0775abc3913dbb959e8ceeb2b255c191965eba0727f959e7827a5",
+          "exists": true,
+          "purpose": "夜景客厅空间母版",
+          "quality_gate": "可用作本轮夜景空间基准；不等于全镜位/最终调色批准",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-ENV-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "sha256": "e5efc4b04a1deb3b7b8a71da26b8c785170e98550b7635eb46637fea3c462adb",
+          "exists": true,
+          "purpose": "右侧下柜局部空间图",
+          "quality_gate": "局部候选可参考，结构/门列对应待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-PROP-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-002_box-first-reveal.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-002_box-first-reveal.png",
+          "sha256": "058072bd63a5fb16eab451ff13b01ab162edbae2cf9f93e48a2de982283c8d41",
+          "exists": true,
+          "purpose": "旧盒初次显露状态",
+          "quality_gate": "首次显露候选；跨图连续性待审",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A15",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A15_WIFE_OLDER_正面.png",
+          "exists": true,
+          "purpose": "晚年妻子身份正面与发型，不继承蓝底/白吊带",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A16",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A16_WIFE_OLDER_侧面朝画右.png",
+          "exists": true,
+          "purpose": "同人物侧脸轮廓，不锁旧眼线/机位",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "COSTUME",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/开场交流段_批次01/01-02b_v01.png",
+          "exists": true,
+          "purpose": "只供已讨论奶油针织/灰绿裙服装参考，不继承旧脸、夜窗、棕沙发或姿态",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "PR01",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/场景道具补充_20261017/PR01_旧照片盒_外观三视参考.png",
+          "exists": true,
+          "purpose": "旧盒外观与盖身比例，非新柜结构/实物尺寸证明",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        }
+      ],
+      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_夜景五图后续_V1/S01-WC04/S01-WC04_v01.png",
+      "output_exists": false,
+      "generation_prompt": "这是一张供用户审核的创作/修订候选，不代表镜位、姿态、画幅或最终调色已批准。本候选暂用16:9电影静帧；若批准其他比例需另发统一版本，不裁掉关键柜/平台关系。保持ENV-001的同一白木夜景空间、家具位置与暖室内/冷夜窗基准；人物脸和手要自然可读，不能全脸橙染、移灯或加柜内自发光。只输出单张，无多格拼贴、字幕、标签、水印。\n沿批准的同侧操作机位取中近景，约50mm，镜头中心接近妻子低位眼高。妻子以与WC03相容的稳定姿态，将部分前物移到身旁可见安全落点并刚放稳，双手暂缓下一次动作，目光转向柜深。下层同一PR01类合盖盒此时首次可辨，仍在深处；余下大篮/小篮/布品按PROP-002保留，不自动清成PROP-003。上层篮罐碟始终不动。侧脸和停手为观看重点，轻微收眉、嘴自然合拢，疑惑好奇而非认出/感动；未摸盒。柜门/柜框按合格初始图与局部对应保持，前物不能消失、复制或出现在取盒路线里。",
+      "acceptance": [
+        "侧脸/手停顿可读，物已放稳，盒未跟着前物滑出",
+        "PROP-002的部分收纳物仍在；上层不动",
+        "与修正版隐藏图具有实际遮挡解除的可解释关系"
+      ],
+      "failures_and_repairs": [
+        "清空下层再发现：恢复部分显露阶段，不删发现节点",
+        "盒随篮移动/前物凭空消失：锁盒原位与明确落点"
+      ],
+      "review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "D-GEOM",
+          "D-POSE",
+          "D-EDIT",
+          "D-AR",
+          "D-LIGHT"
+        ]
+      },
+      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON"
+    },
+    {
+      "task_id": "S01-WC05",
+      "version": "夜景五图后续审核v1",
+      "scene": "Scene01前半段",
+      "type": "C",
+      "requirement": "条件补图1/2；若核心帧已可读则合并",
+      "purpose": "观察盒子、疑惑好奇的反应覆盖",
+      "note": "覆盖F观察。可回WC04操作镜位延续，表情不清才新出近景。",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC04"
+      ],
+      "additional_quality_gates": [
+        "PROP-001修正版严格隐藏通过（原v01不得替代）",
+        "ENV-001/002门列映射可解释",
+        "PROP-002/003盒/物件连续性、下层物品落点通过"
+      ],
+      "required_decisions": [
+        "D-POSE",
+        "D-EDIT",
+        "D-AR",
+        "D-LIGHT"
+      ],
+      "references": [
+        {
+          "id": "SC01-ENV-001",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+          "sha256": "d40b552432f0775abc3913dbb959e8ceeb2b255c191965eba0727f959e7827a5",
+          "exists": true,
+          "purpose": "夜景客厅空间母版",
+          "quality_gate": "可用作本轮夜景空间基准；不等于全镜位/最终调色批准",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-ENV-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "sha256": "e5efc4b04a1deb3b7b8a71da26b8c785170e98550b7635eb46637fea3c462adb",
+          "exists": true,
+          "purpose": "右侧下柜局部空间图",
+          "quality_gate": "局部候选可参考，结构/门列对应待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A15",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A15_WIFE_OLDER_正面.png",
+          "exists": true,
+          "purpose": "晚年妻子身份正面与发型，不继承蓝底/白吊带",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A16",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A16_WIFE_OLDER_侧面朝画右.png",
+          "exists": true,
+          "purpose": "同人物侧脸轮廓，不锁旧眼线/机位",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "COSTUME",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/开场交流段_批次01/01-02b_v01.png",
+          "exists": true,
+          "purpose": "只供已讨论奶油针织/灰绿裙服装参考，不继承旧脸、夜窗、棕沙发或姿态",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        }
+      ],
+      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_夜景五图后续_V1/S01-WC05/S01-WC05_v01.png",
+      "output_exists": false,
+      "generation_prompt": "这是一张供用户审核的创作/修订候选，不代表镜位、姿态、画幅或最终调色已批准。本候选暂用16:9电影静帧；若批准其他比例需另发统一版本，不裁掉关键柜/平台关系。保持ENV-001的同一白木夜景空间、家具位置与暖室内/冷夜窗基准；人物脸和手要自然可读，不能全脸橙染、移灯或加柜内自发光。只输出单张，无多格拼贴、字幕、标签、水印。\n同一观察侧妻子头肩近景，约65mm，镜头中心与实际低位眼高接近，不穿墙/柜内拍正脸。人物身份与发型来自A15/A16，衣服仅按已选衣料。她刚看见柜深盒子，眼睛低向同一实际落点，眉间轻收、嘴自然合拢，轻微前倾，像在确认为什么会在这里并考虑拿出来；没有怀旧笑、泪、夸张惊讶或已看照片的感动。下沿可留未抓盒的手/袖边，身后只出现新白柜/平台相容背景，暖室内与冷夜窗关系保持，不继承蓝底肖像光或旧夜城房间。",
+      "acceptance": [
+        "眼线与WC04/PROP-002对应，未提前抱盒或认出",
+        "年龄纹理和侧脸相容、受光来源合理",
+        "先审WC04是否足够，能合并则取消此图"
+      ],
+      "failures_and_repairs": [
+        "脸年轻化/美颜/怀旧笑：回原身份，只修表演",
+        "图只漂亮而无观察对象：重核眼线与切回接口"
+      ],
+      "review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "D-POSE",
+          "D-EDIT",
+          "D-AR",
+          "D-LIGHT"
+        ]
+      },
+      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON"
+    },
+    {
+      "task_id": "S01-WC12",
+      "version": "夜景五图后续审核v1",
+      "scene": "Scene01前半段",
+      "type": "C",
+      "requirement": "条件补图2/2；只有握法/净距不清才补",
+      "purpose": "下层已清开后的接盒状态",
+      "note": "覆盖G准备伸手，不能用部分显露图跳过余物移出。",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC04"
+      ],
+      "additional_quality_gates": [
+        "PROP-001修正版严格隐藏通过（原v01不得替代）",
+        "ENV-001/002门列映射可解释",
+        "PROP-002/003盒/物件连续性、下层物品落点通过"
+      ],
+      "required_decisions": [
+        "D-GEOM",
+        "D-POSE",
+        "D-EDIT",
+        "D-AR",
+        "D-LIGHT"
+      ],
+      "references": [
+        {
+          "id": "SC01-ENV-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "sha256": "e5efc4b04a1deb3b7b8a71da26b8c785170e98550b7635eb46637fea3c462adb",
+          "exists": true,
+          "purpose": "右侧下柜局部空间图",
+          "quality_gate": "局部候选可参考，结构/门列对应待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-PROP-003",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-003_box-fully-revealed.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-003_box-fully-revealed.png",
+          "sha256": "a80e9cc2f7b805f18baf75cff192d89194971b0f6c1ecca7164601fc3cb51a6c",
+          "exists": true,
+          "purpose": "柜内清理完成、盒完全显露",
+          "quality_gate": "符合用户澄清后的下层清开状态定义；抓取空间与跨图连续性待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A15",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A15_WIFE_OLDER_正面.png",
+          "exists": true,
+          "purpose": "晚年妻子身份正面与发型，不继承蓝底/白吊带",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "COSTUME",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/开场交流段_批次01/01-02b_v01.png",
+          "exists": true,
+          "purpose": "只供已讨论奶油针织/灰绿裙服装参考，不继承旧脸、夜窗、棕沙发或姿态",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "PR01",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/场景道具补充_20261017/PR01_旧照片盒_外观三视参考.png",
+          "exists": true,
+          "purpose": "旧盒外观与盖身比例，非新柜结构/实物尺寸证明",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        }
+      ],
+      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_夜景五图后续_V1/S01-WC12/S01-WC12_v01.png",
+      "output_exists": false,
+      "generation_prompt": "这是一张供用户审核的创作/修订候选，不代表镜位、姿态、画幅或最终调色已批准。本候选暂用16:9电影静帧；若批准其他比例需另发统一版本，不裁掉关键柜/平台关系。保持ENV-001的同一白木夜景空间、家具位置与暖室内/冷夜窗基准；人物脸和手要自然可读，不能全脸橙染、移灯或加柜内自发光。只输出单张，无多格拼贴、字幕、标签、水印。\n同侧柜口外的手盒与衣袖中近景，约50—60mm，镜头中心按下层格高度与实际姿态核。此前下层前物已经逐件移到批准可见落点，当前下层只剩合盖旧盒，上层篮罐碟仍原位。妻子以稳定低位姿态，一手扶盒身侧面，另一手试着从可达下缘承托，盒尚未完整取出；盖不被指尖勾起，不出现开盖黑缝。保留门内缘、层板前沿与手臂连接关系，手不能穿层板或纸板，不能为能托底扩大柜深或缩盒。这里只画接触起势，不拼出全过程、不提前出现照片。",
+      "acceptance": [
+        "先有部分显露→清余物动作设计，再使用此状态",
+        "底缘可达、手/肘/门/层板不冲突，盒唯一合盖",
+        "若WC07及实际动作已足够清楚则免做"
+      ],
+      "failures_and_repairs": [
+        "手穿板/夹盖：修握法及接近路线，不凭空使盒悬浮",
+        "为了伸手改盒比例/位置：回原柜口与PR01联合校核"
+      ],
+      "review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "D-GEOM",
+          "D-POSE",
+          "D-EDIT",
+          "D-AR",
+          "D-LIGHT"
+        ]
+      },
+      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON"
+    },
+    {
+      "task_id": "S01-WC07",
+      "version": "夜景五图后续审核v1",
+      "scene": "Scene01前半段",
+      "type": "C",
+      "requirement": "核心4/4；完整取出末态",
+      "purpose": "盒从柜内取出并持稳的接口",
+      "note": "覆盖H；前半段止于完整取出，不开盖/站起赶路。",
+      "status": "待用户确认",
+      "execution_allowed": false,
+      "dependencies": [
+        "S01-WC04"
+      ],
+      "additional_quality_gates": [
+        "PROP-001修正版严格隐藏通过（原v01不得替代）",
+        "ENV-001/002门列映射可解释",
+        "PROP-002/003盒/物件连续性、下层物品落点通过"
+      ],
+      "required_decisions": [
+        "D-GEOM",
+        "D-POSE",
+        "D-EDIT",
+        "D-AR",
+        "D-LIGHT"
+      ],
+      "references": [
+        {
+          "id": "SC01-ENV-002",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+          "sha256": "e5efc4b04a1deb3b7b8a71da26b8c785170e98550b7635eb46637fea3c462adb",
+          "exists": true,
+          "purpose": "右侧下柜局部空间图",
+          "quality_gate": "局部候选可参考，结构/门列对应待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "SC01-PROP-003",
+          "path": "D:/Codex/2026-10-20/codex-agent-memory/work/github-agent-memory-20261020/projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-003_box-fully-revealed.png",
+          "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-003_box-fully-revealed.png",
+          "sha256": "a80e9cc2f7b805f18baf75cff192d89194971b0f6c1ecca7164601fc3cb51a6c",
+          "exists": true,
+          "purpose": "柜内清理完成、盒完全显露",
+          "quality_gate": "符合用户澄清后的下层清开状态定义；抓取空间与跨图连续性待核",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A15",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A15_WIFE_OLDER_正面.png",
+          "exists": true,
+          "purpose": "晚年妻子身份正面与发型，不继承蓝底/白吊带",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "A16",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/角色资产_20261016更新/A16_WIFE_OLDER_侧面朝画右.png",
+          "exists": true,
+          "purpose": "同人物侧脸轮廓，不锁旧眼线/机位",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "COSTUME",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/开场交流段_批次01/01-02b_v01.png",
+          "exists": true,
+          "purpose": "只供已讨论奶油针织/灰绿裙服装参考，不继承旧脸、夜窗、棕沙发或姿态",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        },
+        {
+          "id": "PR01",
+          "path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/场景道具补充_20261017/PR01_旧照片盒_外观三视参考.png",
+          "exists": true,
+          "purpose": "旧盒外观与盖身比例，非新柜结构/实物尺寸证明",
+          "input_role": "按purpose使用，不是已通过动态状态"
+        }
+      ],
+      "output_path": "D:/文档/ChatGPT/AI短片/年复一年_V6_导演重写与制作包/Scene01_夜景五图后续_V1/S01-WC07/S01-WC07_v01.png",
+      "output_exists": false,
+      "generation_prompt": "这是一张供用户审核的创作/修订候选，不代表镜位、姿态、画幅或最终调色已批准。本候选暂用16:9电影静帧；若批准其他比例需另发统一版本，不裁掉关键柜/平台关系。保持ENV-001的同一白木夜景空间、家具位置与暖室内/冷夜窗基准；人物脸和手要自然可读，不能全脸橙染、移灯或加柜内自发光。只输出单张，无多格拼贴、字幕、标签、水印。\n与柜前同侧相容的中景，约40—50mm，保留白柜口、门、妻子低位身体支撑及双手。妻子已完成清开下层前物的过程，上层篮罐碟未动；同一棕斑合盖盒完整取离柜口，在身前双手持稳，一手扶盒身、另一手承底。柜内原盒位空，不留第二只。下层移出的各篮/布品在批准安全落点有去向，不凭空消失；门与前镜一致保持打开。她视线看盒与手，不提前认出意义、不开盖、不抱盒走路或同时关门。不要通过改变盒长宽高/盖身比例或放大柜口解决支撑。",
+      "acceptance": [
+        "盒完整离柜、原位空且唯一；两手支撑、盖闭合",
+        "下层前物去向与N06a一致，上层原位不变",
+        "取出后仍同人物/姿态/机位，不跳到另一房间"
+      ],
+      "failures_and_repairs": [
+        "原柜留复制盒/纸板穿指：只修对应错误，保留合格身份/布局",
+        "直接从部分显露跳持盒：补清理动作/剪辑说明，不能删过程"
+      ],
+      "review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "result": null,
+        "evidence": [],
+        "needs_user_confirmation": [
+          "D-GEOM",
+          "D-POSE",
+          "D-EDIT",
+          "D-AR",
+          "D-LIGHT"
+        ]
+      },
+      "audit_note": "完整提示词仅供审核；不自动提交生成，不覆盖v01，不改旧任务JSON"
+    }
+  ],
+  "archive_review": {
+    "all_five_received": true,
+    "all_five_passed": false,
+    "independent_chatgpt_review": "待实际读取与审核"
+  },
+  "previous_plan_readonly": "../20261020_front-half_v1/Scene01_新版结构化任务_V1.json"
+}

@@ -1,0 +1,203 @@
+{
+  "project": "年复一年",
+  "scene": "Scene01",
+  "space_family": "同一白色下柜客厅",
+  "asset_set": "20261020-night-five-v1",
+  "source": "用户本轮按顺序上传5张PNG并指定编号/用途",
+  "previous_master": "L01-WC-MASTER-v1保留历史日间结构参考，不作为本轮夜景输出主色/状态输入",
+  "active_master_reference": "SC01-ENV-001",
+  "scene_count": 1,
+  "image_count": 5,
+  "status": "原图登记；审查与入库分开，PROP-001不合格",
+  "generation_executed": false,
+  "all_assets_approved": false,
+  "storage_policy": "沿现有reviews/<版本>/assets结构保存各原图唯一规范副本；不新建第二套平行正式素材库；旧原图/旧任务不改",
+  "assets": [
+    {
+      "asset_id": "SC01-ENV-001",
+      "canonical_name": "SC01-ENV-001_livingroom-night-master.png",
+      "purpose": "夜景客厅空间母版",
+      "source_path": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-5ea9c140-53a8-40c3-a236-aaa41c43dd69.png",
+      "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-001_livingroom-night-master.png",
+      "format": "PNG",
+      "width": 1199,
+      "height": 1312,
+      "bytes": 2465632,
+      "sha256": "d40b552432f0775abc3913dbb959e8ceeb2b255c191965eba0727f959e7827a5",
+      "version": "原始提交v01",
+      "intended_state": "整场空景，下柜关闭，无人物",
+      "archive_status": "已入库；源图与规范副本SHA256一致，原件保留",
+      "visual_review": {
+        "reviewer": "Codex",
+        "method": "本轮用户附件及view_image实际看图；PROP三图另以原始分辨率检查",
+        "date": "2026-10-20",
+        "verdict": "可用作本轮夜景空间基准；不等于全镜位/最终调色批准",
+        "strict_hidden_pass": null,
+        "evidence": [
+          "实际看见左浅沙发、木桌/浅毯、后窗平台、右白柜；室内暖光与窗外冷蓝夜色",
+          "柜门关闭，未见人物或旧盒"
+        ],
+        "issues": [
+          "与ENV-002的柜门列/柜宽及开口位置尚未完成几何对应",
+          "当前参考图非16:9，正式视频画幅仍待确认"
+        ],
+        "independent_chatgpt_review": "待用户与ChatGPT审核，不冒记独立审查完成"
+      },
+      "approval": {
+        "user_designated_role": true,
+        "full_production_approved": false
+      },
+      "use_policy": "按指定参考角色使用；完整连续性/动态/导演批准另核"
+    },
+    {
+      "asset_id": "SC01-ENV-002",
+      "canonical_name": "SC01-ENV-002_cabinet-area.png",
+      "purpose": "右侧下柜局部空间图",
+      "source_path": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-809d5442-e1de-41cd-a1ed-c0d13e8a00cb.png",
+      "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-ENV-002_cabinet-area.png",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2443813,
+      "sha256": "e5efc4b04a1deb3b7b8a71da26b8c785170e98550b7635eb46637fea3c462adb",
+      "version": "原始提交v01",
+      "intended_state": "下柜已开，上下层有日常收纳物；非开场初始",
+      "archive_status": "已入库；源图与规范副本SHA256一致，原件保留",
+      "visual_review": {
+        "reviewer": "Codex",
+        "method": "本轮用户附件及view_image实际看图；PROP三图另以原始分辨率检查",
+        "date": "2026-10-20",
+        "verdict": "局部候选可参考，结构/门列对应待核",
+        "strict_hidden_pass": null,
+        "evidence": [
+          "窗平台、球灯、木桌与沙发前景形成局部关系；白柜右侧开放、上层篮与罐碟、下层收纳物可见",
+          "不能据此把开门状态当整场初始"
+        ],
+        "issues": [
+          "与ENV-001可见门列不完全相同，须核镜位/遮挡与实际开口映射，不认定为另一个场景",
+          "不能凭空景证明门扇运动或人体净距"
+        ],
+        "independent_chatgpt_review": "待用户与ChatGPT审核，不冒记独立审查完成"
+      },
+      "approval": {
+        "user_designated_role": true,
+        "full_production_approved": false
+      },
+      "use_policy": "按指定参考角色使用；完整连续性/动态/导演批准另核"
+    },
+    {
+      "asset_id": "SC01-PROP-001",
+      "canonical_name": "SC01-PROP-001_box-hidden.png",
+      "purpose": "柜内初始遮挡状态（用途指定，原图不合格）",
+      "source_path": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-e3670253-c4b5-4669-a1b7-cbb683c38876.png",
+      "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-001_box-hidden.png",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2262370,
+      "sha256": "7b7370901619143cf9849db6feb737865864fbd2e34cf1c4248bc642c27d1059",
+      "version": "原始提交v01",
+      "intended_state": "期望门开、前物未移、旧盒完全不可见",
+      "archive_status": "已入库；源图与规范副本SHA256一致，原件保留",
+      "visual_review": {
+        "reviewer": "Codex",
+        "method": "本轮用户附件及view_image实际看图；PROP三图另以原始分辨率检查",
+        "date": "2026-10-20",
+        "verdict": "不合格：需修改",
+        "strict_hidden_pass": false,
+        "evidence": [
+          "下层右后方在叠布/篮后仍露棕斑盒盖/盒体，能够辨认",
+          "上层右后方另见同花纹盒状物，与唯一目标盒的连续性不相容"
+        ],
+        "issues": [
+          "完全遮挡最高约束失败，不得作合格开柜首帧或视频输入",
+          "需隐藏唯一目标盒并排除上层重复盒；原图保留、派生另存"
+        ],
+        "independent_chatgpt_review": "待用户与ChatGPT审核，不冒记独立审查完成"
+      },
+      "approval": {
+        "user_designated_role": true,
+        "full_production_approved": false
+      },
+      "use_policy": "仅作不合格原图与返修依据，禁止作合格初始视频输入"
+    },
+    {
+      "asset_id": "SC01-PROP-002",
+      "canonical_name": "SC01-PROP-002_box-first-reveal.png",
+      "purpose": "旧盒初次显露状态",
+      "source_path": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-8fe5cc0d-b4f4-48cc-9f6f-28c9b10b1c25.png",
+      "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-002_box-first-reveal.png",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2236771,
+      "sha256": "058072bd63a5fb16eab451ff13b01ab162edbae2cf9f93e48a2de982283c8d41",
+      "version": "原始提交v01",
+      "intended_state": "下层右后盒已可辨，前物部分保留；上层物件仍在",
+      "archive_status": "已入库；源图与规范副本SHA256一致，原件保留",
+      "visual_review": {
+        "reviewer": "Codex",
+        "method": "本轮用户附件及view_image实际看图；PROP三图另以原始分辨率检查",
+        "date": "2026-10-20",
+        "verdict": "首次显露候选；跨图连续性待审",
+        "strict_hidden_pass": null,
+        "evidence": [
+          "下层盒在右后显露，左侧大篮叠布与前部小篮/竖叠布仍可见",
+          "上层大篮、罐、碟仍存在，未见PROP-001上层同纹样盒"
+        ],
+        "issues": [
+          "PROP-001不合格，尚未建立真正隐藏→首次出现的因果",
+          "与PROP-003机位/画幅不同，盒与篮位置/外形及纹样不可仅凭相似宣布锁定"
+        ],
+        "independent_chatgpt_review": "待用户与ChatGPT审核，不冒记独立审查完成"
+      },
+      "approval": {
+        "user_designated_role": true,
+        "full_production_approved": false
+      },
+      "use_policy": "按指定参考角色使用；完整连续性/动态/导演批准另核"
+    },
+    {
+      "asset_id": "SC01-PROP-003",
+      "canonical_name": "SC01-PROP-003_box-fully-revealed.png",
+      "purpose": "柜内清理完成、盒完全显露",
+      "source_path": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-e2e7a009-7d73-4d28-b695-d618618ceeda.png",
+      "repository_path": "projects/年复一年/reviews/20261020_night-assets_v1/assets/SC01-PROP-003_box-fully-revealed.png",
+      "format": "PNG",
+      "width": 1292,
+      "height": 1218,
+      "bytes": 2116269,
+      "sha256": "a80e9cc2f7b805f18baf75cff192d89194971b0f6c1ecca7164601fc3cb51a6c",
+      "version": "原始提交v01",
+      "intended_state": "下层目标柜格前物已清开，只剩合盖旧盒；上层篮/罐/碟保持原位（用户已澄清）",
+      "archive_status": "已入库；源图与规范副本SHA256一致，原件保留",
+      "visual_review": {
+        "reviewer": "Codex",
+        "method": "本轮用户附件及view_image实际看图；PROP三图另以原始分辨率检查",
+        "date": "2026-10-20",
+        "verdict": "符合用户澄清后的下层清开状态定义；抓取空间与跨图连续性待核",
+        "strict_hidden_pass": null,
+        "evidence": [
+          "下层格前部收纳物已移走，旧盒完整可见，前缘有一定空位",
+          "上层仍有大篮、白罐及叠碟，不满足字面整柜只剩盒子"
+        ],
+        "issues": [
+          "下层前物移出的过程和安全落点仍要交代，不能从部分显露直接跳变",
+          "可见空位不证明双手底托路径和实物尺寸；需人物接触/动态校核"
+        ],
+        "independent_chatgpt_review": "待用户与ChatGPT审核，不冒记独立审查完成"
+      },
+      "approval": {
+        "user_designated_role": true,
+        "full_production_approved": false,
+        "user_scope_clarification": {
+          "at": "2026-10-20",
+          "source": "用户本轮明确上层篮罐碟保留；结合上下文将末句“下层只剩柜子”理解为下层目标格只剩旧盒子",
+          "confirmed_scope": "仅清理下层目标格，上层不清空"
+        }
+      },
+      "use_policy": "按指定参考角色使用；完整连续性/动态/导演批准另核"
+    }
+  ],
+  "confirmed_clear_scope": "仅下层目标格清开，旧盒保留；上层篮罐碟保持原位"
+}
