@@ -13,7 +13,8 @@
     "height": 941,
     "size_bytes": 2866744,
     "sha256": "c5ebed0aa4c7a3b161fd49384bfb328848d006921c213260ecaa6243e29f2d78",
-    "original_locally_verified": true
+    "original_locally_verified": true,
+    "actual_upload_source": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-69e25176-02fe-4ee2-8bf0-32d255c52f66.png"
   },
   "approval": {
     "user_confirmed_keep": true,
@@ -28,9 +29,19 @@
     "record_path": "projects/年复一年/scene01/keyframes/04A/asset.json",
     "readme_path": "projects/年复一年/scene01/keyframes/04A/README.md",
     "planned_image_path": "projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png",
-    "image_uploaded": false,
-    "image_verified_on_github": false,
-    "upload_status": "pending_binary_upload"
+    "image_uploaded": true,
+    "image_verified_on_github": true,
+    "upload_status": "uploaded_and_sha256_verified",
+    "image_path": "projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png",
+    "upload_commit": "75ea3955b62c31aea572baf96d453fb98adead58",
+    "image_url": "https://github.com/longrenai99-yixiangzi/agent-memory/blob/75ea3955b62c31aea572baf96d453fb98adead58/projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png",
+    "verification": {
+      "method": "GitHub authenticated contents API raw bytes at immutable commit; SHA256 and byte count match registered original",
+      "verified_at": "2026-10-21",
+      "remote_sha256": "c5ebed0aa4c7a3b161fd49384bfb328848d006921c213260ecaa6243e29f2d78",
+      "remote_bytes": 2866744,
+      "verified": true
+    }
   },
   "no_overwrite": true,
   "registered_on": "2026-10-21"

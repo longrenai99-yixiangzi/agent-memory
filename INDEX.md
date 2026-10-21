@@ -1,9 +1,9 @@
-Scene01 六张关键帧最新独立登记入口：[03A、04A、05A、05B、06、07A 逐张资产目录](projects/年复一年/scene01/keyframes/README.md)。每张均有独立README与asset.json；原始PNG已在本次工作目录核验但尚未上传GitHub，不能把文字登记误认为图片文件入库。2026-10-21新增，不覆盖旧版历史登记。
+Scene01 七张PNG已真实上传并远程核验：[逐图原件与独立登记](projects/年复一年/scene01/keyframes/README.md)。包含03A、04A、05A、05B、06、07A及单独保留的03.png源图；更正的03A为站立开柜图。二进制提交75ea395，七张原字节经GitHub认证API取回，SHA256与源图一致。
 
 
 # AI 智能体共享记忆总索引
 
-Scene01 最新关键帧入口：[03A—06五图正式登记](projects/年复一年/reviews/20261021_keyframes_03A-06/README.md)及[结构化登记JSON](projects/年复一年/reviews/20261021_keyframes_03A-06/Scene01_关键帧登记_03A-06_V1.json)。用户指定03A、04A、05A、05B、06为此前已同意并需保留的图片；登记文本已写入GitHub，5张PNG二进制尚待Codex/本地可访问流程按SHA-256核验后上传，不能误报为图片本体已同步。人物/服装入口：[新版身份与正式服装登记](projects/年复一年/reviews/20261020_wife-assets_v1/README.md)；当前绑定：[JSON](projects/年复一年/Scene01_当前资产与任务绑定.json)。[夜景五图](projects/年复一年/reviews/20261020_night-assets_v1/README.md)继续记录空间与柜状态；原图、历史稿不覆盖。登记不等于动态镜头或视频生成获批。
+Scene01 当前关键帧以[独立目录](projects/年复一年/scene01/keyframes/README.md)为准；[旧五图登记](projects/年复一年/reviews/20261021_keyframes_03A-06/README.md)保留历史并引用同一规范原图，不再重复建库。人物/服装与当前任务绑定不变，本轮上传不批准动态视频。
 
 ## 一、记忆库说明
 本仓库用于 ChatGPT、Codex、Claude、Gemini

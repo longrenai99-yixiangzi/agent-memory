@@ -10,7 +10,7 @@
 - 连续性要求：下一张04A人物已完全蹲下；动态镜头必须交代从站立到蹲下的动作，不得直接把静帧姿态差异当作连续运动。
 - 适用基准：新版夜景客厅空间母版、更新后的老年妻子身份与服装、同一只棕色斑驳合盖旧盒。
 - 预定图片位置：projects/年复一年/scene01/keyframes/03A/assets/SC01-KF-03A_v01.png
-- GitHub PNG 实际状态：尚未上传图片二进制；目前只同步独立 README 与 asset.json，不能把文字登记算作图片入库。
+- GitHub PNG 实际状态：原始PNG已上传并经GitHub认证API取回字节，SHA256及字节数与原登记一致。[查看原图](assets/SC01-KF-03A_v01.png)；二进制提交：75ea3955b62c31aea572baf96d453fb98adead58。同步不改变既有静帧保留/动态视频审批范围。
 - 修订规则：不得覆盖 v01；改图另建 v02 并保留原件和哈希。
 
 上传后使用 SHA-256 验证字节完全相同，再更新 asset.json 的 image_uploaded 和 image_verified_on_github 属性并记录 Commit SHA。

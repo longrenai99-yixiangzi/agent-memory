@@ -7,8 +7,8 @@
   "user_status": "confirmed_retain",
   "status_scope": "登记为保留版本；不覆盖原图。",
   "video_generation_approved": false,
-  "binary_sync_status": "pending_upload",
-  "binary_sync_note": "本次GitHub提交包含登记文本和结构化元数据；5张PNG原始二进制尚未上传到仓库。后续必须核验SHA-256后再归档。",
+  "binary_sync_status": "uploaded_and_sha256_verified",
+  "binary_sync_note": "2026-10-21由Codex真实上传原始PNG，认证GitHub API按二进制提交SHA取回逐字节核验；规范路径统一沿独立keyframes目录，不重复复制到旧规划assets目录。",
   "registry_markdown": "projects/年复一年/reviews/20261021_keyframes_03A-06/README.md",
   "sequence": [
     "03A",
@@ -38,8 +38,10 @@
       "intended_use": "开柜后开始整理的空间建立镜头。",
       "user_confirmed_retain": true,
       "review_note": "与04A完全蹲姿不同；动态方案需交代姿态变化。",
-      "repository_path": null,
-      "repository_binary_present": false
+      "repository_path": "projects/年复一年/scene01/keyframes/03A/assets/SC01-KF-03A_v01.png",
+      "repository_binary_present": true,
+      "repository_binary_verified": true,
+      "binary_upload_commit": "75ea3955b62c31aea572baf96d453fb98adead58"
     },
     {
       "shot_id": "04A",
@@ -53,8 +55,10 @@
       "intended_use": "完全蹲下整理下层，并为旧盒进入观众视野建立动作节点。",
       "user_confirmed_retain": true,
       "review_note": "静帧显示视线朝向下层，但是否已明确注意到旧盒须由动态表演确认；旧盒在本图已有部分可见。",
-      "repository_path": null,
-      "repository_binary_present": false
+      "repository_path": "projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png",
+      "repository_binary_present": true,
+      "repository_binary_verified": true,
+      "binary_upload_commit": "75ea3955b62c31aea572baf96d453fb98adead58"
     },
     {
       "shot_id": "05A",
@@ -68,8 +72,10 @@
       "intended_use": "物件插入镜头，交代旧盒外观、深度与遮挡关系。",
       "user_confirmed_retain": true,
       "review_note": "旧盒保持合盖；不将此图误判为盒子完全不可见或已经取出。",
-      "repository_path": null,
-      "repository_binary_present": false
+      "repository_path": "projects/年复一年/scene01/keyframes/05A/assets/SC01-KF-05A_v01.png",
+      "repository_binary_present": true,
+      "repository_binary_verified": true,
+      "binary_upload_commit": "75ea3955b62c31aea572baf96d453fb98adead58"
     },
     {
       "shot_id": "05B",
@@ -83,8 +89,10 @@
       "intended_use": "切回人物，呈现细微观察反应。",
       "user_confirmed_retain": true,
       "review_note": "眼线应与下层柜格方向相容；不额外夸大情绪。",
-      "repository_path": null,
-      "repository_binary_present": false
+      "repository_path": "projects/年复一年/scene01/keyframes/05B/assets/SC01-KF-05B_v01.png",
+      "repository_binary_present": true,
+      "repository_binary_verified": true,
+      "binary_upload_commit": "75ea3955b62c31aea572baf96d453fb98adead58"
     },
     {
       "shot_id": "06",
@@ -98,8 +106,11 @@
       "intended_use": "移开遮挡物，为后续取盒动作建立因果。",
       "user_confirmed_retain": true,
       "review_note": "不是已经取出旧盒；后续需交代接触、抓握/底托与柜内净距。",
-      "repository_path": null,
-      "repository_binary_present": false
+      "repository_path": "projects/年复一年/scene01/keyframes/06/assets/SC01-KF-06_v01.png",
+      "repository_binary_present": true,
+      "repository_binary_verified": true,
+      "binary_upload_commit": "75ea3955b62c31aea572baf96d453fb98adead58"
     }
-  ]
+  ],
+  "binary_upload_commit": "75ea3955b62c31aea572baf96d453fb98adead58"
 }

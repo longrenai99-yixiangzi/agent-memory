@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-21",
+  "scope": "只上传用户指定七张PNG二进制及登记同步，不生成/修图/变更导演批准",
+  "binary_commit": "75ea3955b62c31aea572baf96d453fb98adead58",
+  "verification_method": "Authenticated GitHub contents API, Accept application/vnd.github.raw+json; immutable commit read; SHA256 and byte length",
+  "count": 7,
+  "all_verified": true,
+  "corrected_03A": "bc4350493cb3287db0307835752795450f57108a69daa30c4bca5832b7038fba",
+  "screenshot_uploaded": false,
+  "official_registered_shots": [
+    "03A",
+    "04A",
+    "05A",
+    "05B",
+    "06",
+    "07A"
+  ],
+  "supplementary_source": "03-source（用户首张附件/本地03.png；不覆盖03A、不指定新正式镜号）",
+  "images": [
+    {
+      "asset_id": "SC01-SOURCE-03",
+      "shot_or_source": "03-source",
+      "repository_path": "projects/年复一年/scene01/keyframes/03-source/assets/03_original.png",
+      "sha256": "64996729333a2e7e0d95415eeb0aa29b78baad93b7a34bd426eeb9e976b25468",
+      "bytes": 2909778,
+      "remote_verified": true,
+      "github_url": "https://github.com/longrenai99-yixiangzi/agent-memory/blob/75ea3955b62c31aea572baf96d453fb98adead58/projects/年复一年/scene01/keyframes/03-source/assets/03_original.png"
+    },
+    {
+      "asset_id": "SC01-KF-03A",
+      "shot_or_source": "03A",
+      "repository_path": "projects/年复一年/scene01/keyframes/03A/assets/SC01-KF-03A_v01.png",
+      "sha256": "bc4350493cb3287db0307835752795450f57108a69daa30c4bca5832b7038fba",
+      "bytes": 2805184,
+      "remote_verified": true,
+      "github_url": "https://github.com/longrenai99-yixiangzi/agent-memory/blob/75ea3955b62c31aea572baf96d453fb98adead58/projects/年复一年/scene01/keyframes/03A/assets/SC01-KF-03A_v01.png"
+    },
+    {
+      "asset_id": "SC01-KF-04A",
+      "shot_or_source": "04A",
+      "repository_path": "projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png",
+      "sha256": "c5ebed0aa4c7a3b161fd49384bfb328848d006921c213260ecaa6243e29f2d78",
+      "bytes": 2866744,
+      "remote_verified": true,
+      "github_url": "https://github.com/longrenai99-yixiangzi/agent-memory/blob/75ea3955b62c31aea572baf96d453fb98adead58/projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png"
+    },
+    {
+      "asset_id": "SC01-KF-05A",
+      "shot_or_source": "05A",
+      "repository_path": "projects/年复一年/scene01/keyframes/05A/assets/SC01-KF-05A_v01.png",
+      "sha256": "ec277bc6ad8fbfecabb80cb69215eafae72dddb228565cc7a34b7c6d2685635e",
+      "bytes": 2862052,
+      "remote_verified": true,
+      "github_url": "https://github.com/longrenai99-yixiangzi/agent-memory/blob/75ea3955b62c31aea572baf96d453fb98adead58/projects/年复一年/scene01/keyframes/05A/assets/SC01-KF-05A_v01.png"
+    },
+    {
+      "asset_id": "SC01-KF-05B",
+      "shot_or_source": "05B",
+      "repository_path": "projects/年复一年/scene01/keyframes/05B/assets/SC01-KF-05B_v01.png",
+      "sha256": "39afdf5dee29dd60a96a979f6fe42ece0ce43cbcd6b88d845e90070ec700c7a8",
+      "bytes": 2764640,
+      "remote_verified": true,
+      "github_url": "https://github.com/longrenai99-yixiangzi/agent-memory/blob/75ea3955b62c31aea572baf96d453fb98adead58/projects/年复一年/scene01/keyframes/05B/assets/SC01-KF-05B_v01.png"
+    },
+    {
+      "asset_id": "SC01-KF-06",
+      "shot_or_source": "06",
+      "repository_path": "projects/年复一年/scene01/keyframes/06/assets/SC01-KF-06_v01.png",
+      "sha256": "3b07e7c0ab3c8cc571686cd0766792e3513aa0924679916f94885fffaff71e56",
+      "bytes": 3161976,
+      "remote_verified": true,
+      "github_url": "https://github.com/longrenai99-yixiangzi/agent-memory/blob/75ea3955b62c31aea572baf96d453fb98adead58/projects/年复一年/scene01/keyframes/06/assets/SC01-KF-06_v01.png"
+    },
+    {
+      "asset_id": "SC01-KF-07A",
+      "shot_or_source": "07A",
+      "repository_path": "projects/年复一年/scene01/keyframes/07A/assets/SC01-KF-07A_v01.png",
+      "sha256": "30ec71c1a943b0b88f3485d5c5c6a211ee54197e95939759d3bb975fdb2ce30e",
+      "bytes": 3045631,
+      "remote_verified": true,
+      "github_url": "https://github.com/longrenai99-yixiangzi/agent-memory/blob/75ea3955b62c31aea572baf96d453fb98adead58/projects/年复一年/scene01/keyframes/07A/assets/SC01-KF-07A_v01.png"
+    }
+  ]
+}

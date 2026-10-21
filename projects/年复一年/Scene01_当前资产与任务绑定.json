@@ -66,52 +66,73 @@
     "07A"
   ],
   "latest_keyframe_registry_updated_at": "2026-10-21",
-  "latest_keyframe_binary_sync_status": "pending_upload",
-  "latest_keyframe_binary_sync_note": "本轮已登记元数据与SHA-256；5张PNG原始二进制尚未上传GitHub。后续按SHA-256核验后归档，不覆盖原图。",
+  "latest_keyframe_binary_sync_status": "uploaded_and_sha256_verified",
+  "latest_keyframe_binary_sync_note": "六张正式登记PNG和额外03.png源图共七张已真实上传；认证GitHub API按不可变提交取回原字节，7/7哈希和字节数一致；03A采用用户更正站立图。",
   "canonical_keyframe_registry": "projects/年复一年/scene01/keyframes/README.md",
   "keyframes_independent_registrations": {
     "03A": {
       "metadata": "projects/年复一年/scene01/keyframes/03A/asset.json",
       "readme": "projects/年复一年/scene01/keyframes/03A/README.md",
       "binary_expected": "projects/年复一年/scene01/keyframes/03A/assets/SC01-KF-03A_v01.png",
-      "binary_uploaded": false,
-      "user_confirmed_keep": true
+      "binary_uploaded": true,
+      "user_confirmed_keep": true,
+      "binary_verified": true,
+      "binary_commit": "75ea3955b62c31aea572baf96d453fb98adead58",
+      "binary_actual": "projects/年复一年/scene01/keyframes/03A/assets/SC01-KF-03A_v01.png"
     },
     "04A": {
       "metadata": "projects/年复一年/scene01/keyframes/04A/asset.json",
       "readme": "projects/年复一年/scene01/keyframes/04A/README.md",
       "binary_expected": "projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png",
-      "binary_uploaded": false,
-      "user_confirmed_keep": true
+      "binary_uploaded": true,
+      "user_confirmed_keep": true,
+      "binary_verified": true,
+      "binary_commit": "75ea3955b62c31aea572baf96d453fb98adead58",
+      "binary_actual": "projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png"
     },
     "05A": {
       "metadata": "projects/年复一年/scene01/keyframes/05A/asset.json",
       "readme": "projects/年复一年/scene01/keyframes/05A/README.md",
       "binary_expected": "projects/年复一年/scene01/keyframes/05A/assets/SC01-KF-05A_v01.png",
-      "binary_uploaded": false,
-      "user_confirmed_keep": true
+      "binary_uploaded": true,
+      "user_confirmed_keep": true,
+      "binary_verified": true,
+      "binary_commit": "75ea3955b62c31aea572baf96d453fb98adead58",
+      "binary_actual": "projects/年复一年/scene01/keyframes/05A/assets/SC01-KF-05A_v01.png"
     },
     "05B": {
       "metadata": "projects/年复一年/scene01/keyframes/05B/asset.json",
       "readme": "projects/年复一年/scene01/keyframes/05B/README.md",
       "binary_expected": "projects/年复一年/scene01/keyframes/05B/assets/SC01-KF-05B_v01.png",
-      "binary_uploaded": false,
-      "user_confirmed_keep": true
+      "binary_uploaded": true,
+      "user_confirmed_keep": true,
+      "binary_verified": true,
+      "binary_commit": "75ea3955b62c31aea572baf96d453fb98adead58",
+      "binary_actual": "projects/年复一年/scene01/keyframes/05B/assets/SC01-KF-05B_v01.png"
     },
     "06": {
       "metadata": "projects/年复一年/scene01/keyframes/06/asset.json",
       "readme": "projects/年复一年/scene01/keyframes/06/README.md",
       "binary_expected": "projects/年复一年/scene01/keyframes/06/assets/SC01-KF-06_v01.png",
-      "binary_uploaded": false,
-      "user_confirmed_keep": true
+      "binary_uploaded": true,
+      "user_confirmed_keep": true,
+      "binary_verified": true,
+      "binary_commit": "75ea3955b62c31aea572baf96d453fb98adead58",
+      "binary_actual": "projects/年复一年/scene01/keyframes/06/assets/SC01-KF-06_v01.png"
     },
     "07A": {
       "metadata": "projects/年复一年/scene01/keyframes/07A/asset.json",
       "readme": "projects/年复一年/scene01/keyframes/07A/README.md",
       "binary_expected": "projects/年复一年/scene01/keyframes/07A/assets/SC01-KF-07A_v01.png",
-      "binary_uploaded": false,
-      "user_confirmed_keep": true
+      "binary_uploaded": true,
+      "user_confirmed_keep": true,
+      "binary_verified": true,
+      "binary_commit": "75ea3955b62c31aea572baf96d453fb98adead58",
+      "binary_actual": "projects/年复一年/scene01/keyframes/07A/assets/SC01-KF-07A_v01.png"
     }
   },
-  "keyframe_binary_upload_status": "pending_six_original_png_upload"
+  "keyframe_binary_upload_status": "seven_png_uploaded_and_verified",
+  "keyframe_binary_upload_commit": "75ea3955b62c31aea572baf96d453fb98adead58",
+  "keyframe_binary_verification_record": "projects/年复一年/scene01/keyframes/UPLOAD_20261021.json",
+  "supplementary_source_png": "projects/年复一年/scene01/keyframes/03-source/asset.json"
 }
