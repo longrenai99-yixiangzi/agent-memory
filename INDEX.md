@@ -1,3 +1,5 @@
+Scene01 六张关键帧最新独立登记入口：[03A、04A、05A、05B、06、07A 逐张资产目录](projects/年复一年/scene01/keyframes/README.md)。每张均有独立README与asset.json；原始PNG已在本次工作目录核验但尚未上传GitHub，不能把文字登记误认为图片文件入库。2026-10-21新增，不覆盖旧版历史登记。
+
 
 # AI 智能体共享记忆总索引
 
