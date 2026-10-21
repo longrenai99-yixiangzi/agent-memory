@@ -1,0 +1,40 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "07B",
+  "asset_id": "SC01-KF-07B",
+  "title": "旧盒完全离柜并稳定持盒",
+  "version": "v01",
+  "source": {
+    "kind": "chatgpt_image_generation_current_conversation",
+    "filename": "暖灯下的珍藏时光.png",
+    "width": 1672,
+    "height": 941,
+    "size_bytes": 2125810,
+    "sha256": "140551e4da4952d2849c259ed277ae9122423b781f9f970029abf24961d36416",
+    "generation_id": "08432f66-2802-4465-a353-2a95e46c0ee2",
+    "verified_in_runtime": true
+  },
+  "approval": {
+    "user_confirmed_keep": true,
+    "static_keyframe_confirmed": true,
+    "confirmed_at": "2026-10-21",
+    "confirmed_via": "user said 可以了 after the outward-movement revision",
+    "dynamic_continuity_approved": false,
+    "video_generation_approved": false
+  },
+  "description": "紧接07A：老年妻子仍完全蹲在夜间客厅右侧白色下柜前，双手稳定托住同一只合盖斑驳棕色长方形旧照片盒，盒体完全离开柜口、朝身体方向进一步外移；盒与膝盖不发生明显空间穿透，左右篮和柜内物件维持07A逻辑。",
+  "continuity_notes": "锁定07A的人物身份、低盘发、奶油开衫灰绿纹样裙、白色下柜与窗外冷夜色；盒体长宽高/套盖结构/斑纹不跳变，左前地面编织篮及右侧剩余编织篮保留，不开盖、不站起、不落地。07B审批为静帧，不等于可无缝动态插帧。",
+  "repository": {
+    "record_path": "projects/年复一年/scene01/keyframes/07B/asset.json",
+    "readme_path": "projects/年复一年/scene01/keyframes/07B/README.md",
+    "intended_image_path": "projects/年复一年/scene01/keyframes/07B/assets/SC01-KF-07B_v01.png",
+    "image_uploaded": false,
+    "image_verified_on_github": false,
+    "upload_status": "pending_binary_upload",
+    "review_status": "user_confirmed_static_frame"
+  },
+  "no_overwrite": true,
+  "registered_on": "2026-10-21"
+}
