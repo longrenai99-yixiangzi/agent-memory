@@ -1,0 +1,26 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "06B",
+  "asset_id": "SC01-KF-06B",
+  "title": "编织篮落地、双手松开（连接06→07A）",
+  "created_at": "2026-10-21",
+  "approval": {
+    "user_approved_addition": true,
+    "confirmation": "同意采用 M1 的方案B（动作匹配剪辑），并增加06B作为编织篮落地的桥接关键帧",
+    "approval_scope": "new_06B_keyframe_task_and_direction",
+    "still_approved": false,
+    "video_generation_approved": false
+  },
+  "sources": {
+    "primary_06": "projects/年复一年/scene01/keyframes/06/assets/SC01-KF-06_v01.png",
+    "basket_destination_07A": "projects/年复一年/scene01/keyframes/07A/assets/SC01-KF-07A_v01.png",
+    "box_material_05A": "projects/年复一年/scene01/keyframes/05A/assets/SC01-KF-05A_v01.png"
+  },
+  "requirement": "篮底已落地，双手均松开篮沿，尚未触及柜内旧盒；空间/脸/服装/光/柜内原物保持连续",
+  "status": "awaiting_qualified_still_and_user_review",
+  "image_uploaded": false,
+  "planned_image_path": "projects/年复一年/scene01/keyframes/06B/assets/SC01-KF-06B_v01.png",
+  "notes": "首图仍抓篮；第二图为多格板，均不作为06B。不得用静帧登记代替视觉审核。"
+}
