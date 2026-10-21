@@ -1,0 +1,37 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "06",
+  "asset_id": "SC01-KF-06",
+  "title": "移开前景编织篮",
+  "version": "v01",
+  "source": {
+    "kind": "chat_uploaded_png",
+    "filename": "06(2).png",
+    "width": 1672,
+    "height": 941,
+    "size_bytes": 3161976,
+    "sha256": "3b07e7c0ab3c8cc571686cd0766792e3513aa0924679916f94885fffaff71e56",
+    "original_locally_verified": true
+  },
+  "approval": {
+    "user_confirmed_keep": true,
+    "static_keyframe_confirmed": true,
+    "dynamic_continuity_approved": false,
+    "video_generation_approved": false
+  },
+  "description": "妻子仍完全蹲在白色下柜前，将装着叠布的编织篮向柜外拉出，另一只手靠近柜内深处；棕色旧盒更清楚露出，但仍留在柜格内。",
+  "narrative_role": "将发现段连接到取盒动作，建立移开前物、让出取盒路径的因果。",
+  "continuity_notes": "此画面并未取出旧盒；07A镜头中的编织篮在地面左前方，需有移出并放稳的连续动作。",
+  "repository": {
+    "record_path": "projects/年复一年/scene01/keyframes/06/asset.json",
+    "readme_path": "projects/年复一年/scene01/keyframes/06/README.md",
+    "planned_image_path": "projects/年复一年/scene01/keyframes/06/assets/SC01-KF-06_v01.png",
+    "image_uploaded": false,
+    "image_verified_on_github": false,
+    "upload_status": "pending_binary_upload"
+  },
+  "no_overwrite": true,
+  "registered_on": "2026-10-21"
+}
