@@ -1,0 +1,37 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "03A",
+  "asset_id": "SC01-KF-03A",
+  "title": "站立开柜整理",
+  "version": "v01",
+  "source": {
+    "kind": "chat_uploaded_png",
+    "filename": "S01-WC03A-v01.png",
+    "width": 1672,
+    "height": 941,
+    "size_bytes": 2805184,
+    "sha256": "bc4350493cb3287db0307835752795450f57108a69daa30c4bca5832b7038fba",
+    "original_locally_verified": true
+  },
+  "approval": {
+    "user_confirmed_keep": true,
+    "static_keyframe_confirmed": true,
+    "dynamic_continuity_approved": false,
+    "video_generation_approved": false
+  },
+  "description": "夜景客厅全景；妻子站在右侧白色下柜前，柜门已经打开，向柜内日常收纳物伸手。此时尚未蹲下。",
+  "narrative_role": "建立白色下柜和人物的空间关系，衔接下蹲整理动作。",
+  "continuity_notes": "下一张04A人物已完全蹲下；动态镜头必须交代从站立到蹲下的动作，不得直接把静帧姿态差异当作连续运动。",
+  "repository": {
+    "record_path": "projects/年复一年/scene01/keyframes/03A/asset.json",
+    "readme_path": "projects/年复一年/scene01/keyframes/03A/README.md",
+    "planned_image_path": "projects/年复一年/scene01/keyframes/03A/assets/SC01-KF-03A_v01.png",
+    "image_uploaded": false,
+    "image_verified_on_github": false,
+    "upload_status": "pending_binary_upload"
+  },
+  "no_overwrite": true,
+  "registered_on": "2026-10-21"
+}
