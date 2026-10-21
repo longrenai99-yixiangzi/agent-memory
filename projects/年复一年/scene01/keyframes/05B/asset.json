@@ -1,0 +1,37 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "05B",
+  "asset_id": "SC01-KF-05B",
+  "title": "妻子面部反应近景",
+  "version": "v01",
+  "source": {
+    "kind": "chat_uploaded_png",
+    "filename": "05B(5).png",
+    "width": 1672,
+    "height": 941,
+    "size_bytes": 2764640,
+    "sha256": "39afdf5dee29dd60a96a979f6fe42ece0ce43cbcd6b88d845e90070ec700c7a8",
+    "original_locally_verified": true
+  },
+  "approval": {
+    "user_confirmed_keep": true,
+    "static_keyframe_confirmed": true,
+    "dynamic_continuity_approved": false,
+    "video_generation_approved": false
+  },
+  "description": "妻子的面部、肩部近景；低盘发和针织开衫连续。头部微向前倾，目光朝右下方柜内，表情安静专注。",
+  "narrative_role": "与05A形成物件—人物对切，表达注意力与细微辨认而非夸张怀旧。",
+  "continuity_notes": "她的眼线落向右下方白色下柜内；不提前出现强烈惊讶、流泪或认出照片内容的情绪。",
+  "repository": {
+    "record_path": "projects/年复一年/scene01/keyframes/05B/asset.json",
+    "readme_path": "projects/年复一年/scene01/keyframes/05B/README.md",
+    "planned_image_path": "projects/年复一年/scene01/keyframes/05B/assets/SC01-KF-05B_v01.png",
+    "image_uploaded": false,
+    "image_verified_on_github": false,
+    "upload_status": "pending_binary_upload"
+  },
+  "no_overwrite": true,
+  "registered_on": "2026-10-21"
+}
