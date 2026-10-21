@@ -1,3 +1,5 @@
+2026-10-21新审批：Scene01已确认M1采用03A→04A动作匹配剪辑方案B、批准新增06B（编织篮放稳、双手松开）桥接关键帧；06B图片仍待合格/上传，07B静帧已确认但PNG仍待GitHub上传。参见[当前导演方案](projects/年复一年/scene01/Scene01_03A-07B_动态镜头复核提案_20261021.md)、[06B独立任务](projects/年复一年/scene01/keyframes/06B/README.md)、[07B登记](projects/年复一年/scene01/keyframes/07B/README.md)。
+
 Scene01 七张PNG已真实上传并远程核验：[逐图原件与独立登记](projects/年复一年/scene01/keyframes/README.md)。包含03A、04A、05A、05B、06、07A及单独保留的03.png源图；更正的03A为站立开柜图。二进制提交75ea395，七张原字节经GitHub认证API取回，SHA256与源图一致。
 
 
