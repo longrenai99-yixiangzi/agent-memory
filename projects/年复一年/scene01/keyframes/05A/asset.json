@@ -1,0 +1,37 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "05A",
+  "asset_id": "SC01-KF-05A",
+  "title": "柜内旧盒近景",
+  "version": "v01",
+  "source": {
+    "kind": "chat_uploaded_png",
+    "filename": "05A(20261020-233549).png",
+    "width": 1672,
+    "height": 941,
+    "size_bytes": 2862052,
+    "sha256": "ec277bc6ad8fbfecabb80cb69215eafae72dddb228565cc7a34b7c6d2685635e",
+    "original_locally_verified": true
+  },
+  "approval": {
+    "user_confirmed_keep": true,
+    "static_keyframe_confirmed": true,
+    "dynamic_continuity_approved": false,
+    "video_generation_approved": false
+  },
+  "description": "下层柜格近景：后部是同一只斑驳棕色长方形合盖旧盒，前景篮子与叠布遮住盒身的一部分，妻子手停在布品附近。",
+  "narrative_role": "物件插入镜头，让观众清楚看到妻子正在观察的旧盒和遮挡关系。",
+  "continuity_notes": "下层盒的比例、斑驳纹理、盖身接缝和位置沿用旧盒标准资产；上下层收纳篮不能误认成旧盒。",
+  "repository": {
+    "record_path": "projects/年复一年/scene01/keyframes/05A/asset.json",
+    "readme_path": "projects/年复一年/scene01/keyframes/05A/README.md",
+    "planned_image_path": "projects/年复一年/scene01/keyframes/05A/assets/SC01-KF-05A_v01.png",
+    "image_uploaded": false,
+    "image_verified_on_github": false,
+    "upload_status": "pending_binary_upload"
+  },
+  "no_overwrite": true,
+  "registered_on": "2026-10-21"
+}
