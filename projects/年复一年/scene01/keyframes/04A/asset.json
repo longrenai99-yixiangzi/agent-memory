@@ -1,0 +1,37 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "04A",
+  "asset_id": "SC01-KF-04A",
+  "title": "完全蹲下整理下层",
+  "version": "v01",
+  "source": {
+    "kind": "chat_uploaded_png",
+    "filename": "04A(20261020-233543).png",
+    "width": 1672,
+    "height": 941,
+    "size_bytes": 2866744,
+    "sha256": "c5ebed0aa4c7a3b161fd49384bfb328848d006921c213260ecaa6243e29f2d78",
+    "original_locally_verified": true
+  },
+  "approval": {
+    "user_confirmed_keep": true,
+    "static_keyframe_confirmed": true,
+    "dynamic_continuity_approved": false,
+    "video_generation_approved": false
+  },
+  "description": "妻子在打开的白色下柜前完全蹲下，手靠近下层叠布与编织篮，旧盒在下层柜格后部已有部分可见。",
+  "narrative_role": "从日常整理过渡到发现旧盒的过程；强调完全蹲姿和柜内物件位置。",
+  "continuity_notes": "旧盒在本帧并非完全隐藏，不能把05A描述为整个段落第一次出现旧盒；是否形成停手/看向盒子的完整动态表演需视频核验。",
+  "repository": {
+    "record_path": "projects/年复一年/scene01/keyframes/04A/asset.json",
+    "readme_path": "projects/年复一年/scene01/keyframes/04A/README.md",
+    "planned_image_path": "projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png",
+    "image_uploaded": false,
+    "image_verified_on_github": false,
+    "upload_status": "pending_binary_upload"
+  },
+  "no_overwrite": true,
+  "registered_on": "2026-10-21"
+}
