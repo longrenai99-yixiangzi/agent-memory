@@ -1,4 +1,6 @@
-# 《年复一年》Scene01｜七张PNG已上传
+# 《年复一年》Scene01｜八张PNG已上传（含07B v02）
+
+07B本轮追加：用户指定的[07B v02原图](07B/assets/SC01-KF-07B_v02.png)及[登记](07B/asset.json)已上传并经认证GitHub API读取校验；二进制提交e43c32a。现有7张正式编号图＋03源图共8张；原七张校验记录继续保留。
 
 2026-10-21。六张既有正式登记图及首张附件03.png源图，均保留独立目录；PNG、README、asset.json已齐备。03A采用用户刚更正的站立开柜图，不被蹲姿源图替代。
 
@@ -11,6 +13,7 @@
 |05B|[PNG](05B/assets/SC01-KF-05B_v01.png)|[登记](05B/asset.json)|SHA256/字节数一致|
 |06|[PNG](06/assets/SC01-KF-06_v01.png)|[登记](06/asset.json)|SHA256/字节数一致|
 |07A|[PNG](07A/assets/SC01-KF-07A_v01.png)|[登记](07A/asset.json)|SHA256/字节数一致|
+|07B v02|[PNG](07B/assets/SC01-KF-07B_v02.png)|[登记](07B/asset.json)|SHA256/字节数一致|
 
 二进制提交：75ea3955b62c31aea572baf96d453fb98adead58。逐文件远程核验见[UPLOAD_20261021.json](UPLOAD_20261021.json)。已通过认证GitHub API从该不可变提交取回全部七张原始字节，并与源PNG哈希比较，7/7一致；不是只推送文字登记。
 

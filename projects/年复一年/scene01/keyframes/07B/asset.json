@@ -5,22 +5,23 @@
   "shot_id": "07B",
   "asset_id": "SC01-KF-07B",
   "title": "旧盒完全离柜并稳定持盒",
-  "version": "v01",
+  "version": "v02",
   "source": {
-    "kind": "chatgpt_image_generation_current_conversation",
-    "filename": "暖灯下的珍藏时光.png",
+    "kind": "user_uploaded_png",
+    "filename": "codex-clipboard-a5278386-2bf2-425c-8d08-5ae5c995eb86.png",
+    "actual_upload_source": "C:/Users/liu/AppData/Local/Temp/codex-clipboard-a5278386-2bf2-425c-8d08-5ae5c995eb86.png",
     "width": 1672,
     "height": 941,
-    "size_bytes": 2125810,
-    "sha256": "140551e4da4952d2849c259ed277ae9122423b781f9f970029abf24961d36416",
-    "generation_id": "08432f66-2802-4465-a353-2a95e46c0ee2",
+    "size_bytes": 2506299,
+    "sha256": "8baf56474a3951275679de9fc59cedc4bb9372761c3bd07061e7e856a95097a0",
     "verified_in_runtime": true
   },
   "approval": {
     "user_confirmed_keep": true,
-    "static_keyframe_confirmed": true,
+    "user_assigned_shot": "07B",
     "confirmed_at": "2026-10-21",
-    "confirmed_via": "user said 可以了 after the outward-movement revision",
+    "confirmed_via": "用户本轮明确要求：作为07B上传到GitHub",
+    "scope": "指定编号与原图上传；不继承另哈希v01的其他细部批准",
     "dynamic_continuity_approved": false,
     "video_generation_approved": false
   },
@@ -29,12 +30,33 @@
   "repository": {
     "record_path": "projects/年复一年/scene01/keyframes/07B/asset.json",
     "readme_path": "projects/年复一年/scene01/keyframes/07B/README.md",
-    "intended_image_path": "projects/年复一年/scene01/keyframes/07B/assets/SC01-KF-07B_v01.png",
-    "image_uploaded": false,
-    "image_verified_on_github": false,
-    "upload_status": "pending_binary_upload",
-    "review_status": "user_confirmed_static_frame"
+    "intended_image_path": "projects/年复一年/scene01/keyframes/07B/assets/SC01-KF-07B_v02.png",
+    "image_uploaded": true,
+    "image_verified_on_github": true,
+    "upload_status": "uploaded_and_sha256_verified",
+    "review_status": "user_designated_07B_uploaded",
+    "image_path": "projects/年复一年/scene01/keyframes/07B/assets/SC01-KF-07B_v02.png",
+    "upload_commit": "e43c32a5844562208c87cc40c0cf5b6c3cb43d8f",
+    "verification": {
+      "method": "GitHub authenticated contents API raw bytes at immutable commit, SHA256 and byte size match",
+      "remote_sha256": "8baf56474a3951275679de9fc59cedc4bb9372761c3bd07061e7e856a95097a0",
+      "remote_bytes": 2506299,
+      "verified_at": "2026-10-21",
+      "verified": true
+    }
   },
   "no_overwrite": true,
-  "registered_on": "2026-10-21"
+  "registered_on": "2026-10-21",
+  "history": [
+    {
+      "version": "v01",
+      "metadata": "history/v01_asset.json",
+      "source_sha256": "140551e4da4952d2849c259ed277ae9122423b781f9f970029abf24961d36416",
+      "reason": "原登记对应另一文件，完整保留，不用新图冒充相同二进制"
+    },
+    {
+      "version": "v02",
+      "reason": "用户本轮指定附件作为07B，另存上传，无覆盖"
+    }
+  ]
 }
