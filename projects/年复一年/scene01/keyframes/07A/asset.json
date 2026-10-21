@@ -1,0 +1,37 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "07A",
+  "asset_id": "SC01-KF-07A",
+  "title": "双手从柜内取出旧盒（进行中）",
+  "version": "v01",
+  "source": {
+    "kind": "chat_uploaded_png",
+    "filename": "image(20261021-025302).png",
+    "width": 1672,
+    "height": 941,
+    "size_bytes": 3045631,
+    "sha256": "30ec71c1a943b0b88f3485d5c5c6a211ee54197e95939759d3bb975fdb2ce30e",
+    "original_locally_verified": true
+  },
+  "approval": {
+    "user_confirmed_keep": true,
+    "static_keyframe_confirmed": true,
+    "dynamic_continuity_approved": false,
+    "video_generation_approved": false
+  },
+  "description": "妻子保持低位完整蹲姿，双手托住同一只斑驳棕色套盖长方形旧照片盒，沿柜口向身前取出；前景左下方可见移出的编织篮，柜内右侧仍有另一篮叠布。盒子合盖，尚未放到地面或膝上。",
+  "narrative_role": "承接06移篮动作，推进到双手取盒过程；后续07B应表现完全离柜并稳定持盒。",
+  "continuity_notes": "保留左前方落地编织篮及右侧柜内剩余收纳物；避免盒子尺寸在07B中跳变，不能提前开盖。07A具体取出幅度可在动态视频时核对。",
+  "repository": {
+    "record_path": "projects/年复一年/scene01/keyframes/07A/asset.json",
+    "readme_path": "projects/年复一年/scene01/keyframes/07A/README.md",
+    "planned_image_path": "projects/年复一年/scene01/keyframes/07A/assets/SC01-KF-07A_v01.png",
+    "image_uploaded": false,
+    "image_verified_on_github": false,
+    "upload_status": "pending_binary_upload"
+  },
+  "no_overwrite": true,
+  "registered_on": "2026-10-21"
+}
