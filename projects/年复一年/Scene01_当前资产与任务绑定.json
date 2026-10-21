@@ -56,15 +56,62 @@
   "current_keyframe_binary_available": true,
   "next_task": "S01-KF-002",
   "current_keyframe_repository_path": "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-KF-001_existing-space-locked.png",
-  "latest_keyframe_registry": "projects/年复一年/reviews/20261021_keyframes_03A-06/Scene01_关键帧登记_03A-06_V1.json",
+  "latest_keyframe_registry": "projects/年复一年/scene01/keyframes/README.md",
   "latest_keyframe_sequence": [
     "03A",
     "04A",
     "05A",
     "05B",
-    "06"
+    "06",
+    "07A"
   ],
   "latest_keyframe_registry_updated_at": "2026-10-21",
   "latest_keyframe_binary_sync_status": "pending_upload",
-  "latest_keyframe_binary_sync_note": "本轮已登记元数据与SHA-256；5张PNG原始二进制尚未上传GitHub。后续按SHA-256核验后归档，不覆盖原图。"
+  "latest_keyframe_binary_sync_note": "本轮已登记元数据与SHA-256；5张PNG原始二进制尚未上传GitHub。后续按SHA-256核验后归档，不覆盖原图。",
+  "canonical_keyframe_registry": "projects/年复一年/scene01/keyframes/README.md",
+  "keyframes_independent_registrations": {
+    "03A": {
+      "metadata": "projects/年复一年/scene01/keyframes/03A/asset.json",
+      "readme": "projects/年复一年/scene01/keyframes/03A/README.md",
+      "binary_expected": "projects/年复一年/scene01/keyframes/03A/assets/SC01-KF-03A_v01.png",
+      "binary_uploaded": false,
+      "user_confirmed_keep": true
+    },
+    "04A": {
+      "metadata": "projects/年复一年/scene01/keyframes/04A/asset.json",
+      "readme": "projects/年复一年/scene01/keyframes/04A/README.md",
+      "binary_expected": "projects/年复一年/scene01/keyframes/04A/assets/SC01-KF-04A_v01.png",
+      "binary_uploaded": false,
+      "user_confirmed_keep": true
+    },
+    "05A": {
+      "metadata": "projects/年复一年/scene01/keyframes/05A/asset.json",
+      "readme": "projects/年复一年/scene01/keyframes/05A/README.md",
+      "binary_expected": "projects/年复一年/scene01/keyframes/05A/assets/SC01-KF-05A_v01.png",
+      "binary_uploaded": false,
+      "user_confirmed_keep": true
+    },
+    "05B": {
+      "metadata": "projects/年复一年/scene01/keyframes/05B/asset.json",
+      "readme": "projects/年复一年/scene01/keyframes/05B/README.md",
+      "binary_expected": "projects/年复一年/scene01/keyframes/05B/assets/SC01-KF-05B_v01.png",
+      "binary_uploaded": false,
+      "user_confirmed_keep": true
+    },
+    "06": {
+      "metadata": "projects/年复一年/scene01/keyframes/06/asset.json",
+      "readme": "projects/年复一年/scene01/keyframes/06/README.md",
+      "binary_expected": "projects/年复一年/scene01/keyframes/06/assets/SC01-KF-06_v01.png",
+      "binary_uploaded": false,
+      "user_confirmed_keep": true
+    },
+    "07A": {
+      "metadata": "projects/年复一年/scene01/keyframes/07A/asset.json",
+      "readme": "projects/年复一年/scene01/keyframes/07A/README.md",
+      "binary_expected": "projects/年复一年/scene01/keyframes/07A/assets/SC01-KF-07A_v01.png",
+      "binary_uploaded": false,
+      "user_confirmed_keep": true
+    }
+  },
+  "keyframe_binary_upload_status": "pending_six_original_png_upload"
 }
