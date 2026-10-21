@@ -1,0 +1,29 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "asset_id": "SC01-SOURCE-03",
+  "shot_id": null,
+  "source_label": "03.png（原文件标签，不指定正式镜号）",
+  "source": {
+    "filename": "03.png",
+    "actual_path": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-b5b55bd9-4427-46ee-bf18-12c01819e6aa.png",
+    "width": 1672,
+    "height": 941,
+    "size_bytes": 2909778,
+    "sha256": "64996729333a2e7e0d95415eeb0aa29b78baad93b7a34bd426eeb9e976b25468"
+  },
+  "repository": {
+    "planned_image_path": "projects/年复一年/scene01/keyframes/03-source/assets/03_original.png",
+    "image_uploaded": false,
+    "image_verified_on_github": false,
+    "upload_status": "pending_remote_verification"
+  },
+  "approval": {
+    "user_requested_upload": true,
+    "formal_shot_assignment_confirmed": false,
+    "video_generation_approved": false
+  },
+  "no_overwrite": true,
+  "registered_on": "2026-10-21"
+}
