@@ -1,3 +1,5 @@
+2026-10-22｜已将 Higgsfield Acting Director 与 Production Pipeline 两个原版 SKILL.md 上传至仓库 `skills/`，并记录上游来源、MIT 许可证与精简依赖限制；用户本地 PowerShell 安装检查均为 True。Codex 实际加载与导演实测仍待验证。参见 [Higgsfield Skills 共享说明](skills/README.md)。
+
 2026-10-22｜Seedance 2.5 三个 Codex Skill 安装文件核验均为 True（Director / Shot Design / Prompt），路径在 `D:\AI_ENV\Codex\home\skills\`；Codex 实际加载、指令兼容与提示词效果尚未验证。已记录《年复一年》“统一导演设计 + Seedance 2.5 / H3 双模型独立提示词”的确认方向和 SC01-P02 待测流程。参见[Skill安装与测试记录](projects/年复一年/Seedance2.5_Skills安装记录与双模型提示词工作流_20261022.md)。
 
 2026-10-22｜P01视频已审核、P02导演设计稿已建立： P01 H3候选`MiniMax_H3_00116_(1).mp4`（8.00s、864×480、24fps、SHA256 `14ebddd86898…`）审片建议保留，原件已于2026-10-22上传至`scene01/videos/P01/assets/SC01-P01-H3-v01.mp4`（提交`1802e49`），认证GitHub API取回原始字节核验SHA-256及大小一致；上传不代表最终锁定。P02已建立固定机位A（推荐）/缓摇B的首帧与运镜提案、中文生成提示词，均待用户确认。参见[审片及素材登记](projects/年复一年/scene01/Scene01_P01_20261022_视频审查与素材登记.md)及[P02导演设计稿](projects/年复一年/scene01/Scene01_P02_20261022_首帧与运镜导演设计稿_V1.md)。
