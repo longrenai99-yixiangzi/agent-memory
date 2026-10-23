@@ -115,3 +115,5 @@ Scene01 当前关键帧以[独立目录](projects/年复一年/scene01/keyframes
 2026-10-23｜Scene01白色下柜 A/B/C 状态图已完成生成任务并建立候选记录，但三张图尚未完成实际视觉验收、PNG二进制未入库、用户未批准为正式资产；不可直接用于Seedance视频。A/B/C为临时预览链接，登记页列出任务ID、验收项及链接有效期。参见[柜内A/B/C状态图候选记录](projects/年复一年/reviews/20261023_cabinet-state-candidates_v1/README.md)。
 
 2026-10-23｜B2/C2预览链接经用户实测返回`Invalid JWT`；当前无法取回原始PNG，视觉验收、哈希与二进制入库未完成，暂不生成D1/D2。下一步从Runway历史/资产页面导出原图后继续。详情见[候选图记录](projects/年复一年/reviews/20261023_cabinet-state-candidates_v1/README.md)。
+
+2026-10-23｜用户指出再次上传的图片是按生成时间找到的最新项；经SHA-256核对，它与前一张上传图完全相同（`35e5944794603ecacee0f2740e0b1e99422b062aeacb8c6e982409eee4beebc7`），不是新像素版本。审核仍不通过 A/B2，暂不批准 C2。详见[柜内状态图候选记录](projects/年复一年/reviews/20261023_cabinet-state-candidates_v1/README.md)。
