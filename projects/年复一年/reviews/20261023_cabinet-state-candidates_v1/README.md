@@ -58,3 +58,21 @@
 当前运行环境只收到 Runway 返回的临时预览 URL，未取得三张 PNG 的本地原始字节；因此不能计算 SHA-256、不能将它们当作仓库中的永久图像资产，也不能冒称已完成真实视觉审核。
 
 下一步：先将 A/B/C 原图保存到本地或重新上传到当前对话；逐图核验遮挡、盒子唯一性、柜体/机位/比例和物理落点。只有通过审核的图片，才以新版本独立上传到现有 reviews/<版本>/assets/ 结构，并补充哈希与审核记录。失败图保留为候选/失败证据，不覆盖历史原图，不直接用于 Seedance 视频生成。
+
+
+## 2026-10-23 更新：B2 重生成，C2 生成中
+
+### B2 — 首次露角候选（新版本，不覆盖 B）
+- Runway task ID：`4cc831fd-51cd-489c-a006-e35461af0c88`
+- 新预览：[打开 B2 候选图](https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3-pro-image/images/4cc831fd-51cd-489c-a006-e35461af0c88/b401420b-b841-4f52-bc0b-7dc0b2ec5a5c/Create_ONE_standalone_photorealistic_cinematic_still__16_9__.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzQ1M2JlNjYyYTFhYmFkMSIsInR5cCI6InByb2QiLCJleHAiOjE3OTI4Nzk0NjJ9.Nlw7ixWq8UagwQyEQZeHjX7spMyHbrqCulHJVyu7HWw)
+- 生成任务已完成。仅记录为新候选，未完成实际图像二进制归档、SHA-256 或视觉验收。
+
+### C2 — 完整显露候选（新版本，不覆盖 C）
+- Runway task ID：`7c4edd89-fa7c-41a3-9ddf-f552b4404526`
+- 状态：最后一次查询时 RUNNING，进度 23%；尚无最终输出链接。
+- 生成意图：从 B2 继续，移动前景布品/篮子，让同一旧盒完整显露但仍留在柜内，不接触、不抬起。
+
+### 原图保存与审核状态
+- 尝试直接下载 B2 原始 PNG 失败，尚未获得本地原始字节；不能计算或声称 SHA-256。
+- 旧 A/B/C 与新 B2/C2 均保持候选状态，尚未逐图通过实际视觉验收。
+- 不将预览 URL 视为永久资产，不覆盖旧版本，不用于正式视频生成。
