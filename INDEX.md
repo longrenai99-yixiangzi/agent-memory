@@ -111,3 +111,5 @@ Scene01 当前关键帧以[独立目录](projects/年复一年/scene01/keyframes
 上述目录为规划结构，
 尚未创建的目录不代表已有记忆。
   
+
+2026-10-23｜Scene01白色下柜 A/B/C 状态图已完成生成任务并建立候选记录，但三张图尚未完成实际视觉验收、PNG二进制未入库、用户未批准为正式资产；不可直接用于Seedance视频。A/B/C为临时预览链接，登记页列出任务ID、验收项及链接有效期。参见[柜内A/B/C状态图候选记录](projects/年复一年/reviews/20261023_cabinet-state-candidates_v1/README.md)。
