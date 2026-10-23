@@ -313,3 +313,12 @@
 ## 2026-10-23｜B2/C2 临时链接验证失败
 
 用户实测 Runway 返回的 B2/C2 预览链接显示 `Invalid JWT`。重新查询任务和最近资产仍返回相同临时签名 URL，当前无法取得 PNG 原始字节或刷新签名。视觉验收、SHA-256、PNG 入库均未完成；不生成 D1/D2。需从 Runway 生成历史/资产页面导出 B2、C2 原图并上传当前对话后继续。详见 `reviews/20261023_cabinet-state-candidates_v1/README.md`。
+
+
+## 2026-10-23｜用户上传 A 候选原图并完成核验
+
+- 文件 `Edit and reframe the provided TV-wall living-room reference.png`：PNG，2048×1143，RGBA；SHA-256：`35e5944794603ecacee0f2740e0b1e99422b062aeacb8c6e982409eee4beebc7`。
+- 文件名/任务标题与最初 A 候选相符；不应当误认成 B2 或 C2。
+- 视觉验收失败：盒子主体明显可见，违反 A 的完全遮挡要求；露出面积也远超 B2 的“只露极小角”；C2 方向仍有下方第二块棕色矩形物体的歧义，且主盒下缘受遮挡。
+- 此图保留为失败候选证据，当前只有哈希记录，PNG 二进制尚未提交到 GitHub。B2/C2 原图仍待取回；C 状态通过前不生成 D1/D2。
+- 详见 `reviews/20261023_cabinet-state-candidates_v1/README.md`。
