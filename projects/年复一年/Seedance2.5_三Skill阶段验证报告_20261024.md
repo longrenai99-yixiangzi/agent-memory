@@ -1,7 +1,7 @@
 # 《年复一年》｜三个 Seedance Skill 阶段验证报告（2026-10-24）
 
 - **来源：** 用户于 2026-10-24 在 ChatGPT 提供的 Work 会话验证报告；本文件是对该报告的跨智能体归档，不冒称本次 GitHub 整理过程重新执行了本机测试。
-- **适用范围：** Windows 11 / \`CODEX_HOME=D:\AI_ENV\Codex\home\` / SC01-P02 纯文本测试。
+- **适用范围：** Windows 11 / `CODEX_HOME=D:\AI_ENV\Codex\home` / SC01-P02 纯文本测试。
 - **总体结论：** **静态安装、当前会话发现与显式读取、P02 文本结构检查已通过；独立会话触发、隐式自动选择与负例、真实参考图绑定、Seedance 真实视频效果均未验证。**
 - **状态：** PARTIAL_VERIFIED / 正式 Skill 全链路与 Seedance V1.0 尚未放行。
 - **导演审批：** 用户仍为最终导演。测试采用的“固定机位 A / 5 秒 / 16:9”只是可比较假设，不代表 P02 镜头方案已批准。
@@ -9,7 +9,7 @@
 
 ## 一、验证矩阵
 
-| 检查层级 | Director \`$seedance-25\` | Shot Design \`$seedance-shot-design\` | Prompt Skill \`$seedance-2-5\` |
+| 检查层级 | Director `$seedance-25` | Shot Design `$seedance-shot-design` | Prompt Skill `$seedance-2-5` |
 |---|---|---|---|
 | 本机 SKILL.md 存在 | 通过 | 通过 | 通过 |
 | 当前会话可发现名称、描述、路径 | 通过 | 通过 | 通过 |
@@ -26,26 +26,26 @@
 
 | Skill | 相对安装路径（位于 CODEX_HOME/skills） | 文件字节数 | SHA-256 |
 |---|---|---:|---|
-| Seedance 2.5 Director | \`seedance-25/SKILL.md\` | 12777 | \`EDB6727A0160096D17A35E34E12878A73A8A44130E93776C3B8AD12781A3D9BB\` |
-| Seedance Shot Design | \`seedance-shot-design/SKILL.md\` | 15142 | \`67BF1CF7D0CF9A062DE3794DE2752DBE962329DEF09DF9C7BDB3FFB0FA15D5AA\` |
-| Seedance 2.5 Prompt Skill | \`seedance-2-5/SKILL.md\` | 9810 | \`650E735C724102F8418D894A3F6A19BF3B320235CCA9B03644E3C037D3387EB1\` |
+| Seedance 2.5 Director | `seedance-25/SKILL.md` | 12777 | `EDB6727A0160096D17A35E34E12878A73A8A44130E93776C3B8AD12781A3D9BB` |
+| Seedance Shot Design | `seedance-shot-design/SKILL.md` | 15142 | `67BF1CF7D0CF9A062DE3794DE2752DBE962329DEF09DF9C7BDB3FFB0FA15D5AA` |
+| Seedance 2.5 Prompt Skill | `seedance-2-5/SKILL.md` | 9810 | `650E735C724102F8418D894A3F6A19BF3B320235CCA9B03644E3C037D3387EB1` |
 
-来源报告指出：三个文件都具有匹配的 frontmatter \`name\`、非空 \`description\`，正文相对链接均可指向存在的文件；此项属于字段与路径检查，不是完整 YAML 语义验证。三份 SKILL.md 测前测后的 SHA-256 一致。Shot Design 的 \`agents/openai.yaml\` 明确配置 \`allow_implicit_invocation: true\`，另两者未显式声明；缺字段不应推定为禁用。
+来源报告指出：三个文件都具有匹配的 frontmatter `name`、非空 `description`，正文相对链接均可指向存在的文件；此项属于字段与路径检查，不是完整 YAML 语义验证。三份 SKILL.md 测前测后的 SHA-256 一致。Shot Design 的 `agents/openai.yaml` 明确配置 `allow_implicit_invocation: true`，另两者未显式声明；缺字段不应推定为禁用。
 
-来源报告还提到一个名字相近的第四 Skill \`seedance-2-5-video-director\`，它不在本次三个目标范围内，后续测试应使用准确调用名。
+来源报告还提到一个名字相近的第四 Skill `seedance-2-5-video-director`，它不在本次三个目标范围内，后续测试应使用准确调用名。
 
 ## 三、统一 SC01-P02 文本测试
 
 输入基线：老年妻子已在沙发旁直身起步，沿木茶几外侧可行走通道向画面右侧白色下柜行进，双手空出，柜门始终关闭；本段不下蹲、不拿抹布、不出现旧盒，也不提前进入怀旧情绪。夜景、人物身份、正式服装及白木客厅空间拓扑应保持连续，白柜不可与右侧百叶壁龛混淆。
 
-测试假设为固定平视中远景方案 A、约 5 秒、16:9；**仅为跨 Skill 比较输入，不构成导演批准**。没有附实际参考图或平台素材编号，不得伪造 \`@图片\`、\`@视频\` 绑定。
+测试假设为固定平视中远景方案 A、约 5 秒、16:9；**仅为跨 Skill 比较输入，不构成导演批准**。没有附实际参考图或平台素材编号，不得伪造 `@图片`、`@视频` 绑定。
 
 素材职责：
 
-- \`SC01-KF-001\`：全屋拓扑、同侧摄影机、柜前结束状态。
+- `SC01-KF-001`：全屋拓扑、同侧摄影机、柜前结束状态。
 - P01 约 7.6 秒实际起步帧：人物起步及服装动作连续性，不复制其原近景透视。
-- \`SC01-CHR-W-001\`（必要时 002）：人物面部与年龄。
-- \`SC01-COST-W-001\`：衣装参考，不复制占位脸、背景或站姿。
+- `SC01-CHR-W-001`（必要时 002）：人物面部与年龄。
+- `SC01-COST-W-001`：衣装参考，不复制占位脸、背景或站姿。
 
 本轮来源报告**没有进行真实像素审查、通道净距测量、P02-FIRST 视觉验收**。镜头的首尾输入可行性和下一镜 C01 脚位对齐仍需另行核对。
 
@@ -53,7 +53,7 @@
 
 ### T1：Director
 
-- 自带检查：\`scripts/lint_prompt.py\`，\`--mode base --duration 5 --json\`，退出码 0；error / warning / info 均为 0（据来源报告）。
+- 自带检查：`scripts/lint_prompt.py`，`--mode base --duration 5 --json`，退出码 0；error / warning / info 均为 0（据来源报告）。
 - 文本动作结构：0—1s 承接起步、1—3.5s 绕茶几、3.5—5s 减速停稳；双手不触柜门。
 - 优点：参数外置、参考职责和终点清楚。
 - 待补：实际图像引用、P01 起步帧、真实路线、C01 首态脚位校对。
@@ -61,14 +61,14 @@
 
 ### T2：Shot Design
 
-- 自带检查：\`scripts/validate_prompt.py\`，\`--mode standard --duration 5 --image-count 0 --json\`，退出码 0；passed=true，0 errors，0 warnings，8 pass，2 info（提示词长度、无分辨率）。
+- 自带检查：`scripts/validate_prompt.py`，`--mode standard --duration 5 --image-count 0 --json`，退出码 0；passed=true，0 errors，0 warnings，8 pass，2 info（提示词长度、无分辨率）。
 - 在相同动作链上明确重心转移、落脚承重、摆臂与呼吸；没有强行添加运镜和悲伤表演。
 - 待控：不在远景里堆砌不可辨认的微表情；首次指引与参考资料较长，可能增加冗余。
 - 判定：**当前会话加载、文本结构通过；独立触发与视频效果未验收。**
 
 ### T3：Prompt Skill
 
-- 当前包内无自带验证脚本；本轮**人工审查**三阶段覆盖 0—5s，单一走位、固定机位、起止状态、空间/声响一致性与不虚构 \`@素材\` 引用。
+- 当前包内无自带验证脚本；本轮**人工审查**三阶段覆盖 0—5s，单一走位、固定机位、起止状态、空间/声响一致性与不虚构 `@素材` 引用。
 - 其默认 15 秒或 720p 不应覆盖项目明确条件；未确认的分辨率保持待定。
 - 判定：**当前会话加载、文本审查通过；独立触发与视频效果未验收。**
 
@@ -92,7 +92,7 @@
 - 精确调用名与拟定的 Director → Shot Design → Prompt Skill 分工；
 - 一份统一导演真源，Seedance / H3 分别转译；
 - 参数表只维护一份，平台/模型默认值不得覆盖用户已定条件；
-- 无真实已上传素材编号时禁止编造 \`@图片/@视频\` 引用；
+- 无真实已上传素材编号时禁止编造 `@图片/@视频` 引用；
 - 提示词结构检查 ≠ 视频生成/导演验收；
 - 文本试例镜位 A、5 秒与画幅仅是测试假设，P02 机位/时长仍待用户确认。
 
@@ -109,6 +109,6 @@
 
 ## 七、补充待核对事项
 
-远端 \`AGENTS.md\` 目前写有先读 \`INDEX.md\`，而 \`INDEX.md\` 指向先读 \`AGENTS.md\`；来源报告遵循后者且未修改仓库。该冲突建议另设低风险文档修复，不应因 Skill 测试结果而擅改已确认导演规则。
+远端 `AGENTS.md` 目前写有先读 `INDEX.md`，而 `INDEX.md` 指向先读 `AGENTS.md`；来源报告遵循后者且未修改仓库。该冲突建议另设低风险文档修复，不应因 Skill 测试结果而擅改已确认导演规则。
 
 原始测试文本和校验器结果当前仅由来源报告描述；如果未来需要完整复核，应从 Work 会话 outputs 单独归档原始文本/JSON，而不是凭本摘要捏造新文件或哈希。
