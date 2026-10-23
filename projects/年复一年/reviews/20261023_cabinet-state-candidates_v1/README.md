@@ -76,3 +76,19 @@
 - 尝试直接下载 B2 原始 PNG 失败，尚未获得本地原始字节；不能计算或声称 SHA-256。
 - 旧 A/B/C 与新 B2/C2 均保持候选状态，尚未逐图通过实际视觉验收。
 - 不将预览 URL 视为永久资产，不覆盖旧版本，不用于正式视频生成。
+
+
+## 2026-10-23 更新：C2 已完成生成，等待原图可访问后验收
+
+### C2 — 完整显露候选（新版本，不覆盖 C）
+- Runway task ID：`7c4edd89-fa7c-41a3-9ddf-f552b4404526`
+- 最新预览：[打开 C2 候选图](https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3-pro-image/images/7c4edd89-fa7c-41a3-9ddf-f552b4404526/2b85c647-a0e1-4f7e-a0fc-65e634b24f69/Edit__stateB2_into_ONE_standalone_photorealistic_cinematic_s.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYWM0OTU1ZWJkMTk2YTNhMiIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5Mjg2MTY3NX0.JdZWApO4qjTUzzobFb42i-JlsqCdCu8-dwbjkaoC7jY)
+- 状态：生成已完成（16:9，2K）。实际视觉验收未完成。
+- 下载状态：尝试经当前执行环境下载原始 PNG 失败；尚未取得原始字节，因此无 SHA-256、无永久 PNG 入库。
+- B2、C2 均为候选，不可视为正式资产。临时预览链接可能过期；链接可打开不代表视觉合格。
+
+### 下一步边界
+1. 必须先取得 B2、C2 的实际像素文件，核验盒角显露程度、同一柜体/机位、盒子唯一性与比例、物件物理落点。
+2. 当前环境只能返回临时预览 URL，无法从该 URL 读取图像字节；Web 打开也报告该 URL 不可访问。视觉验收因此仍受阻，不能假称已检查。
+3. 在 B2/C2 视觉验收之前，不生成 D1/D2，不做正式视频输入，不覆盖任何历史图。
+4. 需要由用户将 B2、C2 原图下载后直接上传当前对话，或提供可读取的本地原文件；收到后再继续哈希、GitHub PNG 入库与后续取盒动作设计。
