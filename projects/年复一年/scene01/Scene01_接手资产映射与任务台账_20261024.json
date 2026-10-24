@@ -731,8 +731,9 @@
     "first_frame": "projects/年复一年/scene01/keyframes/01-02/assets/SC01-01-02-FIRST_v01.png",
     "first_frame_status": "用户批准静帧",
     "asset_record": "projects/年复一年/scene01/keyframes/01-02/asset.json",
-    "end_frame_status": "待制作与审核",
+    "end_frame_status": "v02已生成，待用户审核",
     "whole_shot_approved": false,
-    "next_task": "同机位左摇后柜前站稳末帧；闭门、空手、未触把手；验证走位与柜体连续性"
+    "next_task": "用户审查末帧v02；核对柜段/门结构、植物遮挡和首尾帧同机位关系，再验证动态",
+    "end_frame_record": "projects/年复一年/scene01/keyframes/01-02/last-asset.json"
   }
 }

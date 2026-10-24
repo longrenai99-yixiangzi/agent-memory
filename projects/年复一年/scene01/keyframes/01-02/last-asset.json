@@ -1,0 +1,45 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "asset_id": "SC01-01-02-LAST",
+  "shot_id": "01-02",
+  "current_candidate": "v02",
+  "first_frame": "assets/SC01-01-02-FIRST_v01.png",
+  "status": "候选待用户审核",
+  "created_at": "2026-10-24",
+  "method": "built_in_imagegen",
+  "actual_references_v01": [
+    "assets/SC01-01-02-FIRST_v01.png",
+    "projects/年复一年/reviews/v35-reference-boards/assets/SC01-V35_space-camera-board.jpg"
+  ],
+  "actual_references_v02": [
+    "assets/SC01-01-02-LAST_candidate-v01.png"
+  ],
+  "versions": [
+    {
+      "version": "v01",
+      "image_path": "projects/年复一年/scene01/keyframes/01-02/assets/SC01-01-02-LAST_candidate-v01.png",
+      "source": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-d1698d0f-42b4-4a8a-adf3-44de4019a663.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1943132,
+      "sha256": "17d75a06b2a3510918951420d04de0597a7a5c6a3e489051096b132d5cbe81ba",
+      "prompt": "prompt-last-v01.txt",
+      "still_approved": false,
+      "review": "v01柜前位置偏厨房，保留过程，停止执行引用"
+    },
+    {
+      "version": "v02",
+      "image_path": "projects/年复一年/scene01/keyframes/01-02/assets/SC01-01-02-LAST_candidate-v02.png",
+      "source": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-a68669bb-5eb6-4a56-b0e9-d2a0d19bb684.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1953795,
+      "sha256": "a00b7c23199e7dd3ab226e41f9af15376f79915b13f5a0c2d05f47b54ace6676",
+      "prompt": "prompt-last-v02.txt",
+      "still_approved": false,
+      "review": "待用户审核；人物已移到近端柜段，柜门关、双手空、未蹲下；目标门结构、前景植物遮挡及严格同机位投影仍待核对"
+    }
+  ],
+  "dynamic_verified": false,
+  "remote_verified": false
+}
