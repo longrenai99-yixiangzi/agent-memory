@@ -18,18 +18,19 @@
     "D01:02-WALK/02-OPEN清晰剪辑边界",
     "D03:丈夫保留生活化动作、删冗余",
     "D05:盒盖真实稳定落点",
-    "D07:咖啡环境声J-cut"
+    "D07:咖啡环境声J-cut",
+    "D02:04只反应，D2-A柜口外低位斜反打",
+    "05:T1先移篮，落稳松手后双手托盒"
   ],
   "decisions_pending": [
-    "D02:04职责",
-    "D2机位A/B",
     "D09:02机位",
     "D10:移布落点/走位路线",
-    "05:T1移篮或T2原位取",
     "D04:丈夫触发与对白",
     "D05细节:谁放盖/落点",
     "D06:照片先后",
-    "D08:全场时长"
+    "D08:全场时长",
+    "原始V3.5三张参考板找回与版本核对",
+    "E2篮具体落点/F2接触净距"
   ],
   "shots": [
     {
@@ -230,13 +231,13 @@
         "06",
         "08"
       ],
-      "status": "待素材",
+      "status": "待用户找回已有原图_不重新生成",
       "owner": "Codex",
       "depends_on": [
         "HANDOFF-VERIFY"
       ],
       "deliverable": null,
-      "next": "取回既有V3.5三张原始参考板，不要求重生",
+      "next": "需《年复一年》家庭回忆分镜板.png、场景一分镜总览.png、场景机位参考图.png的V3.5原始版本；不要替换为新重建图",
       "creative_approved": false,
       "generation_allowed": false
     },
@@ -246,14 +247,14 @@
       "shots": [
         "04"
       ],
-      "status": "文稿完成_待用户确认",
+      "status": "文稿完成_方向已由用户批准",
       "owner": "Codex",
       "depends_on": [
         "HANDOFF-VERIFY"
       ],
       "deliverable": "projects/年复一年/scene01/Scene01_D2_导演设计与正式生图稿_V1_待审批_20261024.md",
-      "next": "用户选择机位A/B与04职责",
-      "creative_approved": false,
+      "next": "等待实际成图与几何审核，不重复询问机位A/B",
+      "creative_approved": true,
       "generation_allowed": false
     },
     {
@@ -262,14 +263,14 @@
       "shots": [
         "04"
       ],
-      "status": "待确认后生成",
+      "status": "待素材与单次生成授权",
       "owner": "Codex",
       "depends_on": [
         "D2-DESIGN"
       ],
       "deliverable": "projects/年复一年/scene01/keyframes/04-D2/assets/SC01-KF-04-D2_v01.png",
-      "next": "额度恢复且获授权后生图、审图",
-      "creative_approved": false,
+      "next": "先取回已生成原图，D2确未生成时再按批准稿制作",
+      "creative_approved": true,
       "generation_allowed": false
     },
     {
@@ -296,14 +297,14 @@
       "shots": [
         "05"
       ],
-      "status": "待用户确认",
+      "status": "T1方向已批准",
       "owner": "Codex",
       "depends_on": [
         "HANDOFF-VERIFY"
       ],
       "deliverable": "projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md",
-      "next": "选T1先移篮或T2净距验证，保留历史连续镜头边界",
-      "creative_approved": false,
+      "next": "核篮落点、松手与托盒接触，不重问T1/T2",
+      "creative_approved": true,
       "generation_allowed": false
     },
     {
@@ -312,15 +313,15 @@
       "shots": [
         "05"
       ],
-      "status": "条件任务_未放行",
+      "status": "T1移篮方向已批准_落点待审",
       "owner": "Codex",
       "depends_on": [
         "TAKE-BOX-DECISION",
         "TOWEL-PLACEMENT"
       ],
       "deliverable": null,
-      "next": "仅选T1才制作篮落地双手松开验证图",
-      "creative_approved": false,
+      "next": "先找回已有E2候选；确无对应图再设计制作，不新增摄影镜头",
+      "creative_approved": true,
       "generation_allowed": false
     },
     {
@@ -330,14 +331,14 @@
         "05",
         "05A"
       ],
-      "status": "待方案确认",
+      "status": "取盒顺序已批准_接触帧待审",
       "owner": "Codex",
       "depends_on": [
         "TAKE-BOX-DECISION",
         "TOWEL-PLACEMENT"
       ],
       "deliverable": null,
-      "next": "接触承重与稳持尾态，不能把盒盖作提手",
+      "next": "先核已有取盒资产能否适配，再补确实缺失的接触/尾态",
       "creative_approved": false,
       "generation_allowed": false
     },
