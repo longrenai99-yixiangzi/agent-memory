@@ -1,0 +1,50 @@
+{
+  "task_id": "SC01-F2-GRIP-v01",
+  "status": "条件任务_待前置图审查",
+  "image_path": "projects/年复一年/scene01/keyframes/05-F2/assets/SC01-KF-05-F2-GRIP_v01.png",
+  "image_exists": false,
+  "generation_allowed": false,
+  "scene": "Scene01",
+  "shot": "05",
+  "purpose": "条件验证：双手已接触承重、盒仍在柜内原位",
+  "conditional": true,
+  "brief_path": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
+  "reference_paths": [
+    "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/approved-candidates/SC01-C2-box-visible-accepted-flaw.jpg",
+    "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/PR01-box-appearance.png",
+    "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-001_front-identity.png",
+    "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-002_profile-identity.png",
+    "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-COST-W-001_fullbody-costume.png",
+    "projects/年复一年/reviews/v35-reference-boards/assets/SC01-V35_space-camera-board.jpg"
+  ],
+  "pending_reference_paths": [
+    "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v01.png"
+  ],
+  "approval": {
+    "T1_direction": true,
+    "placement_approved": false,
+    "still_approved": false,
+    "dynamic_approved": false
+  },
+  "questions": [
+    "同一身份与服装、当前单格柜和唯一PR01？",
+    "篮落点不挡门脚路线，布料落点可追溯？",
+    "两手接触/脱离状态与本节点一致，无穿模？",
+    "柜门、木文件盒、盒与膝盖净距成立？"
+  ],
+  "review": {
+    "reviewer": "Codex初审，用户最终批准",
+    "reviewed_at": null,
+    "result": null,
+    "evidence": [],
+    "needs_user_confirmation": [
+      "具体篮／布落点候选",
+      "实际生成图是否合格"
+    ]
+  },
+  "history": [
+    {
+      "event": "任务与提示词已建立，没有图，不将规划路径当现有参考"
+    }
+  ]
+}

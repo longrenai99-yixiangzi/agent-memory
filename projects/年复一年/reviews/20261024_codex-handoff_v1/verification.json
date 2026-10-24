@@ -163,11 +163,6 @@
       "duplicate_in_preexisting_tracked_images": false
     }
   ],
-  "missing_originals": [
-    "V3.5原始平面/机位参考板",
-    "V3.5场景一分镜总览",
-    "V3.5家庭回忆分镜板"
-  ],
   "known_limits": [
     "B2/C2 JPEG保留原格式",
     "不同机位辅助图不能直接充当首尾帧",
@@ -180,5 +175,18 @@
     "sha256_and_size": "7/7 PASS",
     "verified": true,
     "date": "2026-10-24"
+  },
+  "missing_originals_at_handoff": [
+    "V3.5原始平面/机位参考板",
+    "V3.5场景一分镜总览",
+    "V3.5家庭回忆分镜板"
+  ],
+  "reference_board_followup": {
+    "received": true,
+    "manifest": "projects/年复一年/reviews/v35-reference-boards/manifest.json",
+    "format": "JPEG overview boards",
+    "high_resolution_png_identity_verified": false,
+    "geometry_measured": false,
+    "note": "找回任务已收口，不再要求用户补三板；与先前同名PNG没有旧哈希可比"
   }
 }

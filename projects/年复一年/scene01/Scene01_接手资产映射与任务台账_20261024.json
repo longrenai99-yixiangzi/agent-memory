@@ -29,7 +29,6 @@
     "D05细节:谁放盖/落点",
     "D06:照片先后",
     "D08:全场时长",
-    "原始V3.5三张参考板找回与版本核对",
     "E2篮具体落点/F2接触净距"
   ],
   "shots": [
@@ -51,7 +50,11 @@
       "task_ids": [
         "02-WALK-FRAMES"
       ],
-      "whole_shot_approved": false
+      "whole_shot_approved": false,
+      "reference_board_ids": [
+        "SC01-V35-BOARD-SPACE",
+        "SC01-V35-BOARD-COMPLETE"
+      ]
     },
     {
       "shot": "02-OPEN",
@@ -63,7 +66,11 @@
       "task_ids": [
         "02-OPEN-FRAMES"
       ],
-      "whole_shot_approved": false
+      "whole_shot_approved": false,
+      "reference_board_ids": [
+        "SC01-V35-BOARD-SPACE",
+        "SC01-V35-BOARD-COMPLETE"
+      ]
     },
     {
       "shot": "03",
@@ -76,7 +83,11 @@
       "task_ids": [
         "03-TRANSFER-FRAMES"
       ],
-      "whole_shot_approved": false
+      "whole_shot_approved": false,
+      "reference_board_ids": [
+        "SC01-V35-BOARD-SPACE",
+        "SC01-V35-BOARD-COMPLETE"
+      ]
     },
     {
       "shot": "04",
@@ -90,7 +101,11 @@
         "D2-DESIGN",
         "D2-IMAGE"
       ],
-      "whole_shot_approved": false
+      "whole_shot_approved": false,
+      "reference_board_ids": [
+        "SC01-V35-BOARD-SPACE",
+        "SC01-V35-BOARD-COMPLETE"
+      ]
     },
     {
       "shot": "05",
@@ -105,7 +120,11 @@
         "E2-CONDITIONAL",
         "F2-CONTACT-END"
       ],
-      "whole_shot_approved": false
+      "whole_shot_approved": false,
+      "reference_board_ids": [
+        "SC01-V35-BOARD-SPACE",
+        "SC01-V35-BOARD-COMPLETE"
+      ]
     },
     {
       "shot": "05A",
@@ -127,7 +146,11 @@
       "task_ids": [
         "06-RETURN-SIT"
       ],
-      "whole_shot_approved": false
+      "whole_shot_approved": false,
+      "reference_board_ids": [
+        "SC01-V35-BOARD-SPACE",
+        "SC01-V35-BOARD-COMPLETE"
+      ]
     },
     {
       "shot": "07",
@@ -139,7 +162,11 @@
         "HUSBAND-BINDING",
         "07-09-ACTION"
       ],
-      "whole_shot_approved": false
+      "whole_shot_approved": false,
+      "reference_board_ids": [
+        "SC01-V35-BOARD-SPACE",
+        "SC01-V35-BOARD-COMPLETE"
+      ]
     },
     {
       "shot": "08",
@@ -150,7 +177,11 @@
       "task_ids": [
         "07-09-ACTION"
       ],
-      "whole_shot_approved": false
+      "whole_shot_approved": false,
+      "reference_board_ids": [
+        "SC01-V35-BOARD-SPACE",
+        "SC01-V35-BOARD-COMPLETE"
+      ]
     },
     {
       "shot": "09",
@@ -161,7 +192,11 @@
       "task_ids": [
         "07-09-ACTION"
       ],
-      "whole_shot_approved": false
+      "whole_shot_approved": false,
+      "reference_board_ids": [
+        "SC01-V35-BOARD-SPACE",
+        "SC01-V35-BOARD-COMPLETE"
+      ]
     },
     {
       "shot": "10",
@@ -231,15 +266,17 @@
         "06",
         "08"
       ],
-      "status": "待用户找回已有原图_不重新生成",
+      "status": "已收到三张JPEG参考板_核验完成",
       "owner": "Codex",
       "depends_on": [
         "HANDOFF-VERIFY"
       ],
-      "deliverable": null,
-      "next": "需《年复一年》家庭回忆分镜板.png、场景一分镜总览.png、场景机位参考图.png的V3.5原始版本；不要替换为新重建图",
+      "deliverable": "projects/年复一年/reviews/v35-reference-boards/manifest.json",
+      "next": "不再索取或重生三板；净距/门轴仍需关键帧核验",
       "creative_approved": false,
-      "generation_allowed": false
+      "generation_allowed": false,
+      "pixel_reviewed": true,
+      "geometry_verified": false
     },
     {
       "id": "D2-DESIGN",
@@ -247,13 +284,13 @@
       "shots": [
         "04"
       ],
-      "status": "文稿完成_方向已由用户批准",
+      "status": "文稿完成_已批方向_三板引用已补",
       "owner": "Codex",
       "depends_on": [
         "HANDOFF-VERIFY"
       ],
       "deliverable": "projects/年复一年/scene01/Scene01_D2_导演设计与正式生图稿_V1_待审批_20261024.md",
-      "next": "等待实际成图与几何审核，不重复询问机位A/B",
+      "next": "先制作并审查实际D2候选，不重复确认职责与机位",
       "creative_approved": true,
       "generation_allowed": false
     },
@@ -263,13 +300,14 @@
       "shots": [
         "04"
       ],
-      "status": "待素材与单次生成授权",
+      "status": "待生成_本轮未调用",
       "owner": "Codex",
       "depends_on": [
-        "D2-DESIGN"
+        "D2-DESIGN",
+        "ENV-V35-ORIGINALS"
       ],
       "deliverable": "projects/年复一年/scene01/keyframes/04-D2/assets/SC01-KF-04-D2_v01.png",
-      "next": "先取回已生成原图，D2确未生成时再按批准稿制作",
+      "next": "按已批准稿单次制作，再审实际眼线/门板/光影",
       "creative_approved": true,
       "generation_allowed": false
     },
@@ -281,13 +319,13 @@
         "04",
         "05"
       ],
-      "status": "待用户确认",
+      "status": "具体候选已写_待用户确认与实图可达性",
       "owner": "Codex",
       "depends_on": [
         "HANDOFF-VERIFY"
       ],
-      "deliverable": "projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md",
-      "next": "核验窗平台近端可达落点或真实篮内空位",
+      "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
+      "next": "布料暂放窗平台近端、篮在木地板近侧的候选；未批准前不执行E2",
       "creative_approved": false,
       "generation_allowed": false
     },
@@ -313,14 +351,14 @@
       "shots": [
         "05"
       ],
-      "status": "T1移篮方向已批准_落点待审",
+      "status": "T1已批准_提示词完成_落点待确认",
       "owner": "Codex",
       "depends_on": [
         "TAKE-BOX-DECISION",
         "TOWEL-PLACEMENT"
       ],
-      "deliverable": null,
-      "next": "先找回已有E2候选；确无对应图再设计制作，不新增摄影镜头",
+      "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
+      "next": "旧06B双层柜仅作动作参考；新单格柜E2尚未生成",
       "creative_approved": true,
       "generation_allowed": false
     },
@@ -331,14 +369,14 @@
         "05",
         "05A"
       ],
-      "status": "取盒顺序已批准_接触帧待审",
+      "status": "提示词完成_待E2与必要接触验证",
       "owner": "Codex",
       "depends_on": [
         "TAKE-BOX-DECISION",
         "TOWEL-PLACEMENT"
       ],
-      "deliverable": null,
-      "next": "先核已有取盒资产能否适配，再补确实缺失的接触/尾态",
+      "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
+      "next": "先E2-PASS，必要才补GRIP，再派生END；不独立重造两套场景",
       "creative_approved": false,
       "generation_allowed": false
     },
@@ -646,5 +684,21 @@
       "creative_approved": false,
       "generation_allowed": false
     }
+  ],
+  "reference_board_manifest": "projects/年复一年/reviews/v35-reference-boards/manifest.json",
+  "reference_board_ids": [
+    "SC01-V35-BOARD-SPACE",
+    "SC01-V35-BOARD-OVERVIEW",
+    "SC01-V35-BOARD-COMPLETE"
+  ],
+  "reference_boards_received": true,
+  "reference_boards_are_highres_individual_keyframes": false,
+  "remaining_asset_gaps": [
+    "D2已批机位的实际成图",
+    "当前单格柜体E2落篮松手候选",
+    "F2稳持尾态及必要时接触帧",
+    "布料与篮具体落点验证",
+    "新版02走位/开柜首尾帧",
+    "后半段丈夫/照片绑定及新空间适配"
   ]
 }
