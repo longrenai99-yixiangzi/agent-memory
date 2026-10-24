@@ -61,6 +61,11 @@
       "usable_as_video_keyframe": false
     }
   ],
-  "remote_verification": "待本轮推送后核验",
+  "remote_verification": {
+    "commit": "b3f729223b39e6e0352a6dd498b067fdf238ca22",
+    "method": "Authenticated GitHub contents API raw bytes at immutable commit",
+    "sha256_and_bytes": "3/3 PASS",
+    "verified": true
+  },
   "approval_boundary": "资料收到不等于整场方案或板上每一幅示意获批"
 }
