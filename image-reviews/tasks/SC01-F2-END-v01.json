@@ -1,6 +1,6 @@
 {
   "task_id": "SC01-F2-END-v01",
-  "status": "待E2候选审核通过",
+  "status": "暂停旧提示词_等待移毛巾v02审核与放布接口",
   "image_path": "projects/年复一年/scene01/keyframes/05-F2/assets/SC01-KF-05-F2-END_v01.png",
   "image_exists": false,
   "generation_allowed": false,
@@ -8,7 +8,7 @@
   "shot": "05",
   "purpose": "稳定托住完整离柜的合盖纸盒",
   "conditional": false,
-  "brief_path": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
+  "brief_path": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V2_移毛巾不移篮.md",
   "reference_paths": [
     "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/approved-candidates/SC01-C2-box-visible-accepted-flaw.jpg",
     "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/PR01-box-appearance.png",
@@ -18,14 +18,13 @@
     "projects/年复一年/reviews/v35-reference-boards/assets/SC01-V35_space-camera-board.jpg"
   ],
   "pending_reference_paths": [
-    "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v01.png"
+    "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v02.png"
   ],
   "approval": {
-    "T1_direction": true,
-    "placement_approved": true,
+    "towel_only_direction": true,
+    "basket_move_allowed": false,
     "still_approved": false,
-    "dynamic_approved": false,
-    "placement_approval_scope": "用户同意按落点方案准备候选；不是实际成图/净距批准"
+    "dynamic_approved": false
   },
   "questions": [
     "同一身份与服装、当前单格柜和唯一PR01？",
@@ -39,8 +38,8 @@
     "result": null,
     "evidence": [],
     "needs_user_confirmation": [
-      "E2候选批准",
-      "未来F2实际成图与接触/净距审查"
+      "修正E2 v02成图",
+      "毛巾放稳与双手释放后的接盒净距"
     ]
   },
   "history": [
@@ -50,6 +49,9 @@
     {
       "date": "2026-10-24",
       "event": "落点候选方向获同意，E2 v01已出但未批准，F2本轮未生成"
+    },
+    {
+      "event": "旧移篮V1路线撤销，改用篮原位的V2稿；未生成F2"
     }
   ]
 }

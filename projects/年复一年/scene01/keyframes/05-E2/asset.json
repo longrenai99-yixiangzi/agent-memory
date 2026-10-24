@@ -5,57 +5,61 @@
   "shot_id": "05",
   "working_alias": "E2",
   "asset_id": "SC01-KF-05-E2",
-  "version": "v01",
-  "role": "篮落地双手释放；盒仍在柜内",
-  "image_path": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v01.png",
+  "version": "v02",
+  "role": "面向柜子移出前方整摞毛巾，篮仍原位、盒仍柜内",
+  "image_path": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v02.png",
   "width": 1672,
   "height": 941,
   "format": "PNG",
-  "bytes": 2006418,
-  "sha256": "224c9232f32289389e88d3e0208b1caf1e742ddddafe239d3d5a5adc1648b0ee",
+  "bytes": 1982937,
+  "sha256": "dc8c7e02f421c747e4fc935137d0f8639dbcd5ecfa934a0e71d010333d833867",
   "source": {
     "kind": "built_in_imagegen",
-    "operation": "C2场景添加人物、移篮和布落点的派生候选",
-    "generated_file": "D:/AI_ENV/Codex/home/generated_images/01a156bc-b218-7db0-bc4c-769e2b721171/exec-541c9c3b-a8b3-4fa8-a934-12abd37a2de4.png",
-    "prompt_path": "projects/年复一年/scene01/keyframes/05-E2/prompt-v01.txt",
+    "operation": "依据用户纠正：面向柜子、移前方整摞毛巾，篮不动",
+    "generated_file": "D:/AI_ENV/Codex/home/generated_images/01a156bc-b218-7db0-bc4c-769e2b721171/exec-9b7fb7ce-ab97-43c5-a9cc-619089d10ad0.png",
+    "prompt_path": "projects/年复一年/scene01/keyframes/05-E2/prompt-v02.txt",
     "actual_input_paths": [
+      "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/approved-candidates/SC01-B2-lid-partial.jpg",
       "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/approved-candidates/SC01-C2-box-visible-accepted-flaw.jpg",
       "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-001_front-identity.png",
       "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-002_profile-identity.png",
-      "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-COST-W-001_fullbody-costume.png",
-      "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/PR01-box-appearance.png"
+      "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-COST-W-001_fullbody-costume.png"
     ],
     "seed": null
   },
   "approval": {
-    "T1_direction_approved": true,
-    "placement_candidate_authorized": true,
-    "source_confirmation": "同意先按这个落点方案准备候选图",
+    "direction": "用户明确：妻子面向柜子，移开最前一摞毛巾即可，不拿出篮子",
+    "old_T1_basket_move_superseded": true,
     "still_approved": false,
-    "placement_geometry_verified": false,
     "dynamic_approved": false
   },
   "review": {
-    "status": "待用户审核",
+    "status": "修正候选待用户审核",
     "observations": [
-      "地板圆篮底部可见接地",
-      "双手均未持篮、未接旧盒",
-      "闭合斑驳盒仍在原柜内、右双文件盒保留",
-      "左窗平台可见两组叠布",
-      "人物完整蹲姿且鞋可见"
+      "妻子背部三分之二朝镜头，躯干/头朝柜内",
+      "手托折叠毛巾而非盒子",
+      "编织篮仍在柜内左侧、地板没有篮",
+      "唯一合盖盒仍在柜内、右侧两文件盒保留"
     ],
     "limits": [
-      "左侧开门被人物部分遮挡，门扇与脚位/篮的全部净距不能确认",
-      "人物身份、细部服装与实际候选落点仍需用户审核",
-      "没有证明从C2移篮或从E2托盒的动态轨迹"
+      "部分手部/叠布接触被遮挡，双手受力与净距需实图审核",
+      "篮盒精确尺寸/位置连续性不因本次生成自动通过",
+      "未生成放布、回手托盒的动态过程"
     ]
   },
   "repository": {
-    "image_uploaded": true,
-    "remote_verified": true,
-    "upload_commit": "16639aebb23a7642515bcaa4573449eaff79e5aa",
-    "verification": "Authenticated GitHub contents API immutable commit raw bytes; SHA256 and 2006418 bytes match"
+    "image_uploaded": false,
+    "remote_verified": false
   },
   "no_overwrite": true,
-  "created_at": "2026-10-24"
+  "created_at": "2026-10-24",
+  "history": [
+    {
+      "version": "v01",
+      "asset_path": "history/v01_asset.json",
+      "image_path": "assets/SC01-KF-05-E2_v01.png",
+      "status": "用户指出方位错误且不需移篮，停止用于制作",
+      "sha256": "224c9232f32289389e88d3e0208b1caf1e742ddddafe239d3d5a5adc1648b0ee"
+    }
+  ]
 }

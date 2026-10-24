@@ -1,6 +1,6 @@
 {
   "task_id": "SC01-E2-v01",
-  "status": "待审查",
+  "status": "不通过_按用户纠正停止使用",
   "image_path": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v01.png",
   "image_exists": true,
   "generation_allowed": false,
@@ -19,8 +19,8 @@
   ],
   "pending_reference_paths": [],
   "approval": {
-    "T1_direction": true,
-    "placement_approved": true,
+    "T1_direction": false,
+    "placement_approved": false,
     "still_approved": false,
     "dynamic_approved": false,
     "placement_approval_scope": "用户同意按落点方案准备候选；不是实际成图/净距批准"
@@ -34,7 +34,7 @@
   "review": {
     "reviewer": "Codex初审，用户最终批准",
     "reviewed_at": "2026-10-24",
-    "result": "候选待用户审核，部分几何未能核验",
+    "result": "用户否定：妻子方位错误且不需要移篮",
     "evidence": [
       "地板圆篮底部可见接地",
       "双手均未持篮、未接旧盒",
@@ -42,10 +42,7 @@
       "左窗平台可见两组叠布",
       "人物完整蹲姿且鞋可见"
     ],
-    "needs_user_confirmation": [
-      "E2实际候选的身份服装、篮/布落点是否接受",
-      "左柜门被人物部分遮挡，门扫掠与脚位净距仍需核验"
-    ]
+    "needs_user_confirmation": []
   },
   "history": [
     {
@@ -55,6 +52,9 @@
       "date": "2026-10-24",
       "event": "落点候选请求获授权，内置imagegen单次生成并实际看图，未批准最终成图或视频",
       "sha256": "224c9232f32289389e88d3e0208b1caf1e742ddddafe239d3d5a5adc1648b0ee"
+    },
+    {
+      "event": "v01只留历史，停止派生；用户要求正对柜移毛巾、不移篮"
     }
   ],
   "actual_generation_input_paths": [
@@ -64,5 +64,6 @@
     "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-COST-W-001_fullbody-costume.png",
     "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/PR01-box-appearance.png"
   ],
-  "asset_record": "projects/年复一年/scene01/keyframes/05-E2/asset.json"
+  "asset_record": "projects/年复一年/scene01/keyframes/05-E2/asset.json",
+  "superseded_by": "SC01-E2-v02"
 }

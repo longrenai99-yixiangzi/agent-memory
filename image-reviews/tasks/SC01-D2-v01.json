@@ -32,7 +32,8 @@
     "evidence": [],
     "needs_user_confirmation": [
       "实际成图、眼线、柜门与机位净距",
-      "布料落点及前后动作接口"
+      "布料落点及前后动作接口",
+      "最新移毛巾显露过程与D2反应的实际剪辑接口"
     ]
   },
   "history": [
@@ -45,6 +46,9 @@
     },
     {
       "event": "三张用户找回V3.5 JPEG板已实际收到核验；D2文稿补引用，图像仍未生成，机位方向不重问"
+    },
+    {
+      "event": "妻子面向柜、只移前方毛巾、篮不动；D2低位反打/只反应保留，不恢复移篮"
     }
   ],
   "reference_board_manifest": "projects/年复一年/reviews/v35-reference-boards/manifest.json"

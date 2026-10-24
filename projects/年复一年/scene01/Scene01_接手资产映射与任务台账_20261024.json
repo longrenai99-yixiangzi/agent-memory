@@ -20,7 +20,7 @@
     "D05:盒盖真实稳定落点",
     "D07:咖啡环境声J-cut",
     "D02:04只反应，D2-A柜口外低位斜反打",
-    "05:T1先移篮，落稳松手后双手托盒"
+    "用户最新纠正:妻子正面朝柜，只移前方整摞毛巾，篮留柜内不动"
   ],
   "decisions_pending": [
     "D09:02机位",
@@ -29,7 +29,9 @@
     "D05细节:谁放盖/落点",
     "D06:照片先后",
     "D08:全场时长",
-    "E2实际成图及遮挡下净距审核/F2接触验证"
+    "E2实际成图及遮挡下净距审核/F2接触验证",
+    "v02移毛巾成图与手部接触审核",
+    "放布后双手回盒接口与篮原位取盒净距"
   ],
   "shots": [
     {
@@ -109,7 +111,7 @@
     },
     {
       "shot": "05",
-      "legacy_mapping": "E2条件/F2；旧C05仅功能参考",
+      "legacy_mapping": "E2移毛巾/F2取盒；最新取消移篮",
       "asset_ids": [
         "SC01-BOX-B2",
         "SC01-BOX-C2",
@@ -319,16 +321,16 @@
         "04",
         "05"
       ],
-      "status": "候选方案已获批准_E2实图待审核",
+      "status": "毛巾拿离候选已出_放稳接口待核",
       "owner": "Codex",
       "depends_on": [
         "HANDOFF-VERIFY"
       ],
-      "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
-      "next": "审核E2窗平台布叠可达性及近侧地板篮位",
+      "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V2_移毛巾不移篮.md",
+      "next": "先审v02；取盒前需将毛巾放稳、释放双手，不再安排地板放篮",
       "creative_approved": true,
       "generation_allowed": false,
-      "approval_scope": "仅按方案准备候选，不是净距或最终落点锁定"
+      "approval_scope": "篮落地方案已撤销，仅保留布料落点候选"
     },
     {
       "id": "TAKE-BOX-DECISION",
@@ -336,13 +338,13 @@
       "shots": [
         "05"
       ],
-      "status": "T1方向已批准",
+      "status": "用户最新决定_只移毛巾不移篮",
       "owner": "Codex",
       "depends_on": [
         "HANDOFF-VERIFY"
       ],
-      "deliverable": "projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md",
-      "next": "核篮落点、松手与托盒接触，不重问T1/T2",
+      "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V2_移毛巾不移篮.md",
+      "next": "篮原位，先移毛巾再放稳，接触承重后取盒",
       "creative_approved": true,
       "generation_allowed": false
     },
@@ -352,14 +354,14 @@
       "shots": [
         "05"
       ],
-      "status": "候选已生成_待用户审核",
+      "status": "移篮任务撤销_改为移毛巾v02候选待审",
       "owner": "Codex",
       "depends_on": [
         "TAKE-BOX-DECISION",
         "TOWEL-PLACEMENT"
       ],
-      "deliverable": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v01.png",
-      "next": "用户审查v01；不自动重试或派生F2",
+      "deliverable": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v02.png",
+      "next": "审核正对柜与整摞毛巾；旧v01不得使用",
       "creative_approved": true,
       "generation_allowed": false
     },
@@ -370,14 +372,14 @@
         "05",
         "05A"
       ],
-      "status": "等待E2候选批准",
+      "status": "等待修正v02与放布接口核验",
       "owner": "Codex",
       "depends_on": [
         "TAKE-BOX-DECISION",
         "TOWEL-PLACEMENT"
       ],
-      "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
-      "next": "E2通过后才派生稳持闭盒尾态，必要才补接触帧",
+      "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V2_移毛巾不移篮.md",
+      "next": "篮不动；放布空手后接触承重，旧V1移篮提示词停用",
       "creative_approved": false,
       "generation_allowed": false
     },
@@ -696,25 +698,31 @@
   "reference_boards_are_highres_individual_keyframes": false,
   "remaining_asset_gaps": [
     "D2已批机位的实际成图",
-    "当前单格柜体E2落篮松手候选",
+    "当前单格柜体E2 v02移毛巾候选的实际审核",
     "F2稳持尾态及必要时接触帧",
-    "布料与篮具体落点验证",
+    "毛巾放稳、双手释放后回盒接触的接口验证；篮不动",
     "新版02走位/开柜首尾帧",
     "后半段丈夫/照片绑定及新空间适配"
   ],
   "authorized_still_preview": {
-    "confirmation": "同意先按这个落点方案准备候选图",
-    "scope": "本轮E2单张候选；不是视频或后台批量授权",
+    "scope": "用户纠正v01后单次制作v02；不自动生成F2或视频",
     "calls": 1,
     "remaining_automatic_calls": 0
   },
   "candidate_assets": [
     {
       "id": "SC01-KF-05-E2",
-      "path": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v01.png",
+      "version": "v02",
+      "path": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v02.png",
       "metadata": "projects/年复一年/scene01/keyframes/05-E2/asset.json",
-      "status": "待用户审核",
+      "status": "修正候选待用户审核",
       "still_approved": false
+    }
+  ],
+  "superseded_directions": [
+    {
+      "direction": "T1先移篮、地板篮落点",
+      "reason": "用户明确不需要搬篮；v01人物侧向错误"
     }
   ]
 }
