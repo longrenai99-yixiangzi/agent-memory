@@ -1,0 +1,59 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "05",
+  "working_alias": "E2",
+  "asset_id": "SC01-KF-05-E2",
+  "version": "v01",
+  "role": "篮落地双手释放；盒仍在柜内",
+  "image_path": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v01.png",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "bytes": 2006418,
+  "sha256": "224c9232f32289389e88d3e0208b1caf1e742ddddafe239d3d5a5adc1648b0ee",
+  "source": {
+    "kind": "built_in_imagegen",
+    "operation": "C2场景添加人物、移篮和布落点的派生候选",
+    "generated_file": "D:/AI_ENV/Codex/home/generated_images/01a156bc-b218-7db0-bc4c-769e2b721171/exec-541c9c3b-a8b3-4fa8-a934-12abd37a2de4.png",
+    "prompt_path": "projects/年复一年/scene01/keyframes/05-E2/prompt-v01.txt",
+    "actual_input_paths": [
+      "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/approved-candidates/SC01-C2-box-visible-accepted-flaw.jpg",
+      "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-001_front-identity.png",
+      "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-002_profile-identity.png",
+      "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-COST-W-001_fullbody-costume.png",
+      "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/PR01-box-appearance.png"
+    ],
+    "seed": null
+  },
+  "approval": {
+    "T1_direction_approved": true,
+    "placement_candidate_authorized": true,
+    "source_confirmation": "同意先按这个落点方案准备候选图",
+    "still_approved": false,
+    "placement_geometry_verified": false,
+    "dynamic_approved": false
+  },
+  "review": {
+    "status": "待用户审核",
+    "observations": [
+      "地板圆篮底部可见接地",
+      "双手均未持篮、未接旧盒",
+      "闭合斑驳盒仍在原柜内、右双文件盒保留",
+      "左窗平台可见两组叠布",
+      "人物完整蹲姿且鞋可见"
+    ],
+    "limits": [
+      "左侧开门被人物部分遮挡，门扇与脚位/篮的全部净距不能确认",
+      "人物身份、细部服装与实际候选落点仍需用户审核",
+      "没有证明从C2移篮或从E2托盒的动态轨迹"
+    ]
+  },
+  "repository": {
+    "image_uploaded": false,
+    "remote_verified": false
+  },
+  "no_overwrite": true,
+  "created_at": "2026-10-24"
+}

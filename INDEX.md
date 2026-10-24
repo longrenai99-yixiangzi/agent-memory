@@ -1,4 +1,4 @@
-SC01最新资料已收齐：[用户找回的三张V3.5 JPEG参考板及核验](projects/年复一年/reviews/v35-reference-boards/README.md)已归档，不再列待找回或重生；[当前台账](projects/年复一年/scene01/Scene01_接手资产映射与任务台账_20261024.json)已更新。D2-A低位斜反打/04只反应、T1先移篮再取盒已批准；[D2文稿](projects/年复一年/scene01/Scene01_D2_导演设计与正式生图稿_V1_待审批_20261024.md)及[E2/F2提示词](projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md)完成，具体篮/布落点与成图仍待审。A/B2/C2不返工；未生成媒体、不改环境，Seedance剩余实测暂停。
+SC01最新执行：用户同意按“近侧地板放篮、窗平台近端叠布”制作候选，[E2 v01原图/初审/实际提示词](projects/年复一年/scene01/keyframes/05-E2/README.md)已生成，待用户审核；左柜门部分被人物遮挡，完整净距未确认，不自动派生F2。三张[V3.5参考板](projects/年复一年/reviews/v35-reference-boards/README.md)及七图包保留；[全场台账](projects/年复一年/scene01/Scene01_接手资产映射与任务台账_20261024.json)更新。A/B2/C2未改，无视频、无环境修改，Seedance剩余实测暂停。
 
 2026-10-22｜已将 Higgsfield Acting Director 与 Production Pipeline 两个原版 SKILL.md 上传至仓库 `skills/`，并记录上游来源、MIT 许可证与精简依赖限制；用户本地 PowerShell 安装检查均为 True。Codex 实际加载与导演实测仍待验证。参见 [Higgsfield Skills 共享说明](skills/README.md)。
 

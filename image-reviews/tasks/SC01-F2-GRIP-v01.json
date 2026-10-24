@@ -1,6 +1,6 @@
 {
   "task_id": "SC01-F2-GRIP-v01",
-  "status": "条件任务_待前置图审查",
+  "status": "待E2候选审核通过",
   "image_path": "projects/年复一年/scene01/keyframes/05-F2/assets/SC01-KF-05-F2-GRIP_v01.png",
   "image_exists": false,
   "generation_allowed": false,
@@ -22,9 +22,10 @@
   ],
   "approval": {
     "T1_direction": true,
-    "placement_approved": false,
+    "placement_approved": true,
     "still_approved": false,
-    "dynamic_approved": false
+    "dynamic_approved": false,
+    "placement_approval_scope": "用户同意按落点方案准备候选；不是实际成图/净距批准"
   },
   "questions": [
     "同一身份与服装、当前单格柜和唯一PR01？",
@@ -38,13 +39,17 @@
     "result": null,
     "evidence": [],
     "needs_user_confirmation": [
-      "具体篮／布落点候选",
-      "实际生成图是否合格"
+      "E2候选批准",
+      "未来F2实际成图与接触/净距审查"
     ]
   },
   "history": [
     {
       "event": "任务与提示词已建立，没有图，不将规划路径当现有参考"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "落点候选方向获同意，E2 v01已出但未批准，F2本轮未生成"
     }
   ]
 }

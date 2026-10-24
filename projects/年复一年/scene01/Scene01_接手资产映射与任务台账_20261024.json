@@ -24,12 +24,12 @@
   ],
   "decisions_pending": [
     "D09:02机位",
-    "D10:移布落点/走位路线",
+    "D10:候选落点方向已批准，实际可达性/走位路线仍待验",
     "D04:丈夫触发与对白",
     "D05细节:谁放盖/落点",
     "D06:照片先后",
     "D08:全场时长",
-    "E2篮具体落点/F2接触净距"
+    "E2实际成图及遮挡下净距审核/F2接触验证"
   ],
   "shots": [
     {
@@ -319,15 +319,16 @@
         "04",
         "05"
       ],
-      "status": "具体候选已写_待用户确认与实图可达性",
+      "status": "候选方案已获批准_E2实图待审核",
       "owner": "Codex",
       "depends_on": [
         "HANDOFF-VERIFY"
       ],
       "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
-      "next": "布料暂放窗平台近端、篮在木地板近侧的候选；未批准前不执行E2",
-      "creative_approved": false,
-      "generation_allowed": false
+      "next": "审核E2窗平台布叠可达性及近侧地板篮位",
+      "creative_approved": true,
+      "generation_allowed": false,
+      "approval_scope": "仅按方案准备候选，不是净距或最终落点锁定"
     },
     {
       "id": "TAKE-BOX-DECISION",
@@ -351,14 +352,14 @@
       "shots": [
         "05"
       ],
-      "status": "T1已批准_提示词完成_落点待确认",
+      "status": "候选已生成_待用户审核",
       "owner": "Codex",
       "depends_on": [
         "TAKE-BOX-DECISION",
         "TOWEL-PLACEMENT"
       ],
-      "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
-      "next": "旧06B双层柜仅作动作参考；新单格柜E2尚未生成",
+      "deliverable": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v01.png",
+      "next": "用户审查v01；不自动重试或派生F2",
       "creative_approved": true,
       "generation_allowed": false
     },
@@ -369,14 +370,14 @@
         "05",
         "05A"
       ],
-      "status": "提示词完成_待E2与必要接触验证",
+      "status": "等待E2候选批准",
       "owner": "Codex",
       "depends_on": [
         "TAKE-BOX-DECISION",
         "TOWEL-PLACEMENT"
       ],
       "deliverable": "projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V1.md",
-      "next": "先E2-PASS，必要才补GRIP，再派生END；不独立重造两套场景",
+      "next": "E2通过后才派生稳持闭盒尾态，必要才补接触帧",
       "creative_approved": false,
       "generation_allowed": false
     },
@@ -700,5 +701,20 @@
     "布料与篮具体落点验证",
     "新版02走位/开柜首尾帧",
     "后半段丈夫/照片绑定及新空间适配"
+  ],
+  "authorized_still_preview": {
+    "confirmation": "同意先按这个落点方案准备候选图",
+    "scope": "本轮E2单张候选；不是视频或后台批量授权",
+    "calls": 1,
+    "remaining_automatic_calls": 0
+  },
+  "candidate_assets": [
+    {
+      "id": "SC01-KF-05-E2",
+      "path": "projects/年复一年/scene01/keyframes/05-E2/assets/SC01-KF-05-E2_v01.png",
+      "metadata": "projects/年复一年/scene01/keyframes/05-E2/asset.json",
+      "status": "待用户审核",
+      "still_approved": false
+    }
   ]
 }
