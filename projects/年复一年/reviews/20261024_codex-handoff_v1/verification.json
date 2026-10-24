@@ -1,0 +1,178 @@
+{
+  "schema": "sc01-handoff-verification-v1",
+  "date": "2026-10-24",
+  "baseline_commit": "c76f5d3",
+  "archive": {
+    "source": "D:/AI_ENV/Codex/home/codex-remote-attachments/01a156bc-b218-7db0-bc4c-769e2b721171/A7C55140-7D4B-49A3-BD04-792A4764373A/1-素材包.zip",
+    "sha256": "6031d5536512d0b39b1d080d558ff5fd902fe28e1f9de5fc5c01df7cb606d119",
+    "entries": 9,
+    "images": 7,
+    "path_safety_checked": true,
+    "unchanged_source": true
+  },
+  "checks": {
+    "manifest_sha256": "7/7 PASS",
+    "bytes": "7/7 PASS",
+    "dimensions": "7/7 PASS",
+    "image_decoding": "7/7 PASS",
+    "visual_inspection": "7/7 performed; approvals inherited from user",
+    "paid_calls": 0,
+    "environment_changes": 0
+  },
+  "assets": [
+    {
+      "id": "SC01-BOX-A",
+      "path": "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/approved-candidates/SC01-A-hidden.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2567193,
+      "sha256": "392ce833540e95c9672de57c87adb52af194581c3097f0aa13cd620c04ce480a",
+      "format": "PNG",
+      "approval": "user_accepted_static",
+      "shots": [
+        "03"
+      ],
+      "local_hash_verified": true,
+      "local_dimensions_verified": true,
+      "visually_inspected": true,
+      "dynamic_verified": false,
+      "duplicate_in_preexisting_tracked_images": false
+    },
+    {
+      "id": "SC01-BOX-B2",
+      "path": "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/approved-candidates/SC01-B2-lid-partial.jpg",
+      "width": 1536,
+      "height": 864,
+      "bytes": 284287,
+      "sha256": "78573008f6f201dbf5189de00879e7cc6e442daa9001b8d49a95b5c4a782d43a",
+      "format": "JPEG",
+      "approval": "user_accepted_static",
+      "shots": [
+        "03",
+        "04"
+      ],
+      "local_hash_verified": true,
+      "local_dimensions_verified": true,
+      "visually_inspected": true,
+      "dynamic_verified": false,
+      "duplicate_in_preexisting_tracked_images": false
+    },
+    {
+      "id": "SC01-BOX-C2",
+      "path": "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/approved-candidates/SC01-C2-box-visible-accepted-flaw.jpg",
+      "width": 1536,
+      "height": 864,
+      "bytes": 294767,
+      "sha256": "ce1fc90e3dbb520da35154f78f79ecfbacb700e76297ca07d871ae1ec873d55d",
+      "format": "JPEG",
+      "approval": "user_accepted_static_with_known_overlap",
+      "shots": [
+        "05"
+      ],
+      "local_hash_verified": true,
+      "local_dimensions_verified": true,
+      "visually_inspected": true,
+      "dynamic_verified": false,
+      "duplicate_in_preexisting_tracked_images": false
+    },
+    {
+      "id": "SC01-PR01-HANDOFF",
+      "path": "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/PR01-box-appearance.png",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 3196980,
+      "sha256": "43002e3c4cea8c2d659d4009ef41cbfa12e5be549a32df4ffea69d39a9c0a03b",
+      "format": "PNG",
+      "approval": "appearance_reference_only",
+      "shots": [
+        "03",
+        "04",
+        "05",
+        "05A",
+        "06",
+        "10"
+      ],
+      "local_hash_verified": true,
+      "local_dimensions_verified": true,
+      "visually_inspected": true,
+      "dynamic_verified": false,
+      "duplicate_in_preexisting_tracked_images": false
+    },
+    {
+      "id": "SC01-ENV-HANDOFF-1",
+      "path": "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/room-master-1.png",
+      "width": 1671,
+      "height": 941,
+      "bytes": 2853044,
+      "sha256": "97933052ec153338121b07e5814e92a598e10770c754eab528d5517ddb882de9",
+      "format": "PNG",
+      "approval": "auxiliary_spatial_reference_not_measured",
+      "shots": [
+        "02-WALK",
+        "02-OPEN",
+        "04",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "local_hash_verified": true,
+      "local_dimensions_verified": true,
+      "visually_inspected": true,
+      "dynamic_verified": false,
+      "duplicate_in_preexisting_tracked_images": false
+    },
+    {
+      "id": "SC01-ENV-HANDOFF-2",
+      "path": "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/room-master-2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2751560,
+      "sha256": "2a69a604ff6c740d1e3e63ba8431f7b4565156b3d4d0190a8dc11303b6d62d95",
+      "format": "PNG",
+      "approval": "auxiliary_target_cabinet_mapping_candidate",
+      "shots": [
+        "02-OPEN",
+        "03",
+        "04",
+        "05"
+      ],
+      "local_hash_verified": true,
+      "local_dimensions_verified": true,
+      "visually_inspected": true,
+      "dynamic_verified": false,
+      "duplicate_in_preexisting_tracked_images": false
+    },
+    {
+      "id": "SC01-ENV-HANDOFF-3",
+      "path": "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/room-master-3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2883718,
+      "sha256": "a72027814b42e5ff189ab407c80a0253ff003a66d1a9401b25e09ca1db54b3e9",
+      "format": "PNG",
+      "approval": "auxiliary_reference_table_shape_conflict",
+      "shots": [
+        "01",
+        "06"
+      ],
+      "local_hash_verified": true,
+      "local_dimensions_verified": true,
+      "visually_inspected": true,
+      "dynamic_verified": false,
+      "duplicate_in_preexisting_tracked_images": false
+    }
+  ],
+  "missing_originals": [
+    "V3.5原始平面/机位参考板",
+    "V3.5场景一分镜总览",
+    "V3.5家庭回忆分镜板"
+  ],
+  "known_limits": [
+    "B2/C2 JPEG保留原格式",
+    "不同机位辅助图不能直接充当首尾帧",
+    "room-master-3茶几与1/2造型不同",
+    "C2篮盒交叠用户接受但动态未验证"
+  ],
+  "remote_verification": "待本轮推送后取回校验"
+}

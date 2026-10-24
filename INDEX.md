@@ -1,3 +1,5 @@
+2026-10-24｜Codex已实际接收SC01素材包，七图哈希/字节/尺寸7/7一致并逐图查看，A/B2/C2静帧批准及C2已知瑕疵保留；D2对应V3.5的04，E2/F2属05内部动作，不自动加镜。[核验与原图](projects/年复一年/reviews/20261024_codex-handoff_v1/README.md)、[D2正式生图稿（待机位/职责批准）](projects/年复一年/scene01/Scene01_D2_导演设计与正式生图稿_V1_待审批_20261024.md)、[全场资产映射/任务台账](projects/年复一年/scene01/Scene01_接手资产映射与任务台账_20261024.json)、[取盒两案与后续准备](projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md)。V3.5原始参考板仍缺，三空间辅助图有茶几造型差异；不重修C2、不生成媒体、不改环境，Seedance剩余实测暂停。
+
 2026-10-22｜已将 Higgsfield Acting Director 与 Production Pipeline 两个原版 SKILL.md 上传至仓库 `skills/`，并记录上游来源、MIT 许可证与精简依赖限制；用户本地 PowerShell 安装检查均为 True。Codex 实际加载与导演实测仍待验证。参见 [Higgsfield Skills 共享说明](skills/README.md)。
 
 2026-10-22｜Seedance 2.5 三个 Codex Skill 安装文件核验均为 True（Director / Shot Design / Prompt），路径在 `D:\AI_ENV\Codex\home\skills\`；Codex 实际加载、指令兼容与提示词效果尚未验证。已记录《年复一年》“统一导演设计 + Seedance 2.5 / H3 双模型独立提示词”的确认方向和 SC01-P02 待测流程。参见[Skill安装与测试记录](projects/年复一年/Seedance2.5_Skills安装记录与双模型提示词工作流_20261022.md)。

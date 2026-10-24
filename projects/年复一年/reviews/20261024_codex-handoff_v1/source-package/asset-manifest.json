@@ -1,0 +1,51 @@
+[
+  {
+    "file": "approved-candidates/SC01-A-hidden.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "392ce833540e95c9672de57c87adb52af194581c3097f0aa13cd620c04ce480a",
+    "bytes": 2567193
+  },
+  {
+    "file": "approved-candidates/SC01-B2-lid-partial.jpg",
+    "width": 1536,
+    "height": 864,
+    "sha256": "78573008f6f201dbf5189de00879e7cc6e442daa9001b8d49a95b5c4a782d43a",
+    "bytes": 284287
+  },
+  {
+    "file": "approved-candidates/SC01-C2-box-visible-accepted-flaw.jpg",
+    "width": 1536,
+    "height": 864,
+    "sha256": "ce1fc90e3dbb520da35154f78f79ecfbacb700e76297ca07d871ae1ec873d55d",
+    "bytes": 294767
+  },
+  {
+    "file": "references/PR01-box-appearance.png",
+    "width": 1448,
+    "height": 1086,
+    "sha256": "43002e3c4cea8c2d659d4009ef41cbfa12e5be549a32df4ffea69d39a9c0a03b",
+    "bytes": 3196980
+  },
+  {
+    "file": "references/room-master-1.png",
+    "width": 1671,
+    "height": 941,
+    "sha256": "97933052ec153338121b07e5814e92a598e10770c754eab528d5517ddb882de9",
+    "bytes": 2853044
+  },
+  {
+    "file": "references/room-master-2.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2a69a604ff6c740d1e3e63ba8431f7b4565156b3d4d0190a8dc11303b6d62d95",
+    "bytes": 2751560
+  },
+  {
+    "file": "references/room-master-3.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a72027814b42e5ff189ab407c80a0253ff003a66d1a9401b25e09ca1db54b3e9",
+    "bytes": 2883718
+  }
+]

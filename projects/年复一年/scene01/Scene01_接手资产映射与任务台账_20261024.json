@@ -1,0 +1,649 @@
+{
+  "schema": "sc01-preproduction-ledger-v1",
+  "updated_at": "2026-10-24",
+  "scope": "全场准备台账；非最终镜数批准",
+  "paid_generation_allowed": false,
+  "environment_changes_allowed": false,
+  "source_handoff": "projects/年复一年/scene01/Scene01_Codex接手说明_20261024.md",
+  "assets_manifest": "projects/年复一年/reviews/20261024_codex-handoff_v1/verification.json",
+  "approved_static_assets": [
+    "SC01-BOX-A",
+    "SC01-BOX-B2",
+    "SC01-BOX-C2"
+  ],
+  "accepted_defects": {
+    "SC01-BOX-C2": "篮盒轻微挤占接受，不主动返工，动态碰撞未验"
+  },
+  "approved_directions": [
+    "D01:02-WALK/02-OPEN清晰剪辑边界",
+    "D03:丈夫保留生活化动作、删冗余",
+    "D05:盒盖真实稳定落点",
+    "D07:咖啡环境声J-cut"
+  ],
+  "decisions_pending": [
+    "D02:04职责",
+    "D2机位A/B",
+    "D09:02机位",
+    "D10:移布落点/走位路线",
+    "05:T1移篮或T2原位取",
+    "D04:丈夫触发与对白",
+    "D05细节:谁放盖/落点",
+    "D06:照片先后",
+    "D08:全场时长"
+  ],
+  "shots": [
+    {
+      "shot": "01",
+      "legacy_mapping": "P01",
+      "asset_ids": [],
+      "task_ids": [
+        "01-REUSE"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "02-WALK",
+      "legacy_mapping": "P02",
+      "asset_ids": [
+        "SC01-ENV-HANDOFF-1"
+      ],
+      "task_ids": [
+        "02-WALK-FRAMES"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "02-OPEN",
+      "legacy_mapping": "C01",
+      "asset_ids": [
+        "SC01-BOX-A",
+        "SC01-ENV-HANDOFF-2"
+      ],
+      "task_ids": [
+        "02-OPEN-FRAMES"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "03",
+      "legacy_mapping": "旧C02仅叙事职责",
+      "asset_ids": [
+        "SC01-BOX-A",
+        "SC01-BOX-B2",
+        "SC01-PR01-HANDOFF"
+      ],
+      "task_ids": [
+        "03-TRANSFER-FRAMES"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "04",
+      "legacy_mapping": "D2；旧C04仅功能参考",
+      "asset_ids": [
+        "SC01-BOX-B2",
+        "SC01-ENV-HANDOFF-1",
+        "SC01-ENV-HANDOFF-2"
+      ],
+      "task_ids": [
+        "D2-DESIGN",
+        "D2-IMAGE"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "05",
+      "legacy_mapping": "E2条件/F2；旧C05仅功能参考",
+      "asset_ids": [
+        "SC01-BOX-B2",
+        "SC01-BOX-C2",
+        "SC01-PR01-HANDOFF"
+      ],
+      "task_ids": [
+        "TAKE-BOX-DECISION",
+        "E2-CONDITIONAL",
+        "F2-CONTACT-END"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "05A",
+      "legacy_mapping": "新手持特写≠旧05A柜内PNG",
+      "asset_ids": [
+        "SC01-PR01-HANDOFF"
+      ],
+      "task_ids": [
+        "05A-HANDHELD"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "06",
+      "legacy_mapping": "新版回沙发",
+      "asset_ids": [
+        "SC01-ENV-HANDOFF-1"
+      ],
+      "task_ids": [
+        "06-RETURN-SIT"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "07",
+      "legacy_mapping": "丈夫家务",
+      "asset_ids": [
+        "SC01-ENV-HANDOFF-1"
+      ],
+      "task_ids": [
+        "HUSBAND-BINDING",
+        "07-09-ACTION"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "08",
+      "legacy_mapping": "丈夫视角",
+      "asset_ids": [
+        "SC01-ENV-HANDOFF-1"
+      ],
+      "task_ids": [
+        "07-09-ACTION"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "09",
+      "legacy_mapping": "丈夫入座",
+      "asset_ids": [
+        "SC01-ENV-HANDOFF-1"
+      ],
+      "task_ids": [
+        "07-09-ACTION"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "10",
+      "legacy_mapping": "双人开盒",
+      "asset_ids": [
+        "SC01-PR01-HANDOFF"
+      ],
+      "task_ids": [
+        "10-LID-PLACEMENT"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "11",
+      "legacy_mapping": "照片特写",
+      "asset_ids": [],
+      "task_ids": [
+        "PHOTO-SOURCES",
+        "11-PHOTO-HANDS"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "12",
+      "legacy_mapping": "双人相视",
+      "asset_ids": [],
+      "task_ids": [
+        "12-PERFORMANCE",
+        "SOUND-EDIT"
+      ],
+      "whole_shot_approved": false
+    },
+    {
+      "shot": "13",
+      "legacy_mapping": "可选声桥视觉，默认不增加",
+      "asset_ids": [],
+      "task_ids": [
+        "OPTIONAL-13"
+      ],
+      "whole_shot_approved": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": "HANDOFF-VERIFY",
+      "type": "A",
+      "shots": [
+        "03",
+        "04",
+        "05"
+      ],
+      "status": "已完成",
+      "owner": "Codex",
+      "depends_on": [],
+      "deliverable": "projects/年复一年/reviews/20261024_codex-handoff_v1/verification.json",
+      "next": "原图归档后核验GitHub原字节",
+      "creative_approved": true,
+      "generation_allowed": false
+    },
+    {
+      "id": "ENV-V35-ORIGINALS",
+      "type": "A",
+      "shots": [
+        "02-WALK",
+        "02-OPEN",
+        "04",
+        "06",
+        "08"
+      ],
+      "status": "待素材",
+      "owner": "Codex",
+      "depends_on": [
+        "HANDOFF-VERIFY"
+      ],
+      "deliverable": null,
+      "next": "取回既有V3.5三张原始参考板，不要求重生",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "D2-DESIGN",
+      "type": "B",
+      "shots": [
+        "04"
+      ],
+      "status": "文稿完成_待用户确认",
+      "owner": "Codex",
+      "depends_on": [
+        "HANDOFF-VERIFY"
+      ],
+      "deliverable": "projects/年复一年/scene01/Scene01_D2_导演设计与正式生图稿_V1_待审批_20261024.md",
+      "next": "用户选择机位A/B与04职责",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "D2-IMAGE",
+      "type": "B",
+      "shots": [
+        "04"
+      ],
+      "status": "待确认后生成",
+      "owner": "Codex",
+      "depends_on": [
+        "D2-DESIGN"
+      ],
+      "deliverable": "projects/年复一年/scene01/keyframes/04-D2/assets/SC01-KF-04-D2_v01.png",
+      "next": "额度恢复且获授权后生图、审图",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "TOWEL-PLACEMENT",
+      "type": "B",
+      "shots": [
+        "03",
+        "04",
+        "05"
+      ],
+      "status": "待用户确认",
+      "owner": "Codex",
+      "depends_on": [
+        "HANDOFF-VERIFY"
+      ],
+      "deliverable": "projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md",
+      "next": "核验窗平台近端可达落点或真实篮内空位",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "TAKE-BOX-DECISION",
+      "type": "B",
+      "shots": [
+        "05"
+      ],
+      "status": "待用户确认",
+      "owner": "Codex",
+      "depends_on": [
+        "HANDOFF-VERIFY"
+      ],
+      "deliverable": "projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md",
+      "next": "选T1先移篮或T2净距验证，保留历史连续镜头边界",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "E2-CONDITIONAL",
+      "type": "B",
+      "shots": [
+        "05"
+      ],
+      "status": "条件任务_未放行",
+      "owner": "Codex",
+      "depends_on": [
+        "TAKE-BOX-DECISION",
+        "TOWEL-PLACEMENT"
+      ],
+      "deliverable": null,
+      "next": "仅选T1才制作篮落地双手松开验证图",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "F2-CONTACT-END",
+      "type": "B",
+      "shots": [
+        "05",
+        "05A"
+      ],
+      "status": "待方案确认",
+      "owner": "Codex",
+      "depends_on": [
+        "TAKE-BOX-DECISION",
+        "TOWEL-PLACEMENT"
+      ],
+      "deliverable": null,
+      "next": "接触承重与稳持尾态，不能把盒盖作提手",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "01-REUSE",
+      "type": "B",
+      "shots": [
+        "01"
+      ],
+      "status": "已有视频_待新版空间适配审查",
+      "owner": "Codex",
+      "depends_on": [],
+      "deliverable": "projects/年复一年/scene01/videos/P01/assets/SC01-P01-H3-v01.mp4",
+      "next": "复用表演并比对V3.5家具与起步帧",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "02-WALK-FRAMES",
+      "type": "B",
+      "shots": [
+        "02-WALK"
+      ],
+      "status": "待机位确认",
+      "owner": "Codex",
+      "depends_on": [
+        "ENV-V35-ORIGINALS",
+        "01-REUSE"
+      ],
+      "deliverable": null,
+      "next": "按已批拆镜方向核机位与路线再制首尾",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "02-OPEN-FRAMES",
+      "type": "B",
+      "shots": [
+        "02-OPEN"
+      ],
+      "status": "待图与门轴核验",
+      "owner": "Codex",
+      "depends_on": [
+        "02-WALK-FRAMES",
+        "HANDOFF-VERIFY"
+      ],
+      "deliverable": null,
+      "next": "门关站姿到开门稳蹲A，旧C01先核适配",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "03-TRANSFER-FRAMES",
+      "type": "B",
+      "shots": [
+        "03"
+      ],
+      "status": "状态图已接受_人物动作未验证",
+      "owner": "Codex",
+      "depends_on": [
+        "02-OPEN-FRAMES",
+        "TOWEL-PLACEMENT"
+      ],
+      "deliverable": null,
+      "next": "按A→B2实拿多条上方薄布并放稳，不改盒位",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "05A-HANDHELD",
+      "type": "B",
+      "shots": [
+        "05A"
+      ],
+      "status": "待前镜末态",
+      "owner": "Codex",
+      "depends_on": [
+        "F2-CONTACT-END"
+      ],
+      "deliverable": null,
+      "next": "新手持特写不是旧05A柜内近景",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "06-RETURN-SIT",
+      "type": "B",
+      "shots": [
+        "06"
+      ],
+      "status": "待路线与坐态图",
+      "owner": "Codex",
+      "depends_on": [
+        "F2-CONTACT-END",
+        "ENV-V35-ORIGINALS"
+      ],
+      "deliverable": null,
+      "next": "稳持闭盒回东沙发坐稳，盒落膝上",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "HUSBAND-BINDING",
+      "type": "A",
+      "shots": [
+        "07",
+        "08",
+        "09",
+        "10",
+        "12"
+      ],
+      "status": "待找回与绑定",
+      "owner": "Codex",
+      "depends_on": [],
+      "deliverable": null,
+      "next": "先查旧丈夫身份服装，不宣称最新版已核验",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "07-09-ACTION",
+      "type": "B",
+      "shots": [
+        "07",
+        "08",
+        "09"
+      ],
+      "status": "待用户确认细节",
+      "owner": "Codex",
+      "depends_on": [
+        "HUSBAND-BINDING",
+        "ENV-V35-ORIGINALS"
+      ],
+      "deliverable": "projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md",
+      "next": "家务自然入场方向已批准，具体水果/触发/机位待决",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "10-LID-PLACEMENT",
+      "type": "B",
+      "shots": [
+        "10"
+      ],
+      "status": "待用户确认细节",
+      "owner": "Codex",
+      "depends_on": [
+        "06-RETURN-SIT",
+        "07-09-ACTION"
+      ],
+      "deliverable": "projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md",
+      "next": "先确定持盖者与真实落点，再出开盒关键帧",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "PHOTO-SOURCES",
+      "type": "A",
+      "shots": [
+        "10",
+        "11",
+        "12"
+      ],
+      "status": "待原图核对",
+      "owner": "Codex",
+      "depends_on": [],
+      "deliverable": null,
+      "next": "找回PH01/PH02，核内容正反与剧情先后",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "11-PHOTO-HANDS",
+      "type": "B",
+      "shots": [
+        "11"
+      ],
+      "status": "待照片顺序与手位",
+      "owner": "Codex",
+      "depends_on": [
+        "PHOTO-SOURCES",
+        "10-LID-PLACEMENT"
+      ],
+      "deliverable": null,
+      "next": "先盒内后手持，照片不改内容",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "12-PERFORMANCE",
+      "type": "B",
+      "shots": [
+        "12"
+      ],
+      "status": "待对白与双人眼线确认",
+      "owner": "Codex",
+      "depends_on": [
+        "11-PHOTO-HANDS"
+      ],
+      "deliverable": "projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md",
+      "next": "温暖克制相视再低头，不预设伤感",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "SOUND-EDIT",
+      "type": "B",
+      "shots": [
+        "01",
+        "02-WALK",
+        "02-OPEN",
+        "03",
+        "04",
+        "05",
+        "05A",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "status": "框架完成_待精确剪辑",
+      "owner": "Codex",
+      "depends_on": [],
+      "deliverable": "projects/年复一年/scene01/Scene01_后续制作准备与取盒方案_V1_待审批_20261024.md",
+      "next": "连续底噪、动作拟音；D07声桥方向已批，进点未批",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "OPTIONAL-13",
+      "type": "B",
+      "shots": [
+        "13"
+      ],
+      "status": "默认不新增",
+      "owner": "Codex",
+      "depends_on": [
+        "SOUND-EDIT"
+      ],
+      "deliverable": null,
+      "next": "仅用户另批才新增视觉镜头",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "MODEL-COMPILATION",
+      "type": "B",
+      "shots": [
+        "04",
+        "05"
+      ],
+      "status": "额度暂停_仅保留后续文本准备",
+      "owner": "Codex",
+      "depends_on": [
+        "D2-IMAGE",
+        "F2-CONTACT-END"
+      ],
+      "deliverable": null,
+      "next": "批准镜头后独立编译Seedance/H3，不虚构平台令牌",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "THREE-SKILLS-REMAINING",
+      "type": "技术",
+      "shots": [],
+      "status": "暂停_等待额度及另行授权",
+      "owner": "Codex",
+      "depends_on": [],
+      "deliverable": null,
+      "next": "隔离显式触发/隐式负例/真实绑定/视频效果仍未验证",
+      "creative_approved": false,
+      "generation_allowed": false
+    },
+    {
+      "id": "SEQUENCE-QC",
+      "type": "B",
+      "shots": [
+        "01",
+        "02-WALK",
+        "02-OPEN",
+        "03",
+        "04",
+        "05",
+        "05A",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "status": "待生成与整段审核",
+      "owner": "Codex",
+      "depends_on": [
+        "SOUND-EDIT",
+        "12-PERFORMANCE"
+      ],
+      "deliverable": null,
+      "next": "后续真实视频审动作、脸、光、音画剪辑，不按静帧批准推成片",
+      "creative_approved": false,
+      "generation_allowed": false
+    }
+  ]
+}

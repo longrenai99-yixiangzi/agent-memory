@@ -1,0 +1,43 @@
+{
+  "task_id": "SC01-D2-v01",
+  "created_at": "2026-10-24",
+  "status": "待用户确认",
+  "image_path": "projects/年复一年/scene01/keyframes/04-D2/assets/SC01-KF-04-D2_v01.png",
+  "image_exists": false,
+  "generation_allowed": false,
+  "scene": "Scene01",
+  "shot": "04",
+  "working_alias": "D2",
+  "purpose": "B2少量盒盖显露后的妻子克制发现反应；不新增镜头",
+  "brief_path": "projects/年复一年/scene01/Scene01_D2_导演设计与正式生图稿_V1_待审批_20261024.md",
+  "reference_paths": [
+    "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/approved-candidates/SC01-B2-lid-partial.jpg",
+    "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-001_front-identity.png",
+    "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-CHR-W-002_profile-identity.png",
+    "projects/年复一年/reviews/20261020_wife-assets_v1/assets/SC01-COST-W-001_fullbody-costume.png",
+    "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/room-master-1.png",
+    "projects/年复一年/reviews/20261024_codex-handoff_v1/source-package/references/room-master-2.png"
+  ],
+  "questions": [
+    "同一人物年龄、五官、低盘发和正式衣着？",
+    "稳蹲反应、视线落在B2盒盖而非镜头？",
+    "柜口外低位机位可行，背景不镜像、不穿柜门？",
+    "未取盒、未怀旧、手有意裁出、画外B2事实不跳变？"
+  ],
+  "review": {
+    "reviewer": "Codex技术/视觉初审；用户最终导演审批",
+    "reviewed_at": null,
+    "result": null,
+    "evidence": [],
+    "needs_user_confirmation": [
+      "D02只反应是否采用",
+      "D2-A低位斜反打或D2-B同侧侧脸"
+    ]
+  },
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "文稿完成，未生成，规划路径并非成图"
+    }
+  ]
+}
