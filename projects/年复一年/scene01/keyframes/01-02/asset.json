@@ -1,0 +1,38 @@
+{
+  "schema": "scene01-keyframe-v1",
+  "project": "年复一年",
+  "scene": "Scene01",
+  "shot_id": "01-02",
+  "asset_id": "SC01-01-02-FIRST",
+  "version": "v01",
+  "image_path": "projects/年复一年/scene01/keyframes/01-02/assets/SC01-01-02-FIRST_v01.png",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "bytes": 2503558,
+  "sha256": "ba32645937a2f9dc47ead9a5fd5835fc0f5031e35e060faa7b563990a33b4963",
+  "source": {
+    "kind": "user_attachment",
+    "path": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-fdb15349-5d40-438c-8306-edb140562adc.png"
+  },
+  "approval": {
+    "still_approved": true,
+    "date": "2026-10-24",
+    "evidence": "用户提交图片，经候选审查后明确回复“同意”",
+    "scope": "01—02合并镜头正式首帧的静态视觉结果",
+    "dynamic_approved": false
+  },
+  "review": {
+    "status": "用户已批准静帧",
+    "limits": [
+      "未逐图比对身份原图与空间母版",
+      "脚边落地毯须避免后续穿脚或拖动",
+      "左侧目标柜局部出画，左摇后柜前停步末帧待制作与审核",
+      "18秒走位、左摇、物理连续性及视频效果未验证"
+    ]
+  },
+  "repository": {
+    "remote_verified": false
+  },
+  "no_overwrite": true
+}

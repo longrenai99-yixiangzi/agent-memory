@@ -1,5 +1,7 @@
 SC01最新导演纠正：妻子身体面向柜子，只拿最前整摞毛巾，篮保持柜内原位；历史T1移篮和E2 v01停止使用。[E2 v02修正候选](projects/年复一年/scene01/keyframes/05-E2/README.md)已生成待审，[V2当前执行稿](projects/年复一年/scene01/Scene01_E2-F2_关键帧任务与提示词_V2_移毛巾不移篮.md)及[台账](projects/年复一年/scene01/Scene01_接手资产映射与任务台账_20261024.json)已更新。D2仍低位反打/只反应；F2待放布与接触接口核验，未生成视频，原A/B2/C2不改。
 
+2026-10-24｜用户已批准[01—02合并镜头正式首帧](projects/年复一年/scene01/keyframes/01-02/README.md)。原字节PNG已本地归档，柜前停步末帧待制作/审核；视频与动态连续性未验证。
+
 2026-10-22｜已将 Higgsfield Acting Director 与 Production Pipeline 两个原版 SKILL.md 上传至仓库 `skills/`，并记录上游来源、MIT 许可证与精简依赖限制；用户本地 PowerShell 安装检查均为 True。Codex 实际加载与导演实测仍待验证。参见 [Higgsfield Skills 共享说明](skills/README.md)。
 
 2026-10-22｜Seedance 2.5 三个 Codex Skill 安装文件核验均为 True（Director / Shot Design / Prompt），路径在 `D:\AI_ENV\Codex\home\skills\`；Codex 实际加载、指令兼容与提示词效果尚未验证。已记录《年复一年》“统一导演设计 + Seedance 2.5 / H3 双模型独立提示词”的确认方向和 SC01-P02 待测流程。参见[Skill安装与测试记录](projects/年复一年/Seedance2.5_Skills安装记录与双模型提示词工作流_20261022.md)。

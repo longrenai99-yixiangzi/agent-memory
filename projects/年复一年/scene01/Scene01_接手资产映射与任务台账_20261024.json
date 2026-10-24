@@ -9,7 +9,8 @@
   "approved_static_assets": [
     "SC01-BOX-A",
     "SC01-BOX-B2",
-    "SC01-BOX-C2"
+    "SC01-BOX-C2",
+    "SC01-01-02-FIRST"
   ],
   "accepted_defects": {
     "SC01-BOX-C2": "篮盒轻微挤占接受，不主动返工，动态碰撞未验"
@@ -724,5 +725,14 @@
       "direction": "T1先移篮、地板篮落点",
       "reason": "用户明确不需要搬篮；v01人物侧向错误"
     }
-  ]
+  ],
+  "merged_01_02": {
+    "source_script": "D:/文档/Downloads/年复一年_SC01_第一场完整Seedance脚本_V0.1.md",
+    "first_frame": "projects/年复一年/scene01/keyframes/01-02/assets/SC01-01-02-FIRST_v01.png",
+    "first_frame_status": "用户批准静帧",
+    "asset_record": "projects/年复一年/scene01/keyframes/01-02/asset.json",
+    "end_frame_status": "待制作与审核",
+    "whole_shot_approved": false,
+    "next_task": "同机位左摇后柜前站稳末帧；闭门、空手、未触把手；验证走位与柜体连续性"
+  }
 }
