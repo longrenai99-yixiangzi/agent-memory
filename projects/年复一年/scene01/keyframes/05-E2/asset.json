@@ -51,8 +51,10 @@
     ]
   },
   "repository": {
-    "image_uploaded": false,
-    "remote_verified": false
+    "image_uploaded": true,
+    "remote_verified": true,
+    "upload_commit": "16639aebb23a7642515bcaa4573449eaff79e5aa",
+    "verification": "Authenticated GitHub contents API immutable commit raw bytes; SHA256 and 2006418 bytes match"
   },
   "no_overwrite": true,
   "created_at": "2026-10-24"

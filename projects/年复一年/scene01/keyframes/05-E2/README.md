@@ -2,6 +2,8 @@
 
 2026-10-24。用户已同意按“篮置门扇与脚位外的木地板、布叠窗平台近端”的方案准备候选。本轮只调用一次内置imagegen，未启动视频、未修改本地环境，也未改写A/B2/C2原件。
 
+GitHub原件提交`16639aebb23a7642515bcaa4573449eaff79e5aa`；认证contents API按该提交取回PNG原字节，哈希及2006418字节核对一致。仅上传核验完成，视觉仍待用户审核。
+
 [查看候选PNG](assets/SC01-KF-05-E2_v01.png) · [元数据](asset.json) · [实际提交提示词](prompt-v01.txt) · [审查任务](../../../../../image-reviews/tasks/SC01-E2-v01.json)
 
 原图1672×941，2006418字节；SHA-256：`224c9232f32289389e88d3e0208b1caf1e742ddddafe239d3d5a5adc1648b0ee`。源生成副本仍在Codex generated_images，项目副本字节一致，未转码或重采样。
