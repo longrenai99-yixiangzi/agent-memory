@@ -216,7 +216,7 @@
       "owner": "Codex",
       "depends_on": [],
       "deliverable": "projects/年复一年/reviews/20261024_codex-handoff_v1/verification.json",
-      "next": "原图归档后核验GitHub原字节",
+      "next": null,
       "creative_approved": true,
       "generation_allowed": false
     },

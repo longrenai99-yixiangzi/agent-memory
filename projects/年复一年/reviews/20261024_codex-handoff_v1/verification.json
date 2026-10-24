@@ -174,5 +174,11 @@
     "room-master-3茶几与1/2造型不同",
     "C2篮盒交叠用户接受但动态未验证"
   ],
-  "remote_verification": "待本轮推送后取回校验"
+  "remote_verification": {
+    "commit": "5c64ccfdbaccd5e46a2db947f2c42b5045b4e2c2",
+    "method": "Authenticated GitHub contents API raw bytes at immutable commit",
+    "sha256_and_size": "7/7 PASS",
+    "verified": true,
+    "date": "2026-10-24"
+  }
 }
