@@ -6,11 +6,12 @@
   "story_time": "23:13",
   "date": "2026-10-25",
   "method": "built_in_imagegen",
-  "current_version": "v02",
-  "status": "candidate_awaiting_user_review",
+  "current_version": "v03",
+  "status": "closer_camera_v03_candidate_pending_review",
   "approval": {
-    "still_approved": false,
-    "camera_exposure_approved": false,
+    "baseline_v02_visual_approved": true,
+    "approved_scope": "v02构图/夜景亮度/布布状态获认可，用户要求沿原视轴靠近猫",
+    "current_v03_still_approved": false,
     "dynamic_approved": false
   },
   "actual_input_v01": [
@@ -34,7 +35,8 @@
   "actual_input_v02": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v01.png",
   "prompts": [
     "prompt-v01.txt",
-    "prompt-v02.txt"
+    "prompt-v02.txt",
+    "prompt-v03.txt"
   ],
   "versions": [
     {
@@ -61,9 +63,24 @@
       "bytes": 1824176,
       "sha256": "6d1bbd417b1984c4105929352ad2d19b9adc0793faf79049607d9550861e349c",
       "review": "已消除凸起门槛，候选待用户审核机位/曝光/猫状态",
-      "approved": false,
+      "approved": true,
       "remote_verified": true,
-      "image_commit": "aa4f1d2b7299a29ca799e8492fa71c13a2874032"
+      "image_commit": "aa4f1d2b7299a29ca799e8492fa71c13a2874032",
+      "approval_scope": "用户认可构图、夜景亮度及猫状态；要求机位再向猫靠近",
+      "approval_evidence": "机位构图、夜景亮度和布布的状态，没问题。接近C42视角了，但机位可以再近离猫一点"
+    },
+    {
+      "version": "v03",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v03.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-27d406c2-590f-46fa-9e3a-b4de953ea387.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1848307,
+      "sha256": "5b3bbf0e067f8d360b37aaba12be9535b9b01ea7cf566b1973b9f383d564de73",
+      "review": "C42-near靠近版候选待用户审核；猫更大、四脚及尾仍可见；卷毛较v02更粗，需检查是否仍符合身份",
+      "approved": false,
+      "remote_verified": false
     }
   ],
   "review": {
@@ -79,7 +96,15 @@
       "猫相对真实尺度及身份一致性交用户审查",
       "静帧不能证明动态未回应，后续不得提前转头互动",
       "夜景曝光待用户批准，不代表整场灯光锁定",
-      "K04-E1尚未生成，未经本帧批准不派生入G状态"
+      "K04-E1尚未生成，未经本帧批准不派生入G状态",
+      "v03近版重新待审：卷毛纹理较v02更粗，不能把基准认可自动扩展到新像素/新构图"
     ]
+  },
+  "actual_input_v03": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v02.png",
+  "camera_refinement": {
+    "alias": "C42-near",
+    "source": "用户明确要求更接近猫",
+    "intent": "沿原视轴向猫靠近、维持低位与方向，不挪猫",
+    "exact_position_measured": false
   }
 }
