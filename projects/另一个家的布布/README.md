@@ -27,3 +27,9 @@
 - [HTML三场图册](director/previs-sc04-sc06-v1/index.html)
 - VIEW-03已按用户附件替换v02，原字节远程核验通过；原版另存history。
 - 预演的机位与路线已获用户批准；连续蹲姿接口已同步剧本，实际净距、遮挡、关键帧和视频仍待验证。
+
+## 角色与关键状态帧准备（2026-10-25）
+
+- [8张人物及布布参考登记](assets/characters/README.md)
+- [SC04—SC06的11状态任务、逐项中文提示词及依赖](director/keyframes-sc04-sc06-v1/README.md)
+- 人物参考已实际取得并检查；关键状态帧仍未生成，按依赖逐项审核。

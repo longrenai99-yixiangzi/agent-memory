@@ -1,0 +1,623 @@
+{
+  "project": "另一个家的布布",
+  "date": "2026-10-25",
+  "scope": "11关键状态制作准备，不等于镜头数",
+  "reference_manifest": "assets/characters/manifest_20261025.json",
+  "approval": "director/previs-sc04-sc06-v1/approval_20261025.json",
+  "tasks": [
+    {
+      "task_id": "K04-E0",
+      "type": "B_导演设计",
+      "scene": "SC04",
+      "story_time": "23:13",
+      "camera": "C42",
+      "purpose": "猫在E外，未回应",
+      "status": "prepared_not_generated",
+      "dependencies": [],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-01_朝阳台.png",
+          "role": "阳台/电视/沙发关系、外窗关闭"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC04_camera-route_v1.png",
+          "role": "已批SC04机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K04-E0.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0_v01.png",
+      "acceptance": [
+        "猫四脚均在E外",
+        "无回应，尚未上沙发",
+        "阳台外窗关闭，通路经开放垭口"
+      ],
+      "unmet_prerequisites": [],
+      "generated": false,
+      "approved": false,
+      "next_execution": "K04-E0先单张候选，兼核机位、夜景曝光和可见用品；不批量生成"
+    },
+    {
+      "task_id": "K04-E1",
+      "type": "B_导演设计",
+      "scene": "SC04",
+      "story_time": "23:14",
+      "camera": "C42",
+      "purpose": "四脚全入G",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K04-E0"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-01_朝阳台.png",
+          "role": "阳台/电视/沙发关系、外窗关闭"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC04_camera-route_v1.png",
+          "role": "已批SC04机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K04-E1.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-E1_v01.png",
+      "acceptance": [
+        "与E0同机位",
+        "完整入G，未回应",
+        "无穿窗或穿家具"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    },
+    {
+      "task_id": "K04-R1",
+      "type": "B_导演设计",
+      "scene": "SC04",
+      "story_time": "23:15",
+      "camera": "C41",
+      "purpose": "妻子回应后蹲稳",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K04-E1"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "role": "A/B共同面部身份；忽略蓝背景、白吊带和静态笑容"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+          "role": "A浅银灰滚边长袖长裤睡衣、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC04_camera-route_v1.png",
+          "role": "已批SC04机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K04-R1.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1_v01.png",
+      "acceptance": [
+        "蹲稳而非悬空半蹲",
+        "人猫都在G内",
+        "回应之后才低身"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    },
+    {
+      "task_id": "K05-T0",
+      "type": "B_导演设计",
+      "scene": "SC05",
+      "story_time": "23:21—23:22",
+      "camera": "C52",
+      "purpose": "同一蹲姿闻手",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K04-R1"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "role": "A/B共同面部身份；忽略蓝背景、白吊带和静态笑容"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+          "role": "A浅银灰滚边长袖长裤睡衣、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC05_camera-route_v1.png",
+          "role": "已批SC05机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K05-T0.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-T0_v01.png",
+      "acceptance": [
+        "同一蹲姿、原落脚",
+        "猫四脚着地主动靠近",
+        "手指接触清楚、无抓脖子"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    },
+    {
+      "task_id": "K05-H0",
+      "type": "B_导演设计",
+      "scene": "SC05",
+      "story_time": "23:23托起阶段",
+      "camera": "C52",
+      "purpose": "蹲姿已托猫抱稳",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K05-T0"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "role": "A/B共同面部身份；忽略蓝背景、白吊带和静态笑容"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+          "role": "A浅银灰滚边长袖长裤睡衣、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC05_camera-route_v1.png",
+          "role": "已批SC05机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K05-H0.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-H0_v01.png",
+      "acceptance": [
+        "先抱稳、尚未起身",
+        "胸腹和后躯有支撑",
+        "猫尺度交用户审核"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    },
+    {
+      "task_id": "K05-H1",
+      "type": "B_导演设计",
+      "scene": "SC05",
+      "story_time": "23:23站稳阶段",
+      "camera": "C52",
+      "purpose": "抱稳后站稳",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K05-H0"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "role": "A/B共同面部身份；忽略蓝背景、白吊带和静态笑容"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+          "role": "A浅银灰滚边长袖长裤睡衣、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC05_camera-route_v1.png",
+          "role": "已批SC05机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K05-H1.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1_v01.png",
+      "acceptance": [
+        "同机位无裁头",
+        "猫手位与朝向接H0",
+        "A站稳在G内，接SC06"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    },
+    {
+      "task_id": "K06-O0",
+      "type": "B_导演设计",
+      "scene": "SC06",
+      "story_time": "23:24—23:25",
+      "camera": "C61",
+      "purpose": "客观双妻子关系",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K05-H1"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-02_朝厨房.jpg",
+          "role": "餐厨外围"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "role": "A/B共同面部身份；忽略蓝背景、白吊带和静态笑容"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+          "role": "A浅银灰滚边长袖长裤睡衣、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-fullbody.png",
+          "role": "B黑色细吊带长裙、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-three-views.png",
+          "role": "侧背面轮廓、盘发；黑裙仅供B，不抄文字版式"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC06_camera-route_v1.png",
+          "role": "已批SC06机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-O0.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0_v01.png",
+      "acceptance": [
+        "同脸不同衣，恰好两女一猫",
+        "A猫在G内，B在G外",
+        "无互相对视互动"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    },
+    {
+      "task_id": "K06-P0",
+      "type": "B_导演设计",
+      "scene": "SC06",
+      "story_time": "23:26",
+      "camera": "C62",
+      "purpose": "B真实眼位空镜",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K06-O0"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-01_朝阳台.png",
+          "role": "阳台/电视/沙发关系、外窗关闭"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC06_camera-route_v1.png",
+          "role": "已批SC06机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-P0.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC06/K06-P0_v01.png",
+      "acceptance": [
+        "镜头来自B眼位，非C61删人",
+        "人猫不可见但家具保持",
+        "不画穿界特效"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    },
+    {
+      "task_id": "K06-X0",
+      "type": "B_导演设计",
+      "scene": "SC06",
+      "story_time": "23:29放手后",
+      "camera": "C63",
+      "purpose": "猫仍G内，手已放开",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K06-P0",
+        "K05-H1"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "role": "A/B共同面部身份；忽略蓝背景、白吊带和静态笑容"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+          "role": "A浅银灰滚边长袖长裤睡衣、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-fullbody.png",
+          "role": "B黑色细吊带长裙、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC06_camera-route_v1.png",
+          "role": "已批SC06机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-X0.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC06/K06-X0_v01.png",
+      "acceptance": [
+        "这是放猫的独立第二次下蹲",
+        "猫已落地，双手已松",
+        "猫未出X，B未触猫"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    },
+    {
+      "task_id": "K06-X1",
+      "type": "B_导演设计",
+      "scene": "SC06",
+      "story_time": "23:29完整越界后",
+      "camera": "C63",
+      "purpose": "猫四脚全出X",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K06-X0"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "role": "A/B共同面部身份；忽略蓝背景、白吊带和静态笑容"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+          "role": "A浅银灰滚边长袖长裤睡衣、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-fullbody.png",
+          "role": "B黑色细吊带长裙、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC06_camera-route_v1.png",
+          "role": "已批SC06机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-X1.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC06/K06-X1_v01.png",
+      "acceptance": [
+        "猫完整在G外",
+        "A未出G",
+        "B在猫出来后才注意到"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    },
+    {
+      "task_id": "K06-B0",
+      "type": "B_导演设计",
+      "scene": "SC06",
+      "story_time": "23:30关闭前",
+      "camera": "C63",
+      "purpose": "B在G外已抱回",
+      "status": "prepared_not_generated",
+      "dependencies": [
+        "K06-X1"
+      ],
+      "references": [
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+          "role": "实际家具、墙体和开放阳台垭口，不复制俯视角"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+          "role": "G/E/X行动关系，不沿用旧底图家具"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+          "role": "新版v02沙发、贵妃位、薄毯、茶几和阳台垭口"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "role": "A/B共同面部身份；忽略蓝背景、白吊带和静态笑容"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+          "role": "A浅银灰滚边长袖长裤睡衣、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-fullbody.png",
+          "role": "B黑色细吊带长裙、赤脚与身材比例"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-three-views.png",
+          "role": "侧背面轮廓、盘发；黑裙仅供B，不抄文字版式"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "role": "同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫"
+        },
+        {
+          "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC06_camera-route_v1.png",
+          "role": "已批SC06机位与路线，不复制箭头色块"
+        }
+      ],
+      "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-B0.txt",
+      "planned_output": "projects/另一个家的布布/scene-keyframes/SC06/K06-B0_v01.png",
+      "acceptance": [
+        "B猫在G外并承托稳定",
+        "A仍G内空手",
+        "B不知情，抱回先于关闭"
+      ],
+      "unmet_prerequisites": [
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+      ],
+      "generated": false,
+      "approved": false,
+      "next_execution": "依赖通过后再制作候选"
+    }
+  ]
+}
