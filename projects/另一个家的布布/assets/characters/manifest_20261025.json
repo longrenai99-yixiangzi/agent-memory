@@ -19,7 +19,8 @@
       "source_status": "用户指定本项目素材目录内取得",
       "technical_status": "已目视检查并校验本地原字节",
       "generation_consistency_tested": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "d104b6c7d4729eafb053620d14312f02879f6c08"
     },
     {
       "asset_id": "BUBU-COST-A-001",
@@ -35,7 +36,8 @@
       "source_status": "用户指定本项目素材目录内取得",
       "technical_status": "已目视检查并校验本地原字节",
       "generation_consistency_tested": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "d104b6c7d4729eafb053620d14312f02879f6c08"
     },
     {
       "asset_id": "BUBU-COST-B-001",
@@ -51,7 +53,8 @@
       "source_status": "用户指定本项目素材目录内取得",
       "technical_status": "已目视检查并校验本地原字节",
       "generation_consistency_tested": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "d104b6c7d4729eafb053620d14312f02879f6c08"
     },
     {
       "asset_id": "BUBU-CHR-WB-003",
@@ -67,7 +70,8 @@
       "source_status": "用户指定本项目素材目录内取得",
       "technical_status": "已目视检查并校验本地原字节",
       "generation_consistency_tested": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "d104b6c7d4729eafb053620d14312f02879f6c08"
     },
     {
       "asset_id": "BUBU-CHR-H-001",
@@ -83,7 +87,8 @@
       "source_status": "用户指定本项目素材目录内取得",
       "technical_status": "已目视检查并校验本地原字节",
       "generation_consistency_tested": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "d104b6c7d4729eafb053620d14312f02879f6c08"
     },
     {
       "asset_id": "BUBU-COST-H-001",
@@ -99,7 +104,8 @@
       "source_status": "用户指定本项目素材目录内取得",
       "technical_status": "已目视检查并校验本地原字节",
       "generation_consistency_tested": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "d104b6c7d4729eafb053620d14312f02879f6c08"
     },
     {
       "asset_id": "BUBU-CHR-H-003",
@@ -115,7 +121,8 @@
       "source_status": "用户指定本项目素材目录内取得",
       "technical_status": "已目视检查并校验本地原字节",
       "generation_consistency_tested": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "d104b6c7d4729eafb053620d14312f02879f6c08"
     },
     {
       "asset_id": "BUBU-CAT-001",
@@ -131,7 +138,15 @@
       "source_status": "用户指定本项目素材目录内取得",
       "technical_status": "已目视检查并校验本地原字节",
       "generation_consistency_tested": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "d104b6c7d4729eafb053620d14312f02879f6c08"
     }
-  ]
+  ],
+  "remote_verification": {
+    "date": "2026-10-25",
+    "image_commit": "d104b6c7d4729eafb053620d14312f02879f6c08",
+    "method": "GitHub Contents API exact-commit raw bytes, size and SHA-256 compared with local source",
+    "passed": 8,
+    "total": 8
+  }
 }
