@@ -1,0 +1,49 @@
+{
+  "task_id": "K04-E1",
+  "scene": "SC04",
+  "story_time": "23:14",
+  "camera": "C42-near",
+  "date": "2026-10-25",
+  "version": "v01",
+  "status": "candidate_awaiting_user_review",
+  "method": "built_in_imagegen",
+  "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E1/assets/K04-E1_v01.png",
+  "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-dfb5ef9a-8815-4eea-b69f-d1d15288ba79.png",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "bytes": 1836618,
+  "sha256": "3f4835d3f1b2005b56e43830744a7c132d4813e8f0e6c8aa434c688433251934",
+  "actual_input": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v05.png",
+      "sha256": "56ec9101b7c0473760ba613d2ffc8c8732999e3d584dd525002eb53b8e29a746"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    }
+  ],
+  "actual_prompt": "prompt-v01.txt",
+  "authorization": "用户在选择E0 v05毛质后说“下一步”，据既定任务顺序制作E1候选；不扩大为整段或视频批准",
+  "approval": {
+    "still_approved": false,
+    "dynamic_approved": false
+  },
+  "review": {
+    "observations": [
+      "单猫无人物，猫已移到更近的客厅侧地面",
+      "四个落脚、完整尾巴可见，头随走行方向未抬头回应",
+      "沙发、洗衣机、垭口与窗的图面位置初看沿用E0",
+      "原位置无第二只猫，新增位置有接触阴影与倒影"
+    ],
+    "pending": [
+      "完整越E的三维边界/尾部位置交用户审查，未实测",
+      "猫真实尺度是否保持，仅透视上更近而非实体变大",
+      "背部卷毛较E0存在生成变化，须审查是否符合已选v05与原资产",
+      "静帧不能验证没有提前回应或整个越界动作连续",
+      "未验证逐像素背景一致与动态匹配"
+    ]
+  },
+  "remote_verified": false
+}

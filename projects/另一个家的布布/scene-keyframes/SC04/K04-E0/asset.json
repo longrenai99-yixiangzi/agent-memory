@@ -154,5 +154,10 @@
     "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v03.png"
   ],
   "reference_policy": "任何含布布的编辑/派生同时绑定正式bubu-multiview原资产，不只输入上一场景帧；角度/位置由场景图负责，毛质/身份由原资产负责",
-  "repair_cause": "v03靠近版仅使用v02场景图，未重新绑定原猫资产，出现毛质漂移；本轮两次输入均含原资产，v05优先原图重建"
+  "repair_cause": "v03靠近版仅使用v02场景图，未重新绑定原猫资产，出现毛质漂移；本轮两次输入均含原资产，v05优先原图重建",
+  "next_step_authorization": {
+    "user_message": "下一步",
+    "action": "以v05为基准制作K04-E1候选",
+    "does_not_imply": "整段或视频批准"
+  }
 }

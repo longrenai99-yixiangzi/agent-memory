@@ -64,7 +64,7 @@
       "story_time": "23:14",
       "camera": "C42",
       "purpose": "四脚全入G",
-      "status": "prepared_not_generated",
+      "status": "v01_candidate_awaiting_user_review",
       "dependencies": [
         "K04-E0"
       ],
@@ -104,10 +104,13 @@
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
       ],
-      "generated": false,
+      "generated": true,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-E1/assets/K04-E1_v01.png",
+      "asset_record": "projects/另一个家的布布/scene-keyframes/SC04/K04-E1/asset.json",
+      "source_E0_version": "v05"
     },
     {
       "task_id": "K04-R1",
