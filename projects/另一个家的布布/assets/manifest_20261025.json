@@ -1,8 +1,8 @@
 {
   "project": "另一个家的布布",
   "version": "2026-10-25",
-  "status": "local_package_verified_remote_image_upload_pending",
-  "verification": "ZIP entries for eight images and two text sources matched size and SHA-256 locally; no remote binary upload verified",
+  "status": "remote_images_uploaded_and_sha256_verified",
+  "verification": "2026-10-25: authenticated GitHub API raw bytes verified for all eight images; size and SHA-256 match original package",
   "assets": [
     {
       "archive_path": "assets/PLAN-001_彩平图_20261025_阳台家具删除版.png",
@@ -52,5 +52,7 @@
       "size_bytes": 266753,
       "sha256": "28c1f6c2ef436e2b7b3a75cf8d9504e1561c3bbbf9650051e09221c121b522c7"
     }
-  ]
+  ],
+  "image_commit": "a4c08fb253090b7ce20d3d86314a824446d70bd5",
+  "remote_verification": "remote-verification_20261025.json"
 }
