@@ -13,7 +13,8 @@
       "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71",
       "style": "浅粉色打孔厚底一字拖，露趾、无后跟带",
       "binding_status": "用户明确图1 A款、图2 B款",
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f"
     },
     {
       "world": "B",
@@ -26,7 +27,13 @@
       "sha256": "cf65fe4a1ba260dbbf7e4f1a5e0241accae598797009b8bc2dec38bd28a8a4bd",
       "style": "黑色Y形夹脚平底拖，露趾、无后跟带",
       "binding_status": "用户明确图1 A款、图2 B款",
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f"
     }
-  ]
+  ],
+  "remote_verification": {
+    "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f",
+    "method": "GitHub Contents API raw bytes size/SHA-256 against saved originals",
+    "all_listed_images_verified": true
+  }
 }

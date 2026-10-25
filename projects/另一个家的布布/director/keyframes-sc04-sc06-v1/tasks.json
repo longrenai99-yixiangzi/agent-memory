@@ -705,5 +705,7 @@
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令"
     }
-  ]
+  ],
+  "scope_update": "本清单11状态仅为原SC04-SC06基础状态；远端新增23:27 A抱猫出G/23:28返G尚未纳入，不能视作最新SC06完整覆盖",
+  "latest_space_audit": "space/PLAN-002与PLAN-003动线差异核对_V1_20261026.md"
 }

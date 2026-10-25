@@ -60,7 +60,8 @@
       "method": "built_in_imagegen",
       "status": "generated_candidate_awaiting_user_review",
       "user_approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f"
     }
   ],
   "actual_inputs_v01": [

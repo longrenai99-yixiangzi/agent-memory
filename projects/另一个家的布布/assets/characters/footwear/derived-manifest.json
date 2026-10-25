@@ -25,7 +25,8 @@
       "method": "built_in_imagegen",
       "status": "generated_candidate_awaiting_user_review",
       "user_approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f"
     },
     {
       "asset_id": "BUBU-CHR-WB3-SHOES-v01",
@@ -54,7 +55,8 @@
       "method": "built_in_imagegen",
       "status": "generated_candidate_awaiting_user_review",
       "user_approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f"
     },
     {
       "asset_id": "K04-R1-v03",
@@ -83,7 +85,8 @@
       "method": "built_in_imagegen",
       "status": "generated_candidate_awaiting_user_review",
       "user_approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f"
     }
   ],
   "incomplete": [
@@ -99,5 +102,10 @@
       "request_id": "0e320409-165f-4add-b283-2786c2aad833",
       "handling": "未反复提交同一全身图，未改用付费接口；保留原A人物图+已指定A鞋原图双参考方式，不伪造全身补鞋成品"
     }
-  ]
+  ],
+  "remote_verification": {
+    "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f",
+    "method": "GitHub Contents API raw bytes size/SHA-256 against saved originals",
+    "all_listed_images_verified": true
+  }
 }
