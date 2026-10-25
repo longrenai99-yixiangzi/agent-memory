@@ -160,3 +160,5 @@ Scene01 当前关键帧以[独立目录](projects/年复一年/scene01/keyframes
 2026-10-25｜《另一个家的布布》SC04—SC06机位/运动路线预演V1及“23:15—23:21连续蹲姿，23:23抱猫稳后起身接SC06”获用户批准，[审批证据](projects/另一个家的布布/director/previs-sc04-sc06-v1/approval_20261025.json)。正式剧本及分钟表同步，动态仍未验收。
 
 2026-10-25｜《另一个家的布布》[8张人物/布布参考](projects/另一个家的布布/assets/characters/README.md)已取得、目视检查并上传，远程原字节核验8/8通过；[11个关键状态任务与完整提示词](projects/另一个家的布布/director/keyframes-sc04-sc06-v1/README.md)已准备，均未生成。首张K04-E0兼核机位与夜景，不批量生图或视频。
+
+2026-10-25｜《另一个家的布布》[K04-E0单猫E外候选](projects/另一个家的布布/scene-keyframes/SC04/K04-E0/README.md)已生成v01并定向修门槛为v02，两版GitHub原字节核验通过。C42/夜景/猫尺度待用户审核，未生成E1或视频。

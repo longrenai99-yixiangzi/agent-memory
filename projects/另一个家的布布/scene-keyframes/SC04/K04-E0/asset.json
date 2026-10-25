@@ -48,7 +48,8 @@
       "sha256": "04768eb2316574d81747ecbb468d766d03d32a1c98d4c6dd88ca52b7cf5bd8b5",
       "review": "垭口生成凸起门槛，违反开放通路要求，已修正，保留过程",
       "approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "aa4f1d2b7299a29ca799e8492fa71c13a2874032"
     },
     {
       "version": "v02",
@@ -61,7 +62,8 @@
       "sha256": "6d1bbd417b1984c4105929352ad2d19b9adc0793faf79049607d9550861e349c",
       "review": "已消除凸起门槛，候选待用户审核机位/曝光/猫状态",
       "approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "aa4f1d2b7299a29ca799e8492fa71c13a2874032"
     }
   ],
   "review": {
