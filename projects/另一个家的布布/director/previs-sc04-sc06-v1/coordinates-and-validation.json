@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-25",
+  "status": "director_review_required",
+  "base_image": "assets\\space\\PLAN-001_彩平图_20261025_阳台家具删除版.png",
+  "base_sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f",
+  "view03_sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19",
+  "coordinate_system": "PLAN-001 image pixels, x right/y down; no metric calibration",
+  "G_candidate": [
+    230,
+    525,
+    663,
+    805
+  ],
+  "A_candidate": [
+    620,
+    675
+  ],
+  "E_candidate": [
+    232,
+    565
+  ],
+  "X_candidate": [
+    663,
+    720
+  ],
+  "B_search_candidate": [
+    820,
+    620
+  ],
+  "B_retrieve_candidate": [
+    780,
+    720
+  ],
+  "mapping": "PLAN-002 boundary relationships visually transferred to current PLAN-001; not surveyed registration",
+  "scene_routes": {
+    "SC04": [
+      [
+        145,
+        535
+      ],
+      [
+        190,
+        555
+      ],
+      [
+        232,
+        565
+      ],
+      [
+        320,
+        565
+      ],
+      [
+        495,
+        565
+      ],
+      [
+        555,
+        605
+      ]
+    ],
+    "SC05_walk_to_sofa": [
+      [
+        555,
+        605
+      ],
+      [
+        565,
+        660
+      ],
+      [
+        565,
+        700
+      ]
+    ],
+    "SC06_X": [
+      [
+        620,
+        690
+      ],
+      [
+        645,
+        715
+      ],
+      [
+        663,
+        720
+      ],
+      [
+        735,
+        720
+      ]
+    ]
+  },
+  "validation_limits": [
+    "2D topology only; physical width/height/occlusion not certified",
+    "camera wedges are directions, not calibrated lens cones",
+    "all camera positions and mapped boundaries are pending director approval"
+  ],
+  "paid_generation": false,
+  "camera_points": {
+    "C41": [
+      710,
+      550
+    ],
+    "C42": [
+      330,
+      505
+    ],
+    "C51": [
+      700,
+      560
+    ],
+    "C52": [
+      750,
+      700
+    ],
+    "C61": [
+      535,
+      540
+    ],
+    "C62": [
+      820,
+      620
+    ],
+    "C63": [
+      740,
+      515
+    ]
+  },
+  "checks_passed": [
+    "A and retreat/release markers inside candidate G",
+    "B search/retrieve markers outside candidate G",
+    "cat X endpoint outside candidate G",
+    "camera points outside approximate plan-view furniture footprints"
+  ]
+}

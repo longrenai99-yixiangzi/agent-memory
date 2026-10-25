@@ -20,3 +20,10 @@
 
 - [导演分镜启动与空间验证单 V1（待审核）](director/导演分镜启动与空间验证单_V1_待审核_20261025.md)：SC01–SC07镜头锚点、场次预算、SC04–SC06五项最优先的G/E/X与双妻子可见性镜头验证。
 - [8张图片哈希清单](assets/manifest_20261025.json)：本地来源与GitHub远程原图均已核对8/8，大小和SHA-256一致；详见[远程回执](assets/remote-verification_20261025.json)。
+
+## SC04—SC06最新预演（2026-10-25）
+
+- [机位/运动路径图及验证结论](director/previs-sc04-sc06-v1/README.md)
+- [HTML三场图册](director/previs-sc04-sc06-v1/index.html)
+- VIEW-03已按用户附件替换v02，原字节远程核验通过；原版另存history。
+- 预演已制作，路线/机位待用户审核；不是正式分镜或视频验收。

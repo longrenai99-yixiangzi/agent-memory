@@ -1,8 +1,8 @@
 {
   "project": "另一个家的布布",
   "version": "2026-10-25",
-  "status": "VIEW03_v02_remote_verification_pending_other_seven_verified",
-  "verification": "原8图回执保留为历史；本轮VIEW-03替换v02待远程复核，其余7图未改",
+  "status": "current_assets_remote_verified",
+  "verification": "原7图见首次回执；当前VIEW-03 v02见VIEW-03_revision_20261025.json，已取回原字节核验通过",
   "assets": [
     {
       "archive_path": "assets/PLAN-001_彩平图_20261025_阳台家具删除版.png",
@@ -56,5 +56,6 @@
     }
   ],
   "image_commit": "a4c08fb253090b7ce20d3d86314a824446d70bd5",
-  "remote_verification": "remote-verification_20261025.json"
+  "remote_verification": "remote-verification_20261025.json",
+  "revision_verification": "VIEW-03_revision_20261025.json"
 }

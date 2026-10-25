@@ -13,5 +13,7 @@
     "path": "projects/另一个家的布布/assets/views/history/VIEW-03_朝沙发_v01_20261025.png",
     "sha256": "381829c8f5f0bc2f5a309a5bc30309da6e452d14bdddd6d5bc1962114e05ff15"
   },
-  "remote_verified": false
+  "remote_verified": true,
+  "image_commit": "f0ed3f22874d005b596db98b87a3ae8e6632e78e",
+  "verification_method": "GitHub Contents API raw bytes: size and SHA-256 matched"
 }
