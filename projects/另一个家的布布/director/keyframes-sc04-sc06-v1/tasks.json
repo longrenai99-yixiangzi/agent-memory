@@ -12,7 +12,7 @@
       "story_time": "23:13",
       "camera": "C42",
       "purpose": "猫在E外，未回应",
-      "status": "v03_angle_approved_fur_rejected_v05_fur_candidate_pending",
+      "status": "v05_fur_preferred_by_user_whole_frame_not_finalized",
       "dependencies": [],
       "references": [
         {
@@ -54,7 +54,8 @@
       "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v05.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/asset.json",
       "baseline_v02_approved": true,
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "v05_fur_preferred": true
     },
     {
       "task_id": "K04-E1",

@@ -7,7 +7,7 @@
   "date": "2026-10-25",
   "method": "built_in_imagegen",
   "current_version": "v05",
-  "status": "fur_corrected_v05_awaiting_user_review",
+  "status": "v05_fur_preferred_by_user_whole_frame_not_finalized",
   "approval": {
     "baseline_v02_visual_approved": true,
     "approved_scope": "v02构图/夜景亮度/布布状态获认可，用户要求沿原视轴靠近猫",
@@ -16,7 +16,9 @@
     "v03_camera_angle_approved": true,
     "v03_fur_rejected": true,
     "current_v05_still_approved": false,
-    "evidence_latest": "这张角度没问题，但是猫毛的卷曲程度不自然，你应该按我的资产图来生成"
+    "evidence_latest": "用户指向exec-95982b52-3d90-486a-b553-29fd2dc3f57e.png并评价“这一张比较合理”",
+    "v05_fur_preferred_by_user": true,
+    "latest_scope": "明确选中v05并认可其毛质方向；未扩大为整帧最终批准或动态通过"
   },
   "actual_input_v01": [
     {
@@ -112,9 +114,10 @@
       "format": "PNG",
       "bytes": 1777235,
       "sha256": "56ec9101b7c0473760ba613d2ffc8c8732999e3d584dd525002eb53b8e29a746",
-      "review": "原资产优先重建短细毛，粗绳圈显著减少；毛质一致性等待用户审核",
+      "review": "用户评价这一张比较合理，选为当前毛质版本；整帧及动态未自动定稿",
       "approved": false,
-      "remote_verified": false
+      "remote_verified": false,
+      "user_fur_preferred": true
     }
   ],
   "review": {
