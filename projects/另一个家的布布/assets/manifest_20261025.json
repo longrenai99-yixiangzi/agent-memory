@@ -1,0 +1,56 @@
+{
+  "project": "另一个家的布布",
+  "version": "2026-10-25",
+  "status": "local_package_verified_remote_image_upload_pending",
+  "verification": "ZIP entries for eight images and two text sources matched size and SHA-256 locally; no remote binary upload verified",
+  "assets": [
+    {
+      "archive_path": "assets/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "target_repo_path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "size_bytes": 2537486,
+      "sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f"
+    },
+    {
+      "archive_path": "assets/PLAN-002_AB世界交汇区标注_V2.2.png",
+      "target_repo_path": "projects/另一个家的布布/assets/space/PLAN-002_AB世界交汇区标注_V2.2.png",
+      "size_bytes": 1032846,
+      "sha256": "f64177ee91097d20ba7b753a1fbf1ad3d311d33b7fcfec0c076073d567790021"
+    },
+    {
+      "archive_path": "assets/VIEW-01_朝阳台.png",
+      "target_repo_path": "projects/另一个家的布布/assets/views/VIEW-01_朝阳台.png",
+      "size_bytes": 2593152,
+      "sha256": "908541ff447a0b835be4ac2761c75f77d96135bbca85596f66c19fa11c16497c"
+    },
+    {
+      "archive_path": "assets/VIEW-02_朝厨房.jpg",
+      "target_repo_path": "projects/另一个家的布布/assets/views/VIEW-02_朝厨房.jpg",
+      "size_bytes": 310433,
+      "sha256": "a4a67f34c90bc5d5b36a473c1f1fbdbdce5a5beaddf38a47e18e6bc49e4950f8"
+    },
+    {
+      "archive_path": "assets/VIEW-03_朝沙发.png",
+      "target_repo_path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+      "size_bytes": 2634187,
+      "sha256": "381829c8f5f0bc2f5a309a5bc30309da6e452d14bdddd6d5bc1962114e05ff15"
+    },
+    {
+      "archive_path": "assets/VIEW-04_朝电视.png",
+      "target_repo_path": "projects/另一个家的布布/assets/views/VIEW-04_朝电视.png",
+      "size_bytes": 2733031,
+      "sha256": "d27d6f20bae7a490ce65dc6053ed81d349f2634882f8510aa6969f65e4c55729"
+    },
+    {
+      "archive_path": "assets/VIEW-05_朝入户门.jpg",
+      "target_repo_path": "projects/另一个家的布布/assets/views/VIEW-05_朝入户门.jpg",
+      "size_bytes": 243189,
+      "sha256": "537bad384dc171605e7ade2ab817ee506237f38f67b27c10bb55bcd8f3909b41"
+    },
+    {
+      "archive_path": "assets/VIEW-06_朝卫生间.jpg",
+      "target_repo_path": "projects/另一个家的布布/assets/views/VIEW-06_朝卫生间.jpg",
+      "size_bytes": 266753,
+      "sha256": "28c1f6c2ef436e2b7b3a75cf8d9504e1561c3bbbf9650051e09221c121b522c7"
+    }
+  ]
+}
