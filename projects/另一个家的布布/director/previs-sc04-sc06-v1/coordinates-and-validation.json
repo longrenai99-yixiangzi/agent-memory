@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "status": "director_review_required",
+  "status": "director_approved_plan_dynamic_unverified",
   "base_image": "assets\\space\\PLAN-001_彩平图_20261025_阳台家具删除版.png",
   "base_sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f",
   "view03_sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19",
@@ -95,7 +95,7 @@
   "validation_limits": [
     "2D topology only; physical width/height/occlusion not certified",
     "camera wedges are directions, not calibrated lens cones",
-    "all camera positions and mapped boundaries are pending director approval"
+    "camera/route plan approved 2026-10-25; metric placement and 3D framing remain unverified"
   ],
   "paid_generation": false,
   "camera_points": {
