@@ -12,7 +12,7 @@
       "story_time": "23:13",
       "camera": "C42",
       "purpose": "猫在E外，未回应",
-      "status": "v02_baseline_approved_v03_closer_camera_pending_review",
+      "status": "v03_angle_approved_fur_rejected_v05_fur_candidate_pending",
       "dependencies": [],
       "references": [
         {
@@ -51,9 +51,10 @@
       "generated": true,
       "approved": false,
       "next_execution": "K04-E0先单张候选，兼核机位、夜景曝光和可见用品；不批量生成",
-      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v03.png",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v05.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/asset.json",
-      "baseline_v02_approved": true
+      "baseline_v02_approved": true,
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     },
     {
       "task_id": "K04-E1",
@@ -104,7 +105,8 @@
       ],
       "generated": false,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选"
+      "next_execution": "依赖通过后再制作候选",
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     },
     {
       "task_id": "K04-R1",
@@ -159,7 +161,8 @@
       ],
       "generated": false,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选"
+      "next_execution": "依赖通过后再制作候选",
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     },
     {
       "task_id": "K05-T0",
@@ -214,7 +217,8 @@
       ],
       "generated": false,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选"
+      "next_execution": "依赖通过后再制作候选",
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     },
     {
       "task_id": "K05-H0",
@@ -269,7 +273,8 @@
       ],
       "generated": false,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选"
+      "next_execution": "依赖通过后再制作候选",
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     },
     {
       "task_id": "K05-H1",
@@ -324,7 +329,8 @@
       ],
       "generated": false,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选"
+      "next_execution": "依赖通过后再制作候选",
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     },
     {
       "task_id": "K06-O0",
@@ -391,7 +397,8 @@
       ],
       "generated": false,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选"
+      "next_execution": "依赖通过后再制作候选",
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     },
     {
       "task_id": "K06-P0",
@@ -498,7 +505,8 @@
       ],
       "generated": false,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选"
+      "next_execution": "依赖通过后再制作候选",
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     },
     {
       "task_id": "K06-X1",
@@ -557,7 +565,8 @@
       ],
       "generated": false,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选"
+      "next_execution": "依赖通过后再制作候选",
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     },
     {
       "task_id": "K06-B0",
@@ -620,7 +629,8 @@
       ],
       "generated": false,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选"
+      "next_execution": "依赖通过后再制作候选",
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
     }
   ]
 }

@@ -6,13 +6,17 @@
   "story_time": "23:13",
   "date": "2026-10-25",
   "method": "built_in_imagegen",
-  "current_version": "v03",
-  "status": "closer_camera_v03_candidate_pending_review",
+  "current_version": "v05",
+  "status": "fur_corrected_v05_awaiting_user_review",
   "approval": {
     "baseline_v02_visual_approved": true,
     "approved_scope": "v02构图/夜景亮度/布布状态获认可，用户要求沿原视轴靠近猫",
     "current_v03_still_approved": false,
-    "dynamic_approved": false
+    "dynamic_approved": false,
+    "v03_camera_angle_approved": true,
+    "v03_fur_rejected": true,
+    "current_v05_still_approved": false,
+    "evidence_latest": "这张角度没问题，但是猫毛的卷曲程度不自然，你应该按我的资产图来生成"
   },
   "actual_input_v01": [
     {
@@ -36,7 +40,9 @@
   "prompts": [
     "prompt-v01.txt",
     "prompt-v02.txt",
-    "prompt-v03.txt"
+    "prompt-v03.txt",
+    "prompt-v04.txt",
+    "prompt-v05.txt"
   ],
   "versions": [
     {
@@ -78,7 +84,35 @@
       "format": "PNG",
       "bytes": 1848307,
       "sha256": "5b3bbf0e067f8d360b37aaba12be9535b9b01ea7cf566b1973b9f383d564de73",
-      "review": "C42-near靠近版候选待用户审核；猫更大、四脚及尾仍可见；卷毛较v02更粗，需检查是否仍符合身份",
+      "review": "用户认可角度，明确否决不自然毛卷；保留机位参考，不直接用于下一帧",
+      "approved": false,
+      "remote_verified": false,
+      "angle_approved": true,
+      "fur_approved": false
+    },
+    {
+      "version": "v04",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v04.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-d0ca60a7-2959-437b-b7f1-9b92d3c20c91.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1850189,
+      "sha256": "026c1691b0c3f602a489b200866d6c3090dda1ce5075dba37b0eb1a651ee36be",
+      "review": "已同时输入原资产，但初看仍保留粗大卷纹，不作为当前候选",
+      "approved": false,
+      "remote_verified": false
+    },
+    {
+      "version": "v05",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v05.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-95982b52-3d90-486a-b553-29fd2dc3f57e.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1777235,
+      "sha256": "56ec9101b7c0473760ba613d2ffc8c8732999e3d584dd525002eb53b8e29a746",
+      "review": "原资产优先重建短细毛，粗绳圈显著减少；毛质一致性等待用户审核",
       "approved": false,
       "remote_verified": false
     }
@@ -97,7 +131,8 @@
       "静帧不能证明动态未回应，后续不得提前转头互动",
       "夜景曝光待用户批准，不代表整场灯光锁定",
       "K04-E1尚未生成，未经本帧批准不派生入G状态",
-      "v03近版重新待审：卷毛纹理较v02更粗，不能把基准认可自动扩展到新像素/新构图"
+      "v03近版重新待审：卷毛纹理较v02更粗，不能把基准认可自动扩展到新像素/新构图",
+      "v05仅候选，短毛层次更接近资产仍需用户确认；没有自动宣称逐像素一致或毛质通过"
     ]
   },
   "actual_input_v03": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v02.png",
@@ -106,5 +141,15 @@
     "source": "用户明确要求更接近猫",
     "intent": "沿原视轴向猫靠近、维持低位与方向，不挪猫",
     "exact_position_measured": false
-  }
+  },
+  "actual_input_v04": [
+    "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v03.png",
+    "projects/另一个家的布布/assets/characters/bubu-multiview.png"
+  ],
+  "actual_input_v05": [
+    "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+    "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v03.png"
+  ],
+  "reference_policy": "任何含布布的编辑/派生同时绑定正式bubu-multiview原资产，不只输入上一场景帧；角度/位置由场景图负责，毛质/身份由原资产负责",
+  "repair_cause": "v03靠近版仅使用v02场景图，未重新绑定原猫资产，出现毛质漂移；本轮两次输入均含原资产，v05优先原图重建"
 }
