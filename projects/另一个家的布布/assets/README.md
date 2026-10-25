@@ -33,7 +33,7 @@
 | PLAN-002 | `f64177ee91097d20ba7b753a1fbf1ad3d311d33b7fcfec0c076073d567790021` |
 | VIEW-01 | `908541ff447a0b835be4ac2761c75f77d96135bbca85596f66c19fa11c16497c` |
 | VIEW-02 | `a4a67f34c90bc5d5b36a473c1f1fbdbdce5a5beaddf38a47e18e6bc49e4950f8` |
-| VIEW-03 | `381829c8f5f0bc2f5a309a5bc30309da6e452d14bdddd6d5bc1962114e05ff15` |
+| VIEW-03 | `a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19` |
 | VIEW-04 | `d27d6f20bae7a490ce65dc6053ed81d349f2634882f8510aa6969f65e4c55729` |
 | VIEW-05 | `537bad384dc171605e7ade2ab817ee506237f38f67b27c10bb55bcd8f3909b41` |
 | VIEW-06 | `28c1f6c2ef436e2b7b3a75cf8d9504e1561c3bbbf9650051e09221c121b522c7` |
@@ -67,3 +67,7 @@
 - [Windows素材包来源清单](sync-package-20261025/manifest.json)、README和脚本保留来源副本，其原文“待上传”仅表示打包时状态。
 - 包内剧本与正视核对表和正式文档有差异，来源版本保存在 `sync-package-20261025/docs/`，不替代正式剧本或核对表。空间关系说明与正式文本一致，不重复复制。
 - 仅上传及核验，不重新审核创作内容，不生成媒体。
+
+## H. VIEW-03 v02用户指定替换（2026-10-25）
+
+正式 `views/VIEW-03_朝沙发.png` 已更新为用户本轮附件；旧版保留 `views/history/VIEW-03_朝沙发_v01_20261025.png`。新图用于后续SC04—SC06空间检查，不自动批准机位。详见[版本记录](VIEW-03_revision_20261025.json)。原始Windows包与第一次8/8回执保持历史原文，不再代表当前VIEW-03像素版本。

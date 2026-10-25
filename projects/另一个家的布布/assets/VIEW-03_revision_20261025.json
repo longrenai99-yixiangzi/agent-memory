@@ -1,0 +1,17 @@
+{
+  "asset_id": "VIEW-03",
+  "version": "v02",
+  "date": "2026-10-25",
+  "approval": "用户明确指定附件替换正式VIEW-03",
+  "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+  "source": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-d60bae06-9db6-42bd-9f2e-7fad48b8d9d8.png",
+  "width": 1672,
+  "height": 941,
+  "size_bytes": 1798339,
+  "sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19",
+  "previous_version": {
+    "path": "projects/另一个家的布布/assets/views/history/VIEW-03_朝沙发_v01_20261025.png",
+    "sha256": "381829c8f5f0bc2f5a309a5bc30309da6e452d14bdddd6d5bc1962114e05ff15"
+  },
+  "remote_verified": false
+}

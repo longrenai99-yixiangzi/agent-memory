@@ -1,8 +1,8 @@
 {
   "project": "另一个家的布布",
   "version": "2026-10-25",
-  "status": "remote_images_uploaded_and_sha256_verified",
-  "verification": "2026-10-25: authenticated GitHub API raw bytes verified for all eight images; size and SHA-256 match original package",
+  "status": "VIEW03_v02_remote_verification_pending_other_seven_verified",
+  "verification": "原8图回执保留为历史；本轮VIEW-03替换v02待远程复核，其余7图未改",
   "assets": [
     {
       "archive_path": "assets/PLAN-001_彩平图_20261025_阳台家具删除版.png",
@@ -29,10 +29,12 @@
       "sha256": "a4a67f34c90bc5d5b36a473c1f1fbdbdce5a5beaddf38a47e18e6bc49e4950f8"
     },
     {
-      "archive_path": "assets/VIEW-03_朝沙发.png",
+      "archive_path": null,
       "target_repo_path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
-      "size_bytes": 2634187,
-      "sha256": "381829c8f5f0bc2f5a309a5bc30309da6e452d14bdddd6d5bc1962114e05ff15"
+      "size_bytes": 1798339,
+      "sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19",
+      "version": "v02",
+      "source": "用户2026-10-25新附件"
     },
     {
       "archive_path": "assets/VIEW-04_朝电视.png",
