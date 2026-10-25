@@ -64,7 +64,7 @@
       "story_time": "23:14",
       "camera": "C42",
       "purpose": "四脚全入G",
-      "status": "v01_candidate_awaiting_user_review",
+      "status": "user_accepted_scale_and_G_entry_static",
       "dependencies": [
         "K04-E0"
       ],
@@ -110,7 +110,9 @@
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-E1/assets/K04-E1_v01.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC04/K04-E1/asset.json",
-      "source_E0_version": "v05"
+      "source_E0_version": "v05",
+      "scale_and_G_entry_approved": true,
+      "approval_scope": "静态猫体尺度与进入G区空间关系，不等于动态或全项验收"
     },
     {
       "task_id": "K04-R1",
@@ -166,7 +168,8 @@
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "dependency_update": "E1空间/尺度获用户认可，可沿用为R1空间衔接依据；原猫资产持续绑定"
     },
     {
       "task_id": "K05-T0",

@@ -5,7 +5,7 @@
   "camera": "C42-near",
   "date": "2026-10-25",
   "version": "v01",
-  "status": "candidate_awaiting_user_review",
+  "status": "user_accepted_scale_and_G_entry_static",
   "method": "built_in_imagegen",
   "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E1/assets/K04-E1_v01.png",
   "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-dfb5ef9a-8815-4eea-b69f-d1d15288ba79.png",
@@ -28,7 +28,17 @@
   "authorization": "用户在选择E0 v05毛质后说“下一步”，据既定任务顺序制作E1候选；不扩大为整段或视频批准",
   "approval": {
     "still_approved": false,
-    "dynamic_approved": false
+    "dynamic_approved": false,
+    "scale_approved": true,
+    "G_entry_spatial_approved": true,
+    "evidence": "猫没有明显变大；越界位置比较清楚，进入搭配G区",
+    "scope": "用户认可猫体尺度未明显变大及进入G区的空间关系；按上下文记录，不把原话中的输入歧义补成新创作决定",
+    "date": "2026-10-25",
+    "does_not_imply": [
+      "毛质单独最终验收",
+      "动态越界过程通过",
+      "整段视频通过"
+    ]
   },
   "review": {
     "observations": [
