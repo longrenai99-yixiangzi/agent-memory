@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-25",
+  "project": "另一个家的布布",
+  "decision": "女主穿家居拖鞋；原角色图赤脚只属原素材，不是执行要求",
+  "source_user": "女主要穿拖鞋，我给的资产图里，女主都没穿鞋",
+  "reference_method": "用户选择提供实际拖鞋参考，再补到原人物资产",
+  "reference_status": "awaiting_user_actual_slipper_reference",
+  "slipper_style": null,
+  "world_binding": "A/B如同款可共用，若不同按用户实际参考分别绑定，不自行决定",
+  "affected_assets": [
+    "wife-A-fullbody.png",
+    "wife-B-fullbody.png",
+    "wife-B-three-views.png"
+  ],
+  "unaffected": [
+    "妻子面部身份",
+    "丈夫资产",
+    "布布资产",
+    "E0/E1无人帧",
+    "机位路线审批"
+  ],
+  "rule": "保留原图，补鞋另存版本；脸/发型/服装不变；同步全身和动作帧脚部，不把拖鞋浮在脚下或变成赤脚蹲姿",
+  "R1_status": "已生成赤脚过程图需修改，未批准",
+  "generation_allowed_now": "可做非依赖准备，不设计替代鞋款、不生成后续正式人物帧"
+}

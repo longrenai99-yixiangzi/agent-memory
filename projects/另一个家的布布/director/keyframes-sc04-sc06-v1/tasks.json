@@ -121,7 +121,7 @@
       "story_time": "23:15",
       "camera": "C41",
       "purpose": "妻子回应后蹲稳",
-      "status": "prepared_not_generated",
+      "status": "needs_slippers_revision_waiting_user_reference",
       "dependencies": [
         "K04-E1"
       ],
@@ -163,13 +163,17 @@
         "回应之后才低身"
       ],
       "unmet_prerequisites": [
-        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
+        "用户实际拖鞋参考及补鞋角色/动作帧审核"
       ],
-      "generated": false,
+      "generated": true,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
-      "dependency_update": "E1空间/尺度获用户认可，可沿用为R1空间衔接依据；原猫资产持续绑定"
+      "dependency_update": "E1空间/尺度获用户认可，可沿用为R1空间衔接依据；原猫资产持续绑定",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v02.png",
+      "asset_record": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/asset.json",
+      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
     },
     {
       "task_id": "K05-T0",
@@ -220,12 +224,14 @@
         "手指接触清楚、无抓脖子"
       ],
       "unmet_prerequisites": [
-        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
+        "用户实际拖鞋参考及补鞋角色/动作帧审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
     },
     {
       "task_id": "K05-H0",
@@ -276,12 +282,14 @@
         "猫尺度交用户审核"
       ],
       "unmet_prerequisites": [
-        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
+        "用户实际拖鞋参考及补鞋角色/动作帧审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
     },
     {
       "task_id": "K05-H1",
@@ -332,12 +340,14 @@
         "A站稳在G内，接SC06"
       ],
       "unmet_prerequisites": [
-        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
+        "用户实际拖鞋参考及补鞋角色/动作帧审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
     },
     {
       "task_id": "K06-O0",
@@ -400,12 +410,14 @@
         "无互相对视互动"
       ],
       "unmet_prerequisites": [
-        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
+        "用户实际拖鞋参考及补鞋角色/动作帧审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
     },
     {
       "task_id": "K06-P0",
@@ -508,12 +520,14 @@
         "猫未出X，B未触猫"
       ],
       "unmet_prerequisites": [
-        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
+        "用户实际拖鞋参考及补鞋角色/动作帧审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
     },
     {
       "task_id": "K06-X1",
@@ -568,12 +582,14 @@
         "B在猫出来后才注意到"
       ],
       "unmet_prerequisites": [
-        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
+        "用户实际拖鞋参考及补鞋角色/动作帧审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
     },
     {
       "task_id": "K06-B0",
@@ -632,12 +648,14 @@
         "B不知情，抱回先于关闭"
       ],
       "unmet_prerequisites": [
-        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景"
+        "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
+        "用户实际拖鞋参考及补鞋角色/动作帧审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
-      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧"
+      "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
+      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
     }
   ]
 }

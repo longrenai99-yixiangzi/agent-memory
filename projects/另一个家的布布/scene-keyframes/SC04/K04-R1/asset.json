@@ -1,0 +1,84 @@
+{
+  "task_id": "K04-R1",
+  "scene": "SC04",
+  "story_time": "23:15",
+  "camera": "C41",
+  "date": "2026-10-25",
+  "status": "needs_slippers_revision_waiting_user_reference",
+  "current_version": "v02",
+  "method": "built_in_imagegen",
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-f506a0f3-119c-474b-a1ad-c927d387b063.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2101149,
+      "sha256": "a3a4575276de227250e358431d603ed0dd97783bc3bf17a91ffdc3a41bf4bb9f",
+      "approved": false,
+      "status": "历史赤脚候选，需按最新导演指令补实际拖鞋",
+      "remote_verified": false
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-83690eb6-4e26-449a-a439-ff4fcbfe5cc6.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2046745,
+      "sha256": "fc88639fea564ef5ae415881e52d35205f378ca93871aca6a9fff608ea54379d",
+      "approved": false,
+      "status": "历史赤脚候选，需按最新导演指令补实际拖鞋",
+      "remote_verified": false
+    }
+  ],
+  "actual_inputs_v01": [
+    {
+      "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+      "sha256": "bd6663a2b5b3b8954fd537945b777722df079a9c157e2a3ef14ce45b7876c8ba"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+      "sha256": "3433e0d5465152710c84c27fc51a3a8491bd7aaf5c2b6b2759bbf2ec4bd3a6ca"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+      "sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E1/assets/K04-E1_v01.png",
+      "sha256": "3f4835d3f1b2005b56e43830744a7c132d4813e8f0e6c8aa434c688433251934"
+    }
+  ],
+  "actual_inputs_v02": [
+    "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+    "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v01.png"
+  ],
+  "prompts": [
+    "prompt-v01.txt",
+    "prompt-v02.txt"
+  ],
+  "execution_note": "最初6输入路径调用被工具拒绝，未生成图；实际v01调用为记录的5输入，不含机位图，仅文字推导C41",
+  "review": {
+    "observations": [
+      "A稳定低蹲、双手膝上，尚未接触猫",
+      "单猫抬头看向A，两者有间距",
+      "v02仅对猫毛质做修正"
+    ],
+    "blocker": "最新导演要求女主穿拖鞋，现有v01/v02赤脚，不合格，不批准进入后续接触帧",
+    "pending": [
+      "用户实际拖鞋参考",
+      "人物身份及C41精确位置仍待用户审查",
+      "脚穿拖鞋后的支撑/下蹲受力与猫比例需重新检查"
+    ]
+  },
+  "approval": {
+    "still_approved": false,
+    "dynamic_approved": false
+  }
+}
