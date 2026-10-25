@@ -12,7 +12,7 @@
       "story_time": "23:13",
       "camera": "C42",
       "purpose": "猫在E外，未回应",
-      "status": "prepared_not_generated",
+      "status": "candidate_v02_awaiting_user_review",
       "dependencies": [],
       "references": [
         {
@@ -48,9 +48,11 @@
         "阳台外窗关闭，通路经开放垭口"
       ],
       "unmet_prerequisites": [],
-      "generated": false,
+      "generated": true,
       "approved": false,
-      "next_execution": "K04-E0先单张候选，兼核机位、夜景曝光和可见用品；不批量生成"
+      "next_execution": "K04-E0先单张候选，兼核机位、夜景曝光和可见用品；不批量生成",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v02.png",
+      "asset_record": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/asset.json"
     },
     {
       "task_id": "K04-E1",

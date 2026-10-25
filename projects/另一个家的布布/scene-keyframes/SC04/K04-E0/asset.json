@@ -1,0 +1,83 @@
+{
+  "task_id": "K04-E0",
+  "project": "另一个家的布布",
+  "scene": "SC04",
+  "camera": "C42",
+  "story_time": "23:13",
+  "date": "2026-10-25",
+  "method": "built_in_imagegen",
+  "current_version": "v02",
+  "status": "candidate_awaiting_user_review",
+  "approval": {
+    "still_approved": false,
+    "camera_exposure_approved": false,
+    "dynamic_approved": false
+  },
+  "actual_input_v01": [
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-01_朝阳台.png",
+      "sha256": "908541ff447a0b835be4ac2761c75f77d96135bbca85596f66c19fa11c16497c"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+      "sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC04_camera-route_v1.png",
+      "sha256": "de7e58479d731d5b31dcc7d4ca20f6057aa4ad561d975d4fb694724c53d60a71"
+    }
+  ],
+  "actual_input_v02": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v01.png",
+  "prompts": [
+    "prompt-v01.txt",
+    "prompt-v02.txt"
+  ],
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-b4bc931d-fd3d-4b9c-bc9c-7110606f65f0.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1868617,
+      "sha256": "04768eb2316574d81747ecbb468d766d03d32a1c98d4c6dd88ca52b7cf5bd8b5",
+      "review": "垭口生成凸起门槛，违反开放通路要求，已修正，保留过程",
+      "approved": false,
+      "remote_verified": false
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-bf76dea6-8e71-4873-b000-674e7c59e25d.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1824176,
+      "sha256": "6d1bbd417b1984c4105929352ad2d19b9adc0793faf79049607d9550861e349c",
+      "review": "已消除凸起门槛，候选待用户审核机位/曝光/猫状态",
+      "approved": false,
+      "remote_verified": false
+    }
+  ],
+  "review": {
+    "visible_observations": [
+      "画面只有一猫，无妻子或丈夫",
+      "猫完整位于开放垭口后的阳台侧，四足及尾巴可见",
+      "沙发窗端与茶几边角在前景，关闭外窗有夜景/雨痕",
+      "v02开放通路地面平齐，未画边界特效",
+      "猫卷毛与脚下接触阴影可辨"
+    ],
+    "limits": [
+      "C42仅为按二维预演推导的视角候选，无实测三维相机参数",
+      "猫相对真实尺度及身份一致性交用户审查",
+      "静帧不能证明动态未回应，后续不得提前转头互动",
+      "夜景曝光待用户批准，不代表整场灯光锁定",
+      "K04-E1尚未生成，未经本帧批准不派生入G状态"
+    ]
+  }
+}
