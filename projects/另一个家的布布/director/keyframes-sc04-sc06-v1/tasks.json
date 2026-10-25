@@ -121,7 +121,7 @@
       "story_time": "23:15",
       "camera": "C41",
       "purpose": "妻子回应后蹲稳",
-      "status": "needs_slippers_revision_waiting_user_reference",
+      "status": "slippers_corrected_v03_awaiting_user_review",
       "dependencies": [
         "K04-E1"
       ],
@@ -153,6 +153,10 @@
         {
           "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC04_camera-route_v1.png",
           "role": "已批SC04机位与路线，不复制箭头色块"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "role": "A世界实际拖鞋款式主参考，不借用商品背景"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K04-R1.txt",
@@ -164,16 +168,16 @@
       ],
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
-        "用户实际拖鞋参考及补鞋角色/动作帧审核"
+        "补鞋候选的鞋型、人物身份及受力审核"
       ],
       "generated": true,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "dependency_update": "E1空间/尺度获用户认可，可沿用为R1空间衔接依据；原猫资产持续绑定",
-      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v02.png",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/asset.json",
-      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
+      "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令"
     },
     {
       "task_id": "K05-T0",
@@ -214,6 +218,10 @@
         {
           "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC05_camera-route_v1.png",
           "role": "已批SC05机位与路线，不复制箭头色块"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "role": "A世界实际拖鞋款式主参考，不借用商品背景"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K05-T0.txt",
@@ -225,13 +233,13 @@
       ],
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
-        "用户实际拖鞋参考及补鞋角色/动作帧审核"
+        "补鞋候选的鞋型、人物身份及受力审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
-      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
+      "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令"
     },
     {
       "task_id": "K05-H0",
@@ -272,6 +280,10 @@
         {
           "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC05_camera-route_v1.png",
           "role": "已批SC05机位与路线，不复制箭头色块"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "role": "A世界实际拖鞋款式主参考，不借用商品背景"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K05-H0.txt",
@@ -283,13 +295,13 @@
       ],
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
-        "用户实际拖鞋参考及补鞋角色/动作帧审核"
+        "补鞋候选的鞋型、人物身份及受力审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
-      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
+      "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令"
     },
     {
       "task_id": "K05-H1",
@@ -330,6 +342,10 @@
         {
           "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC05_camera-route_v1.png",
           "role": "已批SC05机位与路线，不复制箭头色块"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "role": "A世界实际拖鞋款式主参考，不借用商品背景"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K05-H1.txt",
@@ -341,13 +357,13 @@
       ],
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
-        "用户实际拖鞋参考及补鞋角色/动作帧审核"
+        "补鞋候选的鞋型、人物身份及受力审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
-      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
+      "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令"
     },
     {
       "task_id": "K06-O0",
@@ -400,6 +416,14 @@
         {
           "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC06_camera-route_v1.png",
           "role": "已批SC06机位与路线，不复制箭头色块"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "role": "A世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
+          "role": "B世界实际拖鞋款式主参考，不借用商品背景"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-O0.txt",
@@ -411,13 +435,13 @@
       ],
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
-        "用户实际拖鞋参考及补鞋角色/动作帧审核"
+        "补鞋候选的鞋型、人物身份及受力审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
-      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
+      "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令"
     },
     {
       "task_id": "K06-P0",
@@ -510,6 +534,14 @@
         {
           "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC06_camera-route_v1.png",
           "role": "已批SC06机位与路线，不复制箭头色块"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "role": "A世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
+          "role": "B世界实际拖鞋款式主参考，不借用商品背景"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-X0.txt",
@@ -521,13 +553,13 @@
       ],
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
-        "用户实际拖鞋参考及补鞋角色/动作帧审核"
+        "补鞋候选的鞋型、人物身份及受力审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
-      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
+      "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令"
     },
     {
       "task_id": "K06-X1",
@@ -572,6 +604,14 @@
         {
           "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC06_camera-route_v1.png",
           "role": "已批SC06机位与路线，不复制箭头色块"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "role": "A世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
+          "role": "B世界实际拖鞋款式主参考，不借用商品背景"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-X1.txt",
@@ -583,13 +623,13 @@
       ],
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
-        "用户实际拖鞋参考及补鞋角色/动作帧审核"
+        "补鞋候选的鞋型、人物身份及受力审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
-      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
+      "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令"
     },
     {
       "task_id": "K06-B0",
@@ -638,6 +678,14 @@
         {
           "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC06_camera-route_v1.png",
           "role": "已批SC06机位与路线，不复制箭头色块"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "role": "A世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
+          "role": "B世界实际拖鞋款式主参考，不借用商品背景"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-B0.txt",
@@ -649,13 +697,13 @@
       ],
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
-        "用户实际拖鞋参考及补鞋角色/动作帧审核"
+        "补鞋候选的鞋型、人物身份及受力审核"
       ],
       "generated": false,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
-      "footwear_override": "女主必须穿用户实际参考拖鞋；原图赤脚不沿用"
+      "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令"
     }
   ]
 }

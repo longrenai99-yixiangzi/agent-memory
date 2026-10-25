@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-25",
+  "project": "另一个家的布布",
+  "assets": [
+    {
+      "world": "A",
+      "asset_id": "BUBU-SHOES-A-001",
+      "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+      "source": "C:/Users/liu/AppData/Local/Temp/codex-clipboard-49acbec1-e4a0-4597-a140-093217f4f940.png",
+      "width": 1920,
+      "height": 1280,
+      "bytes": 2343754,
+      "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71",
+      "style": "浅粉色打孔厚底一字拖，露趾、无后跟带",
+      "binding_status": "用户明确图1 A款、图2 B款",
+      "remote_verified": false
+    },
+    {
+      "world": "B",
+      "asset_id": "BUBU-SHOES-B-001",
+      "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
+      "source": "C:/Users/liu/AppData/Local/Temp/codex-clipboard-176dbf8e-87f6-46ec-9ea3-81e17d2e2afd.png",
+      "width": 1920,
+      "height": 1280,
+      "bytes": 2733898,
+      "sha256": "cf65fe4a1ba260dbbf7e4f1a5e0241accae598797009b8bc2dec38bd28a8a4bd",
+      "style": "黑色Y形夹脚平底拖，露趾、无后跟带",
+      "binding_status": "用户明确图1 A款、图2 B款",
+      "remote_verified": false
+    }
+  ]
+}

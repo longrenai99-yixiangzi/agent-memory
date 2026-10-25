@@ -358,3 +358,7 @@ D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\project
 ## 最新约束：女主穿实际参考拖鞋
 
 用户将提供实际拖鞋，不由Codex另选。原图和历史提示词中赤脚描述只供追溯；执行以[鞋款规则](../../assets/characters/footwear-decision_20261025.json)为准。R1已生成赤脚v01/v02，均需局部补鞋，不合格；人物任务等待实际鞋参考。E0/E1无人帧不受影响。
+
+## 实际鞋款接收与派生更新
+
+用户已提供A粉色打孔厚底拖、B黑色夹脚拖，[原图及成果](../../assets/characters/footwear/README.md)已登记。B全身/B三视/R1 v03已补鞋待审；A全身编辑调用被服务拒绝，尚无合成图。无需等待用户重做人像，后续以原A衣装图+真实A鞋图双参考。旧“待提供实际鞋图”不再是当前阻断项。

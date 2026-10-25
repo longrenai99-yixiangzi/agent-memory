@@ -1,0 +1,103 @@
+{
+  "project": "另一个家的布布",
+  "reference_binding": "用户指定图1=A粉色打孔厚底拖；图2=B黑色Y形夹脚拖",
+  "derived_candidates": [
+    {
+      "asset_id": "BUBU-COST-B-SHOES-v01",
+      "path": "projects/另一个家的布布/assets/characters/wife-B-fullbody_slippers-v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-fe2a3125-e94d-47e6-9023-afdd362a6014.png",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "bytes": 1394472,
+      "sha256": "b34bc4b183ec9fa0be8407221f576becc5a4b9071bacb9009225df94e677add8",
+      "actual_inputs": [
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-fullbody.png",
+          "sha256": "af0ad0e023382b746b2c3141e50dd7cac24411121b80860597edcd7cefcb1cec"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
+          "sha256": "cf65fe4a1ba260dbbf7e4f1a5e0241accae598797009b8bc2dec38bd28a8a4bd"
+        }
+      ],
+      "actual_prompt": "projects/另一个家的布布/assets/characters/footwear/prompts/B-fullbody.txt",
+      "method": "built_in_imagegen",
+      "status": "generated_candidate_awaiting_user_review",
+      "user_approved": false,
+      "remote_verified": false
+    },
+    {
+      "asset_id": "BUBU-CHR-WB3-SHOES-v01",
+      "path": "projects/另一个家的布布/assets/characters/wife-B-three-views_slippers-v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-cc50a43e-dc37-4205-8499-00cb38fc31aa.png",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "bytes": 1493691,
+      "sha256": "358ba56ba917455a446240f986681349cf15c82eed5cd3646a086aab5eeb715f",
+      "actual_inputs": [
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-three-views.png",
+          "sha256": "e6ea051f29c9284ca26956137b486441ee485aabc6a8a99b8661fbdaf0c5aa63"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
+          "sha256": "cf65fe4a1ba260dbbf7e4f1a5e0241accae598797009b8bc2dec38bd28a8a4bd"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-fullbody_slippers-v01.png",
+          "sha256": "b34bc4b183ec9fa0be8407221f576becc5a4b9071bacb9009225df94e677add8"
+        }
+      ],
+      "actual_prompt": "projects/另一个家的布布/assets/characters/footwear/prompts/B-three-views.txt",
+      "method": "built_in_imagegen",
+      "status": "generated_candidate_awaiting_user_review",
+      "user_approved": false,
+      "remote_verified": false
+    },
+    {
+      "asset_id": "K04-R1-v03",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-187d7bb4-ec5b-4cea-9146-d04fbbe2aed9.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2044427,
+      "sha256": "ec0dd4c08b8b37cd7e7437066e030af3fb100729220c52e313ecaf2539ecaa14",
+      "actual_inputs": [
+        {
+          "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v02.png",
+          "sha256": "fc88639fea564ef5ae415881e52d35205f378ca93871aca6a9fff608ea54379d"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+        }
+      ],
+      "actual_prompt": "projects/另一个家的布布/assets/characters/footwear/prompts/R1-footwear.txt",
+      "method": "built_in_imagegen",
+      "status": "generated_candidate_awaiting_user_review",
+      "user_approved": false,
+      "remote_verified": false
+    }
+  ],
+  "incomplete": [
+    {
+      "asset": "A世界妻子全身补鞋合成版",
+      "status": "service_rejected_no_output",
+      "requested_inputs": [
+        "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+        "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png"
+      ],
+      "actual_prompt": "projects/另一个家的布布/assets/characters/footwear/prompts/A-fullbody-attempt.txt",
+      "error": "http 400 moderation_blocked; safety_violations=[sexual]; moderation_stage=output",
+      "request_id": "0e320409-165f-4add-b283-2786c2aad833",
+      "handling": "未反复提交同一全身图，未改用付费接口；保留原A人物图+已指定A鞋原图双参考方式，不伪造全身补鞋成品"
+    }
+  ]
+}

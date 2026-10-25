@@ -4,8 +4,8 @@
   "story_time": "23:15",
   "camera": "C41",
   "date": "2026-10-25",
-  "status": "needs_slippers_revision_waiting_user_reference",
-  "current_version": "v02",
+  "status": "slippers_corrected_v03_awaiting_user_review",
+  "current_version": "v03",
   "method": "built_in_imagegen",
   "versions": [
     {
@@ -30,6 +30,36 @@
       "sha256": "fc88639fea564ef5ae415881e52d35205f378ca93871aca6a9fff608ea54379d",
       "approved": false,
       "status": "历史赤脚候选，需按最新导演指令补实际拖鞋",
+      "remote_verified": false
+    },
+    {
+      "version": "v03",
+      "asset_id": "K04-R1-v03",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-187d7bb4-ec5b-4cea-9146-d04fbbe2aed9.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2044427,
+      "sha256": "ec0dd4c08b8b37cd7e7437066e030af3fb100729220c52e313ecaf2539ecaa14",
+      "actual_inputs": [
+        {
+          "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v02.png",
+          "sha256": "fc88639fea564ef5ae415881e52d35205f378ca93871aca6a9fff608ea54379d"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+        }
+      ],
+      "actual_prompt": "projects/另一个家的布布/assets/characters/footwear/prompts/R1-footwear.txt",
+      "method": "built_in_imagegen",
+      "status": "generated_candidate_awaiting_user_review",
+      "user_approved": false,
       "remote_verified": false
     }
   ],
@@ -70,15 +100,30 @@
       "单猫抬头看向A，两者有间距",
       "v02仅对猫毛质做修正"
     ],
-    "blocker": "最新导演要求女主穿拖鞋，现有v01/v02赤脚，不合格，不批准进入后续接触帧",
+    "blocker": "原赤脚问题已通过A款补鞋候选修正；仍待用户审核鞋型/厚度/蹲姿受力、人物与C41空间",
     "pending": [
-      "用户实际拖鞋参考",
-      "人物身份及C41精确位置仍待用户审查",
-      "脚穿拖鞋后的支撑/下蹲受力与猫比例需重新检查"
+      "A款厚底/打孔/露趾鞋型是否吻合实际参考",
+      "鞋与脚、裤脚、地面接触是否自然",
+      "妻子身份、猫毛与尺度、机位和曝光是否沿用"
     ]
   },
   "approval": {
     "still_approved": false,
     "dynamic_approved": false
-  }
+  },
+  "actual_inputs_v03": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v02.png",
+      "sha256": "fc88639fea564ef5ae415881e52d35205f378ca93871aca6a9fff608ea54379d"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+      "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    }
+  ],
+  "actual_prompt_v03": "projects/另一个家的布布/assets/characters/footwear/prompts/R1-footwear.txt"
 }

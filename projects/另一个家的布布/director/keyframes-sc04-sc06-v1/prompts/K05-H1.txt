@@ -1,4 +1,4 @@
-【最新执行约束】女主必须穿拖鞋。用户将提供实际款式；收到前不执行正式人物生图，旧原图赤脚不沿用。保持同一身份衣装，脚部补鞋另存版本。
+【最新执行约束】实际鞋款已收到：A穿浅粉色打孔厚底一字拖，B穿黑色Y形夹脚平底拖，分别绑定真实鞋原图；旧原图赤脚不沿用。保持同一身份衣装，补鞋派生图待审。
 
 任务K05-H1：抱稳后站稳。
 单张写实电影关键状态候选，横向16:9，不是最终灯光定稿。严格按PLAN实际家具和开放阳台垭口，G/E/X及机位按已批预演；不抄图纸俯视角、文字、箭头或色块。外窗关闭，地面裸瓷砖，无地毯，阳台无座椅。B世界猫爬架在阳台G外，窝和食水在电视柜与房门之间G外；具体用品造型尚无获批图，执行前需设计候选/空景审核。
@@ -18,3 +18,7 @@ D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\project
 D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\director\previs-sc04-sc06-v1\SC05_camera-route_v1.png：已批SC05机位与路线，不复制箭头色块
 
 验收：同机位无裁头；猫手位与朝向接H0；A站稳在G内，接SC06。
+
+实际鞋款参考（按本帧人物世界选用，若无人物不输入）：
+D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\assets\characters\footwear\slippers-A-source.png：A粉色打孔厚底拖鞋。
+D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\assets\characters\footwear\slippers-B-source.png：B黑色Y形夹脚拖鞋。
