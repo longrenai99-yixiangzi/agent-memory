@@ -65,5 +65,14 @@
       "最终摄影与调色",
       "最终镜头/剪辑批准"
     ]
+  },
+  "affection_revision": {
+    "date": "2026-10-26",
+    "user_request": "抱起来后，猫最好表现得更加亲昵一下",
+    "status": "generation_blocked_no_image",
+    "attempt_record": "attempt-v02-blocked.txt",
+    "error": "HTTP 400 moderation_blocked; input sexual category; cause unknown",
+    "generated": false,
+    "current_image_unchanged": "v01"
   }
 }
