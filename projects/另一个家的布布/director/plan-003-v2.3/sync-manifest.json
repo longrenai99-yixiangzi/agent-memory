@@ -45,5 +45,12 @@
     "meaning": "两文件编码/元数据可不同，画面像素完全相同；本附件对应已批准图，不重问已确认动线"
   },
   "remote_verified_count": 4,
-  "file_commit": "0e5bc4aa70324f66700f2ccf11ad82b936bf04d2"
+  "file_commit": "0e5bc4aa70324f66700f2ccf11ad82b936bf04d2",
+  "source_zip_archive": {
+    "path": "projects/另一个家的布布/director/plan-003-v2.3/PLAN-003_V2.3_approved-sync.zip",
+    "source_path": "D:\\文档\\Downloads\\PLAN-003 V2.3 已确认动线同步包.zip",
+    "bytes": 3194362,
+    "sha256": "6538edac39228a32ee99e562d9018e4f7ca6c2ccecfa6b7fd168edde1a3928e7",
+    "remote_verified": false
+  }
 }
