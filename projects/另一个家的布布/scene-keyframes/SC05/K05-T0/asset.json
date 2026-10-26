@@ -21,7 +21,8 @@
       "sha256": "6ff0f4e613e9c7202608a8bf2da56406b709a09abc741e5879242ae1c4d367f7",
       "review": "闻手关系初看成立，猫毛纹偏粗，保留过程",
       "approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "6d079836cea455d14700490aea12bd77a87fe33d"
     },
     {
       "version": "v02",
@@ -34,7 +35,8 @@
       "sha256": "5dad333a0d0e28d9bae9e56745119cac1785dd1a0acb1f6e6e5381210e2142cc",
       "review": "定向修猫毛后候选，身份/毛质/手鼻间距/机位待用户审查",
       "approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "6d079836cea455d14700490aea12bd77a87fe33d"
     }
   ],
   "actual_inputs_v01": [
