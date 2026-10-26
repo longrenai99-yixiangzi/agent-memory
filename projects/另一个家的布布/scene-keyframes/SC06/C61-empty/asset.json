@@ -1,0 +1,74 @@
+{
+  "task_id": "C61-empty",
+  "kind": "K06-O0空间前置核对，不新增正式镜头编号",
+  "date": "2026-10-26",
+  "current_version": "v01",
+  "status": "awaiting_user_spatial_geometry_review",
+  "method": "built_in_imagegen",
+  "approved": false,
+  "people_added": false,
+  "no_people_until_spatial_approval": true,
+  "final_first_last_frame": false,
+  "film_lighting_approved": false,
+  "lighting_usage": "原日间空间图工作照明，只核几何；影片仍雨夜，不变更剧情时间或最终光影",
+  "camera_authority": "director/previs-sc04-sc06-v1/coordinates-and-validation.json C61=(535,540)，朝A/B夹角；原图像素为拓扑示意，非实测摄影参数",
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-52461769-4601-4102-a6e5-68bcf57dfd35.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1995563,
+      "sha256": "b7e58ba17bb2d24f4fbdb7b3f34ac60a5d67c5268f94d45edc5263cfc10fbefe",
+      "approved": false,
+      "remote_verified": false
+    }
+  ],
+  "actual_inputs": [
+    {
+      "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-05_朝入户门.jpg",
+      "sha256": "537bad384dc171605e7ade2ab817ee506237f38f67b27c10bb55bcd8f3909b41"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-02_朝厨房.jpg",
+      "sha256": "a4a67f34c90bc5d5b36a473c1f1fbdbdce5a5beaddf38a47e18e6bc49e4950f8"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+      "sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-06_朝卫生间.jpg",
+      "sha256": "28c1f6c2ef436e2b7b3a75cf8d9504e1561c3bbbf9650051e09221c121b522c7"
+    }
+  ],
+  "actual_prompt": "prompt-v01.txt",
+  "old_O0_input_used": false,
+  "review": {
+    "observed": [
+      "无人无猫，无新增独立餐桌，无地毯",
+      "原木色茶几有竖纹门和抽屉，不再是大理石茶几",
+      "近侧右方奶油色L形沙发与薄毯，未翻到左墙",
+      "岛台两张椅子，厨房较远左侧并呈斜向",
+      "木门—白色玄关高柜/坐凳—暖气片—沙发排列可对照VIEW-05/VIEW-03",
+      "原本电视侧不强行显示电视，避免为露电视改机位"
+    ],
+    "pending": [
+      "摄影机是否位于批准C61，而非仅外观接近：尚无3D或透视标定",
+      "沙发端头/贵妃位和岛台透视、占地及门柜相对距离需用户审核",
+      "厨房窗/冰箱/烤箱柜因斜角遮挡的连接是否正确",
+      "图1平面与六正视图中既有已接受差异不在本轮擅自重设计"
+    ],
+    "limitations": [
+      "只能核对可见几何，单张生成图不能证明精确落点或真实净距",
+      "日间工作空景不能直接用作影片雨夜正式首尾帧"
+    ],
+    "next": "用户确认空景空间后再添加A/B；未经确认不放人物，不继续P0或视频"
+  }
+}
