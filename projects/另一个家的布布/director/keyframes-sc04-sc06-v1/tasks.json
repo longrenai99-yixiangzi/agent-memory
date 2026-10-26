@@ -325,12 +325,12 @@
       ],
       "generated": true,
       "approved": false,
-      "next_execution": "用户审核v01承托、猫姿和人物一致性；H1前讨论站起取景",
+      "next_execution": "用户审核v02体型、尾巴和承托；v01需修改，H1取景待讨论",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
       "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
       "dependency_update": "K05-T0 v02五官/猫毛/手鼻关系获用户认可，可作衔接基础；H0仍待制作与承托审核",
-      "actual_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-H0/assets/K05-H0_v01.png",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-H0/assets/K05-H0_v02.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC05/K05-H0/asset.json"
     },
     {

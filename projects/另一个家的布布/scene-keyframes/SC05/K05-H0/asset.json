@@ -4,12 +4,12 @@
   "story_time": "23:23",
   "camera": "C52",
   "date": "2026-10-26",
-  "current_version": "v01",
+  "current_version": "v02",
   "status": "candidate_pending_user_review",
   "method": "built_in_imagegen",
   "approved": false,
-  "actual_prompt": "prompt-v01.txt",
-  "prompt_provenance": "Recovered exact original tool-call input by call_id call_e6320d8cd3764c029af34298ad686fdf",
+  "actual_prompt": "prompt-v02.txt",
+  "prompt_provenance": "Exact tool input saved for v02; v01 original call recovery retained in history",
   "versions": [
     {
       "version": "v01",
@@ -22,7 +22,21 @@
       "sha256": "9f8636190d142b10a6e26dc685d0a3b299d00db034078bd2cec6564f052016cb",
       "remote_verified": true,
       "approved": false,
-      "image_commit": "e81ea3c384c9f051900d1792d79c06e63276143f"
+      "image_commit": "e81ea3c384c9f051900d1792d79c06e63276143f",
+      "user_feedback": "尾巴有点不自然，猫显得有点大",
+      "status": "needs_revision"
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H0/assets/K05-H0_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-0b1d54f6-c475-4c61-ac9a-053354914827.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2035349,
+      "sha256": "7ac2c013070045c5113223e5ca14260a170f33373e198c51c95d80a92d381c88",
+      "approved": false,
+      "remote_verified": false
     }
   ],
   "actual_inputs": [
@@ -59,5 +73,31 @@
       "H1站起画幅头部余量不足，待比较取景/剪辑方案后审批",
       "正式SC04夜间光影V1原文仍未取得，不声称已对标通过"
     ]
+  },
+  "actual_inputs_v02": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H0/assets/K05-H0_v01.png",
+      "sha256": "9f8636190d142b10a6e26dc685d0a3b299d00db034078bd2cec6564f052016cb"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    }
+  ],
+  "review_v02": {
+    "observations": [
+      "猫轮廓较v01收小，人物及场景大体保持",
+      "尾巴缩短、末端弯曲，仍沿身体右侧下垂"
+    ],
+    "pending": [
+      "尾根仍被下方手掌/身体遮挡，不能声称解剖连接已完全验证",
+      "缩小幅度非实测，猫与人物比例、尾巴自然程度交用户审核",
+      "双手承托和五官/猫毛持续性需复核"
+    ],
+    "approved": false
   }
 }
