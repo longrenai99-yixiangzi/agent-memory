@@ -51,6 +51,7 @@
     "source_path": "D:\\文档\\Downloads\\PLAN-003 V2.3 已确认动线同步包.zip",
     "bytes": 3194362,
     "sha256": "6538edac39228a32ee99e562d9018e4f7ca6c2ccecfa6b7fd168edde1a3928e7",
-    "remote_verified": false
+    "remote_verified": true,
+    "file_commit": "96625cba70b6bb02a0d8e0b0ed2fe578b8ad90d2"
   }
 }
