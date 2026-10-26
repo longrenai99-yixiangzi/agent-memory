@@ -3,15 +3,15 @@
   "scene": "SC05",
   "story_time": "23:23站稳阶段",
   "date": "2026-10-26",
-  "status": "coat_candidate_pending_review",
-  "current_version": "v06",
+  "status": "composite_candidate_pending_review",
+  "current_version": "v07",
   "method": "built_in_imagegen",
   "camera": "C52方向的全身构图验证候选，不声称已实现H0固定机位连续起身",
   "authorization": "先把K05-H1做完吧，我们还是按照制作流程来制作，不要打乱了节奏",
   "approved": false,
   "final_first_last_frame": false,
   "lighting_grade_approved": false,
-  "actual_prompt": "prompt-v06.txt",
+  "actual_prompt": null,
   "versions": [
     {
       "version": "v01",
@@ -93,7 +93,21 @@
       "remote_verified": false,
       "approved": false,
       "version": "v06",
-      "status": "coat_candidate_pending_review"
+      "status": "rejected_coat_transfer_not_preserved",
+      "user_feedback": "局部的那张图可以，但是整体的那张图，毛质又跟之前一样了，没有严格锁定"
+    },
+    {
+      "version": "v07",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v07.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1981875,
+      "sha256": "d87547cfbc97a33168ffb4a4a5a73eba67bd9b96242c34697d792975762373c8",
+      "method": "Pillow deterministic layer compositing; no image generation",
+      "remote_verified": false,
+      "approved": false,
+      "status": "composite_candidate_pending_review"
     }
   ],
   "actual_inputs": [
@@ -237,7 +251,8 @@
     "remote_verified": false,
     "approved": false,
     "purpose": "毛质放大工作图，不是新镜头或身份主参考",
-    "prompt": "prompt-v06-detail.txt"
+    "prompt": "prompt-v06-detail.txt",
+    "accepted_scope": "用户明确认可局部工作图的毛质，不扩大成人物/猫脸/镜头批准"
   },
   "actual_inputs_v06": [
     {
@@ -273,6 +288,41 @@
       "短毛是否过蓬、毛束是否仍偏粗，与正式猫的细软短卷感需审核",
       "脸型和体型不能因毛体积增加而漂移，需用户对照",
       "工作图只是毛质参考，不认定其人物或猫脸身份已通过"
+    ],
+    "approved": false
+  },
+  "actual_process": "composite-v07/build_composite.py",
+  "current_method": "Pillow deterministic layer compositing, explicitly authorized by user",
+  "actual_inputs_v07": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v03.png",
+      "sha256": "8e3e53fcf783690abeea7db0264b701dd764919cf726f58dacbe3f8c47708cf5",
+      "role": "底图；保留用户认为较接近的猫脸、站姿与手位"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/fur-detail_v06_working.png",
+      "sha256": "3dcbf9b1c2371b7cea7fb3cb05af557cc7febfaf880d117bd7845ae993f8dfbf",
+      "role": "已获用户毛质认可的实际像素来源"
+    }
+  ],
+  "review_v07": {
+    "authorization": "用户明确同意常规图层合成方法，不再模型重绘",
+    "method": "局部图按0.29比例Lanczos缩小并对齐，人工毛区蒙版/肤色排除/手部保护/边缘羽化；原分辨率输出",
+    "verification": {
+      "changed_pixels": 2439,
+      "outside_mask_changed_pixels": 0,
+      "protected_face_and_hands_changed_pixels": 0,
+      "source_resampling": "Lanczos at 0.29 scale; no generative redraw",
+      "status": "candidate_pending_user_review"
+    },
+    "observations": [
+      "胸肩及腹侧毛质直接来自局部工作图，未经生成模型再解释",
+      "猫脸、双手保护区及蒙版外像素保持底图不变"
+    ],
+    "pending": [
+      "缩回全身原分辨率后细毛可读性下降，不等于局部大图细节1:1保留",
+      "人工蒙版内边缘及纹理接缝待用户审核",
+      "颈部/手边保留区仍有部分原毛，不称整只猫全部换毛"
     ],
     "approved": false
   }
