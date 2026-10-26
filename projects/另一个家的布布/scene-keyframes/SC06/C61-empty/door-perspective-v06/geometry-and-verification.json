@@ -1,0 +1,79 @@
+{
+  "source": "assets/C61-empty_v03.png",
+  "source_quad_TL_TR_BR_BL": [
+    [
+      668.0,
+      172.0
+    ],
+    [
+      758.0,
+      161.0
+    ],
+    [
+      758.0,
+      449.0
+    ],
+    [
+      668.0,
+      440.0
+    ]
+  ],
+  "target_quad_TL_TR_BR_BL": [
+    [
+      668.0,
+      195.0
+    ],
+    [
+      758.0,
+      161.0
+    ],
+    [
+      758.0,
+      449.0
+    ],
+    [
+      668.0,
+      427.0
+    ]
+  ],
+  "repair_support_polygon": [
+    [
+      666,
+      168
+    ],
+    [
+      758,
+      158
+    ],
+    [
+      758,
+      452
+    ],
+    [
+      666,
+      443
+    ]
+  ],
+  "inverse_homography": [
+    -15.204545454545457,
+    0.0,
+    5753.909090909091,
+    -3.9002525252525255,
+    -7.613636363636364,
+    2956.3914141414143,
+    -0.011363636363636364,
+    0.0
+  ],
+  "left_projected_height_before_px": 268,
+  "left_projected_height_after_px": 232,
+  "right_projected_height_px": 288,
+  "near_over_far_height_ratio": 1.2413793103448276,
+  "changed_pixels": 25948,
+  "outside_door_mask_changed_pixels": 0,
+  "cabinet_x_ge_758_changed_pixels": 0,
+  "geometry_status": "可见门面截段四角校正候选，不是完整实测门框",
+  "background_repair": "顶部小三角按同列邻近原绿墙渐变外推，底部取近邻地面；非生成修复，仍需审查",
+  "approved": false,
+  "change_from_v05": "左上角下移10px；左下角与右侧截边不动，避免进一步抬高接地边",
+  "user_instruction": "还是有点问题，但修改方向是对的，门的左侧还要再短一点"
+}

@@ -2,8 +2,8 @@
   "task_id": "C61-empty",
   "kind": "K06-O0空间前置核对，不新增正式镜头编号",
   "date": "2026-10-26",
-  "current_version": "v05",
-  "status": "door_projection_candidate_pending_review",
+  "current_version": "v06",
+  "status": "left_far_edge_shortened_candidate_pending_review",
   "method": "built_in_imagegen",
   "approved": false,
   "people_added": false,
@@ -78,7 +78,21 @@
       "approved": false,
       "remote_verified": false,
       "method": "Pillow inverse homography + masked local wall/floor repair",
-      "status": "door_projection_candidate_pending_review"
+      "status": "direction_accepted_left_edge_needs_further_shortening",
+      "user_feedback": "修改方向是对的，门的左侧还要再短一点"
+    },
+    {
+      "version": "v06",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v06.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1878054,
+      "sha256": "467e7830dbca5fb27716f30cf7d145419dfaa203389a062ae921dd1cdb784722",
+      "method": "Pillow inverse homography + masked local wall/floor repair",
+      "status": "left_far_edge_shortened_candidate_pending_review",
+      "approved": false,
+      "remote_verified": false
     }
   ],
   "actual_inputs": [
@@ -191,7 +205,7 @@
     }
   ],
   "current_method": "deterministic door-only perspective correction",
-  "actual_process": "door-perspective-v05/geometry-and-verification.json",
+  "actual_process": "door-perspective-v06/geometry-and-verification.json",
   "door_direction_approval": {
     "date": "2026-10-26",
     "user_statement": "对，左侧是远边，对应蓝色的线，也就是蓝色的线要短",
@@ -288,6 +302,33 @@
       "幅度是否自然、与墙面共同透视是否协调，待用户审查",
       "新露出的墙/地小三角为邻近像素补接，边缘与反射仍待核",
       "右侧真实完整门框受柜体遮挡，所列右边是可见门面截段，不是完整实测门框"
+    ],
+    "approved": false
+  },
+  "actual_inputs_v06": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b",
+      "role": "回到原像素重算单应变换，避免累积重采样"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/door-perspective-v05/geometry-and-verification.json",
+      "sha256": "5e3339f5e2ccc3b6e1916864fc1b34af4c993d50500353476a18facd9501d8bb",
+      "role": "沿用上一版四角，仅左上角再内收"
+    }
+  ],
+  "review_v06": {
+    "user_instruction": "方向正确，左侧还要再短一点",
+    "change": "左侧可见截边242→232px，右侧288px不变；只下移左上角10px，保留原接地边",
+    "verification": {
+      "outside_door_mask_changed_pixels": 0,
+      "cabinet_changed_pixels": 0,
+      "right_edge_quad_changed": false
+    },
+    "pending": [
+      "具体缩短幅度是否合适",
+      "门上框及墙面光斑/补接是否自然",
+      "仍非实测门框或实际C61标定"
     ],
     "approved": false
   }

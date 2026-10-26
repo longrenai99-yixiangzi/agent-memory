@@ -412,7 +412,7 @@
       "story_time": "23:24—23:25",
       "camera": "C61",
       "purpose": "客观双妻子关系",
-      "status": "awaiting_C61_door_projection_v05_review",
+      "status": "awaiting_C61_door_projection_v06_review",
       "dependencies": [
         "K05-H1"
       ],
@@ -483,7 +483,7 @@
       ],
       "generated": true,
       "approved": false,
-      "next_execution": "左远蓝线短已确认，只审核v05修正幅度和补接；空景通过前不加人物",
+      "next_execution": "用户审核v06左远边再缩短的幅度与门顶补接；方向已确认，不重问",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
       "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
@@ -492,7 +492,7 @@
       "usable_output": null,
       "space_precheck": {
         "record": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/asset.json",
-        "image": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v05.png",
+        "image": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v06.png",
         "approved": false,
         "people_added": false,
         "direction_guide": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/door-perspective-check/C61-door-near-far-guide_v1.png"
