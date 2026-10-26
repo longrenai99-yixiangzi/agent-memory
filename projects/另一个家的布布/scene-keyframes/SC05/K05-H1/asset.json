@@ -4,14 +4,14 @@
   "story_time": "23:23站稳阶段",
   "date": "2026-10-26",
   "status": "structural_candidate_pending_user_review",
-  "current_version": "v01",
+  "current_version": "v02",
   "method": "built_in_imagegen",
   "camera": "C52方向的全身构图验证候选，不声称已实现H0固定机位连续起身",
   "authorization": "先把K05-H1做完吧，我们还是按照制作流程来制作，不要打乱了节奏",
   "approved": false,
   "final_first_last_frame": false,
   "lighting_grade_approved": false,
-  "actual_prompt": "prompt-v01.txt",
+  "actual_prompt": "prompt-v02.txt",
   "versions": [
     {
       "version": "v01",
@@ -25,6 +25,18 @@
       "remote_verified": true,
       "approved": false,
       "image_commit": "19e9b8f2f043eb4f993ea85cd0af3d73dda00174"
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-c350e854-6245-4d9d-97d8-d59959048481.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2020123,
+      "sha256": "e7278063915e8f6202a5df0f46426f92875d2b46736f7d680a62cf669f8e818d",
+      "remote_verified": false,
+      "approved": false
     }
   ],
   "actual_inputs": [
@@ -69,10 +81,31 @@
   "affection_revision": {
     "date": "2026-10-26",
     "user_request": "抱起来后，猫最好表现得更加亲昵一下",
-    "status": "generation_blocked_no_image",
+    "status": "v02_generated_pending_review",
     "attempt_record": "attempt-v02-blocked.txt",
     "error": "HTTP 400 moderation_blocked; input sexual category; cause unknown",
-    "generated": false,
-    "current_image_unchanged": "v01"
+    "generated": true,
+    "current_image_unchanged": false,
+    "actual_prompt": "prompt-v02.txt"
+  },
+  "actual_inputs_v02": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v01.png",
+      "sha256": "4e6de1c08f960235ebfd79168de1c6031840d1bd08a83b377cd4d240011b38e0",
+      "role": "唯一实际输入，局部修改底图；本轮未重新绑定原猫与独立五官参考，须额外核验身份/猫毛，不冒充多参考生成"
+    }
+  ],
+  "review_v02": {
+    "observations": [
+      "猫抬头与妻子下颌区域有可见接触，不再仅隔空对视",
+      "妻子低头，双手承托、站姿与场景大体保留"
+    ],
+    "pending": [
+      "接触点更接近额鼻部/面部贴下颌，不是完全明确的纯额头蹭",
+      "猫颈部短卷毛偏平顺，需对原资产核验",
+      "单张只能证明接触状态，不能证明蹭动过程",
+      "头顶余量及H0/H1取景衔接未解决"
+    ],
+    "approved": false
   }
 }

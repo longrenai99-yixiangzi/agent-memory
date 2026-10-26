@@ -396,11 +396,11 @@
       ],
       "generated": true,
       "approved": false,
-      "next_execution": "审核站姿、双点承托、猫尺度与尾巴；固定机位衔接及头顶余量仍待核，光影阶段后置",
+      "next_execution": "审核v02亲昵接触是否满足意图，并核猫毛、五官与尺度；仍为结构动作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
       "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
-      "actual_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v01.png",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v02.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/asset.json",
       "final_first_last_frame": false
     },
