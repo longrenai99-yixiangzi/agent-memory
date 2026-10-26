@@ -3,7 +3,7 @@
   "kind": "K06-O0空间前置核对，不新增正式镜头编号",
   "date": "2026-10-26",
   "current_version": "v03",
-  "status": "door_plane_perspective_candidate_pending_review",
+  "status": "awaiting_door_near_far_direction_review",
   "method": "built_in_imagegen",
   "approved": false,
   "people_added": false,
@@ -51,7 +51,8 @@
       "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b",
       "approved": false,
       "remote_verified": false,
-      "status": "door_plane_perspective_candidate_pending_review"
+      "status": "not_accepted_perspective_direction_unverified",
+      "user_feedback": "没有遵循近大远小，角度感觉调反"
     }
   ],
   "actual_inputs": [
@@ -135,5 +136,16 @@
       "其余家具与相机仍按空景候选状态，未自动批准"
     ],
     "approved": false
+  },
+  "door_direction_check": {
+    "date": "2026-10-26",
+    "user_authorization": "同意先核近远边和透视校正线，再修改",
+    "guide": "door-perspective-check/C61-door-near-far-guide_v1.png",
+    "analysis": "door-perspective-check/direction-analysis.json",
+    "conclusion": "按批准平面C61推导画面右近左远、向左收敛；不证明v03相机或照片四角正确",
+    "review_pending": true,
+    "new_scene_image_generated": false,
+    "repair_performed": false,
+    "next": "用户核对方向后再校正实际门面，禁止直接反转斜率或继续加人物"
   }
 }
