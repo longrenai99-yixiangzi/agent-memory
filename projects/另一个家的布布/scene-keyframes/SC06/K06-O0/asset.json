@@ -1,0 +1,112 @@
+{
+  "task_id": "K06-O0",
+  "date": "2026-10-26",
+  "scene": "SC06",
+  "story_time": "23:24—23:26客观关系",
+  "camera": "C61方向候选，实际三维投影未标定",
+  "current_version": "v02",
+  "status": "spatial_relationship_candidate_pending_review",
+  "method": "built_in_imagegen",
+  "approved": false,
+  "final_first_last_frame": false,
+  "lighting_grade_approved": false,
+  "dependencies": {
+    "K05-H1": "v07已获本轮结构/动作/毛质采用，不扩展为视频批准"
+  },
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/assets/K06-O0_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-e1f1115e-1aec-4d06-bdd5-8262bd54b659.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2051930,
+      "sha256": "8c226294a7ad1618c2d12087ecbcfa85980b62c0ee316de7953abde58e97a0b4",
+      "status": "rejected_B_too_close_and_added_rug",
+      "approved": false,
+      "remote_verified": false
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/assets/K06-O0_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-41870cdd-4019-4f37-abdd-6e8e1c4a4265.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1992306,
+      "sha256": "5db5b86d903cdf227149b62abd42a18e25cd081c46a4418102dc6c9fced54ee5",
+      "status": "spatial_relationship_candidate_pending_review",
+      "approved": false,
+      "remote_verified": false
+    }
+  ],
+  "actual_inputs_v01": [
+    {
+      "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-02_朝厨房.jpg",
+      "sha256": "a4a67f34c90bc5d5b36a473c1f1fbdbdce5a5beaddf38a47e18e6bc49e4950f8"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v07.png",
+      "sha256": "d87547cfbc97a33168ffb4a4a5a73eba67bd9b96242c34697d792975762373c8"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/wife-B-fullbody_slippers-v01.png",
+      "sha256": "b34bc4b183ec9fa0be8407221f576becc5a4b9071bacb9009225df94e677add8"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    }
+  ],
+  "actual_inputs_v02": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/assets/K06-O0_v01.png",
+      "sha256": "8c226294a7ad1618c2d12087ecbcfa85980b62c0ee316de7953abde58e97a0b4"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v07.png",
+      "sha256": "d87547cfbc97a33168ffb4a4a5a73eba67bd9b96242c34697d792975762373c8"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    }
+  ],
+  "actual_prompts": [
+    "prompt-v01.txt",
+    "prompt-v02.txt"
+  ],
+  "review": {
+    "v01": [
+      "B靠沙发，G外位置不清楚",
+      "错误新增地毯，未通过"
+    ],
+    "v02_observations": [
+      "两女一猫，A前景站立抱猫、B较远餐厨侧低头寻找，不互相对视",
+      "B与客厅茶几区域拉开纵深，移除地毯",
+      "保留厨房冰箱左、双窗、右侧烤箱柜与两张岛台椅"
+    ],
+    "pending": [
+      "C61精确轴线与A/B的G内外位置仍需对照批准平面/预演，不能因背景变小就认定正确",
+      "B仍在岛台右侧通道，未严格执行提示词左侧通行口，需核对实际路线是否匹配",
+      "新角度两位人物五官同一性需审核",
+      "新角度猫相对H1可能显大，毛卷也可能偏规则，原资产/合成参考不代表像素锁定成功",
+      "前景猫与人物遮挡、取景衔接需复核"
+    ],
+    "scope": "本轮先做空间/构图/人物关系候选；现有光色暂用，不定稿首尾帧或视频"
+  },
+  "next": "用户审核O0空间与人物关系后，再按原流程准备K06-P0 B眼位空镜；C64/G0需另按纠错朝向先做空景，不跳过"
+}

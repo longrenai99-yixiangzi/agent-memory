@@ -412,7 +412,7 @@
       "story_time": "23:24—23:25",
       "camera": "C61",
       "purpose": "客观双妻子关系",
-      "status": "prepared_not_generated",
+      "status": "spatial_relationship_candidate_pending_review",
       "dependencies": [
         "K05-H1"
       ],
@@ -481,12 +481,14 @@
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
         "补鞋候选的鞋型、人物身份及受力审核"
       ],
-      "generated": false,
+      "generated": true,
       "approved": false,
-      "next_execution": "依赖通过后再制作候选",
+      "next_execution": "审核v02空间、G内外和C61轴线；B通道/身份/猫尺度毛质待核，通过后才做P0",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/assets/K06-O0_v02.png",
+      "asset_record": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/asset.json"
     },
     {
       "task_id": "K06-P0",
