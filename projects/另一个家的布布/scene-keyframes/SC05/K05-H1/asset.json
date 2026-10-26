@@ -3,15 +3,15 @@
   "scene": "SC05",
   "story_time": "23:23站稳阶段",
   "date": "2026-10-26",
-  "status": "structural_candidate_pending_user_review",
-  "current_version": "v03",
+  "status": "coat_candidate_pending_review",
+  "current_version": "v05",
   "method": "built_in_imagegen",
   "camera": "C52方向的全身构图验证候选，不声称已实现H0固定机位连续起身",
   "authorization": "先把K05-H1做完吧，我们还是按照制作流程来制作，不要打乱了节奏",
   "approved": false,
   "final_first_last_frame": false,
   "lighting_grade_approved": false,
-  "actual_prompt": "prompt-v03.txt",
+  "actual_prompt": "prompt-v05.txt",
   "versions": [
     {
       "version": "v01",
@@ -51,7 +51,35 @@
       "bytes": 1991631,
       "sha256": "8e3e53fcf783690abeea7db0264b701dd764919cf726f58dacbe3f8c47708cf5",
       "remote_verified": false,
-      "approved": false
+      "approved": false,
+      "status": "needs_body_coat_revision",
+      "user_feedback": "猫的脸比较接近了，但是身上的毛又没有按原资产图的毛一致"
+    },
+    {
+      "version": "v04",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v04.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-febd8836-06ef-4a0c-8372-fceee595e80d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2016891,
+      "format": "PNG",
+      "sha256": "374fb59f1a929910114b83ff65c5065c42fc88343ec930d4a2f1291ea81f7826",
+      "remote_verified": false,
+      "approved": false,
+      "status": "insufficient_change"
+    },
+    {
+      "version": "v05",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v05.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-c17fc9af-6edb-425b-8db9-0f05906eba46.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2008523,
+      "format": "PNG",
+      "sha256": "3a37d9afcdf46716a9437ee6f945abb74bb8158914f2c49ee34ffaa04f5d6a2c",
+      "remote_verified": false,
+      "approved": false,
+      "status": "coat_candidate_pending_review"
     }
   ],
   "actual_inputs": [
@@ -149,6 +177,39 @@
       "头顶余量与H0/H1固定机位连续性未解决"
     ],
     "scope": "场景/构图/动作候选，非最终光影或正式首尾帧",
+    "approved": false
+  },
+  "actual_inputs_v04": [
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v03.png",
+      "sha256": "8e3e53fcf783690abeea7db0264b701dd764919cf726f58dacbe3f8c47708cf5"
+    }
+  ],
+  "actual_inputs_v05": [
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v03.png",
+      "sha256": "8e3e53fcf783690abeea7db0264b701dd764919cf726f58dacbe3f8c47708cf5"
+    }
+  ],
+  "review_v05": {
+    "scope": "只修颈胸、躯干和四肢可见被毛，保留v03脸和贴靠",
+    "observations": [
+      "v04毛质变化很小，不称通过",
+      "v05颈胸卷纹较明显，人物和贴靠大体保持"
+    ],
+    "pending": [
+      "是否仍像规则沟纹、是否具有原资产短细柔软绒感，待用户对照",
+      "不能声称已经与原猫毛完全一致",
+      "脸部、体型与亲昵接触需确认未因返修漂移"
+    ],
     "approved": false
   }
 }
