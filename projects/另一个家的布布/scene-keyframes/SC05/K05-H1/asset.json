@@ -3,12 +3,12 @@
   "scene": "SC05",
   "story_time": "23:23站稳阶段",
   "date": "2026-10-26",
-  "status": "composite_candidate_pending_review",
+  "status": "user_adopted_structural_composite",
   "current_version": "v07",
   "method": "built_in_imagegen",
   "camera": "C52方向的全身构图验证候选，不声称已实现H0固定机位连续起身",
   "authorization": "先把K05-H1做完吧，我们还是按照制作流程来制作，不要打乱了节奏",
-  "approved": false,
+  "approved": true,
   "final_first_last_frame": false,
   "lighting_grade_approved": false,
   "actual_prompt": null,
@@ -106,8 +106,12 @@
       "sha256": "d87547cfbc97a33168ffb4a4a5a73eba67bd9b96242c34697d792975762373c8",
       "method": "Pillow deterministic layer compositing; no image generation",
       "remote_verified": false,
-      "approved": false,
-      "status": "composite_candidate_pending_review"
+      "approved": true,
+      "status": "user_adopted_structural_composite",
+      "approval_scope": [
+        "场景、构图和站姿抱猫动作",
+        "当前亲昵接触与毛质合成效果"
+      ]
     }
   ],
   "actual_inputs": [
@@ -320,10 +324,25 @@
       "猫脸、双手保护区及蒙版外像素保持底图不变"
     ],
     "pending": [
-      "缩回全身原分辨率后细毛可读性下降，不等于局部大图细节1:1保留",
-      "人工蒙版内边缘及纹理接缝待用户审核",
-      "颈部/手边保留区仍有部分原毛，不称整只猫全部换毛"
+      "技术限制留档：全景缩小损失细节、部分边缘保留底图毛；用户接受当前结果，非继续返修待办"
     ],
-    "approved": false
+    "approved": true
+  },
+  "approval_v07": {
+    "date": "2026-10-26",
+    "user_statement": "就这样吧",
+    "context": "用户查看v07毛质前后对照后确认采用，结束本轮返修",
+    "scope": [
+      "当前场景、构图、站姿抱猫动作及亲昵接触",
+      "当前毛质修整合成效果"
+    ],
+    "image_sha256": "d87547cfbc97a33168ffb4a4a5a73eba67bd9b96242c34697d792975762373c8",
+    "does_not_imply": [
+      "电影氛围光影或色调定稿",
+      "正式视频首尾帧锁定",
+      "H0到H1动态或固定机位连续性通过",
+      "视频生成授权或视频审核通过"
+    ],
+    "further_retouch": "停止本轮返修，除非用户提出新要求"
   }
 }

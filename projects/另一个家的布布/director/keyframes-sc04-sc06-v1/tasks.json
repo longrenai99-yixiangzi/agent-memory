@@ -340,7 +340,7 @@
       "story_time": "23:23站稳阶段",
       "camera": "C52",
       "purpose": "抱稳后站稳",
-      "status": "composite_candidate_pending_review",
+      "status": "user_adopted_structural_composite",
       "dependencies": [
         "K05-H0"
       ],
@@ -395,14 +395,15 @@
         "T0/H0较近构图不能直接保证站起不裁头，H1前需验证更宽构图或提交剪辑接口方案"
       ],
       "generated": true,
-      "approved": false,
-      "next_execution": "审核v07实际毛层合成的毛质与接缝；局部毛质已认可，但全身未批准",
+      "approved": true,
+      "next_execution": "停止H1返修；后续按既有流程核对下游依赖与审批后推进，不自动生成视频",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
       "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
       "actual_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v07.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/asset.json",
-      "final_first_last_frame": false
+      "final_first_last_frame": false,
+      "approval_scope": "v07场景/构图/动作/亲昵接触/毛质合成；不含光影、正式首尾帧或动态连续性"
     },
     {
       "task_id": "K06-O0",
