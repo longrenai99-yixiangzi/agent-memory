@@ -412,7 +412,7 @@
       "story_time": "23:24—23:25",
       "camera": "C61",
       "purpose": "客观双妻子关系",
-      "status": "blocking_overlay_pending_review",
+      "status": "B_outside_G_unverified_3D_check_recommended",
       "dependencies": [
         "K05-H1"
       ],
@@ -483,7 +483,7 @@
       ],
       "generated": true,
       "approved": false,
-      "next_execution": "审核v09底图上的A/B上半身占位与朝向草图，确认后制作人物局部层；不重开门框调整",
+      "next_execution": "A在沙发餐厨端头外侧G内；取得用户正在建的白模后核G边界、B1包络及C61，不继续二维猜站位",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
       "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
@@ -504,7 +504,8 @@
         "image": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/blocking-on-C61-v09/blocking-review_v01.png",
         "approved": false,
         "new_actor_frame_generated": false
-      }
+      },
+      "white_model_check": "scene-keyframes/SC06/K06-O0/blocking-on-C61-v09/C61_白模站位核对要求_V1.md"
     },
     {
       "task_id": "K06-P0",

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "status": "blocking_overlay_candidate_pending_user_review",
+  "status": "B_outside_G_unverified_3D_check_recommended",
   "background": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v09.png",
   "background_sha256": "fceef0a9865ce060a5e65fb51b2062bd3c6059dd44dd6e7ca70a75abaaa76b57",
   "adopted_background": "C61-empty v09，用户已采用，停止门框返修",
@@ -37,10 +37,14 @@
   "actual_actors_generated": false,
   "video_generated": false,
   "approved": false,
-  "next": "审核场景中A/B的前后关系与朝向，确认后再做真人和猫的局部层，不重画背景",
+  "next": "按现有白模核G地面边界、A/B包络与C61视角，再确定人物屏幕投影；不继续凭图挪人",
   "plan_anchor_reference": "scene-keyframes/SC06/K06-O0/C61-blocking-audit_v1.png",
   "verification": {
     "adopted_background_hash_matches": true,
     "outside_overlay_original_pixels_unchanged": true
-  }
+  },
+  "A_position_clarification": "沙发朝餐厨端头的外侧空地G内，邻茶几活动区，不是沙发与茶几之间的狭缝",
+  "B_feedback": "用户指出视觉上B太靠近G，无法确认一定在G外；当前标注不是几何验证",
+  "B_position_approved": false,
+  "white_model_available_to_agent": false
 }
