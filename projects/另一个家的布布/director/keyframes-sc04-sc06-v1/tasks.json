@@ -412,7 +412,7 @@
       "story_time": "23:24—23:25",
       "camera": "C61",
       "purpose": "客观双妻子关系",
-      "status": "awaiting_C61_whole_door_v09_review",
+      "status": "C61_working_empty_adopted_actor_blocking_next",
       "dependencies": [
         "K05-H1"
       ],
@@ -483,7 +483,7 @@
       ],
       "generated": true,
       "approved": false,
-      "next_execution": "审核v09整门上下框与墙面共同透视、门槛及反射；停止分别推角；未过空景不加人物",
+      "next_execution": "停止门框返修，采用C61-empty v09准备A/B人物站位候选，按已批动线核朝向；人物方案另审",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
       "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
@@ -493,9 +493,11 @@
       "space_precheck": {
         "record": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/asset.json",
         "image": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v09.png",
-        "approved": false,
+        "approved": true,
         "people_added": false,
-        "direction_guide": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/door-perspective-check/C61-door-near-far-guide_v1.png"
+        "direction_guide": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/door-perspective-check/C61-door-near-far-guide_v1.png",
+        "approval_scope": "v09当前视觉效果作为工作底图；非精确标定",
+        "user_statement": "先按这一版吧，我不想一直调了"
       }
     },
     {

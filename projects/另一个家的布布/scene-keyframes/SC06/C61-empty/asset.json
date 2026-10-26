@@ -3,9 +3,9 @@
   "kind": "K06-O0空间前置核对，不新增正式镜头编号",
   "date": "2026-10-26",
   "current_version": "v09",
-  "status": "whole_door_projection_candidate_pending_review",
+  "status": "user_adopted_working_empty",
   "method": "built_in_imagegen",
-  "approved": false,
+  "approved": true,
   "people_added": false,
   "no_people_until_spatial_approval": true,
   "final_first_last_frame": false,
@@ -132,9 +132,10 @@
       "bytes": 1877664,
       "sha256": "fceef0a9865ce060a5e65fb51b2062bd3c6059dd44dd6e7ca70a75abaaa76b57",
       "method": "Pillow single wall vanishing point constrained homography",
-      "status": "whole_door_projection_candidate_pending_review",
-      "approved": false,
-      "remote_verified": false
+      "status": "user_adopted_working_empty",
+      "approved": true,
+      "remote_verified": false,
+      "approval_scope": "当前空景视觉效果作为工作底图，结束本轮门框返修"
     }
   ],
   "actual_inputs": [
@@ -438,10 +439,21 @@
       "门区外与柜体像素变化0"
     ],
     "pending": [
-      "墙面线是目视估读而非测绘，因此数值自洽仍不能认定C61整屋标定完成",
-      "门槛补接与反射自然度仍待审核",
-      "近远比例由共同消失点决定，不再人工追求某个边长比"
+      "目视估读、门槛/反射等限制保留为技术记录，用户接受当前效果，不作为继续返修待办"
     ],
-    "approved": false
+    "approved": true
+  },
+  "approval_v09": {
+    "date": "2026-10-26",
+    "user_statement": "先按这一版吧，我不想一直调了",
+    "scope": "采用当前v09作为C61工作空景，停止继续调整门框，可据此准备人物站位候选",
+    "image_sha256": "fceef0a9865ce060a5e65fb51b2062bd3c6059dd44dd6e7ca70a75abaaa76b57",
+    "does_not_imply": [
+      "精确摄影机/整屋透视/实际净距标定已通过",
+      "正式雨夜电影光影或色调定稿",
+      "人物站位及朝向已通过",
+      "正式首尾帧或视频批准"
+    ],
+    "further_door_retouch": "停止，除非用户明确提出新要求"
   }
 }
