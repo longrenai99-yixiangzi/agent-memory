@@ -110,7 +110,7 @@
       "format": "PNG",
       "bytes": 2051637,
       "sha256": "3ba5ce21c2f5036533bfb5a35aa2deec1476f81efc07b9963be7ed9711616c3d",
-      "remote_verified": false,
+      "remote_verified": true,
       "version": "v05",
       "approved": false,
       "status": "整帧修脸变化仍有限，不作已修好成果；转同角度身份校准",
@@ -119,7 +119,8 @@
         "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
         "projects/另一个家的布布/assets/characters/bubu-multiview.png"
       ],
-      "actual_prompt": "prompt-v05.txt"
+      "actual_prompt": "prompt-v05.txt",
+      "file_commit": "0e5bc4aa70324f66700f2ccf11ad82b936bf04d2"
     }
   ],
   "actual_inputs_v01": [
