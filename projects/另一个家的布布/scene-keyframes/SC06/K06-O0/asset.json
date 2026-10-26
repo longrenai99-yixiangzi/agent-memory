@@ -4,8 +4,8 @@
   "scene": "SC06",
   "story_time": "23:24—23:26客观关系",
   "camera": "C61方向候选，实际三维投影未标定",
-  "current_version": "v02",
-  "status": "spatial_relationship_candidate_pending_review",
+  "current_version": "v04",
+  "status": "A_sofa_position_candidate_pending_review",
   "method": "built_in_imagegen",
   "approved": false,
   "final_first_last_frame": false,
@@ -36,9 +36,36 @@
       "format": "PNG",
       "bytes": 1992306,
       "sha256": "5db5b86d903cdf227149b62abd42a18e25cd081c46a4418102dc6c9fced54ee5",
-      "status": "spatial_relationship_candidate_pending_review",
+      "status": "needs_A_closer_to_sofa",
       "approved": false,
-      "remote_verified": false
+      "remote_verified": false,
+      "user_feedback": "A的位置好像不对，要更靠近沙发"
+    },
+    {
+      "version": "v03",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/assets/K06-O0_v03.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-ca6a94d7-5478-40d0-bd37-b474897732a5.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1931997,
+      "sha256": "199de8275af2c8bfdb43cde9b11ec5cadc9f414a8cea832321ffa82c22cf7b4e",
+      "approved": false,
+      "remote_verified": false,
+      "status": "excessive_actor_overlap"
+    },
+    {
+      "version": "v04",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/assets/K06-O0_v04.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-d9d0ec6b-0503-4a71-918e-4fb61acf2dea.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1927303,
+      "sha256": "106d3a7002404d1d15284fbb3da966285818c1824675613da1abc337f9751352",
+      "approved": false,
+      "remote_verified": false,
+      "status": "A_sofa_position_candidate_pending_review"
     }
   ],
   "actual_inputs_v01": [
@@ -87,7 +114,9 @@
   ],
   "actual_prompts": [
     "prompt-v01.txt",
-    "prompt-v02.txt"
+    "prompt-v02.txt",
+    "prompt-v03.txt",
+    "prompt-v04.txt"
   ],
   "review": {
     "v01": [
@@ -108,5 +137,56 @@
     ],
     "scope": "本轮先做空间/构图/人物关系候选；现有光色暂用，不定稿首尾帧或视频"
   },
-  "next": "用户审核O0空间与人物关系后，再按原流程准备K06-P0 B眼位空镜；C64/G0需另按纠错朝向先做空景，不跳过"
+  "next": "用户审核O0空间与人物关系后，再按原流程准备K06-P0 B眼位空镜；C64/G0需另按纠错朝向先做空景，不跳过",
+  "actual_inputs_v03": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/assets/K06-O0_v02.png",
+      "sha256": "5db5b86d903cdf227149b62abd42a18e25cd081c46a4418102dc6c9fced54ee5"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v07.png",
+      "sha256": "d87547cfbc97a33168ffb4a4a5a73eba67bd9b96242c34697d792975762373c8"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    }
+  ],
+  "actual_inputs_v04": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/K06-O0/assets/K06-O0_v03.png",
+      "sha256": "199de8275af2c8bfdb43cde9b11ec5cadc9f414a8cea832321ffa82c22cf7b4e"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    }
+  ],
+  "review_v04": {
+    "observations": [
+      "A已由电视侧左边空地移至沙发端头外/茶几后方",
+      "v03两人重叠过多，v04稍分开头脸轮廓",
+      "茶几和花瓶遮挡部分A下身，未强制全身露出"
+    ],
+    "pending": [
+      "与批准G边界/原H1世界脚位是否匹配仍待审核",
+      "B与A仍较近，人物分离和搜索视线是否清楚待核",
+      "A视线更偏怀中猫，后续察觉B的视线节拍未定稿",
+      "新角度猫毛仍偏规则且可能显大，不将H1已采用外观自动等同本图通过"
+    ],
+    "scope": "本轮为用户要求的A靠沙发站位修正，不扩大为整帧批准",
+    "approved": false
+  }
 }
