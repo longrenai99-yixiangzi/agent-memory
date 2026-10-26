@@ -194,7 +194,7 @@
       "story_time": "23:21—23:22",
       "camera": "C52",
       "purpose": "同一蹲姿闻手",
-      "status": "prepared_not_generated",
+      "status": "v02_candidate_awaiting_user_review",
       "dependencies": [
         "K04-R1"
       ],
@@ -247,12 +247,15 @@
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
         "补鞋候选的鞋型、人物身份及受力审核"
       ],
-      "generated": false,
+      "generated": true,
       "approved": false,
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-T0/assets/K05-T0_v02.png",
+      "asset_record": "projects/另一个家的布布/scene-keyframes/SC05/K05-T0/asset.json",
+      "approval_note": "继续制作授权不扩大为R1整帧或本帧自动通过"
     },
     {
       "task_id": "K05-H0",
@@ -379,7 +382,8 @@
       ],
       "unmet_prerequisites": [
         "依赖帧通过后沿用其机位/曝光；本帧审核可见猫用品造型，不强制另造整套空景",
-        "补鞋候选的鞋型、人物身份及受力审核"
+        "补鞋候选的鞋型、人物身份及受力审核",
+        "T0/H0较近构图不能直接保证站起不裁头，H1前需验证更宽构图或提交剪辑接口方案"
       ],
       "generated": false,
       "approved": false,

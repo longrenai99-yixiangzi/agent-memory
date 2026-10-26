@@ -1,0 +1,108 @@
+{
+  "task_id": "K05-T0",
+  "scene": "SC05",
+  "story_time": "23:21—23:22",
+  "camera": "C52",
+  "camera_plan_approval": "director/previs-sc04-sc06-v1/approval_20261025.json",
+  "date": "2026-10-26",
+  "current_version": "v02",
+  "status": "candidate_awaiting_user_review",
+  "method": "built_in_imagegen",
+  "authorization": "用户说下一步，按既定任务制作下一静态候选；不把此继续指令记为R1整帧最终验收",
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-T0/assets/K05-T0_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-f63e5f4c-8f9a-4c96-bc9e-9a2e52e5cfe2.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2149270,
+      "sha256": "6ff0f4e613e9c7202608a8bf2da56406b709a09abc741e5879242ae1c4d367f7",
+      "review": "闻手关系初看成立，猫毛纹偏粗，保留过程",
+      "approved": false,
+      "remote_verified": false
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-T0/assets/K05-T0_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-776bb5b4-f179-471b-b68e-bf347cadc8f6.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2094241,
+      "sha256": "5dad333a0d0e28d9bae9e56745119cac1785dd1a0acb1f6e6e5381210e2142cc",
+      "review": "定向修猫毛后候选，身份/毛质/手鼻间距/机位待用户审查",
+      "approved": false,
+      "remote_verified": false
+    }
+  ],
+  "actual_inputs_v01": [
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v06.png",
+      "sha256": "59bdc9a85697325bad4ca9de20b223ee7410578a812cbb2bc63b0e101bb0acbb"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+      "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/world-B-references/B-VIEW-01_朝阳台_source.png",
+      "sha256": "61a61e14a4c501eb16fe30b3166473f9d7f62e6d2e3a30c3dc1c09fbae857068"
+    }
+  ],
+  "actual_inputs_v02": [
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-T0/assets/K05-T0_v01.png",
+      "sha256": "6ff0f4e613e9c7202608a8bf2da56406b709a09abc741e5879242ae1c4d367f7"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    }
+  ],
+  "actual_prompts": [
+    "prompt-v01.txt",
+    "prompt-v02.txt"
+  ],
+  "continuity": {
+    "source_R1": "K04-R1 v06，仍按其候选状态作技术衔接，不虚记整帧已批准",
+    "face": "用户已采用校准照五官，人物帧执行仍逐项审核",
+    "wardrobe": "A浅银灰滚边长袖长裤睡衣，A粉色打孔厚底拖鞋",
+    "cat": "原始bubu-multiview参与每轮生成",
+    "camera_transition": "由C41回应镜切至已批C52接触机位，不声称两图同机位",
+    "story_not_skipped": "23:16—23:20踩薄毯/擦抱枕/茶几/遥控器/落地动作仍属剧情，当前按关键状态制作顺序先准备闻手，不删除这些镜头"
+  },
+  "review": {
+    "observations": [
+      "一手向猫伸出，另一手靠膝，手鼻有可辨小间距",
+      "猫四足着地，没有托起或进入怀抱",
+      "A粉色拖鞋和稳定低蹲仍在，单女单猫",
+      "背景左沙发/右电视/后夜窗符合C52朝阳台的方向意图；猫爬架留窗侧外围"
+    ],
+    "pending": [
+      "五官跨C41到C52角度是否保持，需用户看图",
+      "猫毛修后仍须对照原资产，不自动称通过",
+      "脚位/G内关系与真实C52三维投影未标定",
+      "整体暖橙程度、左侧暖亮点灯源与正式光影文件尚未核对",
+      "人猫比例及手鼻接近是否自然"
+    ],
+    "standing_headroom": "当前蹲姿已占据大部分画面高度，不能直接证明H1能在同画幅完整站起。H0可先验证低姿承托，H1前必须比较取景方案，不自动裁头或改运镜"
+  },
+  "approval": {
+    "still_approved": false,
+    "dynamic_approved": false
+  }
+}

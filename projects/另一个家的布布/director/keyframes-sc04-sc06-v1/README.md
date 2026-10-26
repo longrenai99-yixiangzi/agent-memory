@@ -370,3 +370,7 @@ D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\project
 ## 当前面部参考已更新
 
 用户已采用[C41校准照五官](../../assets/characters/identity-calibration-C41/README.md)。执行应读取 `prompts/` 最新单任务文件，其中已移除原特写作为混合输入的旧行；本页早期提示词快照如有旧身份主图描述，以[当前执行映射](../../assets/characters/current-face-reference.json)和单任务新稿为准。R1 v06仍为回填候选，未自动通过。
+
+## K05-T0已有实际候选（2026-10-26）
+
+[闻手v02与审查边界](../../scene-keyframes/SC05/K05-T0/README.md)已制作，原猫毛纹定向修正一次。C41→C52是已批换机位，不是同镜位编辑；剧情中间沙发/茶几动作未删。人脸、猫毛、脚位与手鼻关系待用户审；H1前另验站起取景，不自动承诺当前画幅能容纳站起。
