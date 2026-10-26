@@ -1,0 +1,62 @@
+{
+  "task_id": "K05-H0",
+  "scene": "SC05",
+  "story_time": "23:23",
+  "camera": "C52",
+  "date": "2026-10-26",
+  "current_version": "v01",
+  "status": "candidate_pending_user_review",
+  "method": "built_in_imagegen",
+  "approved": false,
+  "actual_prompt": "prompt-v01.txt",
+  "prompt_provenance": "Recovered exact original tool-call input by call_id call_e6320d8cd3764c029af34298ad686fdf",
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H0/assets/K05-H0_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-79e043f2-6b6c-46ab-9607-9a1e1b9f68d9.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2040570,
+      "sha256": "9f8636190d142b10a6e26dc685d0a3b299d00db034078bd2cec6564f052016cb",
+      "remote_verified": false,
+      "approved": false
+    }
+  ],
+  "actual_inputs": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-T0/assets/K05-T0_v02.png",
+      "sha256": "5dad333a0d0e28d9bae9e56745119cac1785dd1a0acb1f6e6e5381210e2142cc"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+      "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+    }
+  ],
+  "review": {
+    "observations": [
+      "妻子仍低蹲，粉色拖鞋着地，猫已离地",
+      "胸腹环抱与后躯下托两个承托点可见，单女单猫",
+      "延续银灰睡衣、雨夜冷窗与暖室方向"
+    ],
+    "pending": [
+      "猫姿态比提示词近水平/微斜预期更竖直，提交用户审查，不静默改为批准动作",
+      "后腿部分被下方手掌和身体遮挡，无法由单帧核实完整关节与承重",
+      "五官、猫毛、人猫尺度及与T0的脚位/背景连续性仍须复核"
+    ],
+    "limits": [
+      "未验证T0到H0动态拾取过程",
+      "H1站起画幅头部余量不足，待比较取景/剪辑方案后审批",
+      "正式SC04夜间光影V1原文仍未取得，不声称已对标通过"
+    ]
+  }
+}
