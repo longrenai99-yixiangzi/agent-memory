@@ -4,8 +4,8 @@
   "story_time": "23:15",
   "camera": "C41",
   "date": "2026-10-25",
-  "status": "slippers_corrected_v03_awaiting_user_review",
-  "current_version": "v03",
+  "status": "face_identity_repair_candidate_awaiting_user_review",
+  "current_version": "v04",
   "method": "built_in_imagegen",
   "versions": [
     {
@@ -18,7 +18,9 @@
       "sha256": "a3a4575276de227250e358431d603ed0dd97783bc3bf17a91ffdc3a41bf4bb9f",
       "approved": false,
       "status": "历史赤脚候选，需按最新导演指令补实际拖鞋",
-      "remote_verified": false
+      "remote_verified": false,
+      "face_identity_approved": false,
+      "face_review": "用户指出R1脸偏离正式角色；这些版本沿用初始生成面部，停止作为合格人物参考"
     },
     {
       "version": "v02",
@@ -30,7 +32,9 @@
       "sha256": "fc88639fea564ef5ae415881e52d35205f378ca93871aca6a9fff608ea54379d",
       "approved": false,
       "status": "历史赤脚候选，需按最新导演指令补实际拖鞋",
-      "remote_verified": false
+      "remote_verified": false,
+      "face_identity_approved": false,
+      "face_review": "用户指出R1脸偏离正式角色；这些版本沿用初始生成面部，停止作为合格人物参考"
     },
     {
       "version": "v03",
@@ -61,7 +65,42 @@
       "status": "generated_candidate_awaiting_user_review",
       "user_approved": false,
       "remote_verified": true,
-      "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f"
+      "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f",
+      "face_identity_approved": false,
+      "face_review": "用户指出R1脸偏离正式角色；这些版本沿用初始生成面部，停止作为合格人物参考"
+    },
+    {
+      "version": "v04",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v04.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-a02cb03a-4f7d-40b1-b605-0cf09d65d3db.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2071639,
+      "sha256": "d6dbbec73b75555398044bc3739131ba2191158ef8873f8ce2434d1b487815dd",
+      "actual_inputs": [
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "sha256": "bd6663a2b5b3b8954fd537945b777722df079a9c157e2a3ef14ce45b7876c8ba"
+        },
+        {
+          "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
+          "sha256": "ec0dd4c08b8b37cd7e7437066e030af3fb100729220c52e313ecaf2539ecaa14"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-three-views.png",
+          "sha256": "e6ea051f29c9284ca26956137b486441ee485aabc6a8a99b8661fbdaf0c5aa63"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+        }
+      ],
+      "actual_prompt": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/prompt-v04.txt",
+      "method": "built_in_imagegen",
+      "status": "face_identity_repair_candidate_awaiting_user_review",
+      "approved": false,
+      "remote_verified": false
     }
   ],
   "actual_inputs_v01": [
@@ -101,11 +140,12 @@
       "单猫抬头看向A，两者有间距",
       "v02仅对猫毛质做修正"
     ],
-    "blocker": "原赤脚问题已通过A款补鞋候选修正；仍待用户审核鞋型/厚度/蹲姿受力、人物与C41空间",
+    "blocker": "人物身份一致性未通过；v04为局部修脸候选，待用户对照正式身份图审核",
     "pending": [
-      "A款厚底/打孔/露趾鞋型是否吻合实际参考",
-      "鞋与脚、裤脚、地面接触是否自然",
-      "妻子身份、猫毛与尺度、机位和曝光是否沿用"
+      "v04脸型及眼鼻口比例是否匹配正式wife-identity，而非仅自然好看",
+      "局部修脸后表情/视线是否仍符合首次回应、蹲稳未触猫",
+      "已补A款拖鞋、蹲姿、猫、构图是否保留",
+      "新光影正式版与新版动线图原件仍未取得，不能声称已核对"
     ]
   },
   "approval": {
@@ -126,5 +166,12 @@
       "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
     }
   ],
-  "actual_prompt_v03": "projects/另一个家的布布/assets/characters/footwear/prompts/R1-footwear.txt"
+  "actual_prompt_v03": "projects/另一个家的布布/assets/characters/footwear/prompts/R1-footwear.txt",
+  "latest_user_feedback": {
+    "date": "2026-10-26",
+    "text": "另外，你之前生成的这张，K04-R1，女主的脸变了",
+    "attachment_path": "C:/Users/liu/AppData/Local/Temp/codex-clipboard-f028e404-5a3b-4956-9906-be7282506877.png",
+    "attachment_sha256": "54e68d9e92db619c3b49d931110fed6aeec82f73da0f8f5e937eb8b3e720e07a"
+  },
+  "face_reference_policy": "人物脸可见时，派生编辑实际输入必须保留正式wife-identity主参考，三视仅辅助角度，不以已生成面孔当身份基准；同帧含猫仍绑定原猫资产"
 }
