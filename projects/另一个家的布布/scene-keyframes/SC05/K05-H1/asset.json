@@ -1,0 +1,68 @@
+{
+  "task_id": "K05-H1",
+  "scene": "SC05",
+  "story_time": "23:23站稳阶段",
+  "date": "2026-10-26",
+  "status": "structural_candidate_pending_user_review",
+  "current_version": "v01",
+  "method": "built_in_imagegen",
+  "camera": "C52方向的全身构图验证候选，不声称已实现H0固定机位连续起身",
+  "authorization": "先把K05-H1做完吧，我们还是按照制作流程来制作，不要打乱了节奏",
+  "approved": false,
+  "final_first_last_frame": false,
+  "lighting_grade_approved": false,
+  "actual_prompt": "prompt-v01.txt",
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-df621537-925e-4882-ac4f-2eaf29fb3899.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2023876,
+      "sha256": "4e6de1c08f960235ebfd79168de1c6031840d1bd08a83b377cd4d240011b38e0",
+      "remote_verified": false,
+      "approved": false
+    }
+  ],
+  "actual_inputs": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H0/assets/K05-H0_v02.png",
+      "sha256": "7ac2c013070045c5113223e5ca14260a170f33373e198c51c95d80a92d381c88"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+      "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+    }
+  ],
+  "review": {
+    "observations": [
+      "完整头脚可见，人物直立，双脚穿A粉色拖鞋接地",
+      "胸腹环抱与后躯承托沿用，猫离地，妻子看猫",
+      "左沙发、后茶几、右电视、雨窗方向延续"
+    ],
+    "pending": [
+      "头顶安全余量偏紧，正式取景仍需处理",
+      "猫相对人物胸宽/手掌显小，须与H0同猫尺度复核，不把缩小要求扩大成幼猫",
+      "尾根与后腿仍部分遮挡，不能由单帧证明完整关节受力",
+      "五官、猫毛及空间脚位连续性待用户审核",
+      "H0与H1画面背景投影/取景发生变化，不能直接作为固定机位首尾帧绑定"
+    ],
+    "scope": "只验证场景、构图、动作；电影氛围光影色调另阶段设计，不更改本轮制作顺序",
+    "not_done": [
+      "视频生成",
+      "动态起身连续性",
+      "最终摄影与调色",
+      "最终镜头/剪辑批准"
+    ]
+  }
+}
