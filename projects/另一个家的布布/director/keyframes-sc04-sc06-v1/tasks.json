@@ -121,7 +121,7 @@
       "story_time": "23:15",
       "camera": "C41",
       "purpose": "妻子回应后蹲稳",
-      "status": "face_identity_repair_candidate_awaiting_user_review",
+      "status": "waiting_same_angle_identity_calibration_review",
       "dependencies": [
         "K04-E1"
       ],
@@ -175,11 +175,12 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "dependency_update": "E1空间/尺度获用户认可，可沿用为R1空间衔接依据；原猫资产持续绑定",
-      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v04.png",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v05.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/asset.json",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "脸可见的编辑实际输入须含正式wife-identity；三视只辅助角度，不能只沿用生成脸",
-      "face_identity_approved": false
+      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产",
+      "face_identity_approved": false,
+      "identity_calibration_asset": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png"
     },
     {
       "task_id": "K05-T0",
@@ -242,7 +243,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "脸可见的编辑实际输入须含正式wife-identity；三视只辅助角度，不能只沿用生成脸"
+      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
     },
     {
       "task_id": "K05-H0",
@@ -305,7 +306,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "脸可见的编辑实际输入须含正式wife-identity；三视只辅助角度，不能只沿用生成脸"
+      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
     },
     {
       "task_id": "K05-H1",
@@ -368,7 +369,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "脸可见的编辑实际输入须含正式wife-identity；三视只辅助角度，不能只沿用生成脸"
+      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
     },
     {
       "task_id": "K06-O0",
@@ -447,7 +448,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "脸可见的编辑实际输入须含正式wife-identity；三视只辅助角度，不能只沿用生成脸"
+      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
     },
     {
       "task_id": "K06-P0",
@@ -566,7 +567,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "脸可见的编辑实际输入须含正式wife-identity；三视只辅助角度，不能只沿用生成脸"
+      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
     },
     {
       "task_id": "K06-X1",
@@ -637,7 +638,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "脸可见的编辑实际输入须含正式wife-identity；三视只辅助角度，不能只沿用生成脸"
+      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
     },
     {
       "task_id": "K06-B0",
@@ -712,9 +713,10 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "脸可见的编辑实际输入须含正式wife-identity；三视只辅助角度，不能只沿用生成脸"
+      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
     }
   ],
   "scope_update": "本清单11状态仅为原SC04-SC06基础状态；远端新增23:27 A抱猫出G/23:28返G尚未纳入，不能视作最新SC06完整覆盖",
-  "latest_space_audit": "space/PLAN-002与PLAN-003动线差异核对_V1_20261026.md"
+  "latest_space_audit": "space/PLAN-002与PLAN-003动线差异核对_V1_20261026.md",
+  "face_master_user_confirmed": "assets/characters/wife-identity.png（用户唯一指定）"
 }

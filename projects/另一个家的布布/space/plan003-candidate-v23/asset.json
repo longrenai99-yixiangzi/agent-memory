@@ -1,0 +1,21 @@
+{
+  "path": "projects/另一个家的布布/space/plan003-candidate-v23/PLAN-003_V2.3_user-candidate.png",
+  "source_path": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-f0a5ae69-7a24-4b1f-956d-8c42a7cecb6e.png",
+  "width": 2438,
+  "height": 1510,
+  "format": "PNG",
+  "bytes": 2402809,
+  "sha256": "0d4455cef703068ed9a4efdfad1f36a1242b5e1e5d2eced2256650c5844e3593",
+  "remote_verified": false,
+  "asset_id": "PLAN-003-CANDIDATE-V2.3",
+  "received_at": "2026-10-26",
+  "status": "received_candidate_not_approved",
+  "user_source": "用户明确提供新生成的PLAN-003空间动线修订候选V2.3",
+  "approved": false,
+  "does_not_replace": [
+    "PLAN-001",
+    "PLAN-002",
+    "已批SC04-SC06预演"
+  ],
+  "review_file": "review.md"
+}

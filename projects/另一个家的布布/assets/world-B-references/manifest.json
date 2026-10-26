@@ -1,0 +1,30 @@
+{
+  "project": "另一个家的布布",
+  "date": "2026-10-26",
+  "references": [
+    {
+      "path": "projects/另一个家的布布/assets/world-B-references/B-VIEW-01_朝阳台_source.png",
+      "source_path": "D:\\文档\\Downloads\\短片\\另一个布布\\资产\\B世界_朝阳台.png",
+      "width": 3840,
+      "height": 2160,
+      "format": "PNG",
+      "bytes": 6500363,
+      "sha256": "61a61e14a4c501eb16fe30b3166473f9d7f62e6d2e3a30c3dc1c09fbae857068",
+      "remote_verified": false,
+      "status": "existing_user_folder_reference_inspected_approval_not_inferred",
+      "role": "B世界外围猫用品及固定位置参考；白天图不是夜景曝光母版"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/world-B-references/B-VIEW-04_朝电视_source.png",
+      "source_path": "D:\\文档\\Downloads\\短片\\另一个布布\\资产\\B世界_朝电视.png",
+      "width": 3840,
+      "height": 2160,
+      "format": "PNG",
+      "bytes": 6950358,
+      "sha256": "9fa6fa58d59eb8172d9650a9f00d2fd7eba43aad8926fad781714ce44fa196eb",
+      "remote_verified": false,
+      "status": "existing_user_folder_reference_inspected_approval_not_inferred",
+      "role": "B世界外围猫用品及固定位置参考；白天图不是夜景曝光母版"
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "story_time": "23:15",
   "camera": "C41",
   "date": "2026-10-25",
-  "status": "face_identity_repair_candidate_awaiting_user_review",
-  "current_version": "v04",
+  "status": "waiting_same_angle_identity_calibration_review",
+  "current_version": "v05",
   "method": "built_in_imagegen",
   "versions": [
     {
@@ -98,9 +98,28 @@
       ],
       "actual_prompt": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/prompt-v04.txt",
       "method": "built_in_imagegen",
-      "status": "face_identity_repair_candidate_awaiting_user_review",
+      "status": "用户反馈仍不像，身份验收不通过",
       "approved": false,
       "remote_verified": false
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v05.png",
+      "source_path": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-d6b04caa-f5f0-4c9e-9233-0c72f37e3bdf.png",
+      "width": 1671,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2051637,
+      "sha256": "3ba5ce21c2f5036533bfb5a35aa2deec1476f81efc07b9963be7ed9711616c3d",
+      "remote_verified": false,
+      "version": "v05",
+      "approved": false,
+      "status": "整帧修脸变化仍有限，不作已修好成果；转同角度身份校准",
+      "actual_inputs": [
+        "projects/另一个家的布布/assets/characters/wife-identity.png",
+        "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
+        "projects/另一个家的布布/assets/characters/bubu-multiview.png"
+      ],
+      "actual_prompt": "prompt-v05.txt"
     }
   ],
   "actual_inputs_v01": [
@@ -140,7 +159,7 @@
       "单猫抬头看向A，两者有间距",
       "v02仅对猫毛质做修正"
     ],
-    "blocker": "人物身份一致性未通过；v04为局部修脸候选，待用户对照正式身份图审核",
+    "blocker": "整帧修脸未稳定保持身份；先审核同角度身份校准照，未获批前不继续场景修脸或后续帧",
     "pending": [
       "v04脸型及眼鼻口比例是否匹配正式wife-identity，而非仅自然好看",
       "局部修脸后表情/视线是否仍符合首次回应、蹲稳未触猫",
@@ -173,5 +192,15 @@
     "attachment_path": "C:/Users/liu/AppData/Local/Temp/codex-clipboard-f028e404-5a3b-4956-9906-be7282506877.png",
     "attachment_sha256": "54e68d9e92db619c3b49d931110fed6aeec82f73da0f8f5e937eb8b3e720e07a"
   },
-  "face_reference_policy": "人物脸可见时，派生编辑实际输入必须保留正式wife-identity主参考，三视仅辅助角度，不以已生成面孔当身份基准；同帧含猫仍绑定原猫资产"
+  "face_reference_policy": "人物脸可见时，派生编辑实际输入必须保留正式wife-identity主参考，三视仅辅助角度，不以已生成面孔当身份基准；同帧含猫仍绑定原猫资产",
+  "unique_face_master": {
+    "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+    "user_evidence": "女性特写.png：以大图五官和脸型为准",
+    "date": "2026-10-26",
+    "exclude_from_face_reconstruction": [
+      "wife-A-fullbody.png中的脸",
+      "wife-B-fullbody.png中的脸",
+      "wife-B-three-views.png中的脸"
+    ]
+  }
 }

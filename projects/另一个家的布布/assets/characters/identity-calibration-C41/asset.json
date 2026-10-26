@@ -1,0 +1,24 @@
+{
+  "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+  "source_path": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-7732488f-367e-4744-ab71-a12c5fc420ca.png",
+  "width": 1122,
+  "height": 1402,
+  "format": "PNG",
+  "bytes": 2408386,
+  "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267",
+  "remote_verified": false,
+  "asset_id": "BUBU-CHR-W-C41-CAL-001",
+  "version": "v01",
+  "date": "2026-10-26",
+  "status": "candidate_awaiting_user_identity_review",
+  "approved": false,
+  "purpose": "唯一原始特写的近C41转头低头角度校准，不是新身份或正式场景帧",
+  "method": "built_in_imagegen",
+  "actual_input": "projects/另一个家的布布/assets/characters/wife-identity.png",
+  "actual_prompt": "prompt-v01.txt",
+  "limits": [
+    "是否保住原身份由用户核对",
+    "中性背景/光线仅为脸部校准，不是SC04夜景基准",
+    "通过后才能用于R1回填；不改变主身份源图"
+  ]
+}
