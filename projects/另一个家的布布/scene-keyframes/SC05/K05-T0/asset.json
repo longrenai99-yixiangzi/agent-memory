@@ -6,7 +6,7 @@
   "camera_plan_approval": "director/previs-sc04-sc06-v1/approval_20261025.json",
   "date": "2026-10-26",
   "current_version": "v02",
-  "status": "candidate_awaiting_user_review",
+  "status": "user_accepted_face_fur_hand_nose_static",
   "method": "built_in_imagegen",
   "authorization": "用户说下一步，按既定任务制作下一静态候选；不把此继续指令记为R1整帧最终验收",
   "versions": [
@@ -33,10 +33,15 @@
       "format": "PNG",
       "bytes": 2094241,
       "sha256": "5dad333a0d0e28d9bae9e56745119cac1785dd1a0acb1f6e6e5381210e2142cc",
-      "review": "定向修猫毛后候选，身份/毛质/手鼻间距/机位待用户审查",
+      "review": "用户明确认可五官、猫毛和手鼻关系，可作为H0静态承托帧衔接依据；不扩大为动态验收",
       "approved": false,
       "remote_verified": true,
-      "image_commit": "6d079836cea455d14700490aea12bd77a87fe33d"
+      "image_commit": "6d079836cea455d14700490aea12bd77a87fe33d",
+      "accepted_checks": [
+        "人物五官",
+        "猫毛",
+        "手鼻关系"
+      ]
     }
   ],
   "actual_inputs_v01": [
@@ -104,7 +109,23 @@
     "standing_headroom": "当前蹲姿已占据大部分画面高度，不能直接证明H1能在同画幅完整站起。H0可先验证低姿承托，H1前必须比较取景方案，不自动裁头或改运镜"
   },
   "approval": {
-    "still_approved": false,
-    "dynamic_approved": false
+    "date": "2026-10-26",
+    "evidence": "五官、猫毛和手鼻关系，没问题",
+    "source_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-776bb5b4-f179-471b-b68e-bf347cadc8f6.png",
+    "source_sha256": "5dad333a0d0e28d9bae9e56745119cac1785dd1a0acb1f6e6e5381210e2142cc",
+    "scope": [
+      "人物五官",
+      "猫毛",
+      "手鼻关系"
+    ],
+    "face_approved": true,
+    "fur_approved": true,
+    "hand_nose_relationship_approved": true,
+    "dynamic_approved": false,
+    "does_not_imply": [
+      "实际净距/三维机位已测量",
+      "站起构图可用",
+      "抱猫承托或视频已完成"
+    ]
   }
 }

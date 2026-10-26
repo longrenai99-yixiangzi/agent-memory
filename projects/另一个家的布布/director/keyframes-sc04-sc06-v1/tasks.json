@@ -194,7 +194,7 @@
       "story_time": "23:21—23:22",
       "camera": "C52",
       "purpose": "同一蹲姿闻手",
-      "status": "v02_candidate_awaiting_user_review",
+      "status": "user_accepted_face_fur_hand_nose_static",
       "dependencies": [
         "K04-R1"
       ],
@@ -255,7 +255,13 @@
       "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
       "actual_output": "projects/另一个家的布布/scene-keyframes/SC05/K05-T0/assets/K05-T0_v02.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC05/K05-T0/asset.json",
-      "approval_note": "继续制作授权不扩大为R1整帧或本帧自动通过"
+      "approval_note": "继续制作授权不扩大为R1整帧或本帧自动通过",
+      "accepted_checks": [
+        "人物五官",
+        "猫毛",
+        "手鼻关系"
+      ],
+      "approval_evidence": "五官、猫毛和手鼻关系，没问题"
     },
     {
       "task_id": "K05-H0",
@@ -322,7 +328,8 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
+      "dependency_update": "K05-T0 v02五官/猫毛/手鼻关系获用户认可，可作衔接基础；H0仍待制作与承托审核"
     },
     {
       "task_id": "K05-H1",
