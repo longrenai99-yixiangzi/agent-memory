@@ -2,8 +2,8 @@
   "task_id": "C61-empty",
   "kind": "K06-O0空间前置核对，不新增正式镜头编号",
   "date": "2026-10-26",
-  "current_version": "v08",
-  "status": "upper_frame_restored_candidate_pending_review",
+  "current_version": "v09",
+  "status": "whole_door_projection_candidate_pending_review",
   "method": "built_in_imagegen",
   "approved": false,
   "people_added": false,
@@ -118,7 +118,21 @@
       "bytes": 1878085,
       "sha256": "da0d1d3712bb37afa1baeff5ce1a18d4637d7d41570af396bc78bad6aa3a44f7",
       "method": "Pillow inverse homography; restore source upper frame endpoints",
-      "status": "upper_frame_restored_candidate_pending_review",
+      "status": "rejected_lower_frame_mismatch",
+      "approved": false,
+      "remote_verified": false,
+      "user_feedback": "改了上面不改下面，下面门框下沿的水平线变成斜的了"
+    },
+    {
+      "version": "v09",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v09.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1877664,
+      "sha256": "fceef0a9865ce060a5e65fb51b2062bd3c6059dd44dd6e7ca70a75abaaa76b57",
+      "method": "Pillow single wall vanishing point constrained homography",
+      "status": "whole_door_projection_candidate_pending_review",
       "approved": false,
       "remote_verified": false
     }
@@ -233,7 +247,7 @@
     }
   ],
   "current_method": "deterministic door-only perspective correction",
-  "actual_process": "door-perspective-v08/geometry-and-verification.json",
+  "actual_process": "door-perspective-v09/geometry-and-verification.json",
   "door_direction_approval": {
     "date": "2026-10-26",
     "user_statement": "对，左侧是远边，对应蓝色的线，也就是蓝色的线要短",
@@ -406,6 +420,27 @@
       "上沿与墙面整体透视是否协调",
       "近远比例须重新核对，不把恢复上沿等同整体透视完成",
       "精确机位/门面消失点仍未标定"
+    ],
+    "approved": false
+  },
+  "actual_inputs_v09": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b",
+      "role": "原始像素及同一门洞绿墙结构线"
+    }
+  ],
+  "review_v09": {
+    "cause": "v05-v08分别移动工作四角，局部满足反馈但没有共享墙面消失点，导致上下框失配",
+    "change": "用目视估读墙顶/墙脚平行线求同一消失点，同时计算门上/下沿，再整体单应映射，不再分别推角",
+    "checks": [
+      "门上/下沿延长线都穿过同一个估读墙面消失点",
+      "门区外与柜体像素变化0"
+    ],
+    "pending": [
+      "墙面线是目视估读而非测绘，因此数值自洽仍不能认定C61整屋标定完成",
+      "门槛补接与反射自然度仍待审核",
+      "近远比例由共同消失点决定，不再人工追求某个边长比"
     ],
     "approved": false
   }
