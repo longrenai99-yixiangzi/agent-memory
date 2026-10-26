@@ -20,8 +20,9 @@
       "format": "PNG",
       "bytes": 2040570,
       "sha256": "9f8636190d142b10a6e26dc685d0a3b299d00db034078bd2cec6564f052016cb",
-      "remote_verified": false,
-      "approved": false
+      "remote_verified": true,
+      "approved": false,
+      "image_commit": "e81ea3c384c9f051900d1792d79c06e63276143f"
     }
   ],
   "actual_inputs": [
