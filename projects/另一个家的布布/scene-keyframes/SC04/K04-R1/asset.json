@@ -153,7 +153,8 @@
       "method": "built_in_imagegen",
       "status": "approved_facial_reference_applied_scene_candidate_pending_review",
       "approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "e32d76c5c8c70fe4d4d3c705fb6851f061af914e"
     }
   ],
   "actual_inputs_v01": [

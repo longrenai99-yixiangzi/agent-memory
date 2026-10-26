@@ -4,7 +4,7 @@
 
 任务K04-R1：妻子回应后蹲稳。
 单张写实电影关键状态候选，横向16:9，不是最终灯光定稿。严格按PLAN实际家具和开放阳台垭口，G/E/X及机位按已批预演；不抄图纸俯视角、文字、箭头或色块。外窗关闭，地面裸瓷砖，无地毯，阳台无座椅。B世界猫爬架在阳台G外，窝和食水在电视柜与房门之间G外；具体用品造型尚无获批图，执行前需设计候选/空景审核。
-出现妻子时以wife-identity锁A/B同一面孔和棕色低盘发。A只穿wife-A-fullbody浅银灰滚边长袖长裤睡衣、穿实际参考拖鞋（原图赤脚不沿用）；B只穿wife-B-fullbody黑色吊带长裙、穿实际参考拖鞋（原图赤脚不沿用）。忽略证件图背景与静态微笑，不借用《年复一年》银发老人。出现布布时按bubu-multiview的单只浅奶油短卷毛蓝眼大耳猫，不复制成多猫，不添项圈，不变长毛或无毛猫。猫与人体尺度由候选图交用户审核，不编体重/身高。
+出现妻子时以已采用C41校准照锁定当前A/B五官，保留棕色低盘发。A只穿wife-A-fullbody浅银灰滚边长袖长裤睡衣、穿实际参考拖鞋（原图赤脚不沿用）；B只穿wife-B-fullbody黑色吊带长裙、穿实际参考拖鞋（原图赤脚不沿用）。忽略证件图背景与静态微笑，不借用《年复一年》银发老人。出现布布时按bubu-multiview的单只浅奶油短卷毛蓝眼大耳猫，不复制成多猫，不添项圈，不变长毛或无毛猫。猫与人体尺度由候选图交用户审核，不编体重/身高。
 候选光线按剧情第八夜夜景：沿现有室内灯具暖光，外窗微弱冷夜与雨痕，脸、猫与接触地面清楚；不沿用白天阳光。具体曝光尚待审核，成对帧沿用前帧获批光线，不擅自加闪电亮帧。禁止文字、水印、多栏拼图、额外人物及漂浮融合肢体。
 
 本帧构图与动作：
@@ -14,7 +14,6 @@ C41固定中全景朝A，保留沙发端头和地面。A已完成本段唯一一
 D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\assets\space\PLAN-001_彩平图_20261025_阳台家具删除版.png：实际家具、墙体和开放阳台垭口，不复制俯视角
 D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\assets\space\PLAN-002_AB世界交汇区标注_V2.2.png：G/E/X行动关系，不沿用旧底图家具
 D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\assets\views\VIEW-03_朝沙发.png：新版v02沙发、贵妃位、薄毯、茶几和阳台垭口
-D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\assets\characters\wife-identity.png：A/B共同面部身份；忽略蓝背景、白吊带和静态笑容
 D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\assets\characters\wife-A-fullbody.png：A浅银灰滚边长袖长裤睡衣、穿实际参考拖鞋（原图赤脚不沿用）与身材比例
 D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\assets\characters\bubu-multiview.png：同一只浅奶油短卷毛蓝眼大耳猫的侧/正/斜前坐姿，不复制多只猫
 D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\director\previs-sc04-sc06-v1\SC04_camera-route_v1.png：已批SC04机位与路线，不复制箭头色块
