@@ -169,3 +169,5 @@ Scene01 当前关键帧以[独立目录](projects/年复一年/scene01/keyframes
 《另一个家的布布》实际A/B拖鞋已绑定：[鞋原图与三项补鞋候选](projects/另一个家的布布/assets/characters/footwear/README.md)已上传并取回原字节核验5/5通过。R1 v03穿A款粉拖鞋，B全身/三视穿B款黑夹脚拖，均待审核。A全身合成调用被服务审核拒绝、无成品；可用原A衣装图+鞋原图双参考，不伪称全部完成。远端新SC06动线记录已保留。
 
 2026-10-26｜《另一个家的布布》[PLAN-003新原图及复核](projects/另一个家的布布/space/plan003-candidate-v23/review.md)已登记为候选，未替换已批路线；B世界两参考已找回。用户锁定女性特写为唯一脸主图，R1整帧修脸未通过，先审[近C41身份校准照](projects/另一个家的布布/assets/characters/identity-calibration-C41/README.md)，不继续派生后续帧。光影正式版仍待读取。
+
+2026-10-26｜《另一个家的布布》[PLAN-003已批准二维动线原件](projects/另一个家的布布/director/plan-003-v2.3/README.md)已从Downloads同步包取回，3份核心原件哈希吻合审批记录；本轮附件与主图解码像素完全相同，批准沿用，不重复征询。后续技术核验按原路线＋G0/G1/G2任务进行；脸部校准仍待用户审核。

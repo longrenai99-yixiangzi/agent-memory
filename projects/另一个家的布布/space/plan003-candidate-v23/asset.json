@@ -9,13 +9,25 @@
   "remote_verified": false,
   "asset_id": "PLAN-003-CANDIDATE-V2.3",
   "received_at": "2026-10-26",
-  "status": "received_candidate_not_approved",
+  "status": "same_pixels_as_user_approved_PLAN003_2d_route",
   "user_source": "用户明确提供新生成的PLAN-003空间动线修订候选V2.3",
-  "approved": false,
+  "approved": true,
   "does_not_replace": [
     "PLAN-001",
     "PLAN-002",
     "已批SC04-SC06预演"
   ],
-  "review_file": "review.md"
+  "review_file": "review.md",
+  "approval_scope": "二维动线拓扑，非实测净距/三维遮挡/生成效果",
+  "approval_record": "projects/另一个家的布布/space/PLAN-003_V2.3_动线审核确认记录_20261026.md",
+  "approved_original": "projects/另一个家的布布/director/plan-003-v2.3/PLAN-003_AB世界交汇区与双向动线标注_V2.3_修订候选.png",
+  "pixel_mapping": {
+    "path": "projects/另一个家的布布/space/plan003-candidate-v23/PLAN-003_V2.3_user-candidate.png",
+    "attachment_file_sha256": "0d4455cef703068ed9a4efdfad1f36a1242b5e1e5d2eced2256650c5844e3593",
+    "approved_file_sha256": "bbcdd998f2dafe9c224638b498778b691484a56cfcf67f3fd34e3c6ec8caa9ff",
+    "same_dimensions": true,
+    "decoded_RGBA_identical": true,
+    "decoded_RGBA_sha256": "c7331d27f03bb105b183d6f7207e72624da6af10d58f01bb4c603bba7dfda78a",
+    "meaning": "两文件编码/元数据可不同，画面像素完全相同；本附件对应已批准图，不重问已确认动线"
+  }
 }

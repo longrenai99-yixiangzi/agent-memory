@@ -63,3 +63,7 @@
 - [PLAN-003候选实图与素材影响复核](space/plan003-candidate-v23/review.md)：原图已收到，仍待边界/站位及返程通行收口。
 - [女主近C41身份校准照](assets/characters/identity-calibration-C41/README.md)：唯一原特写派生，待验脸，不替换主资产。
 - [已找回B世界两张参考](assets/world-B-references/README.md)：白天猫用品/空间参考，不是夜景基准。
+
+## PLAN-003审批与原件最新状态
+
+[批准原件及同步回执](director/plan-003-v2.3/README.md)已从本地同步包实际找回。本轮附件与批准主PNG像素完全相同，二维动线批准生效；旧候选标签保留原像素。净距/遮挡/关键帧仍逐项核验。

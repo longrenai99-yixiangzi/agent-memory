@@ -716,7 +716,10 @@
       "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
     }
   ],
-  "scope_update": "本清单11状态仅为原SC04-SC06基础状态；远端新增23:27 A抱猫出G/23:28返G尚未纳入，不能视作最新SC06完整覆盖",
+  "scope_update": "原11状态仍为基础，按已存在新任务单补G0/G1/G2，C64候选待验证，不重复另建编号",
   "latest_space_audit": "space/PLAN-002与PLAN-003动线差异核对_V1_20261026.md",
-  "face_master_user_confirmed": "assets/characters/wife-identity.png（用户唯一指定）"
+  "face_master_user_confirmed": "assets/characters/wife-identity.png（用户唯一指定）",
+  "latest_PLAN003_approval": "space/PLAN-003_V2.3_动线审核确认记录_20261026.md",
+  "PLAN003_original_sync": "director/plan-003-v2.3/sync-manifest.json",
+  "SC06_supplement": "director/SC06_抱猫出G返G_关键状态验证任务单_V1_20261026.md"
 }
