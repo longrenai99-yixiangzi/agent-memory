@@ -4,14 +4,14 @@
   "story_time": "23:23站稳阶段",
   "date": "2026-10-26",
   "status": "structural_candidate_pending_user_review",
-  "current_version": "v02",
+  "current_version": "v03",
   "method": "built_in_imagegen",
   "camera": "C52方向的全身构图验证候选，不声称已实现H0固定机位连续起身",
   "authorization": "先把K05-H1做完吧，我们还是按照制作流程来制作，不要打乱了节奏",
   "approved": false,
   "final_first_last_frame": false,
   "lighting_grade_approved": false,
-  "actual_prompt": "prompt-v02.txt",
+  "actual_prompt": "prompt-v03.txt",
   "versions": [
     {
       "version": "v01",
@@ -35,6 +35,21 @@
       "format": "PNG",
       "bytes": 2020123,
       "sha256": "e7278063915e8f6202a5df0f46426f92875d2b46736f7d680a62cf669f8e818d",
+      "remote_verified": false,
+      "approved": false,
+      "status": "rejected_cat_face_deformation",
+      "user_feedback": "头是蹭到了，但是猫的脸有点变形，没有锁定它的外观吗",
+      "use_for_generation": false
+    },
+    {
+      "version": "v03",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v03.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-518268ff-eed0-4b0e-b897-0d1be75505c0.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1991631,
+      "sha256": "8e3e53fcf783690abeea7db0264b701dd764919cf726f58dacbe3f8c47708cf5",
       "remote_verified": false,
       "approved": false
     }
@@ -81,12 +96,12 @@
   "affection_revision": {
     "date": "2026-10-26",
     "user_request": "抱起来后，猫最好表现得更加亲昵一下",
-    "status": "v02_generated_pending_review",
+    "status": "v03_generated_pending_identity_review",
     "attempt_record": "attempt-v02-blocked.txt",
     "error": "HTTP 400 moderation_blocked; input sexual category; cause unknown",
     "generated": true,
     "current_image_unchanged": false,
-    "actual_prompt": "prompt-v02.txt"
+    "actual_prompt": "prompt-v03.txt"
   },
   "actual_inputs_v02": [
     {
@@ -106,6 +121,34 @@
       "单张只能证明接触状态，不能证明蹭动过程",
       "头顶余量及H0/H1取景衔接未解决"
     ],
+    "approved": false
+  },
+  "actual_inputs_v03": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v01.png",
+      "sha256": "4e6de1c08f960235ebfd79168de1c6031840d1bd08a83b377cd4d240011b38e0"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    }
+  ],
+  "review_v03": {
+    "authorization": "用户确认以v01为底、重新绑定正式猫和人物参考，低头配合修复",
+    "observations": [
+      "猫蓝眼、鼻口和下巴分界较v02更清楚，未沿用v02变形脸",
+      "妻子低头、猫头侧上部贴靠，站姿与双手承托保持"
+    ],
+    "pending": [
+      "正式布布外观是否一致、口鼻及眼耳比例仍需用户审核，不把引用参考等同锁定成功",
+      "短卷毛、尾巴和接触是否自然",
+      "头顶余量与H0/H1固定机位连续性未解决"
+    ],
+    "scope": "场景/构图/动作候选，非最终光影或正式首尾帧",
     "approved": false
   }
 }
