@@ -121,7 +121,7 @@
       "story_time": "23:15",
       "camera": "C41",
       "purpose": "妻子回应后蹲稳",
-      "status": "waiting_same_angle_identity_calibration_review",
+      "status": "approved_facial_reference_applied_scene_candidate_pending_review",
       "dependencies": [
         "K04-E1"
       ],
@@ -157,6 +157,10 @@
         {
           "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
           "role": "A世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "role": "用户当前采用的五官执行参考；不复制中性背景或棚光"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K04-R1.txt",
@@ -175,12 +179,13 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "dependency_update": "E1空间/尺度获用户认可，可沿用为R1空间衔接依据；原猫资产持续绑定",
-      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v05.png",
+      "actual_output": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v06.png",
       "asset_record": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/asset.json",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产",
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
       "face_identity_approved": false,
-      "identity_calibration_asset": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png"
+      "identity_calibration_asset": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "facial_reference_adopted": true
     },
     {
       "task_id": "K05-T0",
@@ -225,6 +230,10 @@
         {
           "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
           "role": "A世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "role": "用户当前采用的五官执行参考；不复制中性背景或棚光"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K05-T0.txt",
@@ -243,7 +252,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
     },
     {
       "task_id": "K05-H0",
@@ -288,6 +297,10 @@
         {
           "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
           "role": "A世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "role": "用户当前采用的五官执行参考；不复制中性背景或棚光"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K05-H0.txt",
@@ -306,7 +319,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
     },
     {
       "task_id": "K05-H1",
@@ -351,6 +364,10 @@
         {
           "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
           "role": "A世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "role": "用户当前采用的五官执行参考；不复制中性背景或棚光"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K05-H1.txt",
@@ -369,7 +386,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
     },
     {
       "task_id": "K06-O0",
@@ -430,6 +447,10 @@
         {
           "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
           "role": "B世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "role": "用户当前采用的五官执行参考；不复制中性背景或棚光"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-O0.txt",
@@ -448,7 +469,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
     },
     {
       "task_id": "K06-P0",
@@ -549,6 +570,10 @@
         {
           "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
           "role": "B世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "role": "用户当前采用的五官执行参考；不复制中性背景或棚光"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-X0.txt",
@@ -567,7 +592,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
     },
     {
       "task_id": "K06-X1",
@@ -620,6 +645,10 @@
         {
           "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
           "role": "B世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "role": "用户当前采用的五官执行参考；不复制中性背景或棚光"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-X1.txt",
@@ -638,7 +667,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
     },
     {
       "task_id": "K06-B0",
@@ -695,6 +724,10 @@
         {
           "path": "projects/另一个家的布布/assets/characters/footwear/slippers-B-source.png",
           "role": "B世界实际拖鞋款式主参考，不借用商品背景"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "role": "用户当前采用的五官执行参考；不复制中性背景或棚光"
         }
       ],
       "prompt_path": "projects/另一个家的布布/director/keyframes-sc04-sc06-v1/prompts/K06-B0.txt",
@@ -713,7 +746,7 @@
       "next_execution": "依赖通过后再制作候选",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
-      "identity_edit_rule": "唯一面部主参考wife-identity，禁止混用全身/三视脸；衣装仅服从本世界服装资产"
+      "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸"
     }
   ],
   "scope_update": "原11状态仍为基础，按已存在新任务单补G0/G1/G2，C64候选待验证，不重复另建编号",
@@ -721,5 +754,6 @@
   "face_master_user_confirmed": "assets/characters/wife-identity.png（用户唯一指定）",
   "latest_PLAN003_approval": "space/PLAN-003_V2.3_动线审核确认记录_20261026.md",
   "PLAN003_original_sync": "director/plan-003-v2.3/sync-manifest.json",
-  "SC06_supplement": "director/SC06_抱猫出G返G_关键状态验证任务单_V1_20261026.md"
+  "SC06_supplement": "director/SC06_抱猫出G返G_关键状态验证任务单_V1_20261026.md",
+  "current_face_execution_reference": "assets/characters/current-face-reference.json"
 }

@@ -152,5 +152,6 @@
   "execution_override": "女主必须穿已指定拖鞋：A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖。原赤脚素材只管身份衣装，不管脚部执行",
   "footwear_decision": "footwear-decision_20261025.json",
   "footwear_references": "footwear/manifest.json",
-  "footwear_candidates": "footwear/derived-manifest.json"
+  "footwear_candidates": "footwear/derived-manifest.json",
+  "current_face_execution_reference": "current-face-reference.json"
 }

@@ -4,8 +4,8 @@
   "story_time": "23:15",
   "camera": "C41",
   "date": "2026-10-25",
-  "status": "waiting_same_angle_identity_calibration_review",
-  "current_version": "v05",
+  "status": "approved_facial_reference_applied_scene_candidate_pending_review",
+  "current_version": "v06",
   "method": "built_in_imagegen",
   "versions": [
     {
@@ -121,6 +121,39 @@
       ],
       "actual_prompt": "prompt-v05.txt",
       "file_commit": "0e5bc4aa70324f66700f2ccf11ad82b936bf04d2"
+    },
+    {
+      "version": "v06",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v06.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-20dfd6fe-a829-42fe-8706-50b83e63b3e7.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2059547,
+      "sha256": "59bdc9a85697325bad4ca9de20b223ee7410578a812cbb2bc63b0e101bb0acbb",
+      "actual_inputs": [
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+        },
+        {
+          "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
+          "sha256": "ec0dd4c08b8b37cd7e7437066e030af3fb100729220c52e313ecaf2539ecaa14"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+        }
+      ],
+      "actual_prompt": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/prompt-v06.txt",
+      "method": "built_in_imagegen",
+      "status": "approved_facial_reference_applied_scene_candidate_pending_review",
+      "approved": false,
+      "remote_verified": false
     }
   ],
   "actual_inputs_v01": [
@@ -160,12 +193,11 @@
       "单猫抬头看向A，两者有间距",
       "v02仅对猫毛质做修正"
     ],
-    "blocker": "整帧修脸未稳定保持身份；先审核同角度身份校准照，未获批前不继续场景修脸或后续帧",
+    "blocker": "v06已按用户采用五官生成回填候选，整帧的身份落实及场景一致性仍待审；不再重问校准照是否采用",
     "pending": [
-      "v04脸型及眼鼻口比例是否匹配正式wife-identity，而非仅自然好看",
-      "局部修脸后表情/视线是否仍符合首次回应、蹲稳未触猫",
-      "已补A款拖鞋、蹲姿、猫、构图是否保留",
-      "新光影正式版与新版动线图原件仍未取得，不能声称已核对"
+      "当前采用五官在R1角度与暖光下是否落实",
+      "蹲姿/粉色鞋/猫/家具/曝光是否保留",
+      "静帧可剪接性，不等于动态表演通过"
     ]
   },
   "approval": {
@@ -193,7 +225,7 @@
     "attachment_path": "C:/Users/liu/AppData/Local/Temp/codex-clipboard-f028e404-5a3b-4956-9906-be7282506877.png",
     "attachment_sha256": "54e68d9e92db619c3b49d931110fed6aeec82f73da0f8f5e937eb8b3e720e07a"
   },
-  "face_reference_policy": "人物脸可见时，派生编辑实际输入必须保留正式wife-identity主参考，三视仅辅助角度，不以已生成面孔当身份基准；同帧含猫仍绑定原猫资产",
+  "face_reference_policy": "当前执行主参考为已获用户采用的校准照；原wife-identity保留溯源，不与全身/三视脸混合；含猫和脚部继续绑定原猫/实际A鞋",
   "unique_face_master": {
     "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
     "user_evidence": "女性特写.png：以大图五官和脸型为准",
@@ -203,5 +235,10 @@
       "wife-B-fullbody.png中的脸",
       "wife-B-three-views.png中的脸"
     ]
+  },
+  "adopted_facial_reference": {
+    "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+    "user_evidence": "先就按这个五官吧",
+    "approval_scope": "当前采用五官，可用于R1回填，不等于R1整帧已通过"
   }
 }

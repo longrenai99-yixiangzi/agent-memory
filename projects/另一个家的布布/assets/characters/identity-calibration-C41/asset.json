@@ -10,8 +10,8 @@
   "asset_id": "BUBU-CHR-W-C41-CAL-001",
   "version": "v01",
   "date": "2026-10-26",
-  "status": "candidate_awaiting_user_identity_review",
-  "approved": false,
+  "status": "user_adopted_current_facial_features",
+  "approved": true,
   "purpose": "唯一原始特写的近C41转头低头角度校准，不是新身份或正式场景帧",
   "method": "built_in_imagegen",
   "actual_input": "projects/另一个家的布布/assets/characters/wife-identity.png",
@@ -21,5 +21,15 @@
     "中性背景/光线仅为脸部校准，不是SC04夜景基准",
     "通过后才能用于R1回填；不改变主身份源图"
   ],
-  "file_commit": "0e5bc4aa70324f66700f2ccf11ad82b936bf04d2"
+  "file_commit": "0e5bc4aa70324f66700f2ccf11ad82b936bf04d2",
+  "approval": {
+    "date": "2026-10-26",
+    "user_evidence": "先就按这个五官吧",
+    "scope": "采用这张校准照的五官作为当前人物执行参考，可用于R1回填",
+    "does_not_approve": [
+      "回填后的R1整帧",
+      "整场灯光或棚拍背景",
+      "动态表演与视频效果"
+    ]
+  }
 }

@@ -1,3 +1,5 @@
+【当前五官执行】用户已采用C41校准照的五官；人物脸可见时使用 D:\Codex\2026-10-20\codex-agent-memory\work\github-agent-memory-20261020\projects\另一个家的布布\assets\characters\identity-calibration-C41\wife-C41-face-calibration_v01.png 为执行主参考，原女性特写仅溯源，不再混合全身/三视脸。此采用不等于新场景帧已获批准。
+
 【最新执行约束】实际鞋款已收到：A穿浅粉色打孔厚底一字拖，B穿黑色Y形夹脚平底拖，分别绑定真实鞋原图；旧原图赤脚不沿用。保持同一身份衣装，补鞋派生图待审。
 
 任务K04-E1：四脚全入G。
