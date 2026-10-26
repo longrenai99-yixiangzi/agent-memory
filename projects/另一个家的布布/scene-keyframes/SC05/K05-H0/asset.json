@@ -36,7 +36,8 @@
       "bytes": 2035349,
       "sha256": "7ac2c013070045c5113223e5ca14260a170f33373e198c51c95d80a92d381c88",
       "approved": false,
-      "remote_verified": false
+      "remote_verified": true,
+      "image_commit": "6348a483030af5868887bbcabe016e984ee11b28"
     }
   ],
   "actual_inputs": [
