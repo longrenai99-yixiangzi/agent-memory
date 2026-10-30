@@ -412,7 +412,7 @@
       "story_time": "23:24—23:25",
       "camera": "C61",
       "purpose": "客观双妻子关系",
-      "status": "B_outside_G_unverified_3D_check_recommended",
+      "status": "A_script_plan_mapping_and_B_outside_G_unverified",
       "dependencies": [
         "K05-H1"
       ],
@@ -483,7 +483,7 @@
       ],
       "generated": true,
       "approved": false,
-      "next_execution": "A在沙发餐厨端头外侧G内；取得用户正在建的白模后核G边界、B1包络及C61，不继续二维猜站位",
+      "next_execution": "先用最新获批剧本与白模统一A站区：V1.6.5明写沙发茶几之间，旧二维点解释不能排除它；并核B1确在G外，不凭图片标签决定",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
       "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
