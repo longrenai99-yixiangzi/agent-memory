@@ -1,0 +1,44 @@
+{
+  "asset_id": "ENV-BED-001",
+  "version": "v01",
+  "date": "2026-10-30",
+  "project": "另一个家的布布",
+  "name": "卧室场景主参考（当前视角）",
+  "status": "user_selected_scene_reference",
+  "user_statement": "这张图作为卧室的场景",
+  "source_original_file": "C:\\Users\\liu\\AppData\\Local\\Temp\\codex-clipboard-dbac33d6-c1f1-49e3-a200-8316384e5857.png",
+  "path": "projects/另一个家的布布/assets/views/bedroom/ENV-BED-001_bedroom-master_v01.png",
+  "format": "PNG",
+  "width": 1672,
+  "height": 941,
+  "bytes": 1906434,
+  "sha256": "2201a581039c830700ae71edd117a398f66deb80cbdfc87736a9e043420f23f4",
+  "original_unchanged": true,
+  "copied_without_reencoding": true,
+  "remote_verified": false,
+  "replaces_existing_asset": false,
+  "adopted_scope": [
+    "卧室场景外观及当前视角家具关系",
+    "该图可见的暖光与蓝色屏幕氛围作为参考"
+  ],
+  "visible_anchors": [
+    "左侧木门关闭，黑把手，门旁两幅上下排列装饰画",
+    "后侧木色电脑桌、黑色电竞椅、横竖屏及蓝光主机",
+    "右侧浅色通顶衣柜，长木色拉手",
+    "前景床榻/平台及枕被、灰格薄毯",
+    "绿色墙面、木地板、顶柜/层架与暖色灯带"
+  ],
+  "unknown": [
+    "当前图与既有总平面卧室/书房门洞和墙体的对应尚未完成",
+    "窗户未见，位置/朝向未知",
+    "床榻完整尺寸及画外空间未知",
+    "对应具体场次、A/B世界归属及最终拍摄机位未指定"
+  ],
+  "does_not_approve": [
+    "整屋三维尺寸与C61透视",
+    "新增机位、人物走位或镜头数量",
+    "影片全场统一夜景曝光/色调",
+    "正式视频首尾帧或视频生成"
+  ],
+  "next": "作为卧室已有参考复用；需要新角度前先与总平面/用户正在搭建的白模核对，不从单图猜全屋"
+}
