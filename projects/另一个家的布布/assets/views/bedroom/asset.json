@@ -15,7 +15,7 @@
   "sha256": "2201a581039c830700ae71edd117a398f66deb80cbdfc87736a9e043420f23f4",
   "original_unchanged": true,
   "copied_without_reencoding": true,
-  "remote_verified": false,
+  "remote_verified": true,
   "replaces_existing_asset": false,
   "adopted_scope": [
     "卧室场景外观及当前视角家具关系",
@@ -40,5 +40,6 @@
     "影片全场统一夜景曝光/色调",
     "正式视频首尾帧或视频生成"
   ],
-  "next": "作为卧室已有参考复用；需要新角度前先与总平面/用户正在搭建的白模核对，不从单图猜全屋"
+  "next": "作为卧室已有参考复用；需要新角度前先与总平面/用户正在搭建的白模核对，不从单图猜全屋",
+  "image_commit": "2fed1ecd938747cfb97c2ac81bb94fa1fdbd979a"
 }
