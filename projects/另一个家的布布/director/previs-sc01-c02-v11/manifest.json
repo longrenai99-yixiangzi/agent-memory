@@ -161,8 +161,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2021,
-      "sha256": "7762a141a2aee0d32bf53cbb88a8be118e32e74e38c6a3e0e46f48fae77f39db"
+      "bytes": 2070,
+      "sha256": "f73830297f89a23140c73c6b58dd874131f141c44d909f12657f9709e22c3ad5"
+    },
+    {
+      "path": "remote-verification-00b080a.json",
+      "bytes": 6596,
+      "sha256": "a9a5e5a51d08d82307a860f39ac584406ccf3a0a93fcc9e4936ec645f766e55f"
     },
     {
       "path": "SC01_C02_镜头复盘与交接_20261030.md",

@@ -8,6 +8,6 @@
 - [V4.3 Seedance 提示词](prompt/SC01_C02_Seedance25_提示词_V4.3.txt)、[素材顺序与说明](prompt/使用说明.md)、[下一镜声音衔接](prompt/下一镜_声音衔接提示词.txt)；[八张实际上传参考](prompt/references/)依照说明中的职责绑定。后续声音不在 C02 的18秒内，需独立生成或后期。
 - [历史预演](history/)保留 V0.1、V0.2、V0.4、V0.6、V0.8、V0.9 的 MP4，仅用于对照，不自动继承审批。
 - [卧室夜景调色候选](scene-review/ENV-BED-001_夜景调色候选_v01.png)是等待导演审核的 AI 图；不替换已登记的[卧室原图](../../assets/views/bedroom/ENV-BED-001_bedroom-master_v01.png)。
-- [原字节清单](manifest.json)记录交接文件大小与 SHA-256；远端是否逐个取回另行以本轮核验回执为准。
+- [原字节清单](manifest.json)记录交接文件大小与 SHA-256；[远端核验回执](remote-verification-00b080a.json)记录从提交 `00b080a` 取回并核验34/34通过。
 
 关键限制：C机距门扇过近，设备与操作者净距未验证；妻子走步、丈夫头颈/椅子动作和真实视线无法仅由白模通过；最新导演口径与仓库文学剧本之间的对白、房间衔接差异尚未改写剧本。
