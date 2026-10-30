@@ -412,7 +412,7 @@
       "story_time": "23:24—23:25",
       "camera": "C61",
       "purpose": "客观双妻子关系",
-      "status": "A_script_plan_mapping_and_B_outside_G_unverified",
+      "status": "B_outside_G_and_screen_projection_unverified",
       "dependencies": [
         "K05-H1"
       ],
@@ -483,7 +483,7 @@
       ],
       "generated": true,
       "approved": false,
-      "next_execution": "先用最新获批剧本与白模统一A站区：V1.6.5明写沙发茶几之间，旧二维点解释不能排除它；并核B1确在G外，不凭图片标签决定",
+      "next_execution": "按现行V1.6.6b既定A端头外侧G内站区核白模投影，并核B1界外包络；不再用历史V1.6.5重开站区讨论",
       "edit_reference_policy": "每次含猫派生均重新绑定正式bubu-multiview原图；不只输入上一生成帧",
       "footwear_override": "A浅粉打孔厚底一字拖；B黑色Y形夹脚平底拖，真实鞋图已收到；原赤脚素材不作为执行指令",
       "identity_edit_rule": "当前执行五官用已认可C41校准照；原身份特写仅留溯源，不混全身/三视脸",
@@ -505,7 +505,8 @@
         "approved": false,
         "new_actor_frame_generated": false
       },
-      "white_model_check": "scene-keyframes/SC06/K06-O0/blocking-on-C61-v09/C61_白模站位核对要求_V1.md"
+      "white_model_check": "scene-keyframes/SC06/K06-O0/blocking-on-C61-v09/C61_白模站位核对要求_V1.md",
+      "current_script": "script/另一个家的布布_V1.6.6b_SC01导演设计融合版_完整文学剧本.md"
     },
     {
       "task_id": "K06-P0",

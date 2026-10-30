@@ -43,14 +43,14 @@
     "adopted_background_hash_matches": true,
     "outside_overlay_original_pixels_unchanged": true
   },
-  "A_position_clarification": "待核：V1.6.5脚本明写沙发与茶几之间；旧二维点被解释成端头外侧，尚无测绘/白模配准，不能排除脚本文字",
+  "A_position_clarification": "按现行V1.6.6b：沙发靠餐厨端头外侧、既定G内站位附近，不挤入狭缝；白模核实际投影",
   "B_feedback": "用户指出视觉上B太靠近G，无法确认一定在G外；当前标注不是几何验证",
   "B_position_approved": false,
   "white_model_available_to_agent": false,
   "script_plan_conflict": {
     "date": "2026-10-30",
-    "script": "script/另一个家的布布_V1.6.5_完整文学剧本_B世界生活痕迹修订版.md:354,596",
-    "status": "unresolved_do_not_choose_without_latest_script_and_white_model",
-    "earlier_statement_retracted": "不在沙发与茶几之间的绝对判断"
+    "status": "resolved_by_current_V1.6.6b_wording",
+    "current_script": "script/另一个家的布布_V1.6.6b_SC01导演设计融合版_完整文学剧本.md:389,635,1057",
+    "note": "本轮最初旧版冲突判断已撤回；新版已明确A站区，不重新向用户确认该创作决定"
   }
 }
