@@ -1,0 +1,104 @@
+{
+  "project": "另一个家的布布",
+  "scene": "SC01",
+  "sequence": "C03",
+  "manifest_version": "1.0",
+  "date": "2026-10-31",
+  "design_document": "projects/另一个家的布布/director/SC01_C03_完整分镜设计_V1.0_20261031.md",
+  "generation_plan": {
+    "platform": "Seedance 2.5",
+    "mode": "full-reference video",
+    "standalone_composite_first_frame_required_by_default": false,
+    "tasks": [
+      {
+        "task_id": "C03-01+C03-02",
+        "structure": "one video task with two distinct camera shots and one explicit hard cut",
+        "first_shot": "C03-01 WIDE / CAM_C03_01_WIDE",
+        "second_shot": "C03-02 MCU / CAM_C03_02_MCU",
+        "camera_rule": "independent cameras; do not replace the cut with zoom or digital reframing"
+      },
+      {
+        "task_id": "blanket-insert",
+        "structure": "separate generation task, cut after C03-02",
+        "role": "reveal the slight blanket wrinkle that matches the wife's eyeline"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "asset_id": "SC01-C03-ENV-001",
+      "role": "user-designated C03-01 real scene master",
+      "source_filename": "现代走廊与温馨书房(1).png",
+      "conversation_file_id": "file_0000000050ec8230894a86d5f437ebe1",
+      "dimensions": "1670x941",
+      "target_repo_path_after_upload": "projects/另一个家的布布/assets/SC01_C03/SC01_C03_ENV_MASTER_20261031.png",
+      "binary_status": "pending_upload",
+      "authority": "scene master; not merely an inspiration image"
+    },
+    {
+      "asset_id": "SC01-C03-PROP-001",
+      "role": "folded black clothing prop reference",
+      "source_filename": "image(20261031-042934).png",
+      "conversation_file_id": "file_00000000acb881fd9dd9e9f503904368",
+      "dimensions": "1536x1024",
+      "target_repo_path_after_upload": "projects/另一个家的布布/assets/SC01_C03/SC01_C03_PROP_BLACK_CLOTHES_20261031.png",
+      "binary_status": "pending_upload",
+      "authority": "clothing design, color and folded/held state"
+    },
+    {
+      "asset_id": "SC01-C03-CAM-001",
+      "role": "current Blender camera study",
+      "source_filename": "V13_C03_CAMERA_STUDY.blend",
+      "conversation_file_id": "file_00000000629c81fd986c241092b41adc",
+      "size_bytes": 33835801,
+      "target_repo_path_after_upload": "projects/另一个家的布布/director/previs-sc01-c03-v1/V13_C03_CAMERA_STUDY.blend",
+      "binary_status": "pending_upload",
+      "authority": "current working camera geometry and character placement; transforms remain subject to director confirmation"
+    },
+    {
+      "asset_id": "SC01-C03-FACE-001",
+      "role": "current adopted wife face reference",
+      "repo_path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "binary_status": "already_in_github",
+      "authority": "face identity only"
+    },
+    {
+      "asset_id": "SC01-C03-COST-001",
+      "role": "A-world wife costume/body reference",
+      "repo_path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+      "binary_status": "already_in_github",
+      "authority": "A-world silver-gray satin long-sleeve pajama set and body proportions; not the active face master"
+    },
+    {
+      "asset_id": "SC01-C03-SPACE-001",
+      "role": "sofa/blanket supporting view",
+      "repo_path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+      "binary_status": "already_in_github",
+      "authority": "supporting sofa view; not the C03-01 scene master"
+    },
+    {
+      "asset_id": "SC01-C03-SPACE-002",
+      "role": "hallway/restroom direction supporting view",
+      "repo_path": "projects/另一个家的布布/assets/views/VIEW-06_朝卫生间.jpg",
+      "binary_status": "already_in_github",
+      "authority": "supporting spatial orientation only"
+    }
+  ],
+  "historical_not_current_generation_inputs": [
+    {
+      "item": "SC01_C03_正式视频生成执行方案_V1.0.md and separate C03-01/C03-02 prompts",
+      "status": "superseded_by_current_design",
+      "reason": "previously separated generation tasks; current design combines the two character shots into one Seedance task"
+    },
+    {
+      "item": "C03_01_首帧参考.png / C03_01_尾帧参考.png / C03_02_首帧参考.png / C03_02_尾帧参考.png",
+      "status": "historical_gray_proxy_frames",
+      "reason": "not approved live-action frames and not required as default full-reference video inputs"
+    }
+  ],
+  "verification": {
+    "documentation_committed": true,
+    "new_binary_assets_committed": false,
+    "note": "The manifest records current-conversation attachments; binary upload and remote SHA-256 verification remain pending."
+  }
+}
