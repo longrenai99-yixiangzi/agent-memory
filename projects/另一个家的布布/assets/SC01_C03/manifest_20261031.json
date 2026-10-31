@@ -58,9 +58,11 @@
     {
       "asset_id": "SC01-C03-FACE-001",
       "role": "current adopted wife face reference",
-      "repo_path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
-      "binary_status": "already_in_github",
-      "authority": "face identity only"
+      "repo_path": "projects/另一个家的布布/assets/characters/identity-reference-20261031/wife-face-user-20261031.png",
+      "binary_status": "committed_in_same_identity_update",
+      "authority": "current user-designated face identity only; do not inherit blue background or white top",
+      "sha256": "0b43d78498cdfb4886de89f98b47e6cd7b0c65973a80956b0aea7aa3b69a27b1",
+      "previous_repo_path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png"
     },
     {
       "asset_id": "SC01-C03-COST-001",
@@ -100,5 +102,6 @@
     "documentation_committed": true,
     "new_binary_assets_committed": false,
     "note": "The manifest records current-conversation attachments; binary upload and remote SHA-256 verification remain pending."
-  }
+  },
+  "identity_reference_update_date": "2026-10-31"
 }

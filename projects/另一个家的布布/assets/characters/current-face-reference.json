@@ -1,12 +1,14 @@
 {
   "project": "另一个家的布布",
-  "date": "2026-10-26",
+  "date": "2026-10-31",
   "status": "user_adopted_for_current_execution",
-  "reference": "assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+  "reference": "assets/characters/identity-reference-20261031/wife-face-user-20261031.png",
   "source_identity": "assets/characters/wife-identity.png",
-  "user_evidence": "先就按这个五官吧",
-  "rule": "当前使用已认可校准照的五官回填R1；不再融合全身/三视资产的脸；原始身份图保留溯源",
-  "limits": "只批准当前采用五官，不等于场景帧/动态通过；其他角度需保持同组五官而非重塑新脸",
-  "reference_sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267",
-  "source_identity_sha256": "bd6663a2b5b3b8954fd537945b777722df079a9c157e2a3ef14ce45b7876c8ba"
+  "user_evidence": "用户于本次对话明确指定：五官参考更新成这张；随后要求更新 GitHub 中的角色映射。",
+  "rule": "本图为当前妻子唯一面部身份主参考；全身和三视图仅作服装、体态或发型辅助，不混用其脸；C41作为历史校准图保留。",
+  "limits": "本次批准范围是面部身份参考与棕色低盘发；不继承蓝色背景、白色吊带或固定表情，不等于场景帧、三维人物或动态效果通过。",
+  "reference_sha256": "0b43d78498cdfb4886de89f98b47e6cd7b0c65973a80956b0aea7aa3b69a27b1",
+  "source_identity_sha256": "bd6663a2b5b3b8954fd537945b777722df079a9c157e2a3ef14ce45b7876c8ba",
+  "previous_reference": "assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+  "previous_reference_sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
 }
