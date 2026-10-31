@@ -62,4 +62,4 @@ K04-E0 v03靠近版只输入上一场景帧导致粗大毛卷，用户明确否�
 
 - **当前面部主参考：** [C41 五官校准图](identity-calibration-C41/wife-C41-face-calibration_v01.png)，由 current-face-reference.json 指定；不要退回把 wife-identity.png 当作当前执行主脸，后者保留原始身份溯源。
 - **A 世界睡衣/身体比例：** wife-A-fullbody.png，负责浅银灰真丝长袖睡衣及长裤、身体比例辅助；不覆盖 C41 面部。
-- **怀中换洗衣物：** 用户本轮新增黑色衣物叠放参考，单独负责衣物款式、颜色和抱持/叠放状态；二进制同步状态见 assets/SC01_C03/README.md。
+- **怀中换洗衣物：** 用户本轮新增黑色衣物叠放参考，单独负责衣物款式、颜色和抱持/叠放状态；二进制同步状态见 ../SC01_C03/README.md。
