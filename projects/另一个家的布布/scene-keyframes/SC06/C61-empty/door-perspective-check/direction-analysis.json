@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "status": "direction_inference_pending_user_review",
+  "camera_plan_pixel": [
+    535,
+    540
+  ],
+  "door_endpoints_estimated_plan_pixels": {
+    "near_west": [
+      895,
+      820
+    ],
+    "far_east": [
+      990,
+      820
+    ]
+  },
+  "door_endpoint_source": "PLAN-001目视估读门洞左右端，不是门框实测点",
+  "forward_assumption": [
+    720,
+    648
+  ],
+  "forward_unit": [
+    0.8636095406426509,
+    0.5041612453481421
+  ],
+  "screen_right_unit": [
+    -0.5041612453481421,
+    0.8636095406426509
+  ],
+  "projection_depth_plan_units": {
+    "near": 452.06458332883415,
+    "far": 534.1074896898859
+  },
+  "illustrative_equal_height_projected_ratio_near_over_far": 1.1814849235852953,
+  "conclusion": "同一正常直立、未镜像相机假设下，画面右近、左远；门面平行横线向左收敛",
+  "not_claimed": [
+    "v03实际相机已等于C61",
+    "消失点在实际照片中的精确位置",
+    "门的真实高度、宽度及测量距离",
+    "已标定可直接修图的四角坐标"
+  ],
+  "image_repair_performed": false,
+  "approval_required_before_repair": true
+}

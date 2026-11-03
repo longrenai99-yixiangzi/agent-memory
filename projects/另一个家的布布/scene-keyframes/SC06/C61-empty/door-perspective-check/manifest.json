@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f"
+    },
+    {
+      "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/coordinates-and-validation.json",
+      "sha256": "456319d7d34f83e819670e4990949d3a2f70a52835f0544171715cf8904f3670"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b"
+    }
+  ],
+  "output": {
+    "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/door-perspective-check/C61-door-near-far-guide_v1.png",
+    "sha256": "5c5b54e6ac6577e2141b5790725524ddd9a354d3a6a325fb954d451aa2ab6734"
+  },
+  "method": "Pillow annotations/crop + pinhole direction demonstration; no scene image edit",
+  "approved": false
+}

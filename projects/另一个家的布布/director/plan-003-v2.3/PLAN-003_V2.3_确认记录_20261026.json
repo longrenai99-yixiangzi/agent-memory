@@ -1,0 +1,19 @@
+{
+  "project": "另一个家的布布",
+  "version": "PLAN-003 V2.3",
+  "approved_on": "2026-10-26",
+  "user_confirmation": "这张动线没问题",
+  "approval_scope": "2D路线拓扑与镜头调度路线可执行方向；未进行现场净距、3D遮挡或生成视频动作验收",
+  "source_main_image": "PLAN-003_AB世界交汇区与双向动线标注_V2.3_修订候选.png",
+  "source_detail_image": "PLAN-003_V2.3_平面图局部放大_待审核.png",
+  "source_coordinate_file": "PLAN-003_动线坐标与验收说明_V2.3_候选.json",
+  "source_png_header_note": "源PNG内印有“待审核/非正式锁定”，这是生图时文案；用户2026-10-26已批准动线；不修改原文件像素以维持哈希可核验",
+  "sha256": {
+    "main_png": "bbcdd998f2dafe9c224638b498778b691484a56cfcf67f3fd34e3c6ec8caa9ff",
+    "detail_png": "2129df2e91852015e6c915e832389e0c59e8f4f4bbd3e69f3fc64947fb93af90",
+    "coordinate_json": "2849a3d91343d44c394fecbffe46242fa8bf821d7a632da4814b9ee6dbe03431"
+  },
+  "route_authority": "GitHub approved SC04-SC06 previsualization, with A-wife 23:27-23:28 out/return supplement",
+  "important_note": "The red A-out/return lines are schematic, not walking distance. A-wife pauses immediately outside G; cat litter between TV cabinet and tall cabinet to its left.",
+  "binary_github_status": "pending"
+}

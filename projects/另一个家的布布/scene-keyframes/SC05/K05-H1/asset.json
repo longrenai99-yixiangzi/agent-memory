@@ -1,0 +1,348 @@
+{
+  "task_id": "K05-H1",
+  "scene": "SC05",
+  "story_time": "23:23站稳阶段",
+  "date": "2026-10-26",
+  "status": "user_adopted_structural_composite",
+  "current_version": "v07",
+  "method": "built_in_imagegen",
+  "camera": "C52方向的全身构图验证候选，不声称已实现H0固定机位连续起身",
+  "authorization": "先把K05-H1做完吧，我们还是按照制作流程来制作，不要打乱了节奏",
+  "approved": true,
+  "final_first_last_frame": false,
+  "lighting_grade_approved": false,
+  "actual_prompt": null,
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-df621537-925e-4882-ac4f-2eaf29fb3899.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2023876,
+      "sha256": "4e6de1c08f960235ebfd79168de1c6031840d1bd08a83b377cd4d240011b38e0",
+      "remote_verified": true,
+      "approved": false,
+      "image_commit": "19e9b8f2f043eb4f993ea85cd0af3d73dda00174"
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-c350e854-6245-4d9d-97d8-d59959048481.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2020123,
+      "sha256": "e7278063915e8f6202a5df0f46426f92875d2b46736f7d680a62cf669f8e818d",
+      "remote_verified": false,
+      "approved": false,
+      "status": "rejected_cat_face_deformation",
+      "user_feedback": "头是蹭到了，但是猫的脸有点变形，没有锁定它的外观吗",
+      "use_for_generation": false
+    },
+    {
+      "version": "v03",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v03.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-518268ff-eed0-4b0e-b897-0d1be75505c0.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1991631,
+      "sha256": "8e3e53fcf783690abeea7db0264b701dd764919cf726f58dacbe3f8c47708cf5",
+      "remote_verified": false,
+      "approved": false,
+      "status": "needs_body_coat_revision",
+      "user_feedback": "猫的脸比较接近了，但是身上的毛又没有按原资产图的毛一致"
+    },
+    {
+      "version": "v04",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v04.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-febd8836-06ef-4a0c-8372-fceee595e80d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2016891,
+      "format": "PNG",
+      "sha256": "374fb59f1a929910114b83ff65c5065c42fc88343ec930d4a2f1291ea81f7826",
+      "remote_verified": false,
+      "approved": false,
+      "status": "insufficient_change"
+    },
+    {
+      "version": "v05",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v05.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-c17fc9af-6edb-425b-8db9-0f05906eba46.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2008523,
+      "format": "PNG",
+      "sha256": "3a37d9afcdf46716a9437ee6f945abb74bb8158914f2c49ee34ffaa04f5d6a2c",
+      "remote_verified": false,
+      "approved": false,
+      "status": "rejected_regular_coat_texture",
+      "user_feedback": "卷纹仍偏规则，不能认定已达到原资产的柔软短卷毛质感，需重新修改"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v06.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-bfc4c1e6-85d1-41aa-8264-e5353c11d1c8.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2011339,
+      "format": "PNG",
+      "sha256": "86273be2baf224ed327bc129ecd23015b15a738546732302382f5586858ebbc3",
+      "remote_verified": false,
+      "approved": false,
+      "version": "v06",
+      "status": "rejected_coat_transfer_not_preserved",
+      "user_feedback": "局部的那张图可以，但是整体的那张图，毛质又跟之前一样了，没有严格锁定"
+    },
+    {
+      "version": "v07",
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v07.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1981875,
+      "sha256": "d87547cfbc97a33168ffb4a4a5a73eba67bd9b96242c34697d792975762373c8",
+      "method": "Pillow deterministic layer compositing; no image generation",
+      "remote_verified": false,
+      "approved": true,
+      "status": "user_adopted_structural_composite",
+      "approval_scope": [
+        "场景、构图和站姿抱猫动作",
+        "当前亲昵接触与毛质合成效果"
+      ]
+    }
+  ],
+  "actual_inputs": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H0/assets/K05-H0_v02.png",
+      "sha256": "7ac2c013070045c5113223e5ca14260a170f33373e198c51c95d80a92d381c88"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+      "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+    }
+  ],
+  "review": {
+    "observations": [
+      "完整头脚可见，人物直立，双脚穿A粉色拖鞋接地",
+      "胸腹环抱与后躯承托沿用，猫离地，妻子看猫",
+      "左沙发、后茶几、右电视、雨窗方向延续"
+    ],
+    "pending": [
+      "头顶安全余量偏紧，正式取景仍需处理",
+      "猫相对人物胸宽/手掌显小，须与H0同猫尺度复核，不把缩小要求扩大成幼猫",
+      "尾根与后腿仍部分遮挡，不能由单帧证明完整关节受力",
+      "五官、猫毛及空间脚位连续性待用户审核",
+      "H0与H1画面背景投影/取景发生变化，不能直接作为固定机位首尾帧绑定"
+    ],
+    "scope": "只验证场景、构图、动作；电影氛围光影色调另阶段设计，不更改本轮制作顺序",
+    "not_done": [
+      "视频生成",
+      "动态起身连续性",
+      "最终摄影与调色",
+      "最终镜头/剪辑批准"
+    ]
+  },
+  "affection_revision": {
+    "date": "2026-10-26",
+    "user_request": "抱起来后，猫最好表现得更加亲昵一下",
+    "status": "v03_generated_pending_identity_review",
+    "attempt_record": "attempt-v02-blocked.txt",
+    "error": "HTTP 400 moderation_blocked; input sexual category; cause unknown",
+    "generated": true,
+    "current_image_unchanged": false,
+    "actual_prompt": "prompt-v03.txt"
+  },
+  "actual_inputs_v02": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v01.png",
+      "sha256": "4e6de1c08f960235ebfd79168de1c6031840d1bd08a83b377cd4d240011b38e0",
+      "role": "唯一实际输入，局部修改底图；本轮未重新绑定原猫与独立五官参考，须额外核验身份/猫毛，不冒充多参考生成"
+    }
+  ],
+  "review_v02": {
+    "observations": [
+      "猫抬头与妻子下颌区域有可见接触，不再仅隔空对视",
+      "妻子低头，双手承托、站姿与场景大体保留"
+    ],
+    "pending": [
+      "接触点更接近额鼻部/面部贴下颌，不是完全明确的纯额头蹭",
+      "猫颈部短卷毛偏平顺，需对原资产核验",
+      "单张只能证明接触状态，不能证明蹭动过程",
+      "头顶余量及H0/H1取景衔接未解决"
+    ],
+    "approved": false
+  },
+  "actual_inputs_v03": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v01.png",
+      "sha256": "4e6de1c08f960235ebfd79168de1c6031840d1bd08a83b377cd4d240011b38e0"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+      "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+    }
+  ],
+  "review_v03": {
+    "authorization": "用户确认以v01为底、重新绑定正式猫和人物参考，低头配合修复",
+    "observations": [
+      "猫蓝眼、鼻口和下巴分界较v02更清楚，未沿用v02变形脸",
+      "妻子低头、猫头侧上部贴靠，站姿与双手承托保持"
+    ],
+    "pending": [
+      "正式布布外观是否一致、口鼻及眼耳比例仍需用户审核，不把引用参考等同锁定成功",
+      "短卷毛、尾巴和接触是否自然",
+      "头顶余量与H0/H1固定机位连续性未解决"
+    ],
+    "scope": "场景/构图/动作候选，非最终光影或正式首尾帧",
+    "approved": false
+  },
+  "actual_inputs_v04": [
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v03.png",
+      "sha256": "8e3e53fcf783690abeea7db0264b701dd764919cf726f58dacbe3f8c47708cf5"
+    }
+  ],
+  "actual_inputs_v05": [
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v03.png",
+      "sha256": "8e3e53fcf783690abeea7db0264b701dd764919cf726f58dacbe3f8c47708cf5"
+    }
+  ],
+  "review_v05": {
+    "scope": "只修颈胸、躯干和四肢可见被毛，保留v03脸和贴靠",
+    "observations": [
+      "v04毛质变化很小，不称通过",
+      "v05颈胸卷纹较明显，人物和贴靠大体保持"
+    ],
+    "pending": [
+      "是否仍像规则沟纹、是否具有原资产短细柔软绒感，待用户对照",
+      "不能声称已经与原猫毛完全一致",
+      "脸部、体型与亲昵接触需确认未因返修漂移"
+    ],
+    "approved": false
+  },
+  "working_detail_v06": {
+    "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/fur-detail_v06_working.png",
+    "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-1f222348-82cc-431b-a3d8-255901797fd4.png",
+    "width": 1147,
+    "height": 1371,
+    "bytes": 2113230,
+    "format": "PNG",
+    "sha256": "3dcbf9b1c2371b7cea7fb3cb05af557cc7febfaf880d117bd7845ae993f8dfbf",
+    "remote_verified": false,
+    "approved": false,
+    "purpose": "毛质放大工作图，不是新镜头或身份主参考",
+    "prompt": "prompt-v06-detail.txt",
+    "accepted_scope": "用户明确认可局部工作图的毛质，不扩大成人物/猫脸/镜头批准"
+  },
+  "actual_inputs_v06": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v05.png",
+      "sha256": "3a37d9afcdf46716a9437ee6f945abb74bb8158914f2c49ee34ffaa04f5d6a2c"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/fur-detail_v06_working.png",
+      "sha256": "3dcbf9b1c2371b7cea7fb3cb05af557cc7febfaf880d117bd7845ae993f8dfbf"
+    }
+  ],
+  "working_detail_inputs_v06": [
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v05.png",
+      "sha256": "3a37d9afcdf46716a9437ee6f945abb74bb8158914f2c49ee34ffaa04f5d6a2c"
+    }
+  ],
+  "review_v06": {
+    "method": "先用正式猫与v05生成毛质放大工作图，再以v05＋正式猫＋工作图带回全身；无代码图像编辑",
+    "observations": [
+      "颈胸与腹侧毛束较v05更松散，连续规则条纹减少",
+      "全身构图、站姿与亲昵接触大体保留"
+    ],
+    "pending": [
+      "短毛是否过蓬、毛束是否仍偏粗，与正式猫的细软短卷感需审核",
+      "脸型和体型不能因毛体积增加而漂移，需用户对照",
+      "工作图只是毛质参考，不认定其人物或猫脸身份已通过"
+    ],
+    "approved": false
+  },
+  "actual_process": "composite-v07/build_composite.py",
+  "current_method": "Pillow deterministic layer compositing, explicitly authorized by user",
+  "actual_inputs_v07": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/K05-H1_v03.png",
+      "sha256": "8e3e53fcf783690abeea7db0264b701dd764919cf726f58dacbe3f8c47708cf5",
+      "role": "底图；保留用户认为较接近的猫脸、站姿与手位"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC05/K05-H1/assets/fur-detail_v06_working.png",
+      "sha256": "3dcbf9b1c2371b7cea7fb3cb05af557cc7febfaf880d117bd7845ae993f8dfbf",
+      "role": "已获用户毛质认可的实际像素来源"
+    }
+  ],
+  "review_v07": {
+    "authorization": "用户明确同意常规图层合成方法，不再模型重绘",
+    "method": "局部图按0.29比例Lanczos缩小并对齐，人工毛区蒙版/肤色排除/手部保护/边缘羽化；原分辨率输出",
+    "verification": {
+      "changed_pixels": 2439,
+      "outside_mask_changed_pixels": 0,
+      "protected_face_and_hands_changed_pixels": 0,
+      "source_resampling": "Lanczos at 0.29 scale; no generative redraw",
+      "status": "candidate_pending_user_review"
+    },
+    "observations": [
+      "胸肩及腹侧毛质直接来自局部工作图，未经生成模型再解释",
+      "猫脸、双手保护区及蒙版外像素保持底图不变"
+    ],
+    "pending": [
+      "技术限制留档：全景缩小损失细节、部分边缘保留底图毛；用户接受当前结果，非继续返修待办"
+    ],
+    "approved": true
+  },
+  "approval_v07": {
+    "date": "2026-10-26",
+    "user_statement": "就这样吧",
+    "context": "用户查看v07毛质前后对照后确认采用，结束本轮返修",
+    "scope": [
+      "当前场景、构图、站姿抱猫动作及亲昵接触",
+      "当前毛质修整合成效果"
+    ],
+    "image_sha256": "d87547cfbc97a33168ffb4a4a5a73eba67bd9b96242c34697d792975762373c8",
+    "does_not_imply": [
+      "电影氛围光影或色调定稿",
+      "正式视频首尾帧锁定",
+      "H0到H1动态或固定机位连续性通过",
+      "视频生成授权或视频审核通过"
+    ],
+    "further_retouch": "停止本轮返修，除非用户提出新要求"
+  }
+}

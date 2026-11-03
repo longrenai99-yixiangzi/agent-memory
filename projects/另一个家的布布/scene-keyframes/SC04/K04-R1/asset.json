@@ -1,0 +1,245 @@
+{
+  "task_id": "K04-R1",
+  "scene": "SC04",
+  "story_time": "23:15",
+  "camera": "C41",
+  "date": "2026-10-25",
+  "status": "approved_facial_reference_applied_scene_candidate_pending_review",
+  "current_version": "v06",
+  "method": "built_in_imagegen",
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-f506a0f3-119c-474b-a1ad-c927d387b063.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2101149,
+      "sha256": "a3a4575276de227250e358431d603ed0dd97783bc3bf17a91ffdc3a41bf4bb9f",
+      "approved": false,
+      "status": "历史赤脚候选，需按最新导演指令补实际拖鞋",
+      "remote_verified": false,
+      "face_identity_approved": false,
+      "face_review": "用户指出R1脸偏离正式角色；这些版本沿用初始生成面部，停止作为合格人物参考"
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-83690eb6-4e26-449a-a439-ff4fcbfe5cc6.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2046745,
+      "sha256": "fc88639fea564ef5ae415881e52d35205f378ca93871aca6a9fff608ea54379d",
+      "approved": false,
+      "status": "历史赤脚候选，需按最新导演指令补实际拖鞋",
+      "remote_verified": false,
+      "face_identity_approved": false,
+      "face_review": "用户指出R1脸偏离正式角色；这些版本沿用初始生成面部，停止作为合格人物参考"
+    },
+    {
+      "version": "v03",
+      "asset_id": "K04-R1-v03",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-187d7bb4-ec5b-4cea-9146-d04fbbe2aed9.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2044427,
+      "sha256": "ec0dd4c08b8b37cd7e7437066e030af3fb100729220c52e313ecaf2539ecaa14",
+      "actual_inputs": [
+        {
+          "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v02.png",
+          "sha256": "fc88639fea564ef5ae415881e52d35205f378ca93871aca6a9fff608ea54379d"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+        }
+      ],
+      "actual_prompt": "projects/另一个家的布布/assets/characters/footwear/prompts/R1-footwear.txt",
+      "method": "built_in_imagegen",
+      "status": "generated_candidate_awaiting_user_review",
+      "user_approved": false,
+      "remote_verified": true,
+      "image_commit": "235d042d10b8d3bc03dbb5e71c26bca3cf18415f",
+      "face_identity_approved": false,
+      "face_review": "用户指出R1脸偏离正式角色；这些版本沿用初始生成面部，停止作为合格人物参考"
+    },
+    {
+      "version": "v04",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v04.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-a02cb03a-4f7d-40b1-b605-0cf09d65d3db.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2071639,
+      "sha256": "d6dbbec73b75555398044bc3739131ba2191158ef8873f8ce2434d1b487815dd",
+      "actual_inputs": [
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+          "sha256": "bd6663a2b5b3b8954fd537945b777722df079a9c157e2a3ef14ce45b7876c8ba"
+        },
+        {
+          "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
+          "sha256": "ec0dd4c08b8b37cd7e7437066e030af3fb100729220c52e313ecaf2539ecaa14"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/wife-B-three-views.png",
+          "sha256": "e6ea051f29c9284ca26956137b486441ee485aabc6a8a99b8661fbdaf0c5aa63"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+        }
+      ],
+      "actual_prompt": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/prompt-v04.txt",
+      "method": "built_in_imagegen",
+      "status": "用户反馈仍不像，身份验收不通过",
+      "approved": false,
+      "remote_verified": false
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v05.png",
+      "source_path": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-d6b04caa-f5f0-4c9e-9233-0c72f37e3bdf.png",
+      "width": 1671,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2051637,
+      "sha256": "3ba5ce21c2f5036533bfb5a35aa2deec1476f81efc07b9963be7ed9711616c3d",
+      "remote_verified": true,
+      "version": "v05",
+      "approved": false,
+      "status": "整帧修脸变化仍有限，不作已修好成果；转同角度身份校准",
+      "actual_inputs": [
+        "projects/另一个家的布布/assets/characters/wife-identity.png",
+        "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
+        "projects/另一个家的布布/assets/characters/bubu-multiview.png"
+      ],
+      "actual_prompt": "prompt-v05.txt",
+      "file_commit": "0e5bc4aa70324f66700f2ccf11ad82b936bf04d2"
+    },
+    {
+      "version": "v06",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v06.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-20dfd6fe-a829-42fe-8706-50b83e63b3e7.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 2059547,
+      "sha256": "59bdc9a85697325bad4ca9de20b223ee7410578a812cbb2bc63b0e101bb0acbb",
+      "actual_inputs": [
+        {
+          "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+          "sha256": "9173acc20390edc81d9ea308e713ee142cf7d844ee2d2fc00288b35254ba9267"
+        },
+        {
+          "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v03.png",
+          "sha256": "ec0dd4c08b8b37cd7e7437066e030af3fb100729220c52e313ecaf2539ecaa14"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+          "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+        },
+        {
+          "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+          "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+        }
+      ],
+      "actual_prompt": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/prompt-v06.txt",
+      "method": "built_in_imagegen",
+      "status": "approved_facial_reference_applied_scene_candidate_pending_review",
+      "approved": false,
+      "remote_verified": true,
+      "image_commit": "e32d76c5c8c70fe4d4d3c705fb6851f061af914e"
+    }
+  ],
+  "actual_inputs_v01": [
+    {
+      "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+      "sha256": "bd6663a2b5b3b8954fd537945b777722df079a9c157e2a3ef14ce45b7876c8ba"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/wife-A-fullbody.png",
+      "sha256": "3433e0d5465152710c84c27fc51a3a8491bd7aaf5c2b6b2759bbf2ec4bd3a6ca"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+      "sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E1/assets/K04-E1_v01.png",
+      "sha256": "3f4835d3f1b2005b56e43830744a7c132d4813e8f0e6c8aa434c688433251934"
+    }
+  ],
+  "actual_inputs_v02": [
+    "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+    "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v01.png"
+  ],
+  "prompts": [
+    "prompt-v01.txt",
+    "prompt-v02.txt"
+  ],
+  "execution_note": "最初6输入路径调用被工具拒绝，未生成图；实际v01调用为记录的5输入，不含机位图，仅文字推导C41",
+  "review": {
+    "observations": [
+      "A稳定低蹲、双手膝上，尚未接触猫",
+      "单猫抬头看向A，两者有间距",
+      "v02仅对猫毛质做修正"
+    ],
+    "blocker": "v06已按用户采用五官生成回填候选，整帧的身份落实及场景一致性仍待审；不再重问校准照是否采用",
+    "pending": [
+      "当前采用五官在R1角度与暖光下是否落实",
+      "蹲姿/粉色鞋/猫/家具/曝光是否保留",
+      "静帧可剪接性，不等于动态表演通过"
+    ]
+  },
+  "approval": {
+    "still_approved": false,
+    "dynamic_approved": false
+  },
+  "actual_inputs_v03": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-R1/assets/K04-R1_v02.png",
+      "sha256": "fc88639fea564ef5ae415881e52d35205f378ca93871aca6a9fff608ea54379d"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/footwear/slippers-A-source.png",
+      "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    }
+  ],
+  "actual_prompt_v03": "projects/另一个家的布布/assets/characters/footwear/prompts/R1-footwear.txt",
+  "latest_user_feedback": {
+    "date": "2026-10-26",
+    "text": "另外，你之前生成的这张，K04-R1，女主的脸变了",
+    "attachment_path": "C:/Users/liu/AppData/Local/Temp/codex-clipboard-f028e404-5a3b-4956-9906-be7282506877.png",
+    "attachment_sha256": "54e68d9e92db619c3b49d931110fed6aeec82f73da0f8f5e937eb8b3e720e07a"
+  },
+  "face_reference_policy": "当前执行主参考为已获用户采用的校准照；原wife-identity保留溯源，不与全身/三视脸混合；含猫和脚部继续绑定原猫/实际A鞋",
+  "unique_face_master": {
+    "path": "projects/另一个家的布布/assets/characters/wife-identity.png",
+    "user_evidence": "女性特写.png：以大图五官和脸型为准",
+    "date": "2026-10-26",
+    "exclude_from_face_reconstruction": [
+      "wife-A-fullbody.png中的脸",
+      "wife-B-fullbody.png中的脸",
+      "wife-B-three-views.png中的脸"
+    ]
+  },
+  "adopted_facial_reference": {
+    "path": "projects/另一个家的布布/assets/characters/identity-calibration-C41/wife-C41-face-calibration_v01.png",
+    "user_evidence": "先就按这个五官吧",
+    "approval_scope": "当前采用五官，可用于R1回填，不等于R1整帧已通过"
+  }
+}

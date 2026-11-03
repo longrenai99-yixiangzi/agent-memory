@@ -1,0 +1,199 @@
+{
+  "status": "candidate_pending_user_approval",
+  "base_image": "另一个家的布布_彩平图_电视柜范围与B猫用品区修订_V2_2(2).png",
+  "base_native_size": [
+    1672,
+    941
+  ],
+  "coordinate_convention": "relative to 1672x941 source image (x right y down); not surveyed",
+  "G_candidate": [
+    224,
+    483,
+    908,
+    786
+  ],
+  "approved_E_in_route_transferred": [
+    [
+      184,
+      516
+    ],
+    [
+      221,
+      515
+    ],
+    [
+      258,
+      515
+    ],
+    [
+      348,
+      519
+    ],
+    [
+      480,
+      520
+    ],
+    [
+      580,
+      531
+    ],
+    [
+      652,
+      576
+    ]
+  ],
+  "approved_SC05_trace_simplified": [
+    [
+      [
+        652,
+        576
+      ],
+      [
+        658,
+        618
+      ],
+      [
+        628,
+        651
+      ],
+      [
+        570,
+        674
+      ],
+      [
+        567,
+        730
+      ]
+    ],
+    [
+      [
+        567,
+        730
+      ],
+      [
+        455,
+        731
+      ],
+      [
+        432,
+        651
+      ],
+      [
+        564,
+        640
+      ],
+      [
+        681,
+        656
+      ]
+    ]
+  ],
+  "A_reference": [
+    688,
+    660
+  ],
+  "new_A_out_route": [
+    [
+      688,
+      660
+    ],
+    [
+      718,
+      606
+    ],
+    [
+      705,
+      560
+    ],
+    [
+      587,
+      554
+    ],
+    [
+      445,
+      551
+    ],
+    [
+      305,
+      552
+    ],
+    [
+      244,
+      559
+    ],
+    [
+      210,
+      562
+    ]
+  ],
+  "new_A_return_route": [
+    [
+      207,
+      582
+    ],
+    [
+      244,
+      586
+    ],
+    [
+      315,
+      587
+    ],
+    [
+      468,
+      591
+    ],
+    [
+      590,
+      599
+    ],
+    [
+      692,
+      637
+    ]
+  ],
+  "A_pause_near_G_boundary": [
+    206,
+    575
+  ],
+  "cat_release_candidate": [
+    785,
+    663
+  ],
+  "approved_X_out_route_transferred": [
+    [
+      785,
+      663
+    ],
+    [
+      842,
+      661
+    ],
+    [
+      907,
+      671
+    ],
+    [
+      973,
+      684
+    ]
+  ],
+  "B_search_reference": [
+    1010,
+    560
+  ],
+  "B_retrieve_reference": [
+    995,
+    714
+  ],
+  "litter_indicator_not_physical_footprint": [
+    256,
+    464
+  ],
+  "notes": [
+    "base untouched, overlay only",
+    "routes visually transferred from approved director previsualization and historic V2.2 semantics, not pixel-registered to approved original",
+    "B-wife exterior and cat litter relative positions must be independently verified in 3D and PLAN-002 bitmap when available",
+    "Cat tree and litter indicators are symbols only, not furniture footprints"
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "task_id": "C61-empty",
+  "kind": "K06-O0空间前置核对，不新增正式镜头编号",
+  "date": "2026-10-26",
+  "current_version": "v09",
+  "status": "user_adopted_working_empty",
+  "method": "built_in_imagegen",
+  "approved": true,
+  "people_added": false,
+  "no_people_until_spatial_approval": true,
+  "final_first_last_frame": false,
+  "film_lighting_approved": false,
+  "lighting_usage": "原日间空间图工作照明，只核几何；影片仍雨夜，不变更剧情时间或最终光影",
+  "camera_authority": "director/previs-sc04-sc06-v1/coordinates-and-validation.json C61=(535,540)，朝A/B夹角；原图像素为拓扑示意，非实测摄影参数",
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-52461769-4601-4102-a6e5-68bcf57dfd35.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1995563,
+      "sha256": "b7e58ba17bb2d24f4fbdb7b3f34ac60a5d67c5268f94d45edc5263cfc10fbefe",
+      "approved": false,
+      "remote_verified": false,
+      "status": "needs_door_plane_perspective_revision",
+      "user_feedback": "门的透视关系有点不对；明确为门扇/门框的斜角与墙面不一致"
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-657c8655-be36-42b3-9488-8c33aecb351f.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1926347,
+      "sha256": "9c730102c9686bc319d51e9ea6ad1c4c51aa2fec253347ed887fb909bbb5ed16",
+      "approved": false,
+      "remote_verified": false,
+      "status": "insufficient_change"
+    },
+    {
+      "version": "v03",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-14ea85e0-145b-4784-af19-8e52ff9c1be8.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1968320,
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b",
+      "approved": false,
+      "remote_verified": false,
+      "status": "not_accepted_perspective_direction_unverified",
+      "user_feedback": "没有遵循近大远小，角度感觉调反"
+    },
+    {
+      "version": "v04",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v04.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1938409,
+      "sha256": "6430f306ac09f8558d898904bde1475eae1213b7ebe684c28e4e9d988cfa30c7",
+      "approved": false,
+      "remote_verified": false,
+      "method": "built_in_imagegen",
+      "status": "insufficient_change"
+    },
+    {
+      "version": "v05",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v05.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1877951,
+      "sha256": "cae5b6a1d7c1d2be68657df3613a9f42611604ae877e8cb17473e03131009f5c",
+      "approved": false,
+      "remote_verified": false,
+      "method": "Pillow inverse homography + masked local wall/floor repair",
+      "status": "direction_accepted_left_edge_needs_further_shortening",
+      "user_feedback": "修改方向是对的，门的左侧还要再短一点"
+    },
+    {
+      "version": "v06",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v06.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1878054,
+      "sha256": "467e7830dbca5fb27716f30cf7d145419dfaa203389a062ae921dd1cdb784722",
+      "method": "Pillow inverse homography + masked local wall/floor repair",
+      "status": "rejected_shortening_excessive",
+      "approved": false,
+      "remote_verified": false,
+      "user_feedback": "v06又短得太多了，显得门是斜的了"
+    },
+    {
+      "version": "v07",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v07.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1877970,
+      "sha256": "dec3b082ceabdd383f4f99b1584d32fcf9ca618e38736b157f05b1a13094334d",
+      "method": "Pillow inverse homography with smaller correction than v06",
+      "status": "rejected_upper_frame_over_tilt",
+      "approved": false,
+      "remote_verified": false,
+      "user_feedback": "现在是门框的上沿的水平线变成斜的了"
+    },
+    {
+      "version": "v08",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v08.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1878085,
+      "sha256": "da0d1d3712bb37afa1baeff5ce1a18d4637d7d41570af396bc78bad6aa3a44f7",
+      "method": "Pillow inverse homography; restore source upper frame endpoints",
+      "status": "rejected_lower_frame_mismatch",
+      "approved": false,
+      "remote_verified": false,
+      "user_feedback": "改了上面不改下面，下面门框下沿的水平线变成斜的了"
+    },
+    {
+      "version": "v09",
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v09.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1877664,
+      "sha256": "fceef0a9865ce060a5e65fb51b2062bd3c6059dd44dd6e7ca70a75abaaa76b57",
+      "method": "Pillow single wall vanishing point constrained homography",
+      "status": "user_adopted_working_empty",
+      "approved": true,
+      "remote_verified": false,
+      "approval_scope": "当前空景视觉效果作为工作底图，结束本轮门框返修"
+    }
+  ],
+  "actual_inputs": [
+    {
+      "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-05_朝入户门.jpg",
+      "sha256": "537bad384dc171605e7ade2ab817ee506237f38f67b27c10bb55bcd8f3909b41"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-02_朝厨房.jpg",
+      "sha256": "a4a67f34c90bc5d5b36a473c1f1fbdbdce5a5beaddf38a47e18e6bc49e4950f8"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+      "sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-06_朝卫生间.jpg",
+      "sha256": "28c1f6c2ef436e2b7b3a75cf8d9504e1561c3bbbf9650051e09221c121b522c7"
+    }
+  ],
+  "actual_prompt": null,
+  "old_O0_input_used": false,
+  "review": {
+    "observed": [
+      "无人无猫，无新增独立餐桌，无地毯",
+      "原木色茶几有竖纹门和抽屉，不再是大理石茶几",
+      "近侧右方奶油色L形沙发与薄毯，未翻到左墙",
+      "岛台两张椅子，厨房较远左侧并呈斜向",
+      "木门—白色玄关高柜/坐凳—暖气片—沙发排列可对照VIEW-05/VIEW-03",
+      "原本电视侧不强行显示电视，避免为露电视改机位"
+    ],
+    "pending": [
+      "摄影机是否位于批准C61，而非仅外观接近：尚无3D或透视标定",
+      "沙发端头/贵妃位和岛台透视、占地及门柜相对距离需用户审核",
+      "厨房窗/冰箱/烤箱柜因斜角遮挡的连接是否正确",
+      "图1平面与六正视图中既有已接受差异不在本轮擅自重设计"
+    ],
+    "limitations": [
+      "只能核对可见几何，单张生成图不能证明精确落点或真实净距",
+      "日间工作空景不能直接用作影片雨夜正式首尾帧"
+    ],
+    "next": "用户确认空景空间后再添加A/B；未经确认不放人物，不继续P0或视频"
+  },
+  "actual_inputs_v02": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v01.png",
+      "sha256": "b7e58ba17bb2d24f4fbdb7b3f34ac60a5d67c5268f94d45edc5263cfc10fbefe"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-05_朝入户门.jpg",
+      "sha256": "537bad384dc171605e7ade2ab817ee506237f38f67b27c10bb55bcd8f3909b41"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/space/PLAN-001_彩平图_20261025_阳台家具删除版.png",
+      "sha256": "0bfc4779ed5f969af6b476c8d62fd124a038326f56660a26b724c0bb59242e4f"
+    }
+  ],
+  "actual_inputs_v03": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v01.png",
+      "sha256": "b7e58ba17bb2d24f4fbdb7b3f34ac60a5d67c5268f94d45edc5263cfc10fbefe"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-05_朝入户门.jpg",
+      "sha256": "537bad384dc171605e7ade2ab817ee506237f38f67b27c10bb55bcd8f3909b41"
+    }
+  ],
+  "review_v03": {
+    "clarified_user_issue": "门扇/门框的斜角与墙面不一致，不是宽度或遮挡",
+    "revision": "以v01为底重新要求门扇/门框与墙面共享消失关系，特别校正门下沿；无人物",
+    "observations": [
+      "门框与下沿有小幅调整，房间布局大体保持"
+    ],
+    "pending": [
+      "斜角与所在墙面是否一致，尚无精确消失点/三维标定，不认定修正完成",
+      "门边墙面衔接与原母版样式需用户核对",
+      "其余家具与相机仍按空景候选状态，未自动批准"
+    ],
+    "approved": false
+  },
+  "door_direction_check": {
+    "date": "2026-10-26",
+    "user_authorization": "同意先核近远边和透视校正线，再修改",
+    "guide": "door-perspective-check/C61-door-near-far-guide_v1.png",
+    "analysis": "door-perspective-check/direction-analysis.json",
+    "conclusion": "用户已确认左远右近、蓝色左边应短；修正版尚待审核",
+    "review_pending": false,
+    "new_scene_image_generated": false,
+    "repair_performed": false,
+    "next": "用户核对方向后再校正实际门面，禁止直接反转斜率或继续加人物"
+  },
+  "actual_inputs_v04": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/door-perspective-check/C61-door-near-far-guide_v1.png",
+      "sha256": "5c5b54e6ac6577e2141b5790725524ddd9a354d3a6a325fb954d451aa2ab6734"
+    }
+  ],
+  "actual_inputs_v05": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b"
+    }
+  ],
+  "current_method": "deterministic door-only perspective correction",
+  "actual_process": "door-perspective-v09/geometry-and-verification.json",
+  "door_direction_approval": {
+    "date": "2026-10-26",
+    "user_statement": "对，左侧是远边，对应蓝色的线，也就是蓝色的线要短",
+    "scope": "画面左远右近，蓝色左边短，横向边线向左收敛",
+    "does_not_approve": [
+      "具体修正幅度和照片四角",
+      "v05整张空景",
+      "正式机位标定/首尾帧/光影或视频"
+    ]
+  },
+  "review_v05": {
+    "verification": {
+      "source": "assets/C61-empty_v03.png",
+      "source_quad_TL_TR_BR_BL": [
+        [
+          668.0,
+          172.0
+        ],
+        [
+          758.0,
+          161.0
+        ],
+        [
+          758.0,
+          449.0
+        ],
+        [
+          668.0,
+          440.0
+        ]
+      ],
+      "target_quad_TL_TR_BR_BL": [
+        [
+          668.0,
+          185.0
+        ],
+        [
+          758.0,
+          161.0
+        ],
+        [
+          758.0,
+          449.0
+        ],
+        [
+          668.0,
+          427.0
+        ]
+      ],
+      "repair_support_polygon": [
+        [
+          666,
+          168
+        ],
+        [
+          758,
+          158
+        ],
+        [
+          758,
+          452
+        ],
+        [
+          666,
+          443
+        ]
+      ],
+      "inverse_homography": [
+        9.403445149592022,
+        0.0,
+        -2983.894832275612,
+        1.8032638259292835,
+        5.466908431550317,
+        -1366.873980054397,
+        0.0058930190389845875,
+        0.0
+      ],
+      "left_projected_height_before_px": 268,
+      "left_projected_height_after_px": 242,
+      "right_projected_height_px": 288,
+      "near_over_far_height_ratio": 1.1900826446280992,
+      "changed_pixels": 25798,
+      "outside_door_mask_changed_pixels": 0,
+      "cabinet_x_ge_758_changed_pixels": 0,
+      "geometry_status": "可见门面截段四角校正候选，不是完整实测门框",
+      "background_repair": "顶部小三角按同列邻近原绿墙渐变外推，底部取近邻地面；非生成修复，仍需审查",
+      "approved": false
+    },
+    "observations": [
+      "通过明确四角映射缩短左边，不再依赖模型改变斜率",
+      "门部蒙版外像素变化0，右侧柜体像素变化0"
+    ],
+    "pending": [
+      "幅度是否自然、与墙面共同透视是否协调，待用户审查",
+      "新露出的墙/地小三角为邻近像素补接，边缘与反射仍待核",
+      "右侧真实完整门框受柜体遮挡，所列右边是可见门面截段，不是完整实测门框"
+    ],
+    "approved": false
+  },
+  "actual_inputs_v06": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b",
+      "role": "回到原像素重算单应变换，避免累积重采样"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/door-perspective-v05/geometry-and-verification.json",
+      "sha256": "5e3339f5e2ccc3b6e1916864fc1b34af4c993d50500353476a18facd9501d8bb",
+      "role": "沿用上一版四角，仅左上角再内收"
+    }
+  ],
+  "review_v06": {
+    "user_instruction": "方向正确，左侧还要再短一点",
+    "change": "左侧可见截边242→232px，右侧288px不变；只下移左上角10px，保留原接地边",
+    "verification": {
+      "outside_door_mask_changed_pixels": 0,
+      "cabinet_changed_pixels": 0,
+      "right_edge_quad_changed": false
+    },
+    "pending": [
+      "具体缩短幅度是否合适",
+      "门上框及墙面光斑/补接是否自然",
+      "仍非实测门框或实际C61标定"
+    ],
+    "approved": false
+  },
+  "actual_inputs_v07": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/door-perspective-v05/geometry-and-verification.json",
+      "sha256": "5e3339f5e2ccc3b6e1916864fc1b34af4c993d50500353476a18facd9501d8bb"
+    }
+  ],
+  "review_v07": {
+    "change": "回到v05与v06之间，左上角相对v06回升5px；竖边x位置、左下角和右侧不变",
+    "checks": [
+      "两侧竖边仍为竖直",
+      "右侧截边/柜体不变",
+      "门区外像素不变"
+    ],
+    "pending": [
+      "整门是否仍显斜、与墙面共同消失点是否协调",
+      "具体幅度不是实测标定，不因左右长短成立就自动认为透视成立",
+      "门顶及门底补接仍待核"
+    ],
+    "approved": false
+  },
+  "actual_inputs_v08": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b"
+    },
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/door-perspective-v07/geometry-and-verification.json",
+      "sha256": "58e280ababc4e5624c666a03123c7627380a5c4386dc485f33a24630ff27b389"
+    }
+  ],
+  "review_v08": {
+    "cause": "前几版把左上角下移当作缩短远边，导致上框斜率过大，未校准同墙面整体投影",
+    "change": "撤销左上角下压，上框恢复v03原两端角度；右侧及门底截点保持",
+    "verification": [
+      "上框目标两端等于源两端",
+      "右侧及底部工作截点不变",
+      "门部蒙版外/柜体像素保持"
+    ],
+    "pending": [
+      "上沿与墙面整体透视是否协调",
+      "近远比例须重新核对，不把恢复上沿等同整体透视完成",
+      "精确机位/门面消失点仍未标定"
+    ],
+    "approved": false
+  },
+  "actual_inputs_v09": [
+    {
+      "path": "projects/另一个家的布布/scene-keyframes/SC06/C61-empty/assets/C61-empty_v03.png",
+      "sha256": "227a985503b54b5d1c0aa0df024948b059ec239687c3b7747b704929aa2f662b",
+      "role": "原始像素及同一门洞绿墙结构线"
+    }
+  ],
+  "review_v09": {
+    "cause": "v05-v08分别移动工作四角，局部满足反馈但没有共享墙面消失点，导致上下框失配",
+    "change": "用目视估读墙顶/墙脚平行线求同一消失点，同时计算门上/下沿，再整体单应映射，不再分别推角",
+    "checks": [
+      "门上/下沿延长线都穿过同一个估读墙面消失点",
+      "门区外与柜体像素变化0"
+    ],
+    "pending": [
+      "目视估读、门槛/反射等限制保留为技术记录，用户接受当前效果，不作为继续返修待办"
+    ],
+    "approved": true
+  },
+  "approval_v09": {
+    "date": "2026-10-26",
+    "user_statement": "先按这一版吧，我不想一直调了",
+    "scope": "采用当前v09作为C61工作空景，停止继续调整门框，可据此准备人物站位候选",
+    "image_sha256": "fceef0a9865ce060a5e65fb51b2062bd3c6059dd44dd6e7ca70a75abaaa76b57",
+    "does_not_imply": [
+      "精确摄影机/整屋透视/实际净距标定已通过",
+      "正式雨夜电影光影或色调定稿",
+      "人物站位及朝向已通过",
+      "正式首尾帧或视频批准"
+    ],
+    "further_door_retouch": "停止，除非用户明确提出新要求"
+  }
+}

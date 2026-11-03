@@ -1,0 +1,81 @@
+{
+  "source": "assets/C61-empty_v03.png",
+  "source_quad_TL_TR_BR_BL": [
+    [
+      668.0,
+      172.0
+    ],
+    [
+      758.0,
+      161.0
+    ],
+    [
+      758.0,
+      449.0
+    ],
+    [
+      668.0,
+      440.0
+    ]
+  ],
+  "target_quad_TL_TR_BR_BL": [
+    [
+      668.0,
+      190.0
+    ],
+    [
+      758.0,
+      161.0
+    ],
+    [
+      758.0,
+      449.0
+    ],
+    [
+      668.0,
+      427.0
+    ]
+  ],
+  "repair_support_polygon": [
+    [
+      666,
+      168
+    ],
+    [
+      758,
+      158
+    ],
+    [
+      758,
+      452
+    ],
+    [
+      666,
+      443
+    ]
+  ],
+  "inverse_homography": [
+    72.0707395498392,
+    0.0,
+    -25235.79421221864,
+    16.32797427652732,
+    38.7781350482315,
+    -12376.604501607711,
+    0.049839228295819916,
+    0.0
+  ],
+  "left_projected_height_before_px": 268,
+  "left_projected_height_after_px": 237.0,
+  "right_projected_height_px": 288,
+  "near_over_far_height_ratio": 1.2151898734177216,
+  "changed_pixels": 25873,
+  "outside_door_mask_changed_pixels": 0,
+  "cabinet_x_ge_758_changed_pixels": 0,
+  "geometry_status": "可见门面截段四角校正候选，不是完整实测门框",
+  "background_repair": "顶部小三角按同列邻近原绿墙渐变外推，底部取近邻地面；非生成修复，仍需审查",
+  "approved": false,
+  "change_from_v06": "远边上端回升5px，处于v05和v06之间；不旋转整门",
+  "user_instruction": "v06又短得太多了，显得门是斜的了",
+  "status": "reduced_adjustment_candidate_pending_review",
+  "vertical_edges_same_screen_x": true
+}

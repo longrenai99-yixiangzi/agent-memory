@@ -1,0 +1,77 @@
+{
+  "source": "assets/C61-empty_v03.png",
+  "source_quad_TL_TR_BR_BL": [
+    [
+      668.0,
+      172.0
+    ],
+    [
+      758.0,
+      161.0
+    ],
+    [
+      758.0,
+      449.0
+    ],
+    [
+      668.0,
+      440.0
+    ]
+  ],
+  "target_quad_TL_TR_BR_BL": [
+    [
+      668.0,
+      185.0
+    ],
+    [
+      758.0,
+      161.0
+    ],
+    [
+      758.0,
+      449.0
+    ],
+    [
+      668.0,
+      427.0
+    ]
+  ],
+  "repair_support_polygon": [
+    [
+      666,
+      168
+    ],
+    [
+      758,
+      158
+    ],
+    [
+      758,
+      452
+    ],
+    [
+      666,
+      443
+    ]
+  ],
+  "inverse_homography": [
+    9.403445149592022,
+    0.0,
+    -2983.894832275612,
+    1.8032638259292835,
+    5.466908431550317,
+    -1366.873980054397,
+    0.0058930190389845875,
+    0.0
+  ],
+  "left_projected_height_before_px": 268,
+  "left_projected_height_after_px": 242,
+  "right_projected_height_px": 288,
+  "near_over_far_height_ratio": 1.1900826446280992,
+  "changed_pixels": 25798,
+  "outside_door_mask_changed_pixels": 0,
+  "cabinet_x_ge_758_changed_pixels": 0,
+  "geometry_status": "可见门面截段四角校正候选，不是完整实测门框",
+  "background_repair": "顶部小三角按同列邻近原绿墙渐变外推，底部取近邻地面；非生成修复，仍需审查",
+  "approved": false
+}

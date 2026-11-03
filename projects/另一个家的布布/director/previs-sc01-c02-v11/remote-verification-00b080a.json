@@ -1,0 +1,211 @@
+{
+  "commit": "00b080aeff8daa0d2b294b8f03087588b373faa9",
+  "total": 34,
+  "passed": 34,
+  "results": [
+    {
+      "path": "README.md",
+      "bytes": 2021,
+      "sha256": "7762a141a2aee0d32bf53cbb88a8be118e32e74e38c6a3e0e46f48fae77f39db",
+      "match": true
+    },
+    {
+      "path": "SC01_C02_镜头复盘与交接_20261030.md",
+      "bytes": 9574,
+      "sha256": "c3a76593f7a2ca2cb20b257dbb257221e74bd034c666faf24bc15cfdbd7263d6",
+      "match": true
+    },
+    {
+      "path": "history/SC01_C02_V01_字幕预演.mp4",
+      "bytes": 936674,
+      "sha256": "f6fc53f93b2f96e54a7cda4a22105a60c8e95e0b10b3e55dd42318d34902d6d7",
+      "match": true
+    },
+    {
+      "path": "history/SC01_C02_V02_字幕预演.mp4",
+      "bytes": 785835,
+      "sha256": "d3bb151b8b06d222d1d33c11a1f5309f69c2df03462afcc449a21014ea0e5567",
+      "match": true
+    },
+    {
+      "path": "history/SC01_C02_V04_字幕预演.mp4",
+      "bytes": 493287,
+      "sha256": "8863579e056391cc17244d6e8ac63bc4e67b38751bca32021ce3c00aa1bdd3af",
+      "match": true
+    },
+    {
+      "path": "history/SC01_C02_V06_动态预演.mp4",
+      "bytes": 737301,
+      "sha256": "1775b275fb82a90c9873af3d29e786d1e28c3076805a72502fb20bdedf107d37",
+      "match": true
+    },
+    {
+      "path": "history/SC01_C02_V08_动态预演.mp4",
+      "bytes": 541255,
+      "sha256": "b7e0a899c55a9485752cfcc7509db8f4df31a1154b4e98626b0503ae8df9e7fc",
+      "match": true
+    },
+    {
+      "path": "history/SC01_C02_V09_动态预演.mp4",
+      "bytes": 616925,
+      "sha256": "51c5b3f1faf611a1e66fb911b6dac424fa05bf4bd039c365a075d5532314ffb1",
+      "match": true
+    },
+    {
+      "path": "previs/SC01_C02_V11.blend",
+      "bytes": 34462341,
+      "sha256": "ff069bf38740080ac57f00c7d899010efb099cbb6681f58943b27475942a999c",
+      "match": true
+    },
+    {
+      "path": "previs/SC01_C02_V11_动态预演.mp4",
+      "bytes": 664325,
+      "sha256": "fc99e10d4d0fc70b9a594ec7e7fd3eceb1592f38580a3290e595a8540e4f391c",
+      "match": true
+    },
+    {
+      "path": "previs/audio/01.wav",
+      "bytes": 87714,
+      "sha256": "a80ee27a01993e88bd1fdb863f26f37ab2170d1fb456d25885b31309becbe6a6",
+      "match": true
+    },
+    {
+      "path": "previs/audio/02.wav",
+      "bytes": 99556,
+      "sha256": "d4d505ab236fec5eab4e4ff9fda980c749f1d778a8454fdca6d57e84daf05c0d",
+      "match": true
+    },
+    {
+      "path": "previs/audio/03.wav",
+      "bytes": 80482,
+      "sha256": "b23a4f52fb6599a141fbcc3fc043ab25bcc0938fffa50b9819ce6997a16884a0",
+      "match": true
+    },
+    {
+      "path": "previs/audio/04.wav",
+      "bytes": 202946,
+      "sha256": "d3cb1e1316ed54d7c25e0e645b13b9a53f7f67b6fafd889133f788761e04fb5f",
+      "match": true
+    },
+    {
+      "path": "previs/audio/05.wav",
+      "bytes": 167332,
+      "sha256": "c3876465f031d19aa15db25fa27a1ccb28de67409eac8c0627522ffa8edefe91",
+      "match": true
+    },
+    {
+      "path": "previs/dialogue.srt",
+      "bytes": 337,
+      "sha256": "2061aab69aaa5de0a29f4f98ae21fde0aa6b3ddfe0ae6c7364b51bde2a289127",
+      "match": true
+    },
+    {
+      "path": "previs/stills/A_丈夫开场.png",
+      "bytes": 552613,
+      "sha256": "5d5c3e09828337e1516239f4cf5823c52df5f696ffa0a06d97c456274d384ea8",
+      "match": true
+    },
+    {
+      "path": "previs/stills/B_丈夫过肩拍妻子.png",
+      "bytes": 546651,
+      "sha256": "d5847a5bbe699418d0ba6b4383e2b1f1adced6f7144feb13632b91373ecbae73",
+      "match": true
+    },
+    {
+      "path": "previs/stills/C02_V11_机位轴线俯视.png",
+      "bytes": 48984,
+      "sha256": "39a391ccb5974df9807ad90cf2284206aff4f1f6b42565e6c70dde274e469216",
+      "match": true
+    },
+    {
+      "path": "previs/stills/C_妻子过肩拍丈夫.png",
+      "bytes": 535169,
+      "sha256": "6a9080d801d0b2aefe9cc0e08b8aff51087a3c07dde182e83900bc32f795f6af",
+      "match": true
+    },
+    {
+      "path": "previs/verify_v11.log",
+      "bytes": 2067,
+      "sha256": "33fde118ef7e46dfc5d32ea78fbc973455c4304add96f82e63e8ccb7a27a6f1d",
+      "match": true
+    },
+    {
+      "path": "previs/预演说明.md",
+      "bytes": 3725,
+      "sha256": "25c81d474644a2c6d7457c452b04e6e6b805ac1dc146e37d572aa8c9c26e7fd1",
+      "match": true
+    },
+    {
+      "path": "prompt/SC01_C02_Seedance25_提示词_V4.3.txt",
+      "bytes": 7126,
+      "sha256": "12516e90036bbd10d4cfd22959a6324b649f71a29f8114b25326d536976360e4",
+      "match": true
+    },
+    {
+      "path": "prompt/references/01_妻子五官.png",
+      "bytes": 4339476,
+      "sha256": "9db9c7d61c203e9d585bdc91f78ee2850955334466135506ed7155046ed3d178",
+      "match": true
+    },
+    {
+      "path": "prompt/references/02_妻子衣装.png",
+      "bytes": 1288495,
+      "sha256": "3433e0d5465152710c84c27fc51a3a8491bd7aaf5c2b6b2759bbf2ec4bd3a6ca",
+      "match": true
+    },
+    {
+      "path": "prompt/references/03_丈夫五官.png",
+      "bytes": 2750711,
+      "sha256": "31513f1641ab4919844795814991eb80b6d81702803f06823c6589c4612d8165",
+      "match": true
+    },
+    {
+      "path": "prompt/references/04_丈夫三视图.png",
+      "bytes": 1445596,
+      "sha256": "a03e2939bf441220123d46eaced0c4c72f867d7c62929a70fb20b9a2b56af16d",
+      "match": true
+    },
+    {
+      "path": "prompt/references/05_卧室场景原图.png",
+      "bytes": 1906434,
+      "sha256": "2201a581039c830700ae71edd117a398f66deb80cbdfc87736a9e043420f23f4",
+      "match": true
+    },
+    {
+      "path": "prompt/references/06_游戏机位参考.png",
+      "bytes": 2429442,
+      "sha256": "cf623206528d1a735f0ace6a995c8c3bb16cffb4bac98f30359d772864c0b96e",
+      "match": true
+    },
+    {
+      "path": "prompt/references/07_雨夜光影参考.png",
+      "bytes": 2842672,
+      "sha256": "139bd5189aad42057eedb819d440f16b8ebf3a45e93d9b844a2ab03d95708bcd",
+      "match": true
+    },
+    {
+      "path": "prompt/references/08_妻子拖鞋.png",
+      "bytes": 2343754,
+      "sha256": "05c13f75ab0c50eb207ef55a017d6fb5f274136ca947ab07b81ae508fafcbb71",
+      "match": true
+    },
+    {
+      "path": "prompt/下一镜_声音衔接提示词.txt",
+      "bytes": 648,
+      "sha256": "6fec9e36652afbd86833934c9ef001886bd62bb33ba526c074a0365616875ab1",
+      "match": true
+    },
+    {
+      "path": "prompt/使用说明.md",
+      "bytes": 3720,
+      "sha256": "d4bb5d8714ccae5ea5fd447782b573401e3ca9caa0dd5d45dc0a62f64e60feba",
+      "match": true
+    },
+    {
+      "path": "scene-review/ENV-BED-001_夜景调色候选_v01.png",
+      "bytes": 1854898,
+      "sha256": "4e12f8a48579a0c7abd448dd8cf7855b857a5d306f5f6d11fd9d426d7785efb9",
+      "match": true
+    }
+  ]
+}

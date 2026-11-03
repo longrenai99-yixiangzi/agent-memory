@@ -1,0 +1,33 @@
+{
+  "scope": "SC01-C06 handoff, local source files",
+  "files": {
+    "README.md": {
+      "bytes": 4059,
+      "sha256": "11bce99f8e999c554576718a6793e5b670ef0d45a0d6fb65819c9d8c0d3debf4"
+    },
+    "SC01_C06_Seedance25_完整提示词_V05.txt": {
+      "bytes": 8528,
+      "sha256": "1182fb8578a817097a95addd8eed208d1044f19f9c726cce58474a113de2d27a"
+    },
+    "SC01_C06_Seedance25_素材包_V05.zip": {
+      "bytes": 16993646,
+      "sha256": "f6e60ef43d668f7616f65dc9f6e2eae466bde6da7afa133ed6279af054144b50"
+    },
+    "SC01_C06_面对面_丈夫视角V5.png": {
+      "bytes": 584572,
+      "sha256": "36397b75683124f1f1f1c4e3b18aa8f31bf7aacef11ad097aef533aa2b014e7d"
+    },
+    "SC01_C06_面对面_俯视V5.png": {
+      "bytes": 1619763,
+      "sha256": "f6c3260d2abeab6d91ec3074d5a4f618328b130a543f79559f4fcd6afd361326"
+    },
+    "SC01_C06_面对面_妻子视角V5.png": {
+      "bytes": 599631,
+      "sha256": "1ee59db729c9bdb9a69e0b0306dbbce1278bf560eb8350d6680683eed6dada62"
+    },
+    "SC01_C06_面对面站位V5.blend": {
+      "bytes": 33920308,
+      "sha256": "ba0dce409c2f90e83598103d5166e7fcd52de653ec59820a610affd3ba5dc0e0"
+    }
+  }
+}

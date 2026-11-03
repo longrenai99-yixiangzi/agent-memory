@@ -1,0 +1,163 @@
+{
+  "task_id": "K04-E0",
+  "project": "另一个家的布布",
+  "scene": "SC04",
+  "camera": "C42",
+  "story_time": "23:13",
+  "date": "2026-10-25",
+  "method": "built_in_imagegen",
+  "current_version": "v05",
+  "status": "v05_fur_preferred_by_user_whole_frame_not_finalized",
+  "approval": {
+    "baseline_v02_visual_approved": true,
+    "approved_scope": "v02构图/夜景亮度/布布状态获认可，用户要求沿原视轴靠近猫",
+    "current_v03_still_approved": false,
+    "dynamic_approved": false,
+    "v03_camera_angle_approved": true,
+    "v03_fur_rejected": true,
+    "current_v05_still_approved": false,
+    "evidence_latest": "用户指向exec-95982b52-3d90-486a-b553-29fd2dc3f57e.png并评价“这一张比较合理”",
+    "v05_fur_preferred_by_user": true,
+    "latest_scope": "明确选中v05并认可其毛质方向；未扩大为整帧最终批准或动态通过"
+  },
+  "actual_input_v01": [
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-01_朝阳台.png",
+      "sha256": "908541ff447a0b835be4ac2761c75f77d96135bbca85596f66c19fa11c16497c"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/views/VIEW-03_朝沙发.png",
+      "sha256": "a4706c2a08a6ec3bb9469c8780a178dac16434991a0dd995c3f49c48fdbe3b19"
+    },
+    {
+      "path": "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+      "sha256": "3213f1544552c1b55abfcee579af04c52bd77a2c2eca2826cee4dad9fdabff6a"
+    },
+    {
+      "path": "projects/另一个家的布布/director/previs-sc04-sc06-v1/SC04_camera-route_v1.png",
+      "sha256": "de7e58479d731d5b31dcc7d4ca20f6057aa4ad561d975d4fb694724c53d60a71"
+    }
+  ],
+  "actual_input_v02": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v01.png",
+  "prompts": [
+    "prompt-v01.txt",
+    "prompt-v02.txt",
+    "prompt-v03.txt",
+    "prompt-v04.txt",
+    "prompt-v05.txt"
+  ],
+  "versions": [
+    {
+      "version": "v01",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v01.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-b4bc931d-fd3d-4b9c-bc9c-7110606f65f0.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1868617,
+      "sha256": "04768eb2316574d81747ecbb468d766d03d32a1c98d4c6dd88ca52b7cf5bd8b5",
+      "review": "垭口生成凸起门槛，违反开放通路要求，已修正，保留过程",
+      "approved": false,
+      "remote_verified": true,
+      "image_commit": "aa4f1d2b7299a29ca799e8492fa71c13a2874032"
+    },
+    {
+      "version": "v02",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v02.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-bf76dea6-8e71-4873-b000-674e7c59e25d.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1824176,
+      "sha256": "6d1bbd417b1984c4105929352ad2d19b9adc0793faf79049607d9550861e349c",
+      "review": "已消除凸起门槛，候选待用户审核机位/曝光/猫状态",
+      "approved": true,
+      "remote_verified": true,
+      "image_commit": "aa4f1d2b7299a29ca799e8492fa71c13a2874032",
+      "approval_scope": "用户认可构图、夜景亮度及猫状态；要求机位再向猫靠近",
+      "approval_evidence": "机位构图、夜景亮度和布布的状态，没问题。接近C42视角了，但机位可以再近离猫一点"
+    },
+    {
+      "version": "v03",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v03.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-27d406c2-590f-46fa-9e3a-b4de953ea387.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1848307,
+      "sha256": "5b3bbf0e067f8d360b37aaba12be9535b9b01ea7cf566b1973b9f383d564de73",
+      "review": "用户认可角度，明确否决不自然毛卷；保留机位参考，不直接用于下一帧",
+      "approved": false,
+      "remote_verified": false,
+      "angle_approved": true,
+      "fur_approved": false
+    },
+    {
+      "version": "v04",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v04.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-d0ca60a7-2959-437b-b7f1-9b92d3c20c91.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1850189,
+      "sha256": "026c1691b0c3f602a489b200866d6c3090dda1ce5075dba37b0eb1a651ee36be",
+      "review": "已同时输入原资产，但初看仍保留粗大卷纹，不作为当前候选",
+      "approved": false,
+      "remote_verified": false
+    },
+    {
+      "version": "v05",
+      "path": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v05.png",
+      "source_generated_file": "D:\\AI_ENV\\Codex\\home\\generated_images\\01a16df1-3f08-7db0-9018-dde254a7afeb\\exec-95982b52-3d90-486a-b553-29fd2dc3f57e.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "bytes": 1777235,
+      "sha256": "56ec9101b7c0473760ba613d2ffc8c8732999e3d584dd525002eb53b8e29a746",
+      "review": "用户评价这一张比较合理，选为当前毛质版本；整帧及动态未自动定稿",
+      "approved": false,
+      "remote_verified": false,
+      "user_fur_preferred": true
+    }
+  ],
+  "review": {
+    "visible_observations": [
+      "画面只有一猫，无妻子或丈夫",
+      "猫完整位于开放垭口后的阳台侧，四足及尾巴可见",
+      "沙发窗端与茶几边角在前景，关闭外窗有夜景/雨痕",
+      "v02开放通路地面平齐，未画边界特效",
+      "猫卷毛与脚下接触阴影可辨"
+    ],
+    "limits": [
+      "C42仅为按二维预演推导的视角候选，无实测三维相机参数",
+      "猫相对真实尺度及身份一致性交用户审查",
+      "静帧不能证明动态未回应，后续不得提前转头互动",
+      "夜景曝光待用户批准，不代表整场灯光锁定",
+      "K04-E1尚未生成，未经本帧批准不派生入G状态",
+      "v03近版重新待审：卷毛纹理较v02更粗，不能把基准认可自动扩展到新像素/新构图",
+      "v05仅候选，短毛层次更接近资产仍需用户确认；没有自动宣称逐像素一致或毛质通过"
+    ]
+  },
+  "actual_input_v03": "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v02.png",
+  "camera_refinement": {
+    "alias": "C42-near",
+    "source": "用户明确要求更接近猫",
+    "intent": "沿原视轴向猫靠近、维持低位与方向，不挪猫",
+    "exact_position_measured": false
+  },
+  "actual_input_v04": [
+    "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v03.png",
+    "projects/另一个家的布布/assets/characters/bubu-multiview.png"
+  ],
+  "actual_input_v05": [
+    "projects/另一个家的布布/assets/characters/bubu-multiview.png",
+    "projects/另一个家的布布/scene-keyframes/SC04/K04-E0/assets/K04-E0_v03.png"
+  ],
+  "reference_policy": "任何含布布的编辑/派生同时绑定正式bubu-multiview原资产，不只输入上一场景帧；角度/位置由场景图负责，毛质/身份由原资产负责",
+  "repair_cause": "v03靠近版仅使用v02场景图，未重新绑定原猫资产，出现毛质漂移；本轮两次输入均含原资产，v05优先原图重建",
+  "next_step_authorization": {
+    "user_message": "下一步",
+    "action": "以v05为基准制作K04-E1候选",
+    "does_not_imply": "整段或视频批准"
+  }
+}
